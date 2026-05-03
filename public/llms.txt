@@ -1,0 +1,39 @@
+# Dear Wander
+
+> Not a lock. A letter.
+
+Dear Wander is an iOS app for mindful screen time. It intercepts social media app launches with a 60-120 second guided mindfulness experience (box breathing, guided imagery) before granting a 10-minute timed pass. It does not hard-block — it earns you access through presence.
+
+## Key Facts
+
+- Platform: iOS 17+
+- Category: Screen Time / Digital Wellness / Mindfulness
+- Approach: Mindful friction (guided breathing before app access), not hard blocking
+- Technology: Native Apple FamilyControls + DeviceActivity API (no VPN, no Shortcuts)
+- Privacy: All data stays on device. No accounts required. No tracking.
+- Status: Coming soon (2026)
+- Website: https://dearwander.com
+- Contact: hello@dearwander.com
+
+## How It Works
+
+1. **The Pause** — When you open a social media app, a warm breathing screen appears. 60 seconds of guided presence.
+2. **The Wander** — After breathing, you earn 10 minutes of access. A gentle amber arc tracks the time.
+3. **Come Home** — A soft reminder when your time is ending. Not an alarm. A letter.
+
+## What Makes Dear Wander Different
+
+- **Beauty as the product**: The intervention screen uses a "Golden Hour" glassmorphism aesthetic — warm amber gradients, frosted glass, guided imagery. It's designed to be something you look forward to, not something you endure.
+- **Epistolary brand voice**: The app writes gentle letters to your wandering mind. "Dear Wander, let's stay here a moment."
+- **Native iOS implementation**: Built on Apple's FamilyControls API. No VPN (unlike Opal), no Shortcuts dependency (unlike one sec). Blocks at the OS process level.
+- **Non-punitive**: No shame metrics, no "you failed" messages. Only warmth, presence, and correspondence.
+- **Two ritual modes**: First Light (morning) and Last Light (evening) — different breathing paces and visual temperatures for dawn and dusk.
+
+## Competitors
+
+Dear Wander competes with: one sec, Opal, ScreenZen, Jomo, Clearspace, Freedom, Pauso, Roots.
+
+## Links
+
+- [Website](https://dearwander.com)
+- [Blog / Journal](https://dearwander.com/blog)

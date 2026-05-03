@@ -1,0 +1,74 @@
+---
+---
+
+<section class="relative min-h-screen flex items-center justify-center bg-golden-hour overflow-hidden">
+  <!-- Floating petals -->
+  <div class="petal w-32 h-40 top-[12%] left-[8%] opacity-60" style="animation: drift 18s ease-in-out infinite;"></div>
+  <div class="petal w-20 h-24 top-[22%] right-[12%] opacity-40" style="animation: drift-alt 22s ease-in-out infinite; animation-delay: -4s;"></div>
+  <div class="petal w-28 h-36 bottom-[18%] left-[15%] opacity-35" style="animation: drift 25s ease-in-out infinite; animation-delay: -8s; border-radius: 38% 62% 50% 50% / 55% 45% 55% 45%;"></div>
+  <div class="petal w-16 h-20 top-[45%] right-[6%] opacity-50" style="animation: drift-alt 20s ease-in-out infinite; animation-delay: -2s;"></div>
+  <div class="petal w-24 h-28 bottom-[10%] right-[22%] opacity-30" style="animation: drift 28s ease-in-out infinite; animation-delay: -12s; border-radius: 50% 50% 38% 62% / 42% 58% 42% 58%;"></div>
+  <div class="petal w-12 h-14 top-[65%] left-[5%] opacity-45" style="animation: drift-alt 16s ease-in-out infinite; animation-delay: -6s;"></div>
+
+  <!-- Breathing orb (subtle bg element) -->
+  <div
+    class="absolute w-[28rem] h-[28rem] rounded-full opacity-20 blur-3xl pointer-events-none"
+    style="background: radial-gradient(circle, var(--color-breath) 0%, transparent 70%); animation: breathe 8s ease-in-out infinite; top: 30%; left: 50%; transform: translateX(-50%);"
+  ></div>
+
+  <!-- Content -->
+  <div class="relative z-10 text-center px-6 max-w-2xl mx-auto">
+    <!-- Wordmark -->
+    <div class="mb-8 fade-up fade-up-d1">
+      <h1>
+        <span class="block font-dear text-5xl sm:text-6xl md:text-7xl text-earth/80 leading-tight tracking-wide">
+          Dear
+        </span>
+        <span class="block font-wander text-6xl sm:text-7xl md:text-8xl text-earth leading-none -mt-1">
+          Wander
+        </span>
+      </h1>
+    </div>
+
+    <!-- Subtitle -->
+    <p class="text-lg sm:text-xl text-taupe font-medium tracking-widest uppercase mb-6 fade-up fade-up-d2" style="font-family: var(--font-sans); letter-spacing: 0.2em;">
+      Mindful Screen Time
+    </p>
+
+    <!-- Tagline -->
+    <p class="text-2xl sm:text-3xl font-dear text-cocoa/90 mb-10 fade-up fade-up-d3" style="font-style: italic;">
+      Not a lock. A letter.
+    </p>
+
+    <!-- Waitlist CTA -->
+    <div class="fade-up fade-up-d4" id="waitlist">
+      <p class="text-base text-taupe mb-5 font-light">
+        Coming soon to iOS. Be the first to receive your letter.
+      </p>
+      <form class="flex flex-col sm:flex-row items-center justify-center gap-3 max-w-md mx-auto" id="waitlist-form">
+        <input
+          type="email"
+          placeholder="your@email.com"
+          required
+          class="w-full sm:flex-1 px-5 py-3.5 rounded-2xl bg-warm-white/60 backdrop-blur-sm border border-amber/30 text-earth placeholder:text-taupe/60 focus:outline-none focus:border-breath focus:ring-2 focus:ring-breath/20 transition-all duration-400 text-base"
+        />
+        <button
+          type="submit"
+          class="w-full sm:w-auto px-8 py-3.5 rounded-2xl bg-earth text-warm-white font-semibold text-base hover:bg-cocoa active:scale-[0.97] transition-all duration-500 shadow-lg shadow-earth/15 cursor-pointer"
+        >
+          Join the waitlist
+        </button>
+      </form>
+      <p class="text-xs text-taupe/70 mt-3 font-light">
+        No spam. Just a letter when we're ready.
+      </p>
+    </div>
+
+    <!-- Scroll hint -->
+    <div class="absolute bottom-10 left-1/2 -translate-x-1/2 fade-up fade-up-d5">
+      <div class="w-5 h-8 rounded-full border-2 border-taupe/30 flex justify-center pt-1.5">
+        <div class="w-1 h-2 rounded-full bg-taupe/40 animate-bounce" style="animation-duration: 2.5s;"></div>
+      </div>
+    </div>
+  </div>
+</section>

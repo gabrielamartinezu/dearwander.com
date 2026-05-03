@@ -1,0 +1,119 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import "../../styles/global.css";
+import { getCollection, render } from "astro:content";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("blog");
+  return posts.map((post) => ({
+    params: { id: post.id },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+---
+
+<Layout title={`${post.data.title} — Dear Wander`} description={post.data.description}>
+  <Header />
+
+  <main class="bg-golden-hour min-h-screen pt-32 pb-20 px-6">
+    <article class="max-w-2xl mx-auto">
+      <!-- Header -->
+      <div class="text-center mb-12 fade-up">
+        <time class="text-xs text-taupe/70 font-medium uppercase tracking-widest">
+          {post.data.date.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}
+        </time>
+        <h1 class="font-wander text-3xl sm:text-4xl md:text-5xl text-earth mt-4 mb-4 leading-snug">
+          {post.data.title}
+        </h1>
+        <p class="text-lg text-taupe font-light">{post.data.description}</p>
+      </div>
+
+      <!-- Content -->
+      <div class="prose fade-up fade-up-d2">
+        <Content />
+      </div>
+
+      <!-- Back -->
+      <div class="mt-16 text-center fade-up fade-up-d3">
+        <a href="/blog" class="text-sm font-medium text-breath hover:text-earth transition-colors duration-500">
+          &larr; Back to Journal
+        </a>
+      </div>
+    </article>
+  </main>
+
+  <Footer />
+</Layout>
+
+<style>
+  .prose {
+    font-family: var(--font-sans);
+    color: var(--color-cocoa);
+    line-height: 1.8;
+    font-weight: 300;
+  }
+  .prose :global(h2) {
+    font-family: var(--font-serif);
+    font-weight: 600;
+    color: var(--color-earth);
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .prose :global(h3) {
+    font-family: var(--font-serif);
+    font-weight: 600;
+    color: var(--color-earth);
+    font-size: 1.25rem;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+  }
+  .prose :global(p) {
+    margin-bottom: 1.25rem;
+  }
+  .prose :global(em) {
+    font-family: var(--font-serif);
+    font-style: italic;
+    color: var(--color-earth);
+    opacity: 0.85;
+  }
+  .prose :global(strong) {
+    font-weight: 600;
+    color: var(--color-earth);
+  }
+  .prose :global(a) {
+    color: var(--color-breath);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    transition: color 0.4s;
+  }
+  .prose :global(a:hover) {
+    color: var(--color-earth);
+  }
+  .prose :global(blockquote) {
+    border-left: 3px solid var(--color-breath);
+    padding-left: 1.25rem;
+    margin: 1.5rem 0;
+    font-family: var(--font-serif);
+    font-style: italic;
+    color: var(--color-earth);
+    opacity: 0.8;
+  }
+  .prose :global(hr) {
+    border: none;
+    border-top: 1px solid rgba(244, 179, 125, 0.3);
+    margin: 2.5rem 0;
+  }
+  .prose :global(ul), .prose :global(ol) {
+    padding-left: 1.5rem;
+    margin-bottom: 1.25rem;
+  }
+  .prose :global(li) {
+    margin-bottom: 0.5rem;
+  }
+</style>
