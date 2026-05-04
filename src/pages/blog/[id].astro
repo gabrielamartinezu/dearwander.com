@@ -16,7 +16,12 @@ const { post } = Astro.props;
 const { Content } = await render(post);
 ---
 
-<Layout title={`${post.data.title} — Dear Wander`} description={post.data.description}>
+<Layout
+  title={`${post.data.title} — Dear Wander`}
+  description={post.data.description}
+  isArticle={true}
+  articleDate={post.data.date.toISOString()}
+>
   <Header />
 
   <main class="bg-golden-hour min-h-screen pt-32 pb-20 px-6">

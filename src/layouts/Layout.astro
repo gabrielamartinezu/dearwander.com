@@ -1,11 +1,14 @@
 ---
 import "../styles/global.css";
-import { getLangFromUrl } from "../i18n/utils";
+import { getLangFromUrl, getLocalePath } from "../i18n/utils";
 
 interface Props {
   title?: string;
   description?: string;
   ogImage?: string;
+  isArticle?: boolean;
+  articleDate?: string;
+  articleModified?: string;
 }
 
 const lang = getLangFromUrl(Astro.url);
@@ -14,17 +17,31 @@ const {
   title = "Dear Wander — Mindful Screen Time",
   description = "Not a lock. A letter. Dear Wander intercepts your scroll with a moment of beauty — guided breathing before you open social media. Coming soon to iOS.",
   ogImage = "/og-image.jpg",
+  isArticle = false,
+  articleDate,
+  articleModified,
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const siteURL = Astro.site?.origin ?? "https://dearwander.com";
+
+// Build hreflang path: strip locale prefix to get the base path
+const pathname = Astro.url.pathname;
+const basePath = pathname.replace(/^\/(es|it)/, "") || "/";
 ---
 
 <!doctype html>
-<html lang={lang}
+<html lang={lang}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="canonical" href={canonicalURL} />
+
+    <!-- hreflang: alternate language versions -->
+    <link rel="alternate" hreflang="en" href={`${siteURL}${basePath}`} />
+    <link rel="alternate" hreflang="es" href={`${siteURL}/es${basePath}`} />
+    <link rel="alternate" hreflang="it" href={`${siteURL}/it${basePath}`} />
+    <link rel="alternate" hreflang="x-default" href={`${siteURL}${basePath}`} />
 
     <!-- Preconnect to Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -41,24 +58,77 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <meta name="author" content="Dear Wander" />
 
     <!-- Open Graph -->
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={isArticle ? "article" : "website"} />
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:image" content={ogImage} />
+    <meta property="og:image" content={`${siteURL}${ogImage}`} />
     <meta property="og:site_name" content="Dear Wander" />
+    <meta property="og:locale" content={lang === "es" ? "es_ES" : lang === "it" ? "it_IT" : "en_US"} />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
-    <meta name="twitter:image" content={ogImage} />
+    <meta name="twitter:image" content={`${siteURL}${ogImage}`} />
 
     <!-- Theme -->
     <meta name="theme-color" content="#F4B37D" />
     <meta name="msapplication-TileColor" content="#F4B37D" />
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Schema: Organization + WebSite (all pages) -->
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": `${siteURL}/#organization`,
+          "name": "Dear Wander",
+          "url": siteURL,
+          "logo": `${siteURL}/icon.png`,
+          "sameAs": [
+            "https://instagram.com/dearwander",
+            "https://tiktok.com/@dearwander"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": `${siteURL}/#website`,
+          "name": "Dear Wander",
+          "url": siteURL,
+          "description": "Mindful screen time. Not a lock. A letter.",
+          "inLanguage": ["en", "es", "it"],
+          "publisher": { "@id": `${siteURL}/#organization` }
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "Dear Wander",
+          "operatingSystem": "iOS",
+          "applicationCategory": "HealthApplication",
+          "description": "Mindful screen time app that intercepts your scroll with guided breathing before you open social media.",
+          "offers": {
+            "@type": "Offer",
+            "availability": "https://schema.org/PreOrder",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "creator": { "@id": `${siteURL}/#organization` }
+        },
+        ...(isArticle ? [{
+          "@type": "Article",
+          "headline": title,
+          "description": description,
+          "author": { "@id": `${siteURL}/#organization` },
+          "publisher": { "@id": `${siteURL}/#organization` },
+          "datePublished": articleDate,
+          "dateModified": articleModified ?? articleDate,
+          "inLanguage": lang,
+          "mainEntityOfPage": canonicalURL.toString()
+        }] : [])
+      ]
+    })} />
   </head>
   <body class="grain">
     <slot />

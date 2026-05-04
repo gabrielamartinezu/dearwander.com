@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
-Sitemap: https://dearwander.com/sitemap.xml
+Sitemap: https://dearwander.com/sitemap-index.xml
 
 # AI Agents
 User-agent: GPTBot
