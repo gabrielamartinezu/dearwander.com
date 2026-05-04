@@ -1,0 +1,23 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Header from "../../components/Header.astro";
+import Hero from "../../components/Hero.astro";
+import Features from "../../components/Features.astro";
+import BlogPreview from "../../components/BlogPreview.astro";
+import Footer from "../../components/Footer.astro";
+
+const lang = "es";
+---
+
+<Layout
+  title="Dear Wander — Uso Consciente del Móvil"
+  description="No es un bloqueo. Es una carta. Dear Wander intercepta tu scroll con un momento de belleza — respiración guiada antes de abrir redes sociales. Próximamente en iOS."
+>
+  <Header lang={lang} />
+  <main>
+    <Hero lang={lang} />
+    <Features lang={lang} />
+    <BlogPreview lang={lang} />
+  </main>
+  <Footer lang={lang} />
+</Layout>

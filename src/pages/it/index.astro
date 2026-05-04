@@ -1,0 +1,23 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Header from "../../components/Header.astro";
+import Hero from "../../components/Hero.astro";
+import Features from "../../components/Features.astro";
+import BlogPreview from "../../components/BlogPreview.astro";
+import Footer from "../../components/Footer.astro";
+
+const lang = "it";
+---
+
+<Layout
+  title="Dear Wander — Tempo Schermo Consapevole"
+  description="Non un blocco. Una lettera. Dear Wander intercetta il tuo scroll con un momento di bellezza — respirazione guidata prima di aprire i social. Prossimamente su iOS."
+>
+  <Header lang={lang} />
+  <main>
+    <Hero lang={lang} />
+    <Features lang={lang} />
+    <BlogPreview lang={lang} />
+  </main>
+  <Footer lang={lang} />
+</Layout>

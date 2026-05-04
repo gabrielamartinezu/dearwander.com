@@ -1,74 +1,362 @@
 ---
+import { useTranslations } from "../i18n/utils";
+import type { Locale } from "../i18n/translations";
+
+interface Props { lang?: Locale; }
+const lang = (Astro.props.lang ?? "en") as Locale;
+const t = useTranslations(lang);
 ---
 
-<section class="relative min-h-screen flex items-center justify-center bg-golden-hour overflow-hidden">
-  <!-- Floating petals -->
-  <div class="petal w-32 h-40 top-[12%] left-[8%] opacity-60" style="animation: drift 18s ease-in-out infinite;"></div>
-  <div class="petal w-20 h-24 top-[22%] right-[12%] opacity-40" style="animation: drift-alt 22s ease-in-out infinite; animation-delay: -4s;"></div>
-  <div class="petal w-28 h-36 bottom-[18%] left-[15%] opacity-35" style="animation: drift 25s ease-in-out infinite; animation-delay: -8s; border-radius: 38% 62% 50% 50% / 55% 45% 55% 45%;"></div>
-  <div class="petal w-16 h-20 top-[45%] right-[6%] opacity-50" style="animation: drift-alt 20s ease-in-out infinite; animation-delay: -2s;"></div>
-  <div class="petal w-24 h-28 bottom-[10%] right-[22%] opacity-30" style="animation: drift 28s ease-in-out infinite; animation-delay: -12s; border-radius: 50% 50% 38% 62% / 42% 58% 42% 58%;"></div>
-  <div class="petal w-12 h-14 top-[65%] left-[5%] opacity-45" style="animation: drift-alt 16s ease-in-out infinite; animation-delay: -6s;"></div>
+<!--
+  Scroll-driven arch peephole hero
+  GSAP + ScrollTrigger powered
+-->
+<div class="hero-root" id="hero-root">
+  <div class="hero-scene" id="hero-scene">
 
-  <!-- Breathing orb (subtle bg element) -->
-  <div
-    class="absolute w-[28rem] h-[28rem] rounded-full opacity-20 blur-3xl pointer-events-none"
-    style="background: radial-gradient(circle, var(--color-breath) 0%, transparent 70%); animation: breathe 8s ease-in-out infinite; top: 30%; left: 50%; transform: translateX(-50%);"
-  ></div>
+    <!-- ① Dark backdrop -->
+    <div class="hero-backdrop"></div>
 
-  <!-- Content -->
-  <div class="relative z-10 text-center px-6 max-w-2xl mx-auto">
-    <!-- Wordmark -->
-    <div class="mb-8 fade-up fade-up-d1">
-      <h1>
-        <span class="block font-dear text-5xl sm:text-6xl md:text-7xl text-earth/80 leading-tight tracking-wide">
-          Dear
-        </span>
-        <span class="block font-wander text-6xl sm:text-7xl md:text-8xl text-earth leading-none -mt-1">
-          Wander
-        </span>
-      </h1>
+    <!-- ② Landscape (clip-path arch + drop-shadow glow) -->
+    <div class="hero-landscape" id="hero-landscape">
+      <img
+        src="/images/landscape.jpg"
+        alt=""
+        class="hero-landscape-img"
+        fetchpriority="high"
+      />
+      <div class="hero-vignette" id="hero-vignette"></div>
     </div>
 
-    <!-- Subtitle -->
-    <p class="text-lg sm:text-xl text-taupe font-medium tracking-widest uppercase mb-6 fade-up fade-up-d2" style="font-family: var(--font-sans); letter-spacing: 0.2em;">
-      Mindful Screen Time
-    </p>
-
-    <!-- Tagline -->
-    <p class="text-2xl sm:text-3xl font-dear text-cocoa/90 mb-10 fade-up fade-up-d3" style="font-style: italic;">
-      Not a lock. A letter.
-    </p>
-
-    <!-- Waitlist CTA -->
-    <div class="fade-up fade-up-d4" id="waitlist">
-      <p class="text-base text-taupe mb-5 font-light">
-        Coming soon to iOS. Be the first to receive your letter.
-      </p>
-      <form class="flex flex-col sm:flex-row items-center justify-center gap-3 max-w-md mx-auto" id="waitlist-form">
-        <input
-          type="email"
-          placeholder="your@email.com"
-          required
-          class="w-full sm:flex-1 px-5 py-3.5 rounded-2xl bg-warm-white/60 backdrop-blur-sm border border-amber/30 text-earth placeholder:text-taupe/60 focus:outline-none focus:border-breath focus:ring-2 focus:ring-breath/20 transition-all duration-400 text-base"
-        />
-        <button
-          type="submit"
-          class="w-full sm:w-auto px-8 py-3.5 rounded-2xl bg-earth text-warm-white font-semibold text-base hover:bg-cocoa active:scale-[0.97] transition-all duration-500 shadow-lg shadow-earth/15 cursor-pointer"
-        >
-          Join the waitlist
-        </button>
-      </form>
-      <p class="text-xs text-taupe/70 mt-3 font-light">
-        No spam. Just a letter when we're ready.
-      </p>
-    </div>
-
-    <!-- Scroll hint -->
-    <div class="absolute bottom-10 left-1/2 -translate-x-1/2 fade-up fade-up-d5">
-      <div class="w-5 h-8 rounded-full border-2 border-taupe/30 flex justify-center pt-1.5">
-        <div class="w-1 h-2 rounded-full bg-taupe/40 animate-bounce" style="animation-duration: 2.5s;"></div>
+    <!-- ③ Intro content -->
+    <div class="hero-intro" id="hero-intro">
+      <div class="hi-wordmark fade-up fade-up-d1">
+        <p class="hi-label">{t("hero.label")}</p>
+        <h1 class="hi-title">
+          <span class="font-dear">Dear</span><span class="font-wander"> Wander</span>
+        </h1>
+        <p class="hi-sub">{t("hero.sub")}</p>
+      </div>
+      <div class="hi-scroll-hint fade-up fade-up-d3">
+        <div class="scroll-pip">
+          <div class="scroll-dot"></div>
+        </div>
+        <span class="scroll-label">{t("hero.scroll")}</span>
       </div>
     </div>
+
+    <!-- ④ Letter messages -->
+    <div class="letter-stage" aria-hidden="true">
+      <p class="letter" id="letter-1" set:html={t("hero.letter1")} />
+      <p class="letter" id="letter-2" set:html={t("hero.letter2")} />
+      <p class="letter" id="letter-3" set:html={t("hero.letter3")} />
+    </div>
+
+    <!-- ⑤ Glassmorphism cards -->
+    <div class="cards-stage" id="cards-stage">
+      <div class="glass-card gc" id="card-1">
+        <div class="card-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5" opacity="0.6"/>
+            <circle cx="12" cy="12" r="4" fill="currentColor" opacity="0.45"/>
+          </svg>
+        </div>
+        <h3 class="card-title">{t("hero.pause.title")}</h3>
+        <p class="card-body">{t("hero.pause.body")}</p>
+      </div>
+
+      <div class="glass-card gc" id="card-2">
+        <div class="card-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" stroke="currentColor" stroke-width="1.5" opacity="0.6"/>
+            <path d="M12 6v6l4.5 2.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+          </svg>
+        </div>
+        <h3 class="card-title">{t("hero.wander.title")}</h3>
+        <p class="card-body">{t("hero.wander.body")}</p>
+      </div>
+
+      <div class="glass-card gc" id="card-3">
+        <div class="card-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+            <path d="M3 12l9-8 9 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+            <path d="M5 10v9a1 1 0 001 1h12a1 1 0 001-1v-9" stroke="currentColor" stroke-width="1.5" opacity="0.6"/>
+          </svg>
+        </div>
+        <h3 class="card-title">{t("hero.home.title")}</h3>
+        <p class="card-body">{t("hero.home.body")}</p>
+      </div>
+    </div>
+
+    <!-- ⑥ Waitlist -->
+    <div class="hero-waitlist" id="hero-waitlist" id="waitlist">
+      <form class="waitlist-form" id="waitlist-form">
+        <input type="email" placeholder={t("waitlist.placeholder")} required class="waitlist-input"/>
+        <button type="submit" class="waitlist-btn">{t("waitlist.button")}</button>
+      </form>
+      <p class="waitlist-fine">{t("waitlist.fine")}</p>
+    </div>
+
   </div>
-</section>
+</div>
+
+<style>
+  /* ── Container ─────────────────────────── */
+  .hero-root { height: 250vh; position: relative; }
+  .hero-scene {
+    position: relative;
+    height: 100vh; width: 100%;
+    overflow: hidden;
+  }
+
+  /* ── Dark backdrop ─────────────────────── */
+  .hero-backdrop {
+    position: absolute; inset: 0;
+    background: radial-gradient(ellipse 80% 60% at 50% 55%, #4A2A18 0%, #2A1810 55%, #1A0E08 100%);
+  }
+
+  /* ── Landscape ─────────────────────────── */
+  .hero-landscape {
+    position: absolute; inset: 0;
+    clip-path: inset(18% 37% 18% 37% round 999px 999px 0px 0px);
+    filter: drop-shadow(0 0 50px rgba(244,168,90,0.35))
+            drop-shadow(0 0 100px rgba(244,168,90,0.15));
+    will-change: clip-path, filter;
+  }
+  .hero-landscape-img {
+    width: 100%; height: 100%;
+    object-fit: cover; object-position: center 40%;
+    display: block;
+  }
+  .hero-vignette {
+    position: absolute; inset: 0;
+    background: radial-gradient(ellipse 75% 70% at 50% 50%,
+      transparent 45%, rgba(30,18,10,0.45) 100%);
+    pointer-events: none;
+  }
+
+  /* ── Intro ─────────────────────────────── */
+  .hero-intro {
+    position: absolute; inset: 0;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    z-index: 10;
+  }
+  .hi-wordmark { text-align: center; margin-bottom: 3rem; }
+  .hi-label {
+    font-family: var(--font-sans); font-size: 0.7rem; font-weight: 500;
+    letter-spacing: 0.22em; text-transform: uppercase;
+    color: rgba(252,234,187,0.4); margin-bottom: 1.25rem;
+  }
+  .hi-title {
+    font-size: clamp(3rem, 8vw, 5.5rem); line-height: 1;
+    color: rgba(255,248,240,0.9); margin-bottom: 1rem;
+  }
+  .hi-title .font-dear { font-style: italic; font-weight: 300; opacity: 0.75; }
+  .hi-sub {
+    font-family: var(--font-sans); font-weight: 300; font-size: 1.1rem;
+    color: rgba(252,234,187,0.5); letter-spacing: 0.04em;
+  }
+  .hi-scroll-hint {
+    display: flex; flex-direction: column; align-items: center; gap: 0.6rem;
+  }
+  .scroll-pip {
+    width: 1.25rem; height: 2rem; border-radius: 999px;
+    border: 2px solid rgba(252,234,187,0.18);
+    display: flex; justify-content: center; padding-top: 0.3rem;
+  }
+  .scroll-dot {
+    width: 0.25rem; height: 0.5rem; border-radius: 999px;
+    background: rgba(252,234,187,0.3);
+    animation: bounce 2.5s ease-in-out infinite;
+  }
+  @keyframes bounce { 0%,100%{transform:translateY(0)} 50%{transform:translateY(5px)} }
+  .scroll-label {
+    font-family: var(--font-sans); font-size: 0.65rem;
+    letter-spacing: 0.18em; text-transform: uppercase;
+    color: rgba(252,234,187,0.25);
+  }
+
+  /* ── Letters ───────────────────────────── */
+  .letter-stage {
+    position: absolute; inset: 0;
+    display: flex; align-items: center; justify-content: center;
+    z-index: 8; pointer-events: none;
+  }
+  .letter {
+    position: absolute;
+    font-family: var(--font-serif); font-style: italic; font-weight: 300;
+    font-size: clamp(1.5rem, 3.5vw, 2.5rem); line-height: 1.5;
+    color: rgba(252,234,187,0.85);
+    text-align: center; max-width: 560px; padding: 0 2rem;
+    opacity: 0;
+  }
+
+  /* ── Glass cards ───────────────────────── */
+  .cards-stage {
+    position: absolute; inset: 0;
+    display: flex; align-items: center; justify-content: center;
+    padding: 0 1.5rem; gap: 1rem;
+    z-index: 15; pointer-events: none;
+  }
+  .glass-card {
+    flex: 1; max-width: 280px;
+    background: rgba(255,248,240,0.4);
+    backdrop-filter: blur(28px) saturate(1.25);
+    -webkit-backdrop-filter: blur(28px) saturate(1.25);
+    border: 1px solid rgba(255,248,240,0.35);
+    border-radius: 20px; padding: 1.75rem 1.5rem;
+    box-shadow: 0 8px 32px rgba(60,42,30,0.18), inset 0 1px 0 rgba(255,255,255,0.4);
+    opacity: 0; transform: translateY(24px);
+    pointer-events: auto;
+  }
+  .card-icon { color: var(--color-breath); margin-bottom: 0.85rem; }
+  .card-title {
+    font-family: var(--font-serif); font-weight: 700;
+    font-size: 1.15rem; color: #2A1810; margin-bottom: 0.5rem;
+  }
+  .card-body {
+    font-family: var(--font-sans); font-size: 0.85rem; font-weight: 400;
+    color: #3C2A1E; line-height: 1.65;
+  }
+
+  /* ── Waitlist ──────────────────────────── */
+  .hero-waitlist {
+    position: absolute; bottom: 12vh; left: 50%;
+    transform: translateX(-50%);
+    z-index: 20; text-align: center;
+    opacity: 0; pointer-events: none;
+  }
+  .waitlist-form { display: flex; gap: 0.6rem; width: min(440px, 90vw); }
+  .waitlist-input {
+    flex: 1; padding: 0.8rem 1.1rem; border-radius: 14px;
+    background: rgba(255,248,240,0.4);
+    backdrop-filter: blur(28px) saturate(1.25);
+    -webkit-backdrop-filter: blur(28px) saturate(1.25);
+    border: 1px solid rgba(255,248,240,0.35);
+    color: #2A1810; font-size: 0.9rem; font-family: var(--font-sans);
+    outline: none; transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  .waitlist-input::placeholder { color: rgba(42,24,16,0.45); }
+  .waitlist-input:focus {
+    border-color: rgba(244,168,90,0.6);
+    box-shadow: 0 0 0 3px rgba(244,168,90,0.15);
+  }
+  .waitlist-btn {
+    padding: 0.8rem 1.4rem; border-radius: 14px;
+    background: rgba(255,248,240,0.4);
+    backdrop-filter: blur(28px) saturate(1.25);
+    -webkit-backdrop-filter: blur(28px) saturate(1.25);
+    border: 1px solid rgba(255,248,240,0.35);
+    color: #2A1810; font-family: var(--font-sans);
+    font-size: 0.875rem; font-weight: 600;
+    cursor: pointer; white-space: nowrap; transition: all 0.4s;
+  }
+  .waitlist-btn:hover { background: rgba(255,248,240,0.55); }
+  .waitlist-fine {
+    font-size: 0.68rem; color: rgba(60,42,30,0.35);
+    margin-top: 0.5rem; font-family: var(--font-sans); font-weight: 300;
+  }
+
+  /* ── Mobile ────────────────────────────── */
+  @media (max-width: 700px) {
+    .cards-stage {
+      flex-direction: column; align-items: center;
+      padding-bottom: 14vh; gap: 0.75rem;
+    }
+    .glass-card { max-width: 100%; }
+    .waitlist-form { flex-direction: column; }
+  }
+</style>
+
+<script>
+  import gsap from "gsap";
+  import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+  gsap.registerPlugin(ScrollTrigger);
+
+  // ── Arch clip-path interpolation ─────────────────
+  function archClip(progress: number) {
+    const iSide = (1 - progress) * 37;
+    const iTop  = (1 - progress) * 18;
+    const iBot  = (1 - progress) * 18;
+    const visW  = window.innerWidth * (1 - 2 * iSide / 100);
+    const archFactor = Math.pow(1 - progress, 1.2);
+    const rad = (visW / 2) * archFactor;
+    return `inset(${iTop}% ${iSide}% ${iBot}% ${iSide}% round ${rad}px ${rad}px 0px 0px)`;
+  }
+
+  function archGlow(progress: number) {
+    const f = Math.pow(1 - progress, 1.2);
+    const s = Math.round(50 + 30 * f);
+    const a1 = Math.max(10, Math.round(35 * f));
+    const a2 = Math.max(5, Math.round(17 * f));
+    return `drop-shadow(0 0 ${s}px rgba(244,168,90,0.${a1})) drop-shadow(0 0 ${s*2}px rgba(244,168,90,0.${a2}))`;
+  }
+
+  // ── Master timeline pinned to scroll ─────────────
+  const landscape = document.getElementById("hero-landscape")!;
+  const vignette  = document.getElementById("hero-vignette")!;
+
+  const tl = gsap.timeline({
+    scrollTrigger: {
+      trigger: "#hero-root",
+      start: "top top",
+      end: "bottom bottom",
+      scrub: 0.8,         // smooth lag
+      pin: "#hero-scene",
+      pinSpacing: false,
+    },
+  });
+
+  // — Phase 1: Intro fades out (0→15%)
+  tl.to("#hero-intro", { opacity: 0, duration: 0.15, ease: "power2.in" }, 0);
+
+  // — Arch expands across the full timeline via onUpdate
+  const archProxy = { p: 0 };
+  tl.to(archProxy, {
+    p: 1,
+    duration: 1,
+    ease: "power2.inOut",
+    onUpdate() {
+      landscape.style.clipPath = archClip(archProxy.p);
+      landscape.style.filter   = archGlow(archProxy.p);
+      // Vignette fades as arch expands
+      const f = Math.pow(1 - archProxy.p, 1.2);
+      const s = 45 + archProxy.p * 55;
+      vignette.style.background =
+        `radial-gradient(ellipse ${s}% ${s}% at 50% 50%, transparent ${s}%, rgba(30,18,10,${(0.5*f).toFixed(2)}) 100%)`;
+    },
+  }, 0);
+
+  // — Phase 2: Letters sequence (10→75%)
+  // Letter 1
+  tl.fromTo("#letter-1", { opacity: 0 }, { opacity: 1, duration: 0.08, ease: "power1.in" }, 0.10);
+  tl.to("#letter-1", { opacity: 0, duration: 0.08, ease: "power1.out" }, 0.26);
+
+  // Letter 2
+  tl.fromTo("#letter-2", { opacity: 0 }, { opacity: 1, duration: 0.08, ease: "power1.in" }, 0.32);
+  tl.to("#letter-2", { opacity: 0, duration: 0.08, ease: "power1.out" }, 0.48);
+
+  // Letter 3
+  tl.fromTo("#letter-3", { opacity: 0 }, { opacity: 1, duration: 0.08, ease: "power1.in" }, 0.52);
+  tl.to("#letter-3", { opacity: 0, duration: 0.08, ease: "power1.out" }, 0.68);
+
+  // — Phase 3: Glass cards stagger in (78→96%)
+  tl.fromTo(".gc",
+    { opacity: 0, y: 24 },
+    { opacity: 1, y: 0, duration: 0.10, stagger: 0.04, ease: "power2.out" },
+    0.78
+  );
+
+  // — Phase 4: Waitlist slides up (90→100%)
+  tl.fromTo("#hero-waitlist",
+    { opacity: 0, y: 16 },
+    { opacity: 1, y: 0, duration: 0.10, ease: "power2.out",
+      onComplete() {
+        document.getElementById("hero-waitlist")!.style.pointerEvents = "auto";
+      }
+    },
+    0.90
+  );
+</script>
