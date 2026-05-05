@@ -1,16 +1,18 @@
 ---
-import { useTranslations } from "../i18n/utils";
+import { useTranslations, getLocalePath } from "../i18n/utils";
 import type { Locale } from "../i18n/translations";
+import { getCollection } from "astro:content";
 
 interface Props { lang?: Locale; }
 const lang = (Astro.props.lang ?? "en") as Locale;
 const t = useTranslations(lang);
 
-const posts = [
-  { titleKey: "blog.post1.title" as const, excerptKey: "blog.post1.excerpt" as const, slug: "#" },
-  { titleKey: "blog.post2.title" as const, excerptKey: "blog.post2.excerpt" as const, slug: "#" },
-  { titleKey: "blog.post3.title" as const, excerptKey: "blog.post3.excerpt" as const, slug: "#" },
-];
+// Pull real posts, exclude drafts and translations, sort by date
+const allPosts = await getCollection("blog");
+const posts = allPosts
+  .filter((p) => !p.data.draft && !p.id.startsWith("es-") && !p.id.startsWith("it-"))
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  .slice(0, 3);
 ---
 
 <section class="relative py-28 sm:py-36 px-6 bg-golden-hour" id="journal">
@@ -22,22 +24,31 @@ const posts = [
 
     <div class="grid sm:grid-cols-3 gap-6 sm:gap-8">
       {posts.map((post, i) => (
-        <article
-          class="glass p-8 flex flex-col reveal group cursor-pointer hover:shadow-lg hover:shadow-earth/8 transition-shadow duration-700"
+        <a
+          href={`/blog/${post.id}/`}
+          class="glass p-8 flex flex-col reveal group cursor-pointer hover:shadow-lg hover:shadow-earth/8 transition-shadow duration-700 no-underline"
           style={`transition-delay: ${0.1 + i * 0.15}s;`}
         >
-          <p class="text-xs text-taupe/70 font-medium uppercase tracking-widest mb-4">{t("blog.comingSoon")}</p>
+          <p class="text-xs text-taupe/70 font-medium uppercase tracking-widest mb-4">
+            {post.data.date.toLocaleDateString(lang === "es" ? "es-ES" : lang === "it" ? "it-IT" : "en-US", { year: "numeric", month: "long", day: "numeric" })}
+          </p>
           <h3 class="font-wander text-lg text-earth mb-3 leading-snug group-hover:text-cocoa transition-colors duration-500">
-            {t(post.titleKey)}
+            {post.data.title}
           </h3>
           <p class="text-sm text-cocoa/75 font-light leading-relaxed flex-1">
-            {t(post.excerptKey)}
+            {post.data.description}
           </p>
           <span class="inline-block mt-5 text-sm font-medium text-breath group-hover:text-earth transition-colors duration-500">
             {t("blog.read")} &rarr;
           </span>
-        </article>
+        </a>
       ))}
+    </div>
+
+    <div class="text-center mt-12 reveal">
+      <a href="/blog/" class="text-sm font-medium text-breath hover:text-earth transition-colors duration-500">
+        {t("blog.title")} &rarr;
+      </a>
     </div>
   </div>
 </section>
