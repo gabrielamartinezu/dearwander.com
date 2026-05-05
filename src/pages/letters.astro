@@ -1,0 +1,137 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<Layout
+  title="7 Letters for a Gentler Phone Habit — Dear Wander"
+  description="One letter a day for 7 days. Each includes a short reflection and one small change to try. No lectures. No screen time reports. Just a letter."
+>
+  <Header lang="en" />
+
+  <main class="bg-golden-hour min-h-screen pt-28 pb-20 px-6">
+
+    <!-- Hero -->
+    <section class="max-w-xl mx-auto text-center pt-12 pb-16">
+      <p class="text-xs font-medium uppercase tracking-[0.2em] text-taupe/60 mb-6 fade-up">
+        Free · 7 emails · Unsubscribe anytime
+      </p>
+      <h1 class="font-wander text-4xl sm:text-5xl text-earth mb-6 leading-tight fade-up fade-up-d1">
+        7 Letters for a Gentler Phone Habit
+      </h1>
+      <p class="text-lg text-cocoa/75 font-light leading-relaxed mb-10 max-w-md mx-auto fade-up fade-up-d2">
+        One letter a day for 7 days. Each includes a short reflection and one small change to try. No lectures. No screen time reports. Just a letter.
+      </p>
+
+      <!-- Signup form -->
+      <form
+        action="https://buttondown.com/api/emails/embed-subscribe/gabrielaale"
+        method="post"
+        target="popupwindow"
+        class="flex flex-col sm:flex-row items-center justify-center gap-3 max-w-md mx-auto fade-up fade-up-d3"
+      >
+        <input
+          type="hidden"
+          name="tag"
+          value="7-letters"
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="your@email.com"
+          required
+          class="w-full sm:flex-1 px-5 py-3.5 rounded-2xl bg-warm-white/60 backdrop-blur-sm border border-amber/30 text-earth placeholder:text-taupe/60 focus:outline-none focus:border-breath focus:ring-2 focus:ring-breath/20 transition-all text-base"
+        />
+        <button
+          type="submit"
+          class="w-full sm:w-auto px-8 py-3.5 rounded-2xl bg-earth text-warm-white font-semibold text-base hover:bg-cocoa transition-all duration-500 shadow-lg shadow-earth/15 cursor-pointer"
+        >
+          Send me the first letter
+        </button>
+      </form>
+    </section>
+
+    <!-- Preview -->
+    <section class="max-w-lg mx-auto pb-16">
+      <div class="glass p-8 sm:p-10 fade-up fade-up-d4">
+        <p class="text-xs text-taupe/50 font-medium uppercase tracking-widest mb-4">Day 1 Preview</p>
+        <p class="font-dear text-2xl text-earth/80 mb-4" style="font-style: italic;">
+          "Dear Wander, you reached for it again."
+        </p>
+        <p class="text-cocoa/70 font-light leading-relaxed text-sm">
+          The alarm went off. Your hand found the phone before your eyes were fully open. You meant to check the time. But the time was three minutes ago, and since then you've seen two headlines and a photo that made you feel vaguely behind on life...
+        </p>
+        <p class="text-xs text-taupe/40 mt-4 font-light">
+          continues in your inbox
+        </p>
+      </div>
+    </section>
+
+    <!-- What you'll get -->
+    <section class="max-w-xl mx-auto pb-16">
+      <h2 class="font-wander text-2xl text-earth text-center mb-10 fade-up">What's inside</h2>
+      <div class="grid gap-4">
+        {[
+          { day: "1", subject: "You reached for it again", theme: "The automatic reach. Why it happens." },
+          { day: "2", subject: "Let's talk about the morning", theme: "Your first 10 minutes after waking." },
+          { day: "3", subject: "Breathe before you scroll", theme: "The 60-second pause, condensed." },
+          { day: "4", subject: "Your phone has a parking spot", theme: "Environmental design that works." },
+          { day: "5", subject: "The feed has no bottom", theme: "Why doomscrolling works on your brain." },
+          { day: "6", subject: "Put it down gently", theme: "The evening ritual." },
+          { day: "7", subject: "Come back", theme: "What you've learned. What's next." },
+        ].map((letter, i) => (
+          <div class="flex gap-4 items-start glass p-5 reveal" style={`transition-delay: ${i * 0.06}s`}>
+            <div class="w-9 h-9 rounded-full bg-breath/20 flex items-center justify-center flex-shrink-0">
+              <span class="text-sm font-semibold text-earth/70">{letter.day}</span>
+            </div>
+            <div>
+              <p class="font-dear text-base text-earth" style="font-style: italic;">
+                "Dear Wander, {letter.subject}."
+              </p>
+              <p class="text-sm text-cocoa/60 font-light mt-1">{letter.theme}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Bottom CTA -->
+    <section class="max-w-md mx-auto text-center pb-8">
+      <p class="text-cocoa/60 font-light mb-6 fade-up">
+        Each letter takes 2 minutes to read. Each action takes 5 minutes or less. By day 7, you'll have a different relationship with your phone.
+      </p>
+      <form
+        action="https://buttondown.com/api/emails/embed-subscribe/gabrielaale"
+        method="post"
+        target="popupwindow"
+        class="flex flex-col sm:flex-row items-center justify-center gap-3 fade-up"
+      >
+        <input
+          type="hidden"
+          name="tag"
+          value="7-letters"
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="your@email.com"
+          required
+          class="w-full sm:flex-1 px-5 py-3.5 rounded-2xl bg-warm-white/60 backdrop-blur-sm border border-amber/30 text-earth placeholder:text-taupe/60 focus:outline-none focus:border-breath focus:ring-2 focus:ring-breath/20 transition-all text-base"
+        />
+        <button
+          type="submit"
+          class="w-full sm:w-auto px-8 py-3.5 rounded-2xl bg-earth text-warm-white font-semibold text-base hover:bg-cocoa transition-all duration-500 shadow-lg shadow-earth/15 cursor-pointer"
+        >
+          Start the 7 letters
+        </button>
+      </form>
+      <p class="text-xs text-taupe/40 mt-3 font-light">
+        Free. 7 emails. Unsubscribe anytime.
+      </p>
+    </section>
+
+  </main>
+
+  <Footer lang="en" />
+</Layout>
