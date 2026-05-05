@@ -90,8 +90,14 @@ const t = useTranslations(lang);
 
     <!-- ⑥ Waitlist -->
     <div class="hero-waitlist" id="hero-waitlist" id="waitlist">
-      <form class="waitlist-form" id="waitlist-form">
-        <input type="email" placeholder={t("waitlist.placeholder")} required class="waitlist-input"/>
+      <form
+        class="waitlist-form"
+        id="waitlist-form"
+        action="https://buttondown.com/api/emails/embed-subscribe/gabrielaale"
+        method="post"
+        target="popupwindow"
+      >
+        <input type="email" name="email" placeholder={t("waitlist.placeholder")} required class="waitlist-input"/>
         <button type="submit" class="waitlist-btn">{t("waitlist.button")}</button>
       </form>
       <p class="waitlist-fine">{t("waitlist.fine")}</p>
