@@ -10,6 +10,10 @@ const blog = defineCollection({
     author: z.string().default("Dear Wander"),
     tags: z.array(z.string()).default([]),
     draft: z.boolean().default(false),
+    faq: z.array(z.object({
+      q: z.string(),
+      a: z.string(),
+    })).optional(),
   }),
 });
 

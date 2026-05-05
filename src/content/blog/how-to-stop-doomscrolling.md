@@ -4,6 +4,15 @@ description: "Practical, science-backed ways to break the scroll cycle — from 
 date: 2026-05-04
 author: "Dear Wander"
 tags: ["doomscrolling", "strategies", "digital wellness", "phone addiction"]
+faq:
+  - q: "Why can't I stop doomscrolling even when I know I should?"
+    a: "Doomscrolling exploits dopamine-driven reward mechanisms similar to slot machines. Each scroll triggers a small dopamine release. Your conscious mind knows you should stop, but the reward system has automated the behavior. This is a design problem, not a willpower problem."
+  - q: "Is doomscrolling actually bad for you?"
+    a: "Yes. Research links extended passive scrolling (consuming without interacting) to increased anxiety, depressed mood, and sleep disruption. Passive scrolling for more than 30 minutes in a single session is associated with a measurable decrease in mood."
+  - q: "What's the best app to stop doomscrolling?"
+    a: "Different apps take different approaches. ScreenZen adds friction with delays. One sec uses a breathing intervention. Opal blocks apps entirely. Dear Wander uses a 60-second guided breathing pause based on research showing this approach reduces usage by up to 57%."
+  - q: "How long does it take to break the doomscrolling habit?"
+    a: "Research on habit change suggests a median of 66 days, though the range is wide (18-254 days). You'll likely notice reduced urges within the first 2-3 weeks."
 ---
 
 You told yourself ten minutes. That was forty-five minutes ago. The content isn't even good anymore — it's just motion, a river of thumbnails and takes and clips that your thumb keeps pulling forward without your permission.

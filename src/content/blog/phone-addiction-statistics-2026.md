@@ -4,6 +4,15 @@ description: "How many times do you check your phone a day? The latest data on s
 date: 2026-05-04
 author: "Dear Wander"
 tags: ["statistics", "phone addiction", "screen time", "research"]
+faq:
+  - q: "How many times does the average person check their phone per day?"
+    a: "The most widely cited figure is 144 times per day, based on research from Asurion. Some studies measuring passive screen glances put the number as high as 186 times daily."
+  - q: "How much screen time is too much?"
+    a: "Research suggests mental health impacts become significant at around 5 hours of daily smartphone use. However, the quality of screen time matters as much as the quantity."
+  - q: "Is phone addiction a real addiction?"
+    a: "While 'smartphone addiction' isn't a formal clinical diagnosis in the DSM-5, the behavioral patterns share significant overlap with recognized behavioral addictions, including dopamine-driven reward loops, tolerance building, and withdrawal symptoms."
+  - q: "What age group is most affected by phone addiction?"
+    a: "Gen Z (ages 12-27) and younger Millennials show the highest rates of problematic smartphone use, with 82% of Gen Z self-reporting awareness of their own problematic phone habits."
 ---
 
 There's a moment — maybe you've felt it — where you pick up your phone without meaning to. No notification. No reason. Just the reach. Your thumb moved before you decided.
