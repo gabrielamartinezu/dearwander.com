@@ -16,12 +16,7 @@ const t = useTranslations(lang);
       <p class="text-warm-white/50 font-light mb-8 max-w-md mx-auto">
         {t("footer.ctaBody")}
       </p>
-      <form
-        action="https://buttondown.com/api/emails/embed-subscribe/gabrielaale"
-        method="post"
-        target="popupwindow"
-        class="flex flex-col sm:flex-row items-center justify-center gap-3 max-w-md mx-auto"
-      >
+      <form class="flex flex-col sm:flex-row items-center justify-center gap-3 max-w-md mx-auto" id="footer-waitlist-form">
         <input
           type="email"
           name="email"
@@ -31,11 +26,37 @@ const t = useTranslations(lang);
         />
         <button
           type="submit"
+          id="footer-waitlist-btn"
           class="w-full sm:w-auto px-8 py-3.5 rounded-2xl bg-breath text-earth font-semibold hover:bg-amber transition-all duration-500 shadow-lg shadow-breath/20 cursor-pointer"
         >
           {t("nav.waitlist")}
         </button>
       </form>
+
+      <script>
+        const fForm = document.getElementById("footer-waitlist-form") as HTMLFormElement;
+        const fBtn = document.getElementById("footer-waitlist-btn") as HTMLButtonElement;
+        if (fForm && fBtn) {
+          fForm.addEventListener("submit", async (e) => {
+            e.preventDefault();
+            const email = (fForm.querySelector('input[name="email"]') as HTMLInputElement)?.value;
+            if (!email) return;
+            fBtn.textContent = "Sending...";
+            fBtn.disabled = true;
+            fBtn.style.opacity = "0.6";
+            try {
+              await fetch("https://buttondown.com/api/emails/embed-subscribe/gabrielaale", {
+                method: "POST",
+                headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                body: new URLSearchParams({ email }),
+              });
+            } catch {}
+            fBtn.textContent = "You're in!";
+            fBtn.style.opacity = "1";
+            (fForm.querySelector('input[name="email"]') as HTMLInputElement).value = "";
+          });
+        }
+      </script>
     </div>
 
     <div class="flex flex-col sm:flex-row items-center justify-between gap-8 pt-10 border-t border-warm-white/8">

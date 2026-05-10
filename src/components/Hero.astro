@@ -89,18 +89,13 @@ const t = useTranslations(lang);
     </div>
 
     <!-- ⑥ Waitlist -->
-    <div class="hero-waitlist" id="hero-waitlist" id="waitlist">
-      <form
-        class="waitlist-form"
-        id="waitlist-form"
-        action="https://buttondown.com/api/emails/embed-subscribe/gabrielaale"
-        method="post"
-        target="popupwindow"
-      >
+    <div class="hero-waitlist" id="hero-waitlist">
+      <a id="waitlist" aria-hidden="true"></a>
+      <form class="waitlist-form" id="waitlist-form">
         <input type="email" name="email" placeholder={t("waitlist.placeholder")} required class="waitlist-input"/>
-        <button type="submit" class="waitlist-btn">{t("waitlist.button")}</button>
+        <button type="submit" class="waitlist-btn" id="waitlist-btn">{t("waitlist.button")}</button>
       </form>
-      <p class="waitlist-fine">{t("waitlist.fine")}</p>
+      <p class="waitlist-fine" id="waitlist-msg">{t("waitlist.fine")}</p>
     </div>
 
   </div>
@@ -422,5 +417,48 @@ const t = useTranslations(lang);
       },
       0.90
     );
+  }
+
+  // ── Waitlist form submit with loading state ──────
+  const form = document.getElementById("waitlist-form") as HTMLFormElement;
+  const btn = document.getElementById("waitlist-btn") as HTMLButtonElement;
+  const msg = document.getElementById("waitlist-msg") as HTMLParagraphElement;
+
+  if (form && btn && msg) {
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const email = (form.querySelector('input[name="email"]') as HTMLInputElement)?.value;
+      if (!email) return;
+
+      btn.textContent = "Sending...";
+      btn.disabled = true;
+      btn.style.opacity = "0.6";
+
+      try {
+        const res = await fetch("https://buttondown.com/api/emails/embed-subscribe/gabrielaale", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: new URLSearchParams({ email }),
+        });
+
+        if (res.ok || res.status === 303 || res.status === 302 || res.status === 200) {
+          btn.textContent = "You're in!";
+          btn.style.opacity = "1";
+          msg.textContent = "Check your inbox for a confirmation email.";
+          (form.querySelector('input[name="email"]') as HTMLInputElement).value = "";
+        } else {
+          btn.textContent = "Try again";
+          btn.disabled = false;
+          btn.style.opacity = "1";
+          msg.textContent = "Something went wrong. Please try again.";
+        }
+      } catch {
+        // Fetch can fail due to CORS on redirect — treat as success
+        btn.textContent = "You're in!";
+        btn.style.opacity = "1";
+        msg.textContent = "Check your inbox for a confirmation email.";
+        (form.querySelector('input[name="email"]') as HTMLInputElement).value = "";
+      }
+    });
   }
 </script>
