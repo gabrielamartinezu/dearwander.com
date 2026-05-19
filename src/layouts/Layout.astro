@@ -28,6 +28,11 @@ const siteURL = Astro.site?.origin ?? "https://dearwander.com";
 // Build hreflang path: strip locale prefix to get the base path
 const pathname = Astro.url.pathname;
 const basePath = pathname.replace(/^\/(es|it)/, "") || "/";
+
+// Blog posts use prefix-in-slug pattern (es-slug, it-slug) not locale routing (/es/blog/slug)
+// Only output hreflang for pages that use locale-prefixed routes (homepage, main pages)
+const isBlogPost = pathname.match(/^\/blog\/.+/);
+const isTranslatedBlogPost = pathname.match(/^\/blog\/(es|it)-/);
 ---
 
 <!doctype html>
@@ -37,11 +42,15 @@ const basePath = pathname.replace(/^\/(es|it)/, "") || "/";
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="canonical" href={canonicalURL} />
 
-    <!-- hreflang: alternate language versions -->
-    <link rel="alternate" hreflang="en" href={`${siteURL}${basePath}`} />
-    <link rel="alternate" hreflang="es" href={`${siteURL}/es${basePath}`} />
-    <link rel="alternate" hreflang="it" href={`${siteURL}/it${basePath}`} />
-    <link rel="alternate" hreflang="x-default" href={`${siteURL}${basePath}`} />
+    <!-- hreflang: alternate language versions (skip for individual blog posts) -->
+    {!isBlogPost && (
+      <>
+        <link rel="alternate" hreflang="en" href={`${siteURL}${basePath}`} />
+        <link rel="alternate" hreflang="es" href={`${siteURL}/es${basePath}`} />
+        <link rel="alternate" hreflang="it" href={`${siteURL}/it${basePath}`} />
+        <link rel="alternate" hreflang="x-default" href={`${siteURL}${basePath}`} />
+      </>
+    )}
 
     <!-- Preconnect to Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
