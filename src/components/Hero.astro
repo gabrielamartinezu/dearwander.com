@@ -14,8 +14,10 @@ const t = useTranslations(lang);
 <div class="hero-root" id="hero-root">
   <div class="hero-scene" id="hero-scene">
 
-    <!-- ① Dark backdrop -->
-    <div class="hero-backdrop"></div>
+    <!-- ① Blurred landscape backdrop -->
+    <div class="hero-backdrop">
+      <img src="/images/landscape.jpg" alt="" class="hero-backdrop-img" aria-hidden="true" />
+    </div>
 
     <!-- ② Landscape (clip-path arch + drop-shadow glow) -->
     <div class="hero-landscape" id="hero-landscape">
@@ -110,15 +112,23 @@ const t = useTranslations(lang);
     overflow: hidden;
   }
 
-  /* ── Dark backdrop ─────────────────────── */
+  /* ── Blurred landscape backdrop ────────── */
   .hero-backdrop {
     position: absolute; inset: 0;
-    background: radial-gradient(ellipse 80% 60% at 50% 55%, #4A2A18 0%, #2A1810 55%, #1A0E08 100%);
+    overflow: hidden;
+    z-index: 0;
+  }
+  .hero-backdrop-img {
+    position: absolute; inset: -20px;
+    width: calc(100% + 40px); height: calc(100% + 40px);
+    object-fit: cover; object-position: center 40%;
+    filter: blur(30px) brightness(0.4);
   }
 
   /* ── Landscape ─────────────────────────── */
   .hero-landscape {
     position: absolute; inset: 0;
+    z-index: 1;
     clip-path: inset(18% 37% 18% 37% round 999px 999px 0px 0px);
     filter: drop-shadow(0 0 50px rgba(244,168,90,0.35))
             drop-shadow(0 0 100px rgba(244,168,90,0.15));
