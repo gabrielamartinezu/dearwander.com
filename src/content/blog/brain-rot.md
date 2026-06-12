@@ -87,6 +87,10 @@ A [study from the University of Heidelberg](/blog/science-of-the-60-second-pause
 
 Most of the time, when people paused and then decided whether they actually wanted to scroll, they put the phone down. The urge passed. It usually does, when you give it sixty seconds.
 
+### Build an anti-brain-rot evening
+
+The hours before bed are where brain rot compounds. You're tired, your willpower is low, and the scroll is the path of least resistance. Replacing that window with even one low-stimulation activity changes the equation. Read three pages. Make tea and drink it without looking at anything. Try [guided imagery](/blog/guided-imagery-meditation/) instead of the feed. Sit in the dark for two minutes. These sound small. They are. That's why they work. Your brain doesn't need a big intervention at night. It needs permission to stop processing.
+
 ## This pattern is reversible
 
 Thoreau saw something in 1854 that hasn't changed. When we trade complex engagement for simple consumption, something in the mind goes quiet. The tools are different now. The scale is different. But the underlying pattern is the same.
