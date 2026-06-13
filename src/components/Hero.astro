@@ -14,19 +14,24 @@ const t = useTranslations(lang);
 <div class="hero-root" id="hero-root">
   <div class="hero-scene" id="hero-scene">
 
-    <!-- ① Blurred landscape backdrop -->
+    <!-- ① Blurred landscape backdrop (tiny image, blurred in CSS) -->
     <div class="hero-backdrop">
-      <img src="/images/landscape.jpg" alt="" class="hero-backdrop-img" aria-hidden="true" />
+      <img src="/images/landscape-blur.webp" alt="" class="hero-backdrop-img" aria-hidden="true" loading="eager" decoding="async" />
     </div>
 
     <!-- ② Landscape (clip-path arch + drop-shadow glow) -->
     <div class="hero-landscape" id="hero-landscape">
-      <img
-        src="/images/landscape.jpg"
-        alt="Golden rolling hills at sunset — warm amber light"
-        class="hero-landscape-img"
-        fetchpriority="high"
-      />
+      <picture>
+        <source srcset="/images/landscape.webp" type="image/webp" />
+        <img
+          src="/images/landscape.jpg"
+          alt="Golden rolling hills at sunset — warm amber light"
+          class="hero-landscape-img"
+          fetchpriority="high"
+          width="1920"
+          height="1072"
+        />
+      </picture>
       <div class="hero-vignette" id="hero-vignette"></div>
     </div>
 
