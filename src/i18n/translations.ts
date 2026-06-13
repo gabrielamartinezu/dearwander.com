@@ -89,6 +89,19 @@ export const translations = {
 
     // Lang switcher
     "lang.label": "Language",
+
+    // FAQ
+    "faq.title": "Questions, gently answered",
+    "faq.q1": "Is Dear Wander an app blocker?",
+    "faq.a1": "No. It doesn't lock you out of anything. When you open an app you've chosen, a calm breathing screen appears first. After about sixty seconds, you decide whether to continue. Most of the time, people put the phone down on their own.",
+    "faq.q2": "Which apps does it work with?",
+    "faq.a2": "You choose. Pick the apps that pull you in most, like Instagram, TikTok, or X, and leave the rest untouched. Maps, messages, and everything you actually need stay exactly as they are.",
+    "faq.q3": "Is my data private?",
+    "faq.a3": "Completely. Everything stays on your device. No accounts, no tracking, no analytics. We never see which apps you choose or how you use them.",
+    "faq.q4": "Will it drain my battery?",
+    "faq.a4": "No. Dear Wander is built on Apple's native Screen Time API. No VPN, no background workarounds, no battery drain.",
+    "faq.q5": "When does it launch and what does it cost?",
+    "faq.a5": "We're launching on iOS soon. Joining the waitlist is free, and waitlist members will be the first to know about pricing and early access.",
   },
 
   es: {
@@ -168,6 +181,19 @@ export const translations = {
     "footer.privacy": "Privacidad",
 
     "lang.label": "Idioma",
+
+    // FAQ
+    "faq.title": "Preguntas, respondidas con calma",
+    "faq.q1": "¿Dear Wander es un bloqueador de apps?",
+    "faq.a1": "No. No te bloquea el acceso a nada. Cuando abres una app que elegiste, primero aparece una pantalla de respiración. Después de unos sesenta segundos, tú decides si continuar. La mayoría de las veces, la gente deja el teléfono por su cuenta.",
+    "faq.q2": "¿Con qué apps funciona?",
+    "faq.a2": "Tú eliges. Selecciona las apps que más te atrapan, como Instagram, TikTok o X, y deja el resto intacto. Mapas, mensajes y todo lo que realmente necesitas se quedan igual.",
+    "faq.q3": "¿Mis datos son privados?",
+    "faq.a3": "Completamente. Todo se queda en tu dispositivo. Sin cuentas, sin rastreo, sin analíticas. Nunca vemos qué apps eliges ni cómo las usas.",
+    "faq.q4": "¿Consume batería?",
+    "faq.a4": "No. Dear Wander está construido sobre la API nativa de Tiempo en Pantalla de Apple. Sin VPN, sin trucos en segundo plano, sin gasto de batería.",
+    "faq.q5": "¿Cuándo se lanza y cuánto cuesta?",
+    "faq.a5": "Lanzaremos en iOS pronto. Unirte a la lista de espera es gratis, y quienes estén en la lista serán los primeros en saber sobre precios y acceso anticipado.",
   },
 
   it: {
@@ -247,6 +273,19 @@ export const translations = {
     "footer.privacy": "Privacy",
 
     "lang.label": "Lingua",
+
+    // FAQ
+    "faq.title": "Domande, con una risposta gentile",
+    "faq.q1": "Dear Wander è un blocco app?",
+    "faq.a1": "No. Non ti impedisce di accedere a nulla. Quando apri un'app che hai scelto, appare prima una schermata di respirazione. Dopo circa sessanta secondi, decidi tu se continuare. La maggior parte delle volte, le persone posano il telefono da sole.",
+    "faq.q2": "Con quali app funziona?",
+    "faq.a2": "Scegli tu. Seleziona le app che ti catturano di più, come Instagram, TikTok o X, e lascia intatto il resto. Mappe, messaggi e tutto ciò di cui hai davvero bisogno restano com'erano.",
+    "faq.q3": "I miei dati sono privati?",
+    "faq.a3": "Completamente. Tutto resta sul tuo dispositivo. Nessun account, nessun tracciamento, nessuna analisi. Non vediamo mai quali app scegli o come le usi.",
+    "faq.q4": "Consuma batteria?",
+    "faq.a4": "No. Dear Wander è costruito sull'API nativa Tempo di Utilizzo di Apple. Niente VPN, nessun trucco in background, nessun consumo di batteria.",
+    "faq.q5": "Quando esce e quanto costa?",
+    "faq.a5": "Lanceremo su iOS presto. Iscriversi alla lista d'attesa è gratis, e chi è in lista sarà il primo a sapere di prezzi e accesso anticipato.",
   },
 } as const;
 
