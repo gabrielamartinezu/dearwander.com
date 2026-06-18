@@ -1,6 +1,6 @@
 ---
-title: "Meditación con visualización guiada: por qué imaginar calma te calma de verdad"
-description: "La meditación con visualización guiada activa las mismas regiones cerebrales que la experiencia real. Así es como te ayuda a dormir y cómo probarla esta noche."
+title: "Imaginación guiada para dormir: por qué imaginar la calma te calma de verdad"
+description: "La imaginación guiada (o visualización guiada) activa las mismas regiones cerebrales que la experiencia real. Esta técnica de imaginería guiada te ayuda a dormir. Cómo probarla esta noche."
 date: 2026-05-16
 author: "Dear Wander"
 tags: ["visualización guiada", "meditación", "sueño", "ciencia", "mindfulness"]
@@ -19,7 +19,7 @@ Cierra los ojos un segundo. Imagina un lago al atardecer. El agua está quieta. 
 
 Acabas de activar tu corteza visual, tus áreas de procesamiento olfativo y partes de tu corteza motora. Tu cerebro empezó a construir esa escena usando muchos de los mismos circuitos que usaría si estuvieras de pie frente a ese lago.
 
-Esa superposición entre lo imaginado y lo real es la base de la meditación con visualización guiada. Y es más útil de lo que la mayoría cree.
+Esa superposición entre lo imaginado y lo real es la base de la imaginación guiada, también llamada visualización guiada o imaginería guiada. Y es más útil de lo que la mayoría cree.
 
 ## Tu cerebro construye lo que imaginas
 

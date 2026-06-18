@@ -52,13 +52,14 @@ A 2025 meta-analysis in the Journal of Behavioral Addictions found significant c
 
 None of these correlations are dramatic on their own. But they're consistent, and they compound.
 
-## Gen Z knows they have a problem
+## Gen Z phone addiction statistics: they already know
 
-**82% of Gen Z** report knowing they have a problematic relationship with their phone. They're not unaware. They just can't close the gap between knowing and doing.
+**82% of Gen Z** report knowing they have a problematic relationship with their phone. They just can't close the gap between knowing and doing.
 
-Further data points:
+Further data points on Gen Z and phone use:
 
 - **72% of Gen Z** believe their mental health would improve if apps were less addictive
+- **46% of young people** say social media has badly hurt their ability to focus
 - **65% of young adults** have tried to reduce their screen time in the past year
 - Only **12%** felt they succeeded long-term
 
