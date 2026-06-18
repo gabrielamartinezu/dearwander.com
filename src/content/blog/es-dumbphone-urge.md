@@ -93,4 +93,4 @@ El punto medio es un smartphone que se comporta como un dumbphone hasta que nece
 
 No necesitas hardware diferente. Necesitas una relación diferente con el hardware que ya tienes. Un dumbphone fuerza esa relación a través de la limitación. Una pausa de respiración la crea a través de la consciencia. Ambos caminos llevan al mismo lugar: un teléfono que solo recibe tu atención cuando decides dársela.
 
-Si las ganas de un dumbphone siguen volviendo, es tu cerebro pidiendo menos ruido. Puedes honrar ese pedido sin perder tus mapas. [Dear Wander](/) fue construido exactamente para esto: la calma de un dumbphone, la capacidad de un smartphone. Una respiración cálida antes del scroll.
+Si las ganas de un dumbphone siguen volviendo, es tu cerebro pidiendo menos ruido. Puedes honrar ese pedido sin perder tus mapas. [Dear Wander](/es/) fue construido exactamente para esto: la calma de un dumbphone, la capacidad de un smartphone. Una respiración cálida antes del scroll.

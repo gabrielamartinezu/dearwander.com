@@ -79,7 +79,7 @@ Quest'ultima, quella onesta, è il momento di consapevolezza che cambia tutto.
 
 Inserisci un breve esercizio di respirazione tra l'impulso e l'azione. [La ricerca mostra](/blog/science-of-the-60-second-pause/) che questo semplice intervento riduce l'uso dei social media fino al **57%**. Il respiro attiva la corteccia prefrontale, spostándoti da reattivo a responsivo.
 
-[Dear Wander](/) posiziona uno schermo caldo di respirazione guidata prima delle tue app social, sessanta secondi di presenza prima di scorrere.
+[Dear Wander](/it/) posiziona uno schermo caldo di respirazione guidata prima delle tue app social, sessanta secondi di presenza prima di scorrere.
 
 ### 9. Sostituisci il segnale, non il comportamento
 

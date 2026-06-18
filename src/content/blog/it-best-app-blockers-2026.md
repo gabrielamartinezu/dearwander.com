@@ -94,10 +94,10 @@ Dear Wander utilizza l'API nativa FamilyControls di Apple. Nessuna VPN, nessun c
 
 **Hai bisogno delle stesse regole su tutti i dispositivi:** Freedom. Blocco multipiattaforma con sessioni programmate mantiene la coerenza che tu sia sul telefono, laptop o tablet.
 
-**Vuoi una pausa più dolce e consapevole che sostituisca lo scrolling invece di bloccarlo:** [Dear Wander](/). La pausa guidata di 60 secondi e le sessioni di immaginazione per l'ora di dormire sono progettate per le persone che hanno provato app punitive e le hanno trovate insostenibili.
+**Vuoi una pausa più dolce e consapevole che sostituisca lo scrolling invece di bloccarlo:** [Dear Wander](/it/). La pausa guidata di 60 secondi e le sessioni di immaginazione per l'ora di dormire sono progettate per le persone che hanno provato app punitive e le hanno trovate insostenibili.
 
 Non esiste un unico miglior app blocker per tutti. La risposta onesta è che il migliore è quello che terrai effettivamente installato dopo la prima settimana. Pensa a cosa ti ha deluso in passato e scegli l'approccio che affronta quel fallimento specifico.
 
 ---
 
-*Dear Wander è attualmente in fase di sviluppo. [Iscriviti alla lista d'attesa](/) per ottenere l'accesso anticipato al lancio.*
+*Dear Wander è attualmente in fase di sviluppo. [Iscriviti alla lista d'attesa](/it/) per ottenere l'accesso anticipato al lancio.*

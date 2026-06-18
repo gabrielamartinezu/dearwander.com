@@ -79,4 +79,4 @@ L'obiettivo è più piccolo e più realistico. Poche fasce protette. La prima or
 
 L'estate è già in movimento. La luce va via un po' prima ogni settimana. Scegli una cosa da questa lista, lascia il telefono dove non arrivi e vai a stare fuori per la parte che ricorderai davvero.
 
-È tutta qui l'idea dietro Dear Wander: una spinta gentile per usare il telefono apposta, così la stagione non scivola via dietro il vetro. Se un'estate più lenta ti suona bene, [vieni a vedere cosa stiamo costruendo](/).
+È tutta qui l'idea dietro Dear Wander: una spinta gentile per usare il telefono apposta, così la stagione non scivola via dietro il vetro. Se un'estate più lenta ti suona bene, [vieni a vedere cosa stiamo costruendo](/it/).

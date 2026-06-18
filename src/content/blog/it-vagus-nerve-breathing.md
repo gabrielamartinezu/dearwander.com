@@ -92,4 +92,4 @@ La pausa è piccola di proposito. Il tuo sistema nervoso non ha bisogno di molto
 
 ---
 
-*Dear Wander mette una dolce pausa di respiro prima delle app che ti tirano, così la calma raggiunge il corpo prima che il pollice raggiunga il feed. [Iscriviti alla lista d'attesa](/) per essere tra i primi su iOS.*
+*Dear Wander mette una dolce pausa di respiro prima delle app che ti tirano, così la calma raggiunge il corpo prima che il pollice raggiunga il feed. [Iscriviti alla lista d'attesa](/it/) per essere tra i primi su iOS.*

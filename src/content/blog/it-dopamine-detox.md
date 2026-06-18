@@ -99,4 +99,4 @@ La maggior parte delle volte, la pausa è sufficiente. Respiri, l'impulso passa 
 
 Il dopamine detox coglie una cosa giusta: qualcosa nella tua [relazione con il telefono deve cambiare](/blog/how-to-stop-doomscrolling/). Il metodo deve solo corrispondere a ciò che la scienza dice davvero. Piccolo, costante, integrato nella vita quotidiana. Non un digiuno drammatico che finisce in un'abbuffata più intensa.
 
-Se vuoi provare l'approccio della pausa di respirazione, [Dear Wander](/) ne mette una tra te e ogni scroll inconsapevole. Sessanta secondi. Nessun blocco. Solo un respiro prima del rumore.
+Se vuoi provare l'approccio della pausa di respirazione, [Dear Wander](/it/) ne mette una tra te e ogni scroll inconsapevole. Sessanta secondi. Nessun blocco. Solo un respiro prima del rumore.

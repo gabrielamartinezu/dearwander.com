@@ -76,7 +76,7 @@ Respirar conecta lo reactivo con lo consciente.
 
 ## Qué significa esto para Dear Wander
 
-Esta es la ciencia detrás de [La Pausa](/). Cuando Dear Wander aparece antes de tus apps de redes sociales, no te está castigando. No te está bloqueando. Le está dando a tu corteza prefrontal sesenta segundos para despertar.
+Esta es la ciencia detrás de [La Pausa](/es/). Cuando Dear Wander aparece antes de tus apps de redes sociales, no te está castigando. No te está bloqueando. Le está dando a tu corteza prefrontal sesenta segundos para despertar.
 
 La pantalla ámbar cálida, la animación suave de respiración, las indicaciones delicadas, no son decisiones estéticas. Son funcionales. Los colores cálidos reducen el cortisol. Las señales visuales rítmicas sincronizan los patrones de respiración. La ausencia de texto y notificaciones elimina estímulos competidores.
 
@@ -86,4 +86,4 @@ Y después, nos quitamos del camino.
 
 ---
 
-*La pausa de 60 segundos es el corazón de Dear Wander, próximamente en iOS. Si quieres ser la primera en experimentarla, [únete a la lista de espera](/).*
+*La pausa de 60 segundos es el corazón de Dear Wander, próximamente en iOS. Si quieres ser la primera en experimentarla, [únete a la lista de espera](/es/).*

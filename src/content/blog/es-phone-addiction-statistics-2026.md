@@ -91,7 +91,7 @@ No todos los datos son desalentadores. Los estudios han identificado enfoques es
 
 **Enfoques basados en mindfulness**, Un ensayo controlado aleatorizado de 2025 encontró que ejercicios breves de atención plena antes del uso del teléfono redujeron el tiempo en pantalla diario en un promedio de **42 minutos** durante 8 semanas. La pausa, resulta, es la intervención.
 
-Esto es lo que estamos construyendo en [Dear Wander](/). No un bloqueo. No un temporizador. Una pausa de respiración de 60 segundos que le da a tu corteza prefrontal la oportunidad de alcanzar a tu pulgar. [La ciencia detrás](/blog/science-of-the-60-second-pause/) es convincente, y no requiere fuerza de voluntad.
+Esto es lo que estamos construyendo en [Dear Wander](/es/). No un bloqueo. No un temporizador. Una pausa de respiración de 60 segundos que le da a tu corteza prefrontal la oportunidad de alcanzar a tu pulgar. [La ciencia detrás](/blog/science-of-the-60-second-pause/) es convincente, y no requiere fuerza de voluntad.
 
 ## El número que más importa
 

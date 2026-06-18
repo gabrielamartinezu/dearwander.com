@@ -87,4 +87,4 @@ Una pausa non ricablerà nulla. Nessuno sostiene che lo farà. Ma una pausa che 
 
 La tua attenzione non è rotta, e non è permanente. È reattiva, che è la migliore notizia che il tuo cervello possa offrire. Pratica il focus che vuoi, con dolcezza e spesso, e il tuo cervello ti verrà incontro.
 
-Se una pausa quotidiana per respirare suona come una ripetizione che potresti mantenere, [Dear Wander](/) sta costruendo un'app per iOS attorno esattamente a questo. Una schermata calda prima di scrollare. Una piccola scelta, offerta tutte le volte che ti serve.
+Se una pausa quotidiana per respirare suona come una ripetizione che potresti mantenere, [Dear Wander](/it/) sta costruendo un'app per iOS attorno esattamente a questo. Una schermata calda prima di scrollare. Una piccola scelta, offerta tutte le volte che ti serve.

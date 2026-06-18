@@ -83,7 +83,7 @@ Una pausa para respirar actúa antes, antes de que la app llegue a abrirse. Cuan
 
 A menudo descubrirás que no los merece, y dejas el móvil con la concentración intacta. Esa es la idea entera detrás de [la pausa de 60 segundos](/blog/science-of-the-60-second-pause/): no un muro, sino un compás de espacio donde tu corteza prefrontal puede opinar antes de que tu pulgar se comprometa.
 
-[Dear Wander](/) es una app de iOS construida alrededor de ese único momento. Una pantalla cálida de respiración aparece antes de que se abran tus apps elegidas. El tiempo justo para preguntarte si de verdad quieres cambiar. Lo bastante breve para que nunca parezca un castigo.
+[Dear Wander](/es/) es una app de iOS construida alrededor de ese único momento. Una pantalla cálida de respiración aparece antes de que se abran tus apps elegidas. El tiempo justo para preguntarte si de verdad quieres cambiar. Lo bastante breve para que nunca parezca un castigo.
 
 Tu atención tiene permiso para quedarse de una pieza. Un vistazo rápido es la forma más fácil de romperla, y una sola respiración, tomada en el segundo justo, es una de las maneras más sencillas de mantenerla entera.
 

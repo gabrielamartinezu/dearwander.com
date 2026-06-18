@@ -93,4 +93,4 @@ Thoreau vio algo en 1854 que no ha cambiado. Cuando cambiamos la implicación co
 
 El brain rot no es permanente. Tu atención no está rota. Ha sido entrenada hacia la fragmentación, y puede entrenarse de vuelta. Despacio. Con paciencia. A través del acto pequeño y cotidiano de hacer una cosa a la vez y dejar que el silencio se quede.
 
-Si quieres una forma suave de empezar, [Dear Wander](/) pone una pausa de respiración antes de tus apps más usadas. Sesenta segundos de calma antes de que empiece el scroll. No es un bloqueador. Solo un momento para elegir.
+Si quieres una forma suave de empezar, [Dear Wander](/es/) pone una pausa de respiración antes de tus apps más usadas. Sesenta segundos de calma antes de que empiece el scroll. No es un bloqueador. Solo un momento para elegir.

@@ -93,4 +93,4 @@ La via di mezzo è uno smartphone che si comporta come un dumbphone finché non 
 
 Non hai bisogno di hardware diverso. Hai bisogno di una relazione diversa con l'hardware che hai. Un dumbphone forza quella relazione attraverso la limitazione. Una pausa di respirazione la crea attraverso la consapevolezza. Entrambi i percorsi portano allo stesso posto: un telefono che riceve la tua attenzione solo quando decidi di dargliela.
 
-Se la tentazione del dumbphone continua a tornare, è il tuo cervello che chiede meno rumore. Puoi onorare quella richiesta senza perdere le mappe. [Dear Wander](/) è stato costruito esattamente per questo: la calma di un dumbphone, le capacità di uno smartphone. Un respiro caldo prima dello scroll.
+Se la tentazione del dumbphone continua a tornare, è il tuo cervello che chiede meno rumore. Puoi onorare quella richiesta senza perdere le mappe. [Dear Wander](/it/) è stato costruito esattamente per questo: la calma di un dumbphone, le capacità di uno smartphone. Un respiro caldo prima dello scroll.

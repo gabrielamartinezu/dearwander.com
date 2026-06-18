@@ -79,4 +79,4 @@ El objetivo es más pequeño y más realista. Unas pocas franjas protegidas. La 
 
 El verano ya está en marcha. La luz se va un poco antes cada semana. Elige una cosa de esta lista, deja el móvil donde no llegues y sal a estar fuera para la parte que de verdad vas a recordar.
 
-Esa es toda la idea detrás de Dear Wander: un empujón suave para usar el móvil a propósito, para que la estación no se escape al otro lado del cristal. Si un verano más lento te suena bien, [ven a ver lo que estamos construyendo](/).
+Esa es toda la idea detrás de Dear Wander: un empujón suave para usar el móvil a propósito, para que la estación no se escape al otro lado del cristal. Si un verano más lento te suena bien, [ven a ver lo que estamos construyendo](/es/).

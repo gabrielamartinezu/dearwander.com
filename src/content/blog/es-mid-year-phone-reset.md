@@ -93,4 +93,4 @@ Mira tus números de Tiempo de uso otra vez en un mes. No para ponerte nota. Sol
 
 La segunda mitad del año es la parte que de verdad vives. El mid-year reset es solo una forma de estar ahí para ella, de levantar la vista más a menudo, presente en el verano en vez de pasándolo de largo con el dedo.
 
-Si quieres una versión más suave del paso cuatro, [Dear Wander](/) pone una pausa de respiración tranquila delante de tus apps más usadas. Unos segundos lentos antes del scroll, para que abrir vuelva a ser una elección. Una manera serena de empezar la segunda mitad de tu año.
+Si quieres una versión más suave del paso cuatro, [Dear Wander](/es/) pone una pausa de respiración tranquila delante de tus apps más usadas. Unos segundos lentos antes del scroll, para que abrir vuelva a ser una elección. Una manera serena de empezar la segunda mitad de tu año.

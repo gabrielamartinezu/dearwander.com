@@ -81,7 +81,7 @@ Más allá de la pausa de respiración, aquí hay enfoques diseñados para cómo
 
 Algo que vale la pena notar: la comunidad ADHD comparte recursos con una pasión notable. Cuando algo genuinamente funciona, se difunde rápido. Esto te dice dos cosas. Primero, la necesidad es real y profundamente sentida. Segundo, la comunidad puede distinguir soluciones que realmente los entienden de soluciones que simplemente rebrandean consejos neurotípicos con una etiqueta de ADHD.
 
-[Dear Wander](/) se construyó alrededor del principio de que tu relación con el teléfono no debería ser adversarial. Que el soporte para el tiempo de pantalla debería sentirse como un [amigo, no un carcelero](/blog/why-screen-time-apps-shouldnt-punish-you/). Para cerebros con ADHD, esta distinción no es un extra agradable. Es la diferencia entre algo que realmente usarás y algo que desinstalarás en una semana.
+[Dear Wander](/es/) se construyó alrededor del principio de que tu relación con el teléfono no debería ser adversarial. Que el soporte para el tiempo de pantalla debería sentirse como un [amigo, no un carcelero](/blog/why-screen-time-apps-shouldnt-punish-you/). Para cerebros con ADHD, esta distinción no es un extra agradable. Es la diferencia entre algo que realmente usarás y algo que desinstalarás en una semana.
 
 ## Construyendo un patrón diferente
 
@@ -93,4 +93,4 @@ El scroll siempre estará ahí. Pero tú también. Y tú decides cuál de los do
 
 ---
 
-*Dear Wander crea [fricción suave para tus hábitos con el teléfono](/). Sin bloqueos. Sin vergüenza. Solo una pausa de respiración que le da a tu cerebro espacio para elegir. Pruébalo gratis y descubre lo que una pausa de 60 segundos puede hacer por tu scroll.*
+*Dear Wander crea [fricción suave para tus hábitos con el teléfono](/es/). Sin bloqueos. Sin vergüenza. Solo una pausa de respiración que le da a tu cerebro espacio para elegir. Pruébalo gratis y descubre lo que una pausa de 60 segundos puede hacer por tu scroll.*

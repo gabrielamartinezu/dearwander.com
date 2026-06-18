@@ -93,4 +93,4 @@ Thoreau vide qualcosa nel 1854 che non è cambiato. Quando scambiamo il coinvolg
 
 Il brain rot non è permanente. La tua attenzione non è rotta. È stata allenata verso la frammentazione, e può essere riallenata nella direzione opposta. Piano. Con pazienza. Attraverso il gesto piccolo e quotidiano di fare una cosa alla volta e lasciare che il silenzio resti.
 
-Se vuoi un modo gentile per iniziare, [Dear Wander](/) inserisce una pausa di respirazione prima delle tue app più usate. Sessanta secondi di calma prima che lo scroll cominci. Non è un blocco. Solo un momento per scegliere.
+Se vuoi un modo gentile per iniziare, [Dear Wander](/it/) inserisce una pausa di respirazione prima delle tue app più usate. Sessanta secondi di calma prima che lo scroll cominci. Non è un blocco. Solo un momento per scegliere.

@@ -83,7 +83,7 @@ Uno studio del 2024 nel *Journal of Social and Personal Relationships* ha scoper
 
 ### 7. Usa il rituale Prima Luce di Dear Wander
 
-Questa è la funzione che stiamo costruendo specificamente per le mattine. [Prima Luce](/) è un breve momento di respirazione guidata che ti accoglie quando cerchi un'app social per la prima volta. Gradienti più caldi, un pattern di respirazione leggermente più veloce della versione serale. Non ti blocca il telefono. Chiede solo: sei pronta? O vorresti un altro minuto con te stessa?
+Questa è la funzione che stiamo costruendo specificamente per le mattine. [Prima Luce](/it/) è un breve momento di respirazione guidata che ti accoglie quando cerchi un'app social per la prima volta. Gradienti più caldi, un pattern di respirazione leggermente più veloce della versione serale. Non ti blocca il telefono. Chiede solo: sei pronta? O vorresti un altro minuto con te stessa?
 
 I dati dietro questo approccio sono solidi. [Una pausa di respirazione di 60 secondi](/blog/science-of-the-60-second-pause/) prima dell'accesso all'app riduce l'uso fino al 57%. La mattina, quando il cervello è ancora in transizione, anche una breve interruzione del gesto automatico ha un effetto sproporzionato.
 
@@ -109,4 +109,4 @@ Solo un minuto di silenzio prima che il rumore inizi.
 
 ---
 
-*Il rituale Prima Luce di Dear Wander è progettato per esattamente questo momento. In arrivo su iOS. [Iscriviti alla lista d'attesa](/) e ti scriveremo quando saremo pronti.*
+*Il rituale Prima Luce di Dear Wander è progettato per esattamente questo momento. In arrivo su iOS. [Iscriviti alla lista d'attesa](/it/) e ti scriveremo quando saremo pronti.*

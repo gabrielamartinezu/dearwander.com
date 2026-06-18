@@ -81,7 +81,7 @@ Oltre alla pausa di respirazione, ecco approcci progettati per come il tuo cerve
 
 Qualcosa che vale la pena notare: la comunità ADHD condivide risorse con una passione notevole. Quando qualcosa funziona davvero, si diffonde velocemente. Questo ti dice due cose. Primo, il bisogno è reale e profondamente sentito. Secondo, la comunità sa distinguere le soluzioni che li capiscono veramente dalle soluzioni che semplicemente rietichettano consigli neurotipici con un'etichetta ADHD.
 
-[Dear Wander](/) è stato costruito attorno al principio che la tua relazione con il telefono non dovrebbe essere avversariale. Che il supporto per il tempo schermo dovrebbe sembrare un [amico, non un carceriere](/blog/why-screen-time-apps-shouldnt-punish-you/). Per i cervelli con ADHD, questa distinzione non è un piacevole extra. È la differenza tra qualcosa che userai davvero e qualcosa che disinstallerai entro una settimana.
+[Dear Wander](/it/) è stato costruito attorno al principio che la tua relazione con il telefono non dovrebbe essere avversariale. Che il supporto per il tempo schermo dovrebbe sembrare un [amico, non un carceriere](/blog/why-screen-time-apps-shouldnt-punish-you/). Per i cervelli con ADHD, questa distinzione non è un piacevole extra. È la differenza tra qualcosa che userai davvero e qualcosa che disinstallerai entro una settimana.
 
 ## Costruire un pattern diverso
 
@@ -93,4 +93,4 @@ Lo scroll sarà sempre lì. Ma anche tu. E sei tu a decidere quale dei due guida
 
 ---
 
-*Dear Wander crea [frizione gentile per le tue abitudini con il telefono](/). Nessun blocco. Nessuna vergogna. Solo una pausa di respirazione che dà al tuo cervello lo spazio per scegliere. Provalo gratis e scopri cosa può fare una pausa di 60 secondi per il tuo scroll.*
+*Dear Wander crea [frizione gentile per le tue abitudini con il telefono](/it/). Nessun blocco. Nessuna vergogna. Solo una pausa di respirazione che dà al tuo cervello lo spazio per scegliere. Provalo gratis e scopri cosa può fare una pausa di 60 secondi per il tuo scroll.*

@@ -79,7 +79,7 @@ Esa última, la honesta, es el momento de conciencia que cambia todo.
 
 Inserta un breve ejercicio de respiración entre la urgencia y la acción. [La investigación muestra](/blog/science-of-the-60-second-pause/) que esta simple intervención reduce el uso de redes sociales hasta un **57%**. La respiración activa tu corteza prefrontal, cambiándote de reactivo a receptivo.
 
-[Dear Wander](/) coloca una pantalla cálida de respiración guiada antes de tus apps de redes sociales, sesenta segundos de presencia antes de hacer scroll.
+[Dear Wander](/es/) coloca una pantalla cálida de respiración guiada antes de tus apps de redes sociales, sesenta segundos de presencia antes de hacer scroll.
 
 ### 9. Reemplaza la señal, no el comportamiento
 

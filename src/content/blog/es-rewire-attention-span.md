@@ -87,4 +87,4 @@ Una pausa no reconectará nada. Nadie afirma que lo hará. Pero una pausa que to
 
 Tu atención no está rota, y no es permanente. Es receptiva, que es la mejor noticia que tu cerebro puede ofrecer. Practica el enfoque que quieres, con suavidad y a menudo, y tu cerebro te encontrará ahí.
 
-Si una pausa diaria para respirar suena como una repetición que podrías mantener, [Dear Wander](/) está construyendo una app de iOS en torno a exactamente eso. Una pantalla cálida antes de hacer scroll. Una pequeña elección, ofrecida tantas veces como la necesites.
+Si una pausa diaria para respirar suena como una repetición que podrías mantener, [Dear Wander](/es/) está construyendo una app de iOS en torno a exactamente eso. Una pantalla cálida antes de hacer scroll. Una pequeña elección, ofrecida tantas veces como la necesites.
