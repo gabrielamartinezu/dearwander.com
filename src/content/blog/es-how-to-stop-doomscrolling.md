@@ -1,9 +1,9 @@
 ---
-title: "Cómo dejar de hacer doomscrolling: 12 estrategias que no requieren fuerza de voluntad"
-description: "Formas prácticas y respaldadas por la ciencia para romper el ciclo del scroll, desde diseño ambiental hasta técnicas de respiración. Sin vergüenza, sin sermones sobre tiempo en pantalla."
+title: "Cómo dejar de scrollear: 12 formas de romper el doomscrolling (sin fuerza de voluntad)"
+description: "Cómo dejar de scrollear y escapar del scroll infinito: 12 estrategias prácticas y respaldadas por la ciencia para romper el doomscrolling. Sin vergüenza, sin sermones."
 date: 2026-05-04
 author: "Dear Wander"
-tags: ["doomscrolling", "strategies", "digital wellness", "phone addiction"]
+tags: ["dejar de scrollear", "scroll infinito", "doomscrolling", "bienestar digital", "adicción al celular"]
 faq:
   - q: "¿Por qué no puedo dejar de hacer doomscrolling aunque sé que debería?"
     a: "El doomscrolling explota mecanismos de recompensa de dopamina similares a las máquinas tragamonedas. Cada desplazamiento desencadena una pequeña liberación de dopamina. Tu mente consciente sabe que deberías parar, pero el sistema de recompensas ha automatizado el comportamiento. Es un problema de diseño, no de fuerza de voluntad."
@@ -17,13 +17,13 @@ faq:
 
 Te dijiste diez minutos. Eso fue hace cuarenta y cinco minutos. El contenido ya ni siquiera es bueno, es solo movimiento, un río de miniaturas y opiniones y clips que tu pulgar sigue arrastrando sin tu permiso.
 
-Conoces esta sensación. Todos la conocemos.
+Conoces esta sensación: el scroll infinito que no se detiene. Todos la conocemos.
 
 El doomscrolling no es un defecto de carácter. Es una respuesta perfectamente racional a apps diseñadas por miles de ingenieros optimizando una sola métrica: tiempo en pantalla. El feed no tiene fondo. El algoritmo sabe qué verás después mejor que tú. Las probabilidades nunca fueron justas.
 
 Pero las probabilidades pueden cambiarse. No a través de la fuerza de voluntad, la fuerza de voluntad es un recurso finito y estas apps son infinitas. A través del diseño. A través de la fricción. A través de cambios pequeños y estratégicos que redirigen la corriente antes de que te atrape.
 
-Aquí van doce que funcionan.
+Aquí van doce formas de dejar de scrollear que funcionan.
 
 ## Cambios de entorno
 
