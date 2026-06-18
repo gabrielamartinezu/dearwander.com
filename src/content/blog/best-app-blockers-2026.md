@@ -1,6 +1,6 @@
 ---
-title: "Best app blockers for iPhone in 2026: an honest comparison"
-description: "Comparing the best app blocker iPhone 2026 options: Opal, One Sec, ScreenZen, Clearspace, Freedom, and Dear Wander. Honest breakdown of features, pricing, and who each app suits."
+title: "Best app blockers for iPhone 2026: 6 apps tested and honestly compared"
+description: "The best iPhone app blockers in 2026, honestly compared: Opal, One Sec, ScreenZen, Clearspace, Freedom and Dear Wander, plus how to block websites and hide distracting apps."
 date: 2026-05-16
 author: "Dear Wander"
 tags: ["app blocker", "screen time", "iPhone", "comparison", "digital wellness"]
@@ -50,7 +50,7 @@ One Sec offers a free tier with limited app selections and a premium tier around
 
 ## ScreenZen: the best free option
 
-ScreenZen is surprisingly full-featured for a free app. You get custom schedules, per-app time limits, breathing screens, and configurable delay lengths. The level of control is impressive: you can set different rules for different times of day, different delay durations per app, and even different behaviors for weekdays versus weekends.
+ScreenZen is surprisingly full-featured for a free app. You get custom schedules, per-app time limits, breathing screens, and configurable delay lengths. The level of control is impressive: you can set different rules for different times of day, different delay durations per app, and separate behaviors for weekdays and weekends.
 
 The interface is more utilitarian than polished. You won't get beautiful animations or a warm design language. But if customization and zero cost are your priorities, ScreenZen delivers more than some paid competitors.
 
@@ -81,6 +81,27 @@ Dear Wander builds on the same Heidelberg research as One Sec but takes the paus
 What makes Dear Wander different from other friction-based apps is what happens at night. The app includes [guided imagery sessions](/blog/guided-imagery-meditation/) designed specifically for bedtime scrolling. Instead of just blocking the scroll, it replaces it with something that actually helps you fall asleep. This is important because [blocking alone doesn't address the need that scrolling was meeting](/blog/why-screen-time-limits-dont-work/).
 
 Dear Wander uses Apple's native FamilyControls API. No VPN, no battery drain, no data routed through external servers. The design language is deliberately warm: [letters instead of locks, invitations instead of warnings](/blog/why-screen-time-apps-shouldnt-punish-you/). It won't work for everyone. If you need a hard block you cannot bypass, Opal is a better fit. Dear Wander is for people who want to change their relationship with their phone through gentleness rather than restriction.
+
+## Can these apps block websites too?
+
+Most of these tools focus on apps, but a lot of scrolling happens in Safari or Chrome, not just in apps. If that's your pattern, coverage matters.
+
+**Freedom** is the best choice for websites. It blocks sites and apps across Mac, Windows, iOS, Android, and Chrome at the same time, so the same rules apply whether you reach for your phone or open a browser tab at work.
+
+**iOS Screen Time** can also limit specific websites for free, through Content & Privacy Restrictions. It's clumsy to set up and easy to dismiss, but it costs nothing.
+
+The friction-based apps (One Sec, Dear Wander) work at the app level rather than the website level. They're built around the moment you tap an app icon, not the moment you type a URL. If website scrolling is your main pattern, a dedicated website blocker like Freedom will serve you better.
+
+## What about hiding or locking distracting apps?
+
+Plenty of people search for ways to hide or lock the apps that pull them in, and it's a reasonable instinct. Hiding a distracting app is a real, low-effort form of friction. If Instagram isn't on your home screen, you reach for it less out of habit.
+
+A few free ways to do this on iPhone, no extra app required:
+- Move distracting apps off your home screen into the App Library, so opening one takes a deliberate search.
+- Use a Focus mode to hide whole categories of apps during work or in the evening.
+- Set a Screen Time app limit, which acts as a soft lock you can still override.
+
+Hiding helps as a first step, but it addresses the reach, not the reason. Most people who hide an app can still find it in ten seconds when the urge hits. A pause-based approach tends to last longer because it meets the urge itself rather than just moving the icon. [Dear Wander](/) is built around that moment.
 
 ## How to choose the right app blocker
 

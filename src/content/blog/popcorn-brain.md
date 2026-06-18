@@ -49,7 +49,7 @@ A 2026 study from the Zurich Center for Neuroeconomics looked at chronic multita
 
 ## Why blocking apps doesn't fix this
 
-Your first instinct might be to delete apps or install a blocker. And that can help in the short term. But popcorn brain isn't about any single app. It's about a pattern your nervous system has learned.
+Your first instinct might be to delete apps or [install a blocker](/blog/best-app-blockers-2026/). And that can help in the short term. But popcorn brain isn't about any single app. It's about a pattern your nervous system has learned.
 
 Block Instagram and your brain will find novelty somewhere else. Email. News. The weather app. A group chat. The pattern migrates because [the issue was never the specific app](/blog/why-screen-time-limits-dont-work/). It was the conditioned need for constant input.
 

@@ -139,7 +139,7 @@ Yes, but the severity depends on duration and content. Research consistently lin
 
 ### What's the best app to stop doomscrolling?
 
-Different apps take different approaches. ScreenZen adds friction with delays. One sec uses a breathing intervention. Opal blocks apps entirely. [Dear Wander](/) (coming soon) uses a 60-second guided breathing pause. based on research showing this approach reduces usage by up to 57% without blocking anything. The best app is the one whose approach matches your personality. if you respond well to hard limits, try a blocker. If you respond better to gentle nudges, try a pause-based approach.
+Different apps take different approaches. ScreenZen adds friction with delays. One sec uses a breathing intervention. Opal blocks apps entirely. [Dear Wander](/) (coming soon) uses a 60-second guided breathing pause. based on research showing this approach reduces usage by up to 57% without blocking anything. The best app is the one whose approach matches your personality. if you respond well to hard limits, try a blocker. If you respond better to gentle nudges, try a pause-based approach. We compared the main options in our [honest app blocker comparison](/blog/best-app-blockers-2026/).
 
 ### How long does it take to break the doomscrolling habit?
 

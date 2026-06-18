@@ -62,7 +62,7 @@ Further data points:
 - **65% of young adults** have tried to reduce their screen time in the past year
 - Only **12%** felt they succeeded long-term
 
-The tools we've been given (screen time limits, app blockers, shame-based trackers) were designed for a problem they don't fully understand.
+The tools we've been given (screen time limits, [app blockers](/blog/best-app-blockers-2026/), shame-based trackers) were designed for a problem they don't fully understand.
 
 ## Doomscrolling: the new default
 
