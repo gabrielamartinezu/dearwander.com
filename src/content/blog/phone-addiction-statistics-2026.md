@@ -17,7 +17,7 @@ faq:
 
 There's a moment, maybe you've felt it, where you pick up your phone without meaning to. No notification. No reason. Just the reach. Your thumb moved before you decided.
 
-You're not alone. And the data is staggering.
+You're not alone. And the data is staggering. (Curious where you land? Our [screen time calculator](/screen-time-calculator/) shows you, gently.)
 
 ## How often we check our phones
 

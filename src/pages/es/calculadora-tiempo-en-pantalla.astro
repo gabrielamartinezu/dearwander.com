@@ -1,0 +1,177 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+
+const faqs = [
+  { q: "¿Cuánto tiempo en pantalla es demasiado?", a: "No hay un número mágico. Los expertos suelen sugerir mantener las redes recreativas por debajo de 30 a 60 minutos al día, pero importa más si el tiempo se siente elegido o automático. La persona promedio pasa unas 5 horas al día en el celular y lo toma alrededor de 144 veces." },
+  { q: "¿El tiempo en pantalla es malo?", a: "El tiempo en pantalla en sí no es el problema. El scroll pasivo y compulsivo sí. La investigación vincula las sesiones largas de scroll pasivo con más ansiedad y peor sueño, mientras que el uso intencional (mapas, mensajes, aprender) suele estar bien. La meta no es cero. Es elegir." },
+  { q: "¿Cómo reduzco el tiempo en pantalla sin fuerza de voluntad?", a: "La fuerza de voluntad se agota. Los cambios pequeños en tu entorno duran más: carga el celular fuera de la habitación, apaga las notificaciones no esenciales y agrega una pausa antes de abrir las apps que te atrapan. Una pausa de respiración de 60 segundos antes de redes redujo el uso un 57% en un estudio de la Universidad de Heidelberg." },
+];
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqs.map((f) => ({
+    "@type": "Question",
+    "name": f.q,
+    "acceptedAnswer": { "@type": "Answer", "text": f.a },
+  })),
+};
+---
+
+<Layout
+  title="Calculadora de tiempo en pantalla: ¿cuánto de tu año usa tu celular?"
+  description="Una calculadora de tiempo en pantalla, sin culpa. Mira a dónde se va tu tiempo en el celular, cómo te comparas con el promedio y cuánto podrías recuperar."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+
+  <Header lang="es" />
+
+  <main class="bg-golden-hour min-h-screen pt-28 pb-20 px-6">
+
+    <section class="max-w-xl mx-auto text-center pt-10 pb-10">
+      <p class="text-xs font-medium uppercase tracking-[0.2em] text-taupe/60 mb-6 fade-up">
+        Gratis · Sin registro para usarla · Sin culpa
+      </p>
+      <h1 class="font-wander text-4xl sm:text-5xl text-earth mb-5 leading-tight fade-up fade-up-d1">
+        Calculadora de tiempo en pantalla
+      </h1>
+      <p class="text-lg text-cocoa/75 font-light leading-relaxed max-w-md mx-auto fade-up fade-up-d2">
+        Mira a dónde se va tu tiempo en el celular, con calma. Sin reportes que avergüenzan, sin cuentas de "lo desperdiciaste". Solo una imagen más clara, y lo que podrías recuperar.
+      </p>
+    </section>
+
+    <section class="max-w-lg mx-auto pb-12">
+      <div class="glass p-8 sm:p-10 fade-up fade-up-d3">
+
+        <label for="hours" class="block text-sm font-medium text-earth mb-1">Horas al día en tu celular</label>
+        <p class="text-xs text-taupe/60 mb-4">Un estimado está perfecto. Revisa Ajustes → Tiempo en pantalla si quieres el número real.</p>
+        <input id="hours" type="range" min="1" max="12" step="0.5" value="4"
+          class="w-full accent-[color:var(--color-breath,#E8B86D)] cursor-pointer" />
+        <div class="flex justify-between text-xs text-taupe/50 mt-1 mb-8">
+          <span>1h</span><span>12h</span>
+        </div>
+
+        <div class="text-center">
+          <p class="text-cocoa/70 font-light mb-2">
+            <span id="hoursLabel" class="font-semibold text-earth">4</span> horas al día es alrededor de
+          </p>
+          <p class="font-wander text-3xl text-earth mb-1"><span id="hoursWeek">28</span> horas a la semana</p>
+          <p class="text-cocoa/60 font-light mb-6">y unos <span id="daysYear" class="font-medium text-earth">61</span> días al año con tu celular.</p>
+
+          <div class="h-px bg-taupe/15 my-6"></div>
+
+          <p class="text-cocoa/70 font-light mb-6">
+            El promedio ronda las 5 horas y 144 desbloqueos al día, así que estás
+            <span id="vsAverage" class="font-medium text-earth">en buena compañía</span>.
+          </p>
+
+          <div class="bg-breath/15 rounded-2xl p-6">
+            <p class="font-dear text-2xl text-earth mb-2" style="font-style: italic;">
+              Recupera solo una hora al día
+            </p>
+            <p class="text-cocoa/75 font-light">
+              y eso son <span id="reclaim" class="font-semibold text-earth">15 días</span> al año de vuelta, para dormir, para la gente, para caminar, para lo que no sea un feed.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="max-w-md mx-auto text-center pb-12 fade-up">
+      <button id="shareBtn"
+        class="text-sm font-medium text-earth/70 hover:text-earth underline underline-offset-4 transition-colors cursor-pointer">
+        Copiar una versión para compartir tu resultado
+      </button>
+      <p id="shareConfirm" class="text-xs text-breath font-medium mt-2 opacity-0 transition-opacity">Copiado. Pégalo donde quieras.</p>
+    </section>
+
+    <!-- CTA: waitlist (no English drip) -->
+    <section class="max-w-md mx-auto text-center pb-16">
+      <h2 class="font-wander text-2xl text-earth mb-3">¿Quieres una forma amable de recuperar parte de ese tiempo?</h2>
+      <p class="text-cocoa/70 font-light mb-7">
+        Dear Wander es una app de iOS que pone una respiración antes de abrir tus apps. Únete a la lista de espera y te escribimos cuando esté lista.
+      </p>
+      <form
+        action="https://buttondown.com/api/emails/embed-subscribe/gabrielaale"
+        method="post"
+        target="popupwindow"
+        class="flex flex-col sm:flex-row items-center justify-center gap-3"
+      >
+        <input type="hidden" name="tag" value="waitlist-es" />
+        <input type="hidden" name="tag" value="calculator" />
+        <input type="email" name="email" placeholder="tu@email.com" required
+          class="w-full sm:flex-1 px-5 py-3.5 rounded-2xl bg-warm-white/60 backdrop-blur-sm border border-amber/30 text-earth placeholder:text-taupe/60 focus:outline-none focus:border-breath focus:ring-2 focus:ring-breath/20 transition-all text-base" />
+        <button type="submit"
+          class="w-full sm:w-auto px-8 py-3.5 rounded-2xl bg-earth text-warm-white font-semibold text-base hover:bg-cocoa transition-all duration-500 shadow-lg shadow-earth/15 cursor-pointer">
+          Únete a la lista
+        </button>
+      </form>
+      <p class="text-xs text-taupe/40 mt-3 font-light">Gratis. Sin spam. Solo una carta cuando estemos listos.</p>
+    </section>
+
+    <section class="max-w-2xl mx-auto pb-8">
+      <h2 class="font-wander text-2xl text-earth text-center mb-8">Preguntas sobre el tiempo en pantalla</h2>
+      <div class="space-y-4">
+        {faqs.map((f) => (
+          <details class="glass rounded-2xl px-6 py-5 group">
+            <summary class="flex items-center justify-between cursor-pointer list-none font-wander text-lg text-earth">
+              <span>{f.q}</span>
+              <svg class="w-5 h-5 text-taupe shrink-0 ml-4 transition-transform duration-300 group-open:rotate-45" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" /></svg>
+            </summary>
+            <p class="text-cocoa/80 font-light leading-relaxed mt-4">{f.a}</p>
+          </details>
+        ))}
+      </div>
+      <p class="text-center text-sm text-cocoa/60 font-light mt-8">
+        ¿Quieres el panorama completo? Lee las <a href="/blog/es-phone-addiction-statistics-2026/" class="text-earth underline underline-offset-4">estadísticas de 2026</a> o sobre <a href="/blog/es-nomofobia/" class="text-earth underline underline-offset-4">la nomofobia</a>.
+      </p>
+    </section>
+  </main>
+
+  <Footer lang="es" />
+
+  <style>
+    details summary::-webkit-details-marker { display: none; }
+  </style>
+
+  <script is:inline>
+    (function () {
+      const hours = document.getElementById("hours");
+      const hoursLabel = document.getElementById("hoursLabel");
+      const hoursWeek = document.getElementById("hoursWeek");
+      const daysYear = document.getElementById("daysYear");
+      const reclaim = document.getElementById("reclaim");
+      const vsAverage = document.getElementById("vsAverage");
+      const shareBtn = document.getElementById("shareBtn");
+      const shareConfirm = document.getElementById("shareConfirm");
+
+      function fmt(n) { return Number.isInteger(n) ? n.toString() : n.toFixed(1); }
+
+      function update() {
+        const h = parseFloat(hours.value);
+        hoursLabel.textContent = fmt(h);
+        hoursWeek.textContent = Math.round(h * 7);
+        daysYear.textContent = Math.round((h * 365) / 24);
+        const reclaimable = Math.min(1, h);
+        reclaim.textContent = Math.round((reclaimable * 365) / 24) + " días";
+        if (h < 4) vsAverage.textContent = "por debajo del promedio";
+        else if (h < 6) vsAverage.textContent = "cerca del promedio";
+        else vsAverage.textContent = "por encima del promedio";
+      }
+
+      hours.addEventListener("input", update);
+      update();
+
+      shareBtn.addEventListener("click", function () {
+        const days = reclaim.textContent;
+        const text = "Podría recuperar " + days + " al año con solo quitar una hora de celular. 🌅 dearwander.com";
+        navigator.clipboard.writeText(text).then(function () {
+          shareConfirm.style.opacity = "1";
+          setTimeout(function () { shareConfirm.style.opacity = "0"; }, 2500);
+        });
+      });
+    })();
+  </script>
+</Layout>

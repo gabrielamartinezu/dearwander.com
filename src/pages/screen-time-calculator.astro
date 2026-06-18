@@ -1,0 +1,184 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+
+const faqs = [
+  { q: "How much screen time is too much?", a: "There's no single magic number. Researchers often point to keeping recreational social media under 30 to 60 minutes a day, but what matters more is whether the time feels chosen or automatic. The average person spends about 5 hours a day on their phone and picks it up around 144 times." },
+  { q: "Is screen time actually bad for you?", a: "Screen time itself isn't the problem. Passive, compulsive scrolling is. Research links long passive scrolling sessions with increased anxiety and disrupted sleep, while intentional use (maps, messages, learning) is generally fine. The goal isn't zero. It's choosing." },
+  { q: "How do I reduce my screen time without willpower?", a: "Willpower runs out. Small changes to your environment last longer: charge your phone outside the bedroom, turn off non-essential notifications, and add a brief pause before opening the apps that pull you in. A 60-second breathing pause before social media reduced usage by 57% in one University of Heidelberg study." },
+];
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqs.map((f) => ({
+    "@type": "Question",
+    "name": f.q,
+    "acceptedAnswer": { "@type": "Answer", "text": f.a },
+  })),
+};
+---
+
+<Layout
+  title="Screen Time Calculator: how much of your year is your phone using?"
+  description="A gentle screen time calculator. See where your phone time goes, how you compare to the average, and how much you could reclaim. No guilt, no screen time reports."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+
+  <Header lang="en" />
+
+  <main class="bg-golden-hour min-h-screen pt-28 pb-20 px-6">
+
+    <!-- Hero -->
+    <section class="max-w-xl mx-auto text-center pt-10 pb-10">
+      <p class="text-xs font-medium uppercase tracking-[0.2em] text-taupe/60 mb-6 fade-up">
+        Free · No sign-up to use · No guilt
+      </p>
+      <h1 class="font-wander text-4xl sm:text-5xl text-earth mb-5 leading-tight fade-up fade-up-d1">
+        Screen Time Calculator
+      </h1>
+      <p class="text-lg text-cocoa/75 font-light leading-relaxed max-w-md mx-auto fade-up fade-up-d2">
+        See where your phone time goes, gently. No shame reports, no "you wasted" math. Just a clearer picture, and what you could reclaim.
+      </p>
+    </section>
+
+    <!-- Calculator -->
+    <section class="max-w-lg mx-auto pb-12">
+      <div class="glass p-8 sm:p-10 fade-up fade-up-d3">
+
+        <label for="hours" class="block text-sm font-medium text-earth mb-1">Hours a day on your phone</label>
+        <p class="text-xs text-taupe/60 mb-4">A rough guess is perfect. Check Settings → Screen Time if you want the real number.</p>
+        <input id="hours" type="range" min="1" max="12" step="0.5" value="4"
+          class="w-full accent-[color:var(--color-breath,#E8B86D)] cursor-pointer" />
+        <div class="flex justify-between text-xs text-taupe/50 mt-1 mb-8">
+          <span>1h</span><span>12h</span>
+        </div>
+
+        <!-- Live output -->
+        <div class="text-center">
+          <p class="text-cocoa/70 font-light mb-2">
+            <span id="hoursLabel" class="font-semibold text-earth">4</span> hours a day is about
+          </p>
+          <p class="font-wander text-3xl text-earth mb-1"><span id="hoursWeek">28</span> hours a week</p>
+          <p class="text-cocoa/60 font-light mb-6">and roughly <span id="daysYear" class="font-medium text-earth">61</span> days a year with your phone.</p>
+
+          <div class="h-px bg-taupe/15 my-6"></div>
+
+          <p class="text-cocoa/70 font-light mb-6">
+            The average is around 5 hours and 144 pickups a day, so you're
+            <span id="vsAverage" class="font-medium text-earth">in good company</span>.
+          </p>
+
+          <!-- The reframe -->
+          <div class="bg-breath/15 rounded-2xl p-6">
+            <p class="font-dear text-2xl text-earth mb-2" style="font-style: italic;">
+              Reclaim just one hour a day
+            </p>
+            <p class="text-cocoa/75 font-light">
+              and that's <span id="reclaim" class="font-semibold text-earth">15 days</span> a year back, for sleep, people, walks, anything that isn't a feed.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Share -->
+    <section class="max-w-md mx-auto text-center pb-12 fade-up">
+      <button id="shareBtn"
+        class="text-sm font-medium text-earth/70 hover:text-earth underline underline-offset-4 transition-colors cursor-pointer">
+        Copy a shareable version of your result
+      </button>
+      <p id="shareConfirm" class="text-xs text-breath font-medium mt-2 opacity-0 transition-opacity">Copied. Paste it anywhere.</p>
+    </section>
+
+    <!-- CTA: reuse the 7 Letters lead magnet -->
+    <section class="max-w-md mx-auto text-center pb-16">
+      <h2 class="font-wander text-2xl text-earth mb-3">Want a gentle way to reclaim some of it?</h2>
+      <p class="text-cocoa/70 font-light mb-7">
+        Get 7 short letters on building a calmer phone habit. One a day. No lectures, no screen time reports. Just a letter.
+      </p>
+      <form
+        action="https://buttondown.com/api/emails/embed-subscribe/gabrielaale"
+        method="post"
+        target="popupwindow"
+        class="flex flex-col sm:flex-row items-center justify-center gap-3"
+      >
+        <input type="hidden" name="tag" value="7-letters" />
+        <input type="hidden" name="tag" value="calculator" />
+        <input type="email" name="email" placeholder="your@email.com" required
+          class="w-full sm:flex-1 px-5 py-3.5 rounded-2xl bg-warm-white/60 backdrop-blur-sm border border-amber/30 text-earth placeholder:text-taupe/60 focus:outline-none focus:border-breath focus:ring-2 focus:ring-breath/20 transition-all text-base" />
+        <button type="submit"
+          class="w-full sm:w-auto px-8 py-3.5 rounded-2xl bg-earth text-warm-white font-semibold text-base hover:bg-cocoa transition-all duration-500 shadow-lg shadow-earth/15 cursor-pointer">
+          Send me the first letter
+        </button>
+      </form>
+      <p class="text-xs text-taupe/40 mt-3 font-light">Free. 7 emails. Unsubscribe anytime.</p>
+    </section>
+
+    <!-- FAQ (SEO + AI citability) -->
+    <section class="max-w-2xl mx-auto pb-8">
+      <h2 class="font-wander text-2xl text-earth text-center mb-8">Questions about screen time</h2>
+      <div class="space-y-4">
+        {faqs.map((f) => (
+          <details class="glass rounded-2xl px-6 py-5 group">
+            <summary class="flex items-center justify-between cursor-pointer list-none font-wander text-lg text-earth">
+              <span>{f.q}</span>
+              <svg class="w-5 h-5 text-taupe shrink-0 ml-4 transition-transform duration-300 group-open:rotate-45" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" /></svg>
+            </summary>
+            <p class="text-cocoa/80 font-light leading-relaxed mt-4">{f.a}</p>
+          </details>
+        ))}
+      </div>
+      <p class="text-center text-sm text-cocoa/60 font-light mt-8">
+        Want the full picture? Read the <a href="/blog/phone-addiction-statistics-2026/" class="text-earth underline underline-offset-4">2026 smartphone statistics</a> or <a href="/blog/science-of-the-60-second-pause/" class="text-earth underline underline-offset-4">the science of the 60-second pause</a>.
+      </p>
+    </section>
+  </main>
+
+  <Footer lang="en" />
+
+  <style>
+    details summary::-webkit-details-marker { display: none; }
+  </style>
+
+  <script is:inline>
+    (function () {
+      const hours = document.getElementById("hours");
+      const hoursLabel = document.getElementById("hoursLabel");
+      const hoursWeek = document.getElementById("hoursWeek");
+      const daysYear = document.getElementById("daysYear");
+      const reclaim = document.getElementById("reclaim");
+      const vsAverage = document.getElementById("vsAverage");
+      const shareBtn = document.getElementById("shareBtn");
+      const shareConfirm = document.getElementById("shareConfirm");
+
+      function fmt(n) { return Number.isInteger(n) ? n.toString() : n.toFixed(1); }
+
+      function update() {
+        const h = parseFloat(hours.value);
+        hoursLabel.textContent = fmt(h);
+        hoursWeek.textContent = Math.round(h * 7);
+        daysYear.textContent = Math.round((h * 365) / 24);
+        // reclaim one hour/day, but never more than what they spend
+        const reclaimable = Math.min(1, h);
+        reclaim.textContent = Math.round((reclaimable * 365) / 24) + " days";
+        if (h < 4) vsAverage.textContent = "below the average";
+        else if (h < 6) vsAverage.textContent = "right around average";
+        else vsAverage.textContent = "above the average";
+      }
+
+      hours.addEventListener("input", update);
+      update();
+
+      shareBtn.addEventListener("click", function () {
+        const days = reclaim.textContent;
+        const text = "I could reclaim " + days + " a year just by cutting one hour of phone time. 🌅 dearwander.com";
+        navigator.clipboard.writeText(text).then(function () {
+          shareConfirm.style.opacity = "1";
+          setTimeout(function () { shareConfirm.style.opacity = "0"; }, 2500);
+        });
+      });
+    })();
+  </script>
+</Layout>

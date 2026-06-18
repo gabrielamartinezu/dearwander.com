@@ -67,6 +67,7 @@ const t = useTranslations(lang);
 
       <nav class="flex items-center gap-6 text-sm text-warm-white/40 flex-wrap justify-center">
         <a href={`${getLocalePath(lang)}#journal`} class="hover:text-warm-white/70 transition-colors duration-400">{t("nav.journal")}</a>
+        <a href={lang === "es" ? "/es/calculadora-tiempo-en-pantalla" : "/screen-time-calculator"} class="hover:text-warm-white/70 transition-colors duration-400">{lang === "es" ? "Calculadora" : "Calculator"}</a>
         <a href="/letters" class="hover:text-warm-white/70 transition-colors duration-400">7 Letters</a>
         <a href="/glossary" class="hover:text-warm-white/70 transition-colors duration-400">Glossary</a>
         <a href="/privacy" class="hover:text-warm-white/70 transition-colors duration-400">{t("footer.privacy")}</a>

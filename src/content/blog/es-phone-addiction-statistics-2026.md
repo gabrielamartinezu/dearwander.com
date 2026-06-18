@@ -17,7 +17,7 @@ faq:
 
 Hay un momento, quizás lo hayas sentido, en el que coges el teléfono sin querer hacerlo. Sin notificación. Sin razón. Solo el gesto. Tu pulgar se movió antes de que decidieras.
 
-No estás solo. Y los datos son abrumadores.
+No estás solo. Y los datos son abrumadores. (¿Quieres saber dónde estás tú? Nuestra [calculadora de tiempo en pantalla](/es/calculadora-tiempo-en-pantalla/) te lo muestra, con calma.)
 
 ## Con qué frecuencia miramos nuestros teléfonos
 
