@@ -2,12 +2,14 @@
 import { useTranslations, getLocalePath, locales, type Locale } from "../i18n/utils";
 import type { Locale as LocaleType } from "../i18n/translations";
 
-interface Props { lang?: LocaleType; }
+interface Props { lang?: LocaleType; lightBg?: boolean; }
 const lang = (Astro.props.lang ?? "en") as LocaleType;
+const lightBg = Astro.props.lightBg ?? false;
 const t = useTranslations(lang);
+const initialClass = lightBg ? "header-light" : "header-hero";
 ---
 
-<header class="fixed top-0 left-0 right-0 z-50 transition-all duration-700 header-hero" id="site-header">
+<header class="fixed top-0 left-0 right-0 z-50 transition-all duration-700" id="site-header" class:list={[initialClass]} data-initial={initialClass}>
   <nav class="max-w-5xl mx-auto px-6 py-5 flex items-center justify-between">
     <a href={getLocalePath(lang)} class="flex items-baseline gap-1.5 group">
       <span class="font-dear text-[1.5rem] header-brand leading-none transition-colors duration-500 group-hover:text-breath">Dear</span>
@@ -64,17 +66,24 @@ const t = useTranslations(lang);
   .header-scrolled .header-link { color: #8B7355; }
   .header-scrolled .header-link:hover { color: #2A1810; }
   .header-scrolled .header-lang { color: #8B7355; }
+
+  /* Light-background pages: dark text from the top, no backdrop until scroll */
+  .header-light .header-brand { color: #2A1810; }
+  .header-light .header-link { color: #8B7355; }
+  .header-light .header-link:hover { color: #2A1810; }
+  .header-light .header-lang { color: #8B7355; }
 </style>
 
 <script>
   const header = document.getElementById("site-header");
+  const initial = header?.dataset.initial ?? "header-hero";
   window.addEventListener("scroll", () => {
     if (window.scrollY > 60) {
       header?.classList.add("backdrop-blur-xl", "bg-golden-start/70", "header-scrolled");
-      header?.classList.remove("header-hero");
+      header?.classList.remove(initial);
     } else {
       header?.classList.remove("backdrop-blur-xl", "bg-golden-start/70", "header-scrolled");
-      header?.classList.add("header-hero");
+      header?.classList.add(initial);
     }
   }, { passive: true });
 </script>
