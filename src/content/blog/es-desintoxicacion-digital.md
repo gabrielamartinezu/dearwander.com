@@ -73,4 +73,4 @@ La verdad incómoda y a la vez liberadora es que la desintoxicación digital per
 
 No tienes que arreglar tu relación con el teléfono esta semana. Solo esta noche, antes de abrir la primera app, respira una vez.
 
-Si te late ese enfoque de la pausa, [Dear Wander](/es/) es una app de iOS construida justo alrededor de esta idea. Una pantalla cálida que aparece antes de que se abran tus apps. Sesenta segundos para volver a ti, sin bloqueos ni regaños. No es un candado. Es una carta.
+Si te late ese enfoque de la pausa, [Dear Wander](/es/) es una app de iOS construida justo alrededor de esta idea. Una pantalla cálida que aparece antes de que se abran tus apps. Sesenta segundos para volver a ti, sin bloqueos ni regaños.

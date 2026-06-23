@@ -7,7 +7,7 @@ export const translations = {
 
     // Hero intro
     "hero.label": "Mindful Screen Time · iOS",
-    "hero.sub": "Not a lock. A letter.",
+    "hero.sub": "Sixty seconds back to yourself.",
     "hero.scroll": "scroll to open",
 
     // Hero letters
@@ -54,7 +54,7 @@ export const translations = {
     "rituals.last.body": "The day is completing. A slower breath, deeper amber, the soft edges of twilight. Put the phone down gently. You've done enough.",
 
     // Features — Differentiator
-    "diff.title": "Not a blocker. Not a timer.",
+    "diff.title": "From reflex to choice.",
     "diff.subtitle": "A moment of beauty<br/>before you scroll.",
     "diff.native.title": "Native iOS",
     "diff.native.body": "Built on Apple's own FamilyControls API. No VPN. No Shortcuts hacks. No battery drain.",
@@ -110,7 +110,7 @@ export const translations = {
     "nav.waitlist": "Únete a la lista",
 
     "hero.label": "Uso consciente del móvil · iOS",
-    "hero.sub": "No es un bloqueo. Es una carta.",
+    "hero.sub": "Sesenta segundos para volver a ti.",
     "hero.scroll": "desliza para abrir",
 
     "hero.letter1": "Tu pulgar se movió<br/>antes de que decidieras.",
@@ -150,7 +150,7 @@ export const translations = {
     "rituals.last.sub": "El regreso nocturno",
     "rituals.last.body": "El día se completa. Una respiración más lenta, ámbar más profundo, los bordes suaves del crepúsculo. Deja el teléfono con suavidad. Ya hiciste suficiente.",
 
-    "diff.title": "No es un bloqueador. No es un temporizador.",
+    "diff.title": "Del impulso a la decisión.",
     "diff.subtitle": "Un momento de belleza<br/>antes de hacer scroll.",
     "diff.native.title": "iOS Nativo",
     "diff.native.body": "Construido sobre la API FamilyControls de Apple. Sin VPN. Sin hacks de Atajos. Sin consumo de batería.",
@@ -202,7 +202,7 @@ export const translations = {
     "nav.waitlist": "Iscriviti alla lista",
 
     "hero.label": "Tempo schermo consapevole · iOS",
-    "hero.sub": "Non un blocco. Una lettera.",
+    "hero.sub": "Sessanta secondi per tornare a te.",
     "hero.scroll": "scorri per aprire",
 
     "hero.letter1": "Il tuo pollice si è mosso<br/>prima che tu decidessi.",
@@ -242,7 +242,7 @@ export const translations = {
     "rituals.last.sub": "Il ritorno serale",
     "rituals.last.body": "La giornata si completa. Un respiro più lento, ambra più profonda, i bordi morbidi del crepuscolo. Posa il telefono con dolcezza. Hai fatto abbastanza.",
 
-    "diff.title": "Non un blocker. Non un timer.",
+    "diff.title": "Dal riflesso alla scelta.",
     "diff.subtitle": "Un momento di bellezza<br/>prima di scorrere.",
     "diff.native.title": "iOS Nativo",
     "diff.native.body": "Costruito sull'API FamilyControls di Apple. Nessuna VPN. Nessun hack. Nessun consumo di batteria.",

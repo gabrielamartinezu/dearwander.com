@@ -93,6 +93,6 @@ Elige el que proteja el momento del verano que más lamentarías perderte. Quiz�
 
 ## Dónde encaja Dear Wander
 
-Dear Wander se construyó sobre la misma idea que hay detrás de cada límite aquí. No un candado, una carta. Cuando tomas una app por costumbre, te ofrece una pausa gentil en lugar de un muro duro, una respiración en lugar de una pantalla bloqueada. La misma gentileza que hace funcionar una canasta de teléfonos, en tu bolsillo, para los momentos que no planeaste.
+Dear Wander se construyó sobre la misma idea que hay detrás de cada límite aquí. Cuando tomas una app por costumbre, te ofrece una pausa gentil en lugar de un muro duro, una respiración en lugar de una pantalla bloqueada. La misma gentileza que hace funcionar una canasta de teléfonos, en tu bolsillo, para los momentos que no planeaste.
 
 Si proteger tu presencia este verano suena a algo con lo que quieres ayuda, puedes [unirte a la lista de espera](/es/). Sin sermones. Solo una manera más suave de estar donde estás.

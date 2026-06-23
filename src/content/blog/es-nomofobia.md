@@ -73,4 +73,4 @@ La nomofobia se construyó con miles de repeticiones pequeñas. Tu teléfono ent
 
 No tienes que hacerlo todo hoy. Una respiración antes de abrir Instagram esta noche ya es un comienzo.
 
-Si te interesa ese enfoque de la pausa, [Dear Wander](/es/) es una app de iOS construida alrededor de esta idea. Una pantalla cálida antes de que se abran tus apps. Sesenta segundos para volver a ti. No un candado. Una carta.
+Si te interesa ese enfoque de la pausa, [Dear Wander](/es/) es una app de iOS construida alrededor de esta idea. Una pantalla cálida antes de que se abran tus apps. Sesenta segundos para volver a ti.

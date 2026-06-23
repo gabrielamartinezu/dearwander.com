@@ -93,6 +93,6 @@ Scegli quello che protegge il momento dell'estate che più ti dispiacerebbe perd
 
 ## Dove si inserisce Dear Wander
 
-Dear Wander è nato sulla stessa idea che sta dietro a ogni confine qui. Non un lucchetto, una lettera. Quando prendi un'app per abitudine, ti offre una pausa gentile invece di un muro rigido, un respiro invece di uno schermo bloccato. La stessa gentilezza che fa funzionare un cesto di telefoni, nella tua tasca, per i momenti che non avevi pianificato.
+Dear Wander è nato sulla stessa idea che sta dietro a ogni confine qui. Quando prendi un'app per abitudine, ti offre una pausa gentile invece di un muro rigido, un respiro invece di uno schermo bloccato. La stessa gentilezza che fa funzionare un cesto di telefoni, nella tua tasca, per i momenti che non avevi pianificato.
 
 Se proteggere la tua presenza quest'estate ti sembra qualcosa con cui vuoi aiuto, puoi [unirti alla lista d'attesa](/it/). Niente prediche. Solo un modo più gentile di stare dove sei.

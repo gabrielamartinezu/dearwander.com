@@ -99,4 +99,4 @@ Tu teléfono entrenó tu atención poco a poco, una notificación a la vez. Se r
 
 No tienes que cambiar tu relación con la tecnología esta semana. Pero la próxima vez que tu mano busque el celular sin razón, respira una vez antes de abrirlo. A veces esa sola respiración basta para que decidas tú.
 
-Si te llama ese enfoque de la pausa, [Dear Wander](/es/) es una app de iOS construida alrededor de esta idea. Una pantalla cálida antes de que se abran tus apps. Sesenta segundos para volver a ti. No un candado. Una carta.
+Si te llama ese enfoque de la pausa, [Dear Wander](/es/) es una app de iOS construida alrededor de esta idea. Una pantalla cálida antes de que se abran tus apps. Sesenta segundos para volver a ti.

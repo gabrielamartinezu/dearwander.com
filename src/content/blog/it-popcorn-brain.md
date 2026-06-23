@@ -95,4 +95,4 @@ Ciò che funziona è la stessa cosa che ha creato il problema: la ripetizione, m
 
 Ciascuno è un singolo chicco che non scoppia. Col tempo, la padella si fa più silenziosa.
 
-Se ti incuriosisce l'approccio della pausa con respirazione, [Dear Wander](/it/) sta costruendo un'app iOS intorno a esattamente questa idea. Uno schermo caldo prima di scrollare. Sessanta secondi di presenza guidata. Non un lucchetto. Una lettera.
+Se ti incuriosisce l'approccio della pausa con respirazione, [Dear Wander](/it/) sta costruendo un'app iOS intorno a esattamente questa idea. Uno schermo caldo prima di scrollare. Sessanta secondi di presenza guidata.

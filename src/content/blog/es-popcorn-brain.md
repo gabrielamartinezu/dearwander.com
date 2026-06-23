@@ -95,4 +95,4 @@ Lo que funciona es lo mismo que creó el problema: repetición, pero en la otra 
 
 Cada uno es una palomita que no revienta. Con el tiempo, la sartén se va quedando en silencio.
 
-Si te interesa el enfoque de la pausa con respiración, [Dear Wander](/es/) está construyendo una app de iOS alrededor de exactamente esta idea. Una pantalla cálida antes de hacer scroll. Sesenta segundos de presencia guiada. No un candado. Una carta.
+Si te interesa el enfoque de la pausa con respiración, [Dear Wander](/es/) está construyendo una app de iOS alrededor de exactamente esta idea. Una pantalla cálida antes de hacer scroll. Sesenta segundos de presencia guiada.

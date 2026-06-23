@@ -95,4 +95,4 @@ What works is the same thing that created the problem: repetition, but in the ot
 
 Each one is a single kernel that doesn't pop. Over time, the pan gets quieter.
 
-If you're curious about the breathing pause approach, [Dear Wander](/) is building an iOS app around exactly this idea. A warm screen before you scroll. Sixty seconds of guided presence. Not a lock. A letter.
+If you're curious about the breathing pause approach, [Dear Wander](/) is building an iOS app around exactly this idea. A warm screen before you scroll. Sixty seconds of guided presence.
