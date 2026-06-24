@@ -63,6 +63,15 @@ export const translations = {
     "diff.kind.title": "Never punitive",
     "diff.kind.body": "No shame metrics. No \"you failed\" messages. Only warmth, only letters, only presence.",
 
+    "appshow.title": "Inside Dear Wander",
+    "appshow.sub": "From reflex to choice, sixty seconds at a time.",
+    "appshow.pause.label": "The pause",
+    "appshow.pause.body": "A warm breathing screen meets you before the app opens. Sixty seconds back to yourself.",
+    "appshow.home.label": "Your day, gently",
+    "appshow.home.body": "Begin with an intention, then reach for calm instead of the feed.",
+    "appshow.journey.label": "Moments reclaimed",
+    "appshow.journey.body": "Not a streak to lose. The times you paused and put the phone down.",
+
     // Testimonials
     "testimonials.label": "What people are saying",
     "testimonials.1": "\"I've tried every screen time app. They all felt like punishment. Dear Wander is the first one that felt like a gift.\"",
@@ -159,6 +168,15 @@ export const translations = {
     "diff.kind.title": "Nunca punitivo",
     "diff.kind.body": "Sin métricas de vergüenza. Sin mensajes de \"fallaste\". Solo calidez, solo cartas, solo presencia.",
 
+    "appshow.title": "Por dentro de Dear Wander",
+    "appshow.sub": "Del impulso a la decisión, de a sesenta segundos.",
+    "appshow.pause.label": "La pausa",
+    "appshow.pause.body": "Una pantalla cálida de respiración aparece antes de que se abra la app. Sesenta segundos para volver a ti.",
+    "appshow.home.label": "Tu día, con calma",
+    "appshow.home.body": "Empieza con una intención y busca calma en lugar del feed.",
+    "appshow.journey.label": "Momentos recuperados",
+    "appshow.journey.body": "No una racha que perder. Las veces que pausaste y soltaste el teléfono.",
+
     "testimonials.label": "Lo que dicen las personas",
     "testimonials.1": "\"He probado todas las apps de tiempo en pantalla. Todas se sentían como castigo. Dear Wander es la primera que se sintió como un regalo.\"",
     "testimonials.1.author": "— Beta tester",
@@ -250,6 +268,15 @@ export const translations = {
     "diff.private.body": "I tuoi dati non lasciano mai il dispositivo. Nessun account. Nessun tracciamento. Solo tu e il tuo respiro.",
     "diff.kind.title": "Mai punitivo",
     "diff.kind.body": "Nessuna metrica di vergogna. Nessun messaggio \"hai fallito\". Solo calore, solo lettere, solo presenza.",
+
+    "appshow.title": "Dentro Dear Wander",
+    "appshow.sub": "Dal riflesso alla scelta, sessanta secondi alla volta.",
+    "appshow.pause.label": "La pausa",
+    "appshow.pause.body": "Uno schermo caldo di respirazione ti accoglie prima che l'app si apra. Sessanta secondi per tornare a te.",
+    "appshow.home.label": "La tua giornata, con calma",
+    "appshow.home.body": "Inizia con un'intenzione e cerca la calma invece del feed.",
+    "appshow.journey.label": "Momenti riconquistati",
+    "appshow.journey.body": "Non una serie da perdere. Le volte in cui ti sei fermata e hai posato il telefono.",
 
     "testimonials.label": "Cosa dicono le persone",
     "testimonials.1": "\"Ho provato ogni app per il tempo schermo. Tutte sembravano una punizione. Dear Wander è la prima che è sembrata un regalo.\"",

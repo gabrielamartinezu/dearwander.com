@@ -1,0 +1,52 @@
+---
+import { useTranslations } from "../i18n/utils";
+import type { Locale } from "../i18n/translations";
+
+interface Props { lang?: Locale; }
+const lang = (Astro.props.lang ?? "en") as Locale;
+const t = useTranslations(lang);
+
+const screens = [
+  { img: "/app/breathing.webp", label: t("appshow.pause.label"),   body: t("appshow.pause.body") },
+  { img: "/app/home.webp",      label: t("appshow.home.label"),    body: t("appshow.home.body") },
+  { img: "/app/journey.webp",   label: t("appshow.journey.label"), body: t("appshow.journey.body") },
+];
+---
+
+<section class="relative py-28 sm:py-36 px-6 bg-golden-mid overflow-hidden" id="app">
+  <div class="max-w-5xl mx-auto">
+    <div class="text-center mb-16 reveal">
+      <h2 class="font-wander text-3xl sm:text-4xl text-earth mb-4">{t("appshow.title")}</h2>
+      <p class="text-taupe text-lg font-light max-w-xl mx-auto">{t("appshow.sub")}</p>
+    </div>
+
+    <div class="grid sm:grid-cols-3 gap-12 sm:gap-8">
+      {screens.map((s, i) => (
+        <div class="text-center reveal" style={`transition-delay: ${0.1 + i * 0.15}s;`}>
+          <div class="phone-frame mx-auto mb-6">
+            <img src={s.img} alt={s.label} loading="lazy" width="280" height="608" />
+          </div>
+          <h3 class="font-wander text-xl text-earth mb-2">{s.label}</h3>
+          <p class="text-cocoa/75 font-light text-sm leading-relaxed max-w-xs mx-auto">{s.body}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .phone-frame {
+    width: 250px;
+    max-width: 72%;
+    padding: 7px;
+    border-radius: 2.6rem;
+    background: linear-gradient(155deg, #3a2719, #2A1810);
+    box-shadow: 0 24px 55px -14px rgba(42, 24, 16, 0.45);
+  }
+  .phone-frame img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 2.1rem;
+  }
+</style>
