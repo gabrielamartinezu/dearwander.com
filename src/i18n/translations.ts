@@ -95,6 +95,7 @@ export const translations = {
     "footer.cta": "Dear Wander, come back.",
     "footer.ctaBody": "Be the first to receive your letter. Join the waitlist and we'll write to you when we're ready.",
     "footer.privacy": "Privacy",
+    "footer.terms": "Terms",
 
     // Lang switcher
     "lang.label": "Language",
@@ -197,6 +198,7 @@ export const translations = {
     "footer.cta": "Dear Wander, vuelve.",
     "footer.ctaBody": "Sé la primera en recibir tu carta. Únete a la lista y te escribiremos cuando estemos listos.",
     "footer.privacy": "Privacidad",
+    "footer.terms": "Términos",
 
     "lang.label": "Idioma",
 
@@ -298,6 +300,7 @@ export const translations = {
     "footer.cta": "Dear Wander, torna.",
     "footer.ctaBody": "Sii la prima a ricevere la tua lettera. Iscriviti alla lista e ti scriveremo quando saremo pronti.",
     "footer.privacy": "Privacy",
+    "footer.terms": "Termini",
 
     "lang.label": "Lingua",
 
