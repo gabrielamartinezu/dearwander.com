@@ -1,6 +1,6 @@
 ---
-title: "Why screen time limits don't work (and what to do instead)"
-description: "The 'Ignore Limit' button exists because Apple knows you'll press it. The psychology behind why restrictions backfire, and what works instead."
+title: "Why screen time limits don't work (and what finally does)"
+description: "You press 'Ignore Limit' without thinking, every time. The limits were never built to hold. The psychology behind why, and a gentler approach that sticks."
 date: 2026-05-04
 author: "Dear Wander"
 tags: ["screen time", "psychology", "phone addiction", "strategies"]

@@ -66,6 +66,32 @@ Two weeks after the 2026-06-18 changes. Export Queries + Pages (last 3 months) t
 
 After comparing: pick the next page sitting in the position 8-15 band and run the same playbook (sharpen title → fill bleeding queries → internal links).
 
+## ✅ Results — 2026-07-02 (2 weeks after the 2026-06-18 changes)
+Site totals: **~1,800 → ~2,700+ impressions**, **~26 → ~30 clicks** (+15%). Modest, and the demand is broadening (summer, vagus-nerve, hide/lock, calculator all indexing now).
+
+The two flagship bets did **not** move:
+- **App-blockers**: impressions grew 693 → **837**, but still **position ~11.6/13, 0 clicks**. Content sections didn't move ranking in 2 weeks. Needs authority/backlinks + internal links, not more content. Harder climb than assumed.
+- **"gen z phone addiction statistics"**: stuck at **10.22**, 0 clicks. Right at the page-1 cliff.
+- **"imaginación guiada"**: **54.5**, no change. ES optimization hasn't landed. ("imaginería guiada" still 81.)
+
+**New top opportunity found:** `/blog/why-screen-time-limits-dont-work` has **194 impressions at position 8.78 (page 1) with ~1 click** — a high-impression page-1 page with a terrible CTR. Faster win than pushing page-2 pages up. → **Sharpened its title + meta on 2026-07-02** ("...and what finally does" + the 'Ignore Limit' hook in the meta). Watch its CTR next pull.
+
+Wins to build on:
+- **Spanish converts**: es-stats 31→43 imp, 4→5 clicks, **11.6% CTR**. Keep feeding ES.
+- **Calculator now indexed** (pos 21; "screen time calculator" pos 69) — Pinterest pins just launched pointing to it; watch.
+- **Summer cluster live**: phone-boundaries-summer pos 7.5, es-summer pos 9.
+- **dopamine-detox** jumped 73 → 39.
+- **Vagus-nerve** query cluster emerging (pos 60-90) — low-competition niche to conquer via the vagus post + interlinking.
+- **Italian ranks 3-6** consistently (low volume, cheap wins).
+
+### Next queue (after 2026-07-02)
+1. ✅ Done: title/meta on `why-screen-time-limits-dont-work` (the fastest CTR win).
+2. Refresh the stats post + interlink to nudge "gen z" and the head term from pos 9-10 to top-of-page-1.
+3. App-blockers: accept it needs authority/backlinks + internal links, not more content.
+4. Interlink hard toward the **calculator** and the **vagus-nerve** post from high-traffic pages.
+
+**Next checkpoint: re-pull GSC ~2026-07-16** (watch the why-screen-time-limits CTR and whether the summer/calculator pages climb).
+
 ## Don't chase
 - Vanity impressions from off-brand queries.
 - Clicks on pages stuck past position 20 — fix position first (links + relevance), then worry about CTR.
