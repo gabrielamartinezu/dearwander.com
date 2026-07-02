@@ -35,7 +35,7 @@ Both happen automatically. You don't decide to be triggered. You don't decide to
 
 This is where polyvagal theory enters. Developed by neuroscientist Stephen Porges, the theory describes how your autonomic nervous system constantly evaluates your environment for cues of danger or safety. Porges called this process neuroception. It happens below conscious awareness, faster than thought.
 
-Your nervous system doesn't wait for you to analyze a situation. It reads the room. Tone of voice, body language, lighting, temperature, sounds. If it detects threat, your body mobilizes: heart rate up, muscles tense, breath shallow. If it detects safety, the ventral vagal pathway activates. Heart rate steadies. Breath deepens. Your body opens toward connection.
+Your nervous system doesn't wait for you to analyze a situation. It reads the room. Tone of voice, body language, lighting, temperature, sounds. If it detects threat, your body mobilizes: heart rate up, muscles tense, breath shallow. If it detects safety, the ventral vagal pathway activates. Heart rate steadies. Breath deepens. This is the same [vagus nerve you can reach directly through a slow exhale](/blog/vagus-nerve-breathing/), which is why breathing is one of the few conscious ways into this system. Your body opens toward connection.
 
 A 2025 publication in *Clinical Neuropsychiatry* confirmed that polyvagal theory's clinical applications hold up under scrutiny, particularly in understanding how people move between states of safety, mobilization, and shutdown. This isn't just theory. It maps onto what therapists see every day.
 

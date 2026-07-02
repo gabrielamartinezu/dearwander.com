@@ -55,7 +55,7 @@ La combinación es demoledora. Necesitabas 20 minutos de tiempo personal. El mó
 
 No necesitas transformar tu vida esta noche. Necesitas un momento de espacio entre el impulso y el scroll.
 
-Una [pausa de respiración de 60 segundos](/blog/science-of-the-60-second-pause/) puede servir como esa interrupción. Cuando notes que estás buscando el móvil a la hora de dormir, o cuando te pilles en pleno scroll pensando "debería parar," esa es la ventana. Sesenta segundos de respiración lenta y deliberada sacan a tu sistema nervioso del bucle de estimulación y lo llevan a un estado donde soltar el móvil se siente posible en vez de doloroso.
+Una [pausa de respiración de 60 segundos](/blog/science-of-the-60-second-pause/) puede servir como esa interrupción. Cuando notes que estás buscando el móvil a la hora de dormir, o cuando te pilles en pleno scroll pensando "debería parar," esa es la ventana. Sesenta segundos de [respiración lenta y deliberada](/blog/es-vagus-nerve-breathing/) sacan a tu sistema nervioso del bucle de estimulación y lo llevan a un estado donde soltar el móvil se siente posible en vez de doloroso.
 
 Esto funciona porque aborda el problema real. El scroll no va de contenido. Va de evitar la transición de "despierto/a y mío" a "dormido/a y se acabó." Una pausa de respiración te da una versión de ese momento personal sin la pantalla. Sigue siendo tuyo. Solo que no te cuesta horas de sueño.
 

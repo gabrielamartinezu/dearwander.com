@@ -55,7 +55,7 @@ The combination is brutal. You needed 20 minutes of personal time. The phone gav
 
 You don't need to overhaul your life tonight. You need one moment of space between the impulse and the scroll.
 
-A [60-second breathing pause](/blog/science-of-the-60-second-pause/) can serve as that interruption. When you notice yourself reaching for the phone at bedtime, or when you catch yourself mid-scroll and think "I should stop," that's the window. Sixty seconds of slow, deliberate breathing shifts your nervous system out of the stimulation loop and into a state where putting the phone down feels possible rather than painful.
+A [60-second breathing pause](/blog/science-of-the-60-second-pause/) can serve as that interruption. When you notice yourself reaching for the phone at bedtime, or when you catch yourself mid-scroll and think "I should stop," that's the window. Sixty seconds of [slow, deliberate breathing](/blog/vagus-nerve-breathing/) shifts your nervous system out of the stimulation loop and into a state where putting the phone down feels possible rather than painful.
 
 This works because it addresses the real problem. The scroll isn't about content. It's about avoiding the transition from "awake and mine" to "asleep and gone." A breathing pause gives you a version of that personal moment without the screen. It's still yours. It just doesn't cost you sleep.
 

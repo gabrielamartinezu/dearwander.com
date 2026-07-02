@@ -32,7 +32,7 @@ Cuando se inserta un ejercicio de respiración entre la señal y la rutina, algo
 
 **Segundos 10-30: Activación prefrontal.** Con la secuencia automática rota, tu corteza prefrontal entra en juego. Esta es la región cerebral responsable de las funciones ejecutivas, planificación, toma de decisiones, regulación de impulsos. Ha estado esencialmente dormida durante el patrón habitual de alcanzar-y-deslizar. Ahora está activa, y está preguntando: *¿Realmente quiero hacer esto?*
 
-**Segundos 30-60: Activación parasimpática.** La respiración lenta y rítmica activa el sistema nervioso parasimpático, el modo de "descanso y digestión" del cuerpo. La frecuencia cardíaca baja. Los niveles de cortisol disminuyen. La urgencia que impulsó el gesto inicial se disuelve. Ya no estás en un estado reactivo. Estás en uno receptivo.
+**Segundos 30-60: Activación parasimpática.** La respiración lenta y rítmica activa el sistema nervioso parasimpático, el modo de "descanso y digestión" del cuerpo. El mecanismo es la [exhalación larga activando tu nervio vago](/blog/es-vagus-nerve-breathing/), que libera acetilcolina y frena el corazón. La frecuencia cardíaca baja. Los niveles de cortisol disminuyen. La urgencia que impulsó el gesto inicial se disuelve. Ya no estás en un estado reactivo. Estás en uno receptivo.
 
 Para cuando los sesenta segundos terminan, eres un tomador de decisiones fundamentalmente diferente a la persona que agarró el teléfono.
 

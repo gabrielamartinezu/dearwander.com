@@ -32,7 +32,7 @@ When a breathing exercise is inserted between the cue and the routine, something
 
 **Seconds 10-30: Prefrontal engagement.** With the automatic sequence broken, your prefrontal cortex comes online. This is the brain region responsible for executive function. planning, decision-making, impulse regulation. It's been essentially asleep during the habitual reach-and-scroll pattern. Now it's active, and it's asking: *Do I actually want to do this?*
 
-**Seconds 30-60: Parasympathetic activation.** Slow, rhythmic breathing activates the parasympathetic nervous system. the body's "rest and digest" mode. Heart rate drops. Cortisol levels decrease. The urgency that drove the initial reach dissolves. You're no longer in a reactive state. You're in a responsive one.
+**Seconds 30-60: Parasympathetic activation.** Slow, rhythmic breathing activates the parasympathetic nervous system. the body's "rest and digest" mode. The mechanism is the [long exhale working your vagus nerve](/blog/vagus-nerve-breathing/), which releases acetylcholine and eases the heart. Heart rate drops. Cortisol levels decrease. The urgency that drove the initial reach dissolves. You're no longer in a reactive state. You're in a responsive one.
 
 By the time the sixty seconds are over, you're a fundamentally different decision-maker than the person who picked up the phone.
 
