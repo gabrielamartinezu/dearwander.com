@@ -124,7 +124,7 @@
       "title": "The Secret Garden",
       "durationSeconds": 180,
       "audioFileName": "secret_garden_en",
-      "audioURL": "https://dearwander.com/audio/secret_garden_en.mp3",
+      "audioURL": null,
       "theme": "morning",
       "locale": "en",
       "gradientColors": [
@@ -137,7 +137,7 @@
       "title": "El Jardín Secreto",
       "durationSeconds": 180,
       "audioFileName": "secret_garden_es",
-      "audioURL": "https://dearwander.com/audio/secret_garden_es.mp3",
+      "audioURL": null,
       "theme": "morning",
       "locale": "es",
       "gradientColors": [
@@ -150,7 +150,7 @@
       "title": "The Quiet Tide",
       "durationSeconds": 180,
       "audioFileName": "quiet_tide_en",
-      "audioURL": "https://dearwander.com/audio/quiet_tide_en.mp3",
+      "audioURL": null,
       "theme": "evening",
       "locale": "en",
       "gradientColors": [
@@ -163,7 +163,7 @@
       "title": "La Marea Quieta",
       "durationSeconds": 180,
       "audioFileName": "quiet_tide_es",
-      "audioURL": "https://dearwander.com/audio/quiet_tide_es.mp3",
+      "audioURL": null,
       "theme": "evening",
       "locale": "es",
       "gradientColors": [
