@@ -1,0 +1,216 @@
+{
+  "version": 2,
+  "dailyPrompts": [
+    {
+      "id": "dp_001",
+      "text": "What would make today feel complete?",
+      "theme": "intention"
+    },
+    {
+      "id": "dp_002",
+      "text": "Name one thing you're grateful for right now.",
+      "theme": "gratitude"
+    },
+    {
+      "id": "dp_003",
+      "text": "What do you need to let go of today?",
+      "theme": "reflection"
+    },
+    {
+      "id": "dp_004",
+      "text": "How do you want to feel by the end of today?",
+      "theme": "intention"
+    },
+    {
+      "id": "dp_005",
+      "text": "What is one kind thing you can do for yourself today?",
+      "theme": "gratitude"
+    },
+    {
+      "id": "dp_006",
+      "text": "What are you carrying that isn't yours to hold?",
+      "theme": "reflection"
+    },
+    {
+      "id": "dp_007",
+      "text": "If today were a fresh start, what would you do first?",
+      "theme": "intention"
+    },
+    {
+      "id": "dp_008",
+      "text": "What small moment brought you peace recently?",
+      "theme": "gratitude"
+    },
+    {
+      "id": "dp_009",
+      "text": "What would your most grounded self do right now?",
+      "theme": "reflection"
+    },
+    {
+      "id": "dp_010",
+      "text": "Where in your body do you feel most calm?",
+      "theme": "reflection"
+    },
+    {
+      "id": "dp_011",
+      "text": "What is one boundary you can honor today?",
+      "theme": "intention"
+    },
+    {
+      "id": "dp_012",
+      "text": "Who made your world a little brighter this week?",
+      "theme": "gratitude"
+    },
+    {
+      "id": "dp_013",
+      "text": "What thought keeps returning? Can you name it without judging it?",
+      "theme": "reflection"
+    },
+    {
+      "id": "dp_014",
+      "text": "What would rest look like for you today?",
+      "theme": "intention"
+    }
+  ],
+  "breathingSessions": [
+    {
+      "id": "bs_001",
+      "name": "Mantra Breathing",
+      "inhaleSeconds": 4,
+      "holdSeconds": 4,
+      "exhaleSeconds": 4,
+      "totalSeconds": 60,
+      "inhalePrompt": "I breathe in possibility.",
+      "holdPrompt": "I hold my focus.",
+      "exhalePrompt": "{{anchor}}"
+    },
+    {
+      "id": "bs_002",
+      "name": "Deep Calm",
+      "inhaleSeconds": 4,
+      "holdSeconds": 2,
+      "exhaleSeconds": 6,
+      "totalSeconds": 72,
+      "inhalePrompt": "I breathe in stillness.",
+      "holdPrompt": "I am here.",
+      "exhalePrompt": "I release what I cannot control."
+    },
+    {
+      "id": "bs_003",
+      "name": "Morning Reset",
+      "inhaleSeconds": 4,
+      "holdSeconds": 4,
+      "exhaleSeconds": 6,
+      "totalSeconds": 84,
+      "inhalePrompt": "I welcome this new day.",
+      "holdPrompt": "I am ready.",
+      "exhalePrompt": "{{anchor}}"
+    },
+    {
+      "id": "bs_004",
+      "name": "Evening Unwind",
+      "inhaleSeconds": 4,
+      "holdSeconds": 4,
+      "exhaleSeconds": 8,
+      "totalSeconds": 80,
+      "inhalePrompt": "I gather what I need.",
+      "holdPrompt": "I let it settle.",
+      "exhalePrompt": "I let the day go."
+    }
+  ],
+  "guidedSessions": [
+    {
+      "id": "gs_001",
+      "title": "The Secret Garden",
+      "durationSeconds": 180,
+      "audioFileName": "secret_garden_en",
+      "audioURL": "https://dearwander.com/audio/secret_garden_en.mp3",
+      "theme": "morning",
+      "locale": "en",
+      "gradientColors": [
+        "4A7C59",
+        "1A2F1A"
+      ]
+    },
+    {
+      "id": "gs_002",
+      "title": "El Jardín Secreto",
+      "durationSeconds": 180,
+      "audioFileName": "secret_garden_es",
+      "audioURL": "https://dearwander.com/audio/secret_garden_es.mp3",
+      "theme": "morning",
+      "locale": "es",
+      "gradientColors": [
+        "4A7C59",
+        "1A2F1A"
+      ]
+    },
+    {
+      "id": "gs_003",
+      "title": "The Quiet Tide",
+      "durationSeconds": 180,
+      "audioFileName": "quiet_tide_en",
+      "audioURL": "https://dearwander.com/audio/quiet_tide_en.mp3",
+      "theme": "evening",
+      "locale": "en",
+      "gradientColors": [
+        "2E236C",
+        "0A0E24"
+      ]
+    },
+    {
+      "id": "gs_004",
+      "title": "La Marea Quieta",
+      "durationSeconds": 180,
+      "audioFileName": "quiet_tide_es",
+      "audioURL": "https://dearwander.com/audio/quiet_tide_es.mp3",
+      "theme": "evening",
+      "locale": "es",
+      "gradientColors": [
+        "2E236C",
+        "0A0E24"
+      ]
+    }
+  ],
+  "groundingVariants": [
+    {
+      "id": "gv_001",
+      "name": "5-4-3-2-1 Senses",
+      "steps": [
+        {
+          "count": 5,
+          "sense": "See",
+          "prompt": "Find 5 things\nyou can see."
+        },
+        {
+          "count": 4,
+          "sense": "Touch",
+          "prompt": "Notice 4 things\nyou can touch."
+        },
+        {
+          "count": 3,
+          "sense": "Hear",
+          "prompt": "Listen for 3 things\nyou can hear."
+        },
+        {
+          "count": 2,
+          "sense": "Smell",
+          "prompt": "Find 2 things\nyou can smell."
+        },
+        {
+          "count": 1,
+          "sense": "Taste",
+          "prompt": "Notice 1 thing\nyou can taste."
+        }
+      ]
+    }
+  ],
+  "weeklyLetters": [
+    {
+      "id": "wl_001",
+      "weekOf": "2026-04-20",
+      "title": "On patience",
+      "body": "Dear Wander,\n\nPatience isn't waiting passively. It's trusting that the right moment will arrive — and being ready when it does.\n\nThis week, try noticing where you rush. Not to stop rushing, but just to see it. That noticing is the first act of patience.\n\nWith warmth."
+    }
+  ]
+}
