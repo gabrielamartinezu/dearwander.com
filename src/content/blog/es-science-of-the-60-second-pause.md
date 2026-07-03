@@ -62,15 +62,13 @@ Cada vez que respiras a través de la señal y eliges no hacer scroll, estás de
 
 Simultáneamente, estás fortaleciendo una nueva vía: una donde la señal lleva a la presencia en lugar de a la distracción. Con las semanas, el gesto automático se vuelve menos automático. La pausa se vuelve menos necesaria porque el hábito mismo está cambiando.
 
-La investigación sobre formación de hábitos sugiere que este recableado toma aproximadamente **18 a 254 días**, con una mediana de unos 66 días. La varianza es grande porque los hábitos difieren en complejidad. Pero la dirección es consistente: cada interrupción consciente hace que la siguiente sea más fácil.
+La investigación sobre formación de hábitos sugiere que este recableado toma aproximadamente **18 a 254 días**, con una media de unos 66 días.[^lally] El rango es amplio y proviene de un estudio pequeño, pero la dirección es consistente: cada interrupción consciente hace que la siguiente sea más fácil.
 
 ## La respiración como intervención
 
 Hay una razón por la que elegimos la respiración, no un quiz, no una cita motivacional, no un contador de tiempo en pantalla que genere culpa.
 
 La respiración es la única función autónoma que también está bajo control voluntario. Cuando deliberadamente desaceleras tu respiración, estás modulando directamente tu sistema nervioso. Estás pasando de simpático (lucha-o-huida, estrés, reactividad) a parasimpático (calma, presencia, elección).
-
-Un ensayo controlado aleatorizado de 2025 publicado en *Mindfulness* encontró que los participantes que completaron breves ejercicios de respiración antes del uso del teléfono redujeron su tiempo en pantalla diario en un promedio de **42 minutos** durante 8 semanas, sin ninguna restricción de apps.
 
 Respirar conecta lo reactivo con lo consciente.
 
@@ -89,3 +87,5 @@ Y después, nos quitamos del camino.
 *La pausa de 60 segundos es el corazón de Dear Wander, próximamente en iOS. Si quieres ser la primera en experimentarla, [únete a la lista de espera](/es/).*
 
 [^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)
+
+[^lally]: Lally, P., van Jaarsveld, C. H. M., Potts, H. W. W., & Wardle, J. (2010). How are habits formed: modelling habit formation in the real world. *European Journal of Social Psychology*, 40(6), 998–1009. [doi.org/10.1002/ejsp.674](https://doi.org/10.1002/ejsp.674)

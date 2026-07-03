@@ -12,7 +12,7 @@ faq:
   - q: "¿Es la adicción al teléfono una adicción real?"
     a: "Aunque la 'adicción al smartphone' no es un diagnóstico clínico formal en el DSM-5, los patrones de comportamiento comparten similitudes significativas con las adicciones conductuales reconocidas, incluyendo circuitos de recompensa de dopamina, desarrollo de tolerancia y síntomas de abstinencia."
   - q: "¿Qué grupo de edad es el más afectado por la adicción al teléfono?"
-    a: "La Generación Z (12-27 años) y los millennials más jóvenes muestran las tasas más altas de uso problemático del smartphone, con un 82% de la Gen Z reconociendo sus propios hábitos problemáticos con el teléfono."
+    a: "La Generación Z (12-27 años) y los millennials más jóvenes muestran las tasas más altas de uso problemático del smartphone, y muchos jóvenes reconocen sus propios hábitos problemáticos con el teléfono."
 ---
 
 Hay un momento, quizás lo hayas sentido, en el que coges el teléfono sin querer hacerlo. Sin notificación. Sin razón. Solo el gesto. Tu pulgar se movió antes de que decidieras.
@@ -54,7 +54,7 @@ No son correlaciones dramáticas, pero son consistentes, y se acumulan con el ti
 
 ## La Gen Z sabe que tiene un problema
 
-El **82% de la Generación Z** reconoce tener una relación problemática con su teléfono. No les falta conciencia. Lo que falta es cerrar la brecha entre saber y hacer.
+Muchos de la Generación Z reconocen tener una relación problemática con su teléfono. No les falta conciencia. Lo que falta es cerrar la brecha entre saber y hacer.
 
 Más datos:
 
@@ -87,9 +87,9 @@ No todos los datos son desalentadores. Los estudios han identificado enfoques es
 
 **Intervenciones basadas en fricción**, Un estudio de 2023 publicado en *PNAS* encontró que una breve pausa en pantalla antes de las apps sociales (una espera corta y un aviso preguntándote si de verdad quieres continuar) redujo los intentos de abrir apps en un **57%** durante seis semanas.[^pnas] La idea clave: no necesitas bloquear el acceso. Solo necesitas crear un momento de elección.
 
-**Diseño ambiental**, Cargar tu teléfono en otra habitación reduce el scrolling antes de dormir en un **47%**. Eliminar apps de la pantalla principal añade un paso extra que frena el gesto automático. Pequeños cambios espaciales crean grandes cambios de comportamiento.
+**Diseño ambiental**, Cargar tu teléfono en otra habitación reduce el scrolling antes de dormir. Eliminar apps de la pantalla principal añade un paso extra que frena el gesto automático. Pequeños cambios espaciales crean grandes cambios de comportamiento.
 
-**Enfoques basados en mindfulness**, Un ensayo controlado aleatorizado de 2025 encontró que ejercicios breves de atención plena antes del uso del teléfono redujeron el tiempo en pantalla diario en un promedio de **42 minutos** durante 8 semanas. La pausa, resulta, es la intervención.
+**Enfoques basados en mindfulness**, Hacer una breve pausa deliberada antes de abrir una app puede interrumpir el bucle automático del hábito. La pausa, resulta, es la intervención.
 
 Esto es lo que estamos construyendo en [Dear Wander](/es/). No un bloqueo. No un temporizador. Una pausa de respiración de 60 segundos que le da a tu corteza prefrontal la oportunidad de alcanzar a tu pulgar. [La ciencia detrás](/blog/science-of-the-60-second-pause/) es convincente, y no requiere fuerza de voluntad.
 

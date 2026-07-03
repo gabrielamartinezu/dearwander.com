@@ -77,7 +77,7 @@ On iPhone: Settings > Accessibility > Display & Text Size > Color Filters > Gray
 
 ### Set a physical phone spot
 
-Designate a place in your home where your phone lives when you're not actively using it. A shelf. A drawer. A basket by the door. The goal is to make your phone something you walk to intentionally, not something always within arm's reach. This single change [reduced pre-sleep scrolling by 47%](/blog/how-to-stop-doomscrolling/) in a University of British Columbia study.
+Designate a place in your home where your phone lives when you're not actively using it. A shelf. A drawer. A basket by the door. The goal is to make your phone something you walk to intentionally, not something always within arm's reach. This single change [cuts down on late-night scrolling](/blog/how-to-stop-doomscrolling/) by removing the phone from your nightstand entirely.
 
 ### Add a breathing pause
 

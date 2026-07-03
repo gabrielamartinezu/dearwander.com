@@ -65,7 +65,7 @@ Prima di dormire, nomina tre piccole cose belle della giornata. L'odore dell'erb
 
 Niente di tutto questo è difficile. Allora perché il telefono vince comunque quasi tutte le sere?
 
-Perché è progettato per farlo. L'attenzione media su uno schermo prima di passare ad altro è scesa a circa 47 secondi, secondo la ricerca di Gloria Mark alla UC Irvine. Il feed è fatto per ricaricarsi appena arrivi in fondo. Accanto a un lago, a un taccuino o a una veranda tranquilla, lo scroll è più veloce, più vicino e non ti chiede nulla.
+Perché è progettato per farlo. L'attenzione media su uno schermo prima di passare ad altro è scesa a circa 47 secondi, secondo la ricerca di Gloria Mark alla UC Irvine.[^attention] È una media misurata tra le persone, non un limite fisso per nessuna di noi. Il feed è fatto per ricaricarsi appena arrivi in fondo. Accanto a un lago, a un taccuino o a una veranda tranquilla, lo scroll è più veloce, più vicino e non ti chiede nulla.
 
 Ecco la trappola. La cosa facile e la cosa vuota sono la stessa cosa.
 
@@ -80,3 +80,5 @@ L'obiettivo è più piccolo e più realistico. Poche fasce protette. La prima or
 L'estate è già in movimento. La luce va via un po' prima ogni settimana. Scegli una cosa da questa lista, lascia il telefono dove non arrivi e vai a stare fuori per la parte che ricorderai davvero.
 
 È tutta qui l'idea dietro Dear Wander: una spinta gentile per usare il telefono apposta, così la stagione non scivola via dietro il vetro. Se un'estate più lenta ti suona bene, [vieni a vedere cosa stiamo costruendo](/it/).
+
+[^attention]: Mark, G. (2023). *Attention Span: A Groundbreaking Way to Restore Balance, Happiness and Productivity.* Hanover Square Press.

@@ -66,15 +66,13 @@ Each time you breathe through the cue and choose not to scroll, you're weakening
 
 Simultaneously, you're strengthening a new pathway: one where the cue leads to presence rather than distraction. Over weeks, the automatic reach becomes less automatic. The pause becomes less necessary because the habit itself is changing.
 
-Research on habit formation suggests this rewiring takes approximately **18 to 254 days**, with a median of about 66 days. The variance is large because habits differ in complexity. But the direction is consistent: every conscious interruption makes the next one easier.
+Research on habit formation suggests this rewiring takes approximately **18 to 254 days**, with a mean of about 66 days.[^lally] The range is wide, and it comes from a small study, but the direction is consistent: every conscious interruption makes the next one easier.
 
 ## Breathing as the intervention
 
 We chose breathing for a reason. Not a quiz. Not a motivational quote. Not a guilt-inducing counter.
 
 Breathing is the only autonomic function that is also under voluntary control. When you deliberately slow your breath, you're directly modulating your nervous system. You're shifting from sympathetic (fight-or-flight, stress, reactivity) to parasympathetic (calm, presence, choice).
-
-A 2025 randomized controlled trial published in *Mindfulness* found that participants who completed brief breathing exercises before phone use reduced their daily screen time by an average of **42 minutes** over 8 weeks. without any app restrictions.
 
 Breathing bridges the gap between reacting and choosing.
 
@@ -91,3 +89,5 @@ Each design choice serves one goal: give your conscious mind a chance to show up
 *The 60-second pause is the core of Dear Wander. coming soon to iOS. If you want to be the first to experience it, [join the waitlist](/).*
 
 [^onesec]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)
+
+[^lally]: Lally, P., van Jaarsveld, C. H. M., Potts, H. W. W., & Wardle, J. (2010). How are habits formed: modelling habit formation in the real world. *European Journal of Social Psychology*, 40(6), 998–1009. [doi.org/10.1002/ejsp.674](https://doi.org/10.1002/ejsp.674)

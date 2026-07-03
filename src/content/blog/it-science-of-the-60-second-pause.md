@@ -62,15 +62,13 @@ Ogni volta che respiri attraverso il segnale e scegli di non scorrere, stai inde
 
 Simultaneamente, stai rafforzando un nuovo percorso: uno in cui il segnale porta alla presenza invece che alla distrazione. Nel giro di settimane, il gesto automatico diventa meno automatico. La pausa diventa meno necessaria perché l'abitudine stessa sta cambiando.
 
-La ricerca sulla formazione delle abitudini suggerisce che questo ricablaggio richiede circa **18-254 giorni**, con una mediana di circa 66 giorni. La varianza è ampia perché le abitudini differiscono in complessità. Ma la direzione è coerente: ogni interruzione consapevole rende la successiva più facile.
+La ricerca sulla formazione delle abitudini suggerisce che questo ricablaggio richiede circa **18-254 giorni**, con una media di circa 66 giorni.[^lally] L'intervallo è ampio e proviene da uno studio piccolo, ma la direzione è coerente: ogni interruzione consapevole rende la successiva più facile.
 
 ## La respirazione come intervento
 
 C'è una ragione per cui abbiamo scelto la respirazione, non un quiz, non una citazione motivazionale, non un contatore di tempo schermo che genera sensi di colpa.
 
 La respirazione è l'unica funzione autonomica che è anche sotto controllo volontario. Quando rallenti deliberatamente il respiro, stai modulando direttamente il tuo sistema nervoso. Stai passando da simpatico (lotta-o-fuga, stress, reattività) a parasimpatico (calma, presenza, scelta).
-
-Un trial controllato randomizzato del 2025 pubblicato su *Mindfulness* ha scoperto che i partecipanti che hanno completato brevi esercizi di respirazione prima dell'uso del telefono hanno ridotto il tempo schermo giornaliero in media di **42 minuti** in 8 settimane, senza alcuna restrizione delle app.
 
 Respirare collega il cervello reattivo a quello consapevole.
 
@@ -87,3 +85,5 @@ Ogni scelta di design serve un unico obiettivo: dare alla mente consapevole la p
 *La pausa di 60 secondi è il cuore di Dear Wander, in arrivo su iOS. Se vuoi essere tra i primi a sperimentarla, [iscriviti alla lista d'attesa](/it/).*
 
 [^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)
+
+[^lally]: Lally, P., van Jaarsveld, C. H. M., Potts, H. W. W., & Wardle, J. (2010). How are habits formed: modelling habit formation in the real world. *European Journal of Social Psychology*, 40(6), 998–1009. [doi.org/10.1002/ejsp.674](https://doi.org/10.1002/ejsp.674)

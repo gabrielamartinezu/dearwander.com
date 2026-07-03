@@ -1,12 +1,12 @@
 ---
 title: "Nomofobia: qué es, señales y cómo dejar de depender tanto del celular"
-description: "La nomofobia es el miedo a estar sin el celular. Afecta al 70% de la población en España. Aquí tienes las señales, por qué pasa y cómo soltar el teléfono sin castigarte."
+description: "La nomofobia es el miedo a estar sin el celular. Cerca de la mitad de las personas muestran al menos un grado moderado. Aquí tienes las señales, por qué pasa y cómo soltar el teléfono sin castigarte."
 date: 2026-06-18
 author: "Dear Wander"
 tags: ["nomofobia", "adicción al móvil", "adicción al celular", "bienestar digital", "desconexión digital"]
 faq:
   - q: "¿Qué es la nomofobia?"
-    a: "Nomofobia viene del inglés 'no-mobile-phone-phobia': el miedo irracional a quedarte sin el celular, perderlo, quedarte sin batería o sin señal. No es un diagnóstico clínico oficial, pero describe un patrón real de ansiedad ligado a la dependencia del teléfono. En España se estima que afecta al 70% de la población y al 81% de los jóvenes de 18 a 35 años."
+    a: "Nomofobia viene del inglés 'no-mobile-phone-phobia': el miedo irracional a quedarte sin el celular, perderlo, quedarte sin batería o sin señal. No es un diagnóstico clínico oficial, pero describe un patrón real de ansiedad ligado a la dependencia del teléfono. Cerca de la mitad de las personas muestran al menos un grado moderado de nomofobia."
   - q: "¿Cuáles son las señales de la nomofobia?"
     a: "Revisar el teléfono apenas despiertas, sentir ansiedad cuando la batería baja, llevarte el celular incluso al baño, revisarlo sin ninguna razón en cada momento de silencio, y sentirte inquieto cuando lo dejas en otra habitación. Si estar sin el teléfono te genera malestar, ese es el patrón."
   - q: "¿La nomofobia tiene cura?"
@@ -23,7 +23,7 @@ Ese pequeño momento de pánico tiene nombre. Se llama nomofobia, y es más com�
 
 Nomofobia viene del inglés "no-mobile-phone-phobia": el miedo a estar sin el teléfono. Describe la ansiedad que aparece cuando te quedas sin celular, sin batería, sin señal o simplemente lejos del aparato.
 
-No es un diagnóstico médico oficial. Es un término que describe un patrón, y el patrón es real. En España se calcula que afecta al **70% de la población** y sube al **81% entre los jóvenes de 18 a 35 años**, donde el uso diario del móvil supera las cinco horas. En México, el tiempo promedio en internet ronda las ocho horas al día.
+No es un diagnóstico médico oficial. Es un término que describe un patrón, y el patrón es real. Se estima que **cerca de la mitad de las personas muestran al menos un grado moderado de nomofobia**.[^nomophobia] En España el uso diario del móvil supera las cinco horas y en México el tiempo promedio en internet ronda las ocho horas al día.
 
 La palabra cambia según el país. En España se dice "adicción al móvil." En México, Perú y la mayoría de Latinoamérica, "adicción al celular." El malestar es el mismo.
 
@@ -76,3 +76,5 @@ No tienes que hacerlo todo hoy. Una respiración antes de abrir Instagram esta n
 Si te interesa ese enfoque de la pausa, [Dear Wander](/es/) es una app de iOS construida alrededor de esta idea. Una pantalla cálida antes de que se abran tus apps. Sesenta segundos para volver a ti.
 
 [^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)
+
+[^nomophobia]: Jahrami, H., et al. (2023). The prevalence of mild, moderate, and severe nomophobia symptoms: a systematic review and meta-analysis. *Behavioral Sciences*, 13(1), 35. [doi.org/10.3390/bs13010035](https://doi.org/10.3390/bs13010035)

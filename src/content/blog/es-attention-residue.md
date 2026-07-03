@@ -49,7 +49,7 @@ Hay una razón física para el retraso, y vive en tu corteza prefrontal.
 
 Cuando cambias de tarea, la corteza prefrontal tiene que reconfigurar sus redes. Descarga las reglas y el contexto de la tarea vieja y carga los de la nueva. Esa reconfiguración lleva tiempo y te hace más propenso a errores en los momentos justo después. No te imaginas la torpeza. Tu centro de control está reiniciándose.
 
-Ahora piensa en la frecuencia con que le pides que reinicie. La investigación de Gloria Mark halló que las personas cambian de pantalla o se autointerrumpen de media cada 47 segundos. Cada 47 segundos, la corteza prefrontal empieza otra reconfiguración que rara vez podrá terminar.
+Ahora piensa en la frecuencia con que le pides que reinicie. La investigación de Gloria Mark halló que las personas cambian de pantalla o se autointerrumpen de media cada 47 segundos.[^attention] Esos 47 segundos son un promedio de investigación, no un límite rígido, pero el patrón se sostiene: cada 47 segundos aproximadamente, la corteza prefrontal empieza otra reconfiguración que rara vez podrá terminar.
 
 No es que no sepas concentrarte. Es que te piden empezar de nuevo antes de haber llegado.
 
@@ -88,3 +88,5 @@ A menudo descubrirás que no los merece, y dejas el móvil con la concentración
 Tu atención tiene permiso para quedarse de una pieza. Un vistazo rápido es la forma más fácil de romperla, y una sola respiración, tomada en el segundo justo, es una de las maneras más sencillas de mantenerla entera.
 
 La próxima vez que tu móvil se ilumine en mitad de una frase, sabrás el precio real. No los cuatro segundos. Los veinte minutos de después.
+
+[^attention]: Mark, G. (2023). *Attention Span: A Groundbreaking Way to Restore Balance, Happiness and Productivity.* Hanover Square Press.

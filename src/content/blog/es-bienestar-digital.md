@@ -43,7 +43,7 @@ No tiene que ver con tu fuerza de voluntad. Es química cerebral encontrándose 
 
 Cada vez que abres una app y aparece algo nuevo, recibes una pequeña dosis de dopamina. La novedad es la recompensa. Con el tiempo tu cerebro se acostumbra a ese estímulo constante y lo empieza a esperar, así que el silencio y la espera se sienten incómodos. La mano busca el celular para tapar el hueco.
 
-Las apps están construidas para aprovechar justo eso. El scroll infinito, las notificaciones, los "me gusta" que llegan en momentos impredecibles. Cuando la dependencia se vuelve más fuerte, aparece algo que en muchos países ya tiene nombre: [la nomofobia, ese miedo a quedarte sin el celular](/blog/es-nomofobia/) que afecta a cerca del 70% de la población en España y al 81% de los jóvenes.
+Las apps están construidas para aprovechar justo eso. El scroll infinito, las notificaciones, los "me gusta" que llegan en momentos impredecibles. Cuando la dependencia se vuelve más fuerte, aparece algo que en muchos países ya tiene nombre: [la nomofobia, ese miedo a quedarte sin el celular](/blog/es-nomofobia/), que según los estudios afecta al menos de forma moderada a cerca de la mitad de las personas.[^nomophobia]
 
 Y los números de uso no ayudan. En España el celular supera las cinco horas al día. En México el tiempo en internet ronda las ocho. La mayoría de esas horas no se eligieron. Se acumularon.
 
@@ -102,3 +102,5 @@ No tienes que cambiar tu relación con la tecnología esta semana. Pero la próx
 Si te llama ese enfoque de la pausa, [Dear Wander](/es/) es una app de iOS construida alrededor de esta idea. Una pantalla cálida antes de que se abran tus apps. Sesenta segundos para volver a ti.
 
 [^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)
+
+[^nomophobia]: Jahrami, H., et al. (2023). The prevalence of mild, moderate, and severe nomophobia symptoms: a systematic review and meta-analysis. *Behavioral Sciences*, 13(1), 35. [doi.org/10.3390/bs13010035](https://doi.org/10.3390/bs13010035)

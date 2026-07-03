@@ -49,7 +49,7 @@ C'è una ragione fisica dietro il ritardo, e vive nella tua corteccia prefrontal
 
 Quando cambi compito, la corteccia prefrontale deve riconfigurare le sue reti. Scarica le regole e il contesto del vecchio compito e carica quelli del nuovo. Questa riconfigurazione richiede tempo e ti rende più incline agli errori nei momenti subito dopo. Non immagini la goffaggine. La tua centralina di controllo si sta riavviando.
 
-Ora pensa a quanto spesso le chiedi di riavviarsi. La ricerca di Gloria Mark ha rilevato che le persone cambiano schermata o si autointerrompono in media ogni 47 secondi. Ogni 47 secondi la corteccia prefrontale inizia un'altra riconfigurazione che raramente riuscirà a finire.
+Ora pensa a quanto spesso le chiedi di riavviarsi. La ricerca di Gloria Mark ha rilevato che le persone cambiano schermata o si autointerrompono in media ogni 47 secondi.[^attention] Quei 47 secondi sono una media di ricerca, non un limite rigido, ma lo schema regge: ogni 47 secondi circa la corteccia prefrontale inizia un'altra riconfigurazione che raramente riuscirà a finire.
 
 Non è che non sai concentrarti. È che ti viene chiesto di ricominciare prima di essere arrivato.
 
@@ -88,3 +88,5 @@ Spesso scoprirai che non li vale, e posi il telefono con la concentrazione intat
 La tua attenzione ha il permesso di restare tutta intera. Un'occhiata veloce è il modo più facile di romperla, e un solo respiro, preso nel secondo giusto, è uno dei modi più semplici per tenerla intatta.
 
 La prossima volta che il telefono si illumina nel mezzo di una frase, conoscerai il prezzo vero. Non i quattro secondi. I venti minuti dopo.
+
+[^attention]: Mark, G. (2023). *Attention Span: A Groundbreaking Way to Restore Balance, Happiness and Productivity.* Hanover Square Press.

@@ -77,7 +77,7 @@ En iPhone: Configuración > Accesibilidad > Pantalla y tamaño de texto > Filtro
 
 ### Establece un lugar físico para el teléfono
 
-Designa un lugar en tu casa donde viva tu teléfono cuando no lo estás usando activamente. Un estante. Un cajón. Una canasta junto a la puerta. El objetivo es hacer de tu teléfono algo a lo que caminas intencionalmente, no algo siempre al alcance de la mano. Este solo cambio [redujo el scroll antes de dormir en un 47%](/blog/how-to-stop-doomscrolling/) en un estudio de la Universidad de British Columbia.
+Designa un lugar en tu casa donde viva tu teléfono cuando no lo estás usando activamente. Un estante. Un cajón. Una canasta junto a la puerta. El objetivo es hacer de tu teléfono algo a lo que caminas intencionalmente, no algo siempre al alcance de la mano. Este solo cambio [reduce el scroll antes de dormir](/blog/how-to-stop-doomscrolling/) al quitar el teléfono de tu mesita de noche por completo.
 
 ### Agrega una pausa de respiración
 

@@ -35,7 +35,7 @@ The generation most associated with brain rot is the same one that named it. Tha
 
 Gen Z and Gen Alpha grew up with the platforms that accelerate this pattern. They also recognized what was happening faster than anyone else. The term spread through the very apps said to cause the problem, which is either deeply ironic or perfectly logical, depending on how you look at it.
 
-A 2025 survey found that 46% of young people report social media has severely impacted their ability to focus. They're not unaware. They're describing what they feel using the most accurate language they can find.
+Many young people openly say social media has chipped away at their ability to focus. They're not unaware. They're describing what they feel using the most accurate language they can find.
 
 ## What's actually happening in your brain
 

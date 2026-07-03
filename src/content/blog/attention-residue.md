@@ -49,7 +49,7 @@ There's a physical reason for the lag, and it lives in your prefrontal cortex.
 
 When you switch tasks, your prefrontal cortex has to reconfigure its networks. It unloads the rules and context of the old task and loads the new ones. This reconfiguration takes time and it makes you more error-prone in the moments right after. You're not imagining the clumsiness. Your control center is mid-reboot.
 
-Now consider how often you ask it to reboot. Gloria Mark's research found that people switch screens or self-interrupt on average every 47 seconds. Every 47 seconds, the prefrontal cortex starts another reconfiguration it will rarely get to finish.
+Now consider how often you ask it to reboot. Gloria Mark's research found that people switch screens or self-interrupt on average every 47 seconds.[^attention] That 47 seconds is a research average, not a hard limit, but the pattern holds: every 47 seconds or so, the prefrontal cortex starts another reconfiguration it will rarely get to finish.
 
 You're not failing to focus. You're being asked to start over before you've arrived.
 
@@ -88,3 +88,5 @@ Often you'll find it isn't, and you set the phone down with your focus intact. T
 Your attention is allowed to stay in one piece. A quick check is the easiest way to break it, and a single breath, taken at the right second, is one of the simplest ways to keep it whole.
 
 The next time your phone lights up mid-sentence, you'll know the real price tag. Not the four seconds. The twenty minutes after.
+
+[^attention]: Mark, G. (2023). *Attention Span: A Groundbreaking Way to Restore Balance, Happiness and Productivity.* Hanover Square Press.

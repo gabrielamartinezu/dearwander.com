@@ -35,7 +35,7 @@ Una cosa che vale la pena notare. La generazione più associata al brain rot è 
 
 La Gen Z e la Gen Alpha sono cresciute con le piattaforme che accelerano questo schema. Hanno anche riconosciuto cosa stava succedendo più velocemente di chiunque altro. Il termine si è diffuso attraverso le stesse app che si dice lo causino, il che è profondamente ironico o perfettamente logico, a seconda di come lo guardi.
 
-Un sondaggio del 2025 ha rivelato che il 46% dei giovani dichiara che i social media hanno compromesso gravemente la loro capacità di concentrazione. Non sono inconsapevoli. Stanno descrivendo quello che provano con il linguaggio più preciso che riescono a trovare.
+Molti giovani dichiarano apertamente che i social media hanno intaccato la loro capacità di concentrazione. Non sono inconsapevoli. Stanno descrivendo quello che provano con il linguaggio più preciso che riescono a trovare.
 
 ## Cosa succede davvero nel tuo cervello
 

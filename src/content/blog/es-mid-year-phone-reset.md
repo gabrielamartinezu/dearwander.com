@@ -33,7 +33,7 @@ El móvil es el punto obvio para empezar, porque es por donde se te escapa la at
 
 La persona media pasa cerca de cinco horas al día con el móvil y lo coge unas 144 veces.[^pickups] Eso es más o menos una vez cada diez minutos de vigilia. La mayoría de esas veces no son decisiones. Son reflejos.
 
-Tu atención se ha encogido a juego. Investigadores de la UC Irvine descubrieron que el tiempo medio que pasamos en una sola pantalla antes de cambiar cayó de unos dos minutos y medio en 2004 a 47 segundos hoy. Cuarenta y siete segundos. Esa es la concentración que recibe una pantalla típica antes de que algo la arrastre a otro sitio.
+Tu atención se ha encogido a juego. Investigadores de la UC Irvine descubrieron que el tiempo medio que pasamos en una sola pantalla antes de cambiar cayó de unos dos minutos y medio en 2004 a 47 segundos hoy.[^attention] Cuarenta y siete segundos. Es un promedio de investigación, no un límite rígido, pero refleja lo poca concentración que recibe una pantalla típica antes de que algo la arrastre a otro sitio.
 
 Esta es la [fragmentación](/blog/popcorn-brain/) que sientes cuando no logras terminar un artículo, o sentarte a ver una película sin coger una segunda pantalla. No es un defecto de carácter. Es una respuesta entrenada, y puede desentrenarse.
 
@@ -71,7 +71,7 @@ Una atracción tan automática necesita algo en medio. No un muro. Un badén.
 
 Elige la app que más te atrapa y pon un pequeño obstáculo entre tú y el momento de abrirla. El más eficaz es una breve pausa. Un estudio de 2023 publicado en *PNAS* descubrió que una breve espera en pantalla antes de las apps sociales —una pequeña demora y un aviso que te pregunta si de verdad quieres continuar— [redujo los intentos de abrir apps un 57% en seis semanas](/blog/science-of-the-60-second-pause/).[^pnas] La pausa no era larga. Bastaba para mover el cerebro del piloto automático a una elección real, y la mayoría de las veces la elección fue dejar el móvil.
 
-Puedes montar tu propia versión. Ponte una regla: tres respiraciones lentas antes de abrir la app. Pasa la pantalla a escala de grises para que los colores dejen de tirar de ti. El mecanismo es el mismo en cada caso. Insertas un instante de conciencia en un gesto que antes era invisible, y la conciencia suele bastar.
+Puedes montar tu propia versión. Ponte una regla: tres respiraciones lentas antes de abrir la app. Pasa la pantalla a escala de grises para que los colores dejen de tirar de ti.[^grayscale] El mecanismo es el mismo en cada caso. Insertas un instante de conciencia en un gesto que antes era invisible, y la conciencia suele bastar.
 
 ## Paso 5: Cambia el scroll por un ritual que te guste
 
@@ -98,3 +98,7 @@ Si quieres una versión más suave del paso cuatro, [Dear Wander](/es/) pone una
 [^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)
 
 [^pickups]: Reviews.org (2023). Cell phone usage statistics: Americans check their phones 144 times a day. [reviews.org/mobile/cell-phone-addiction](https://www.reviews.org/mobile/cell-phone-addiction/)
+
+[^attention]: Mark, G. (2023). *Attention Span: A Groundbreaking Way to Restore Balance, Happiness and Productivity.* Hanover Square Press.
+
+[^grayscale]: Holte, A. J., & Ferraro, F. R. (2020). True colors: grayscale setting reduces screen time in college students. *The Social Science Journal*. [doi.org/10.1080/03623319.2020.1737461](https://doi.org/10.1080/03623319.2020.1737461) · Dekker, C. A., & Baumgartner, S. E. (2024). Is life brighter when your phone is not? *Mobile Media & Communication*.

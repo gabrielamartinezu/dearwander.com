@@ -65,7 +65,7 @@ Antes de dormir, nombra tres cosas buenas pequeñas del día. El olor a hierba r
 
 Nada de esto es difícil. Entonces, ¿por qué el móvil sigue ganando casi todas las tardes?
 
-Porque está diseñado para eso. La atención media en una pantalla antes de pasar a otra cosa ha bajado a unos 47 segundos, según la investigación de Gloria Mark en la UC Irvine. El feed está hecho para rellenarse en cuanto llegas al fondo. Junto a un lago, un cuaderno o un porche tranquilo, el scroll es más rápido, está más cerca y no te pide nada.
+Porque está diseñado para eso. La atención media en una pantalla antes de pasar a otra cosa ha bajado a unos 47 segundos, según la investigación de Gloria Mark en la UC Irvine.[^attention] Es un promedio medido entre personas, no un límite fijo para ninguna de nosotras. El feed está hecho para rellenarse en cuanto llegas al fondo. Junto a un lago, un cuaderno o un porche tranquilo, el scroll es más rápido, está más cerca y no te pide nada.
 
 Esa es la trampa. La cosa fácil y la cosa vacía son la misma cosa.
 
@@ -80,3 +80,5 @@ El objetivo es más pequeño y más realista. Unas pocas franjas protegidas. La 
 El verano ya está en marcha. La luz se va un poco antes cada semana. Elige una cosa de esta lista, deja el móvil donde no llegues y sal a estar fuera para la parte que de verdad vas a recordar.
 
 Esa es toda la idea detrás de Dear Wander: un empujón suave para usar el móvil a propósito, para que la estación no se escape al otro lado del cristal. Si un verano más lento te suena bien, [ven a ver lo que estamos construyendo](/es/).
+
+[^attention]: Mark, G. (2023). *Attention Span: A Groundbreaking Way to Restore Balance, Happiness and Productivity.* Hanover Square Press.

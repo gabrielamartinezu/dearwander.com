@@ -33,7 +33,7 @@ The phone is the obvious place to start, because it is where your attention quie
 
 The average person spends close to five hours a day on their phone and picks it up around 144 times.[^pickups] That is roughly once every waking ten minutes. Most of those pickups are not decisions. They are reflexes.
 
-Your attention has shrunk to match. Researchers at UC Irvine found that the average time we spend on a single screen before switching dropped from about two and a half minutes in 2004 to 47 seconds today. Forty-seven seconds. That is the length of focus a typical screen now gets before something else pulls it away.
+Your attention has shrunk to match. Researchers at UC Irvine found that the average time we spend on a single screen before switching dropped from about two and a half minutes in 2004 to 47 seconds today.[^attention] Forty-seven seconds. That is a research average, not a hard limit, but it captures how little focus a typical screen now gets before something else pulls it away.
 
 This is the [fragmentation](/blog/popcorn-brain/) you feel when you cannot finish an article, or sit through a film without reaching for a second screen. It is not a character flaw. It is a trained response, and it can be untrained.
 
@@ -71,7 +71,7 @@ A pull this automatic needs something in the way. Not a wall. A speed bump.
 
 Pick the app that grabs you hardest and put one small obstacle between you and the open. The most effective one is a brief pause. A 2023 study in *PNAS* found that a short on-screen wait before social apps — a brief delay and a prompt asking whether you really want to continue — [cut app-opening attempts by 57% over six weeks](/blog/science-of-the-60-second-pause/).[^pnas] The pause was not long. It was just enough to move the brain from autopilot into an actual choice, and most of the time the choice was to put the phone down.
 
-You can build your own version. Set a rule: three slow breaths before you open the app. Switch your screen to grayscale so the colors stop pulling at you. The mechanism is the same in each case. You insert a beat of awareness into a motion that used to be invisible, and awareness is usually enough.
+You can build your own version. Set a rule: three slow breaths before you open the app. Switch your screen to grayscale so the colors stop pulling at you.[^grayscale] The mechanism is the same in each case. You insert a beat of awareness into a motion that used to be invisible, and awareness is usually enough.
 
 ## Step 5: Replace the scroll with one ritual you like
 
@@ -98,3 +98,7 @@ If you want a gentler version of step four, [Dear Wander](/) puts a calm breathi
 [^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)
 
 [^pickups]: Reviews.org (2023). Cell phone usage statistics: Americans check their phones 144 times a day. [reviews.org/mobile/cell-phone-addiction](https://www.reviews.org/mobile/cell-phone-addiction/)
+
+[^attention]: Mark, G. (2023). *Attention Span: A Groundbreaking Way to Restore Balance, Happiness and Productivity.* Hanover Square Press.
+
+[^grayscale]: Holte, A. J., & Ferraro, F. R. (2020). True colors: grayscale setting reduces screen time in college students. *The Social Science Journal*. [doi.org/10.1080/03623319.2020.1737461](https://doi.org/10.1080/03623319.2020.1737461) · Dekker, C. A., & Baumgartner, S. E. (2024). Is life brighter when your phone is not? *Mobile Media & Communication*.

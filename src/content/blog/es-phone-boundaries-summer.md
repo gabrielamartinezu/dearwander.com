@@ -10,7 +10,7 @@ faq:
   - q: "¿Por qué suelen fallar los límites estrictos con el teléfono?"
     a: "La restricción rígida activa la reactancia, una respuesta psicológica bien documentada donde que te digan que no hace que lo prohibido resulte más atractivo. Cuanto más aprietas, más quiere rebelarse tu cerebro. Los límites suaves evitan esto al sentirse como una elección y no un castigo, y por eso tienden a durar más."
   - q: "¿Cargar el teléfono fuera del dormitorio realmente ayuda?"
-    a: "Sí. Una investigación de la Universidad de Columbia Británica encontró que cargar el teléfono fuera del dormitorio redujo el scroll antes de dormir en un 47%. Funciona por la fricción: cuando el teléfono no está al alcance de la mano, el pequeño esfuerzo de levantarte suele bastar para romper el bucle del hábito."
+    a: "Sí. Funciona por la fricción: cuando el teléfono no está al alcance de la mano, el pequeño esfuerzo de levantarte suele bastar para romper el bucle del hábito."
   - q: "¿Cómo pongo límites con el teléfono sin sentir que me privo de algo?"
     a: "Enmarca cada límite alrededor de lo que ganas, no de lo que dejas. Una cena sin teléfono protege la conversación. Dejar el teléfono en casa en un paseo corto protege el paseo. Cuando el límite apunta a un momento que vale la pena vivir, deja de sentirse como una privación y empieza a sentirse como una elección que hiciste a propósito."
 ---
@@ -79,7 +79,7 @@ Hazlo ligero. Hazlo opcional. Deja que alguien pesque su teléfono para mostrar 
 
 Este es el límite con más impacto de la lista, y casi no cuesta esfuerzo. Mueve el cargador fuera del dormitorio. La encimera de la cocina, el pasillo, cualquier sitio que no esté al alcance de tu almohada.
 
-Investigadores de la Universidad de Columbia Británica encontraron que cargar el teléfono fuera del dormitorio redujo el scroll antes de dormir en un 47%. La mitad del scroll, fuera, no por fuerza de voluntad sino por distancia. Cuando el teléfono no está a tu lado, tomarlo significa salir de la cama, y ese pequeño coste suele bastar para frenar el impulso antes de que empiece.
+Cargar el teléfono fuera del dormitorio reduce el scroll antes de dormir, no por fuerza de voluntad sino por distancia. Cuando el teléfono no está a tu lado, tomarlo significa salir de la cama, y ese pequeño coste suele bastar para frenar el impulso antes de que empiece.
 
 Si usas el teléfono como despertador, compra un reloj barato. Se paga solo en la primera semana de mejor sueño. Profundizamos en esto en el artículo sobre [el scroll vengativo antes de dormir](/blog/revenge-bedtime-scrolling/), pero el titular es simple: la distancia hace el trabajo.
 

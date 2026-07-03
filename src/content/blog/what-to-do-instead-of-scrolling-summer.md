@@ -65,7 +65,7 @@ Before bed, name three small good things from the day. The smell of cut grass. T
 
 None of this is hard. So why does the phone still win most evenings?
 
-Because it's engineered to. The average attention span on a screen before we switch to something else is down to about 47 seconds, according to research from Gloria Mark at UC Irvine. The feed is built to refill the second you reach the bottom. Next to a lake or a sketchbook or a quiet porch, the scroll is faster, closer, and asks nothing of you.
+Because it's engineered to. The average attention span on a screen before we switch to something else is down to about 47 seconds, according to research from Gloria Mark at UC Irvine.[^attention] That's a measured average across people, not a hard limit on any one of us. The feed is built to refill the second you reach the bottom. Next to a lake or a sketchbook or a quiet porch, the scroll is faster, closer, and asks nothing of you.
 
 That's the trap. The easy thing and the empty thing are the same thing.
 
@@ -80,3 +80,5 @@ The goal is smaller and more doable. A few protected windows. The first hour out
 The summer is already moving. The light's going down a little earlier each week. Pick one thing off this list, leave the phone where you can't reach it, and go be outside for the part you'll actually remember.
 
 That's the whole idea behind Dear Wander: a gentle nudge to use your phone on purpose, so the season doesn't slip past the glass. If a slower summer sounds good, [come see what we're building](/).
+
+[^attention]: Mark, G. (2023). *Attention Span: A Groundbreaking Way to Restore Balance, Happiness and Productivity.* Hanover Square Press.

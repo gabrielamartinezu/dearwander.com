@@ -82,7 +82,7 @@ The most effective behavior changes don't require any ongoing effort because the
 
 - **Remove apps from the home screen.** Having to search for an app adds friction to the automatic reach.
 - **Charge your phone in another room at night.** Eliminates the bedtime scroll entirely.
-- **Turn on grayscale.** Reduces the visual reward of colorful interfaces.
+- **Turn on grayscale.** Reduces the visual reward of colorful interfaces; studies find it modestly lowers daily use (roughly 20–40 minutes a day).[^grayscale]
 - **Use Do Not Disturb by default.** Reverses the notification model from opt-out to opt-in.
 
 These changes work because they don't ask your depleted evening brain to make good decisions. They make the good decision the default, and the compulsive scroll the one that requires effort.
@@ -123,3 +123,5 @@ The [data supports this](/blog/phone-addiction-statistics-2026/). And we think t
 [^egodepletion]: Baumeister, R. F., Bratslavsky, E., Muraven, M., & Tice, D. M. (1998). Ego depletion: is the active self a limited resource? *Journal of Personality and Social Psychology*, 74(5), 1252–1265. Note: a large 2016 preregistered replication (Hagger et al., *Perspectives on Psychological Science*) failed to reproduce the effect, so ego depletion is now contested.
 
 [^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)
+
+[^grayscale]: Holte, A. J., & Ferraro, F. R. (2020). True colors: grayscale setting reduces screen time in college students. *The Social Science Journal*. [doi.org/10.1080/03623319.2020.1737461](https://doi.org/10.1080/03623319.2020.1737461) · Dekker, C. A., & Baumgartner, S. E. (2024). Is life brighter when your phone is not? *Mobile Media & Communication*.

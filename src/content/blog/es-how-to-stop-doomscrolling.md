@@ -12,7 +12,7 @@ faq:
   - q: "¿Cuál es la mejor app para dejar de hacer doomscrolling?"
     a: "Diferentes apps toman diferentes enfoques. ScreenZen añade fricción con retrasos. One sec usa una intervención de respiración. Opal bloquea apps por completo. Dear Wander usa una pausa de respiración guiada de 60 segundos basada en investigación que muestra que este enfoque reduce el uso hasta un 57%."
   - q: "¿Cuánto tiempo se tarda en romper el hábito del doomscrolling?"
-    a: "La investigación sobre cambio de hábitos sugiere una mediana de 66 días, aunque el rango es amplio (18-254 días). Probablemente notarás una reducción en las ganas dentro de las primeras 2-3 semanas."
+    a: "La investigación sobre cambio de hábitos sugiere una media de unos 66 días, aunque el rango es amplio (18-254 días) y se basa en un estudio pequeño. Probablemente notarás una reducción en las ganas dentro de las primeras 2-3 semanas."
 ---
 
 Te dijiste diez minutos. Eso fue hace cuarenta y cinco minutos. El contenido ya ni siquiera es bueno, es solo movimiento, un río de miniaturas y opiniones y clips que tu pulgar sigue arrastrando sin tu permiso.
@@ -29,7 +29,7 @@ Aquí van doce formas de dejar de scrollear que funcionan.
 
 ### 1. Carga tu teléfono en otra habitación
 
-Este es el cambio más efectivo en la literatura de investigación. Un estudio de 2024 de la Universidad de British Columbia encontró que los participantes que cargaban sus teléfonos fuera del dormitorio redujeron el scrolling antes de dormir en un **47%** y reportaron mejor calidad de sueño en dos semanas.
+Este es uno de los cambios más efectivos en la literatura de investigación. Cargar tu teléfono fuera del dormitorio elimina por completo la señal de la noche, y las personas suelen reportar mejor sueño en un par de semanas.
 
 La razón por la que funciona: elimina la señal. Si el teléfono no está en tu mesita de noche, el gesto de las 11 PM no encuentra nada. El bucle de hábito nunca comienza.
 
@@ -55,7 +55,7 @@ El color es uno de los mecanismos principales que las apps usan para capturar la
 
 La escala de grises elimina esta palanca por completo. En iPhone: Ajustes > Accesibilidad > Pantalla y tamaño de texto > Filtros de color > Escala de grises.
 
-Los usuarios reportan una **reducción del 15-20%** en el uso diario del teléfono después de cambiar a escala de grises.
+Cambiar a escala de grises reduce modestamente el uso diario del teléfono, con estudios que encuentran reducciones de aproximadamente 20-40 minutos al día.[^grayscale]
 
 ### 5. Desactiva todas las notificaciones no esenciales
 
@@ -120,3 +120,5 @@ No perfectamente. No de la noche a la mañana. Pero suficiente.
 [^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)
 
 [^braindrain]: Ward, A. F., Duke, K., Gneezy, A., & Bos, M. W. (2017). Brain drain: the mere presence of one's own smartphone reduces available cognitive capacity. *Journal of the Association for Consumer Research*, 2(2), 140–154. [doi.org/10.1086/691462](https://doi.org/10.1086/691462)
+
+[^grayscale]: Holte, A. J., & Ferraro, F. R. (2020). True colors: grayscale setting reduces screen time in college students. *The Social Science Journal*. [doi.org/10.1080/03623319.2020.1737461](https://doi.org/10.1080/03623319.2020.1737461) · Dekker, C. A., & Baumgartner, S. E. (2024). Is life brighter when your phone is not? *Mobile Media & Communication*.

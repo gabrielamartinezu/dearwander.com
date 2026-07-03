@@ -10,7 +10,7 @@ faq:
   - q: "Why do strict phone limits usually fail?"
     a: "Rigid restriction triggers reactance, a well-documented psychological response where being told no makes the forbidden thing more appealing. The harder you clamp down, the more your brain wants to rebel. Soft boundaries sidestep this by feeling like a choice rather than a punishment, which is why they tend to last longer."
   - q: "Does charging your phone outside the bedroom actually help?"
-    a: "Yes. Research from the University of British Columbia found that charging your phone outside the bedroom reduced pre-sleep scrolling by 47%. It works because of friction: when the phone isn't within arm's reach, the small effort of getting up is usually enough to break the habit loop."
+    a: "Yes. It works because of friction: when the phone isn't within arm's reach, the small effort of getting up is usually enough to break the habit loop."
   - q: "How do I set phone boundaries without feeling deprived?"
     a: "Frame each boundary around what you gain, not what you give up. A phone-free dinner protects the conversation. Leaving your phone home on a short walk protects the walk. When the boundary points at a moment worth being present for, it stops feeling like deprivation and starts feeling like a choice you made on purpose."
 ---
@@ -79,7 +79,7 @@ Make it light. Make it optional. Let someone fish their phone out to show a phot
 
 This is the single highest-leverage boundary on the list, and it's almost effortless. Move the charger out of the bedroom. The kitchen counter, the hallway, anywhere that isn't arm's reach from your pillow.
 
-Researchers at the University of British Columbia found that charging the phone outside the bedroom reduced pre-sleep scrolling by 47%. Half the scroll, gone, not through willpower but through distance. When the phone isn't beside you, picking it up means getting out of bed, and that small cost is usually enough to stop the reach before it starts.
+Charging the phone outside the bedroom cuts down on pre-sleep scrolling, not through willpower but through distance. When the phone isn't beside you, picking it up means getting out of bed, and that small cost is usually enough to stop the reach before it starts.
 
 If you use your phone as an alarm, buy a cheap clock. It pays for itself in the first week of better sleep. We go deeper on this in the piece on [revenge bedtime scrolling](/blog/revenge-bedtime-scrolling/), but the headline is simple: the distance does the work.
 

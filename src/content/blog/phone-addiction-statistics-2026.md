@@ -12,7 +12,7 @@ faq:
   - q: "Is phone addiction a real addiction?"
     a: "While 'smartphone addiction' isn't a formal clinical diagnosis in the DSM-5, the behavioral patterns share significant overlap with recognized behavioral addictions, including dopamine-driven reward loops, tolerance building, and withdrawal symptoms."
   - q: "What age group is most affected by phone addiction?"
-    a: "Gen Z (ages 12-27) and younger Millennials show the highest rates of problematic smartphone use, with 82% of Gen Z self-reporting awareness of their own problematic phone habits."
+    a: "Gen Z (ages 12-27) and younger Millennials show the highest rates of problematic smartphone use, and many young people self-report awareness of their own problematic phone habits."
 ---
 
 There's a moment, maybe you've felt it, where you pick up your phone without meaning to. No notification. No reason. Just the reach. Your thumb moved before you decided.
@@ -54,12 +54,12 @@ None of these correlations are dramatic on their own. But they're consistent, an
 
 ## Gen Z phone addiction statistics: they already know
 
-**82% of Gen Z** report knowing they have a problematic relationship with their phone. They just can't close the gap between knowing and doing.
+Many in Gen Z report knowing they have a problematic relationship with their phone. They just can't close the gap between knowing and doing.
 
 Further data points on Gen Z and phone use:
 
 - **72% of Gen Z** believe their mental health would improve if apps were less addictive
-- **46% of young people** say social media has badly hurt their ability to focus
+- A large share say social media has hurt their ability to focus
 - **65% of young adults** have tried to reduce their screen time in the past year
 - Only **12%** felt they succeeded long-term
 
@@ -92,7 +92,7 @@ Not all the data is discouraging. Studies have identified specific approaches th
 
 **Environmental design**. Charging your phone in a different room reduces bedtime scrolling. Removing apps from the home screen adds an extra step that slows the automatic reach. Small spatial changes create large behavioral shifts.
 
-**Mindfulness-based approaches**. A 2025 randomized controlled trial found that brief mindfulness exercises before phone use reduced daily screen time by an average of **42 minutes** over 8 weeks. The pause, it turns out, is the intervention.
+**Mindfulness-based approaches**. Taking a brief, deliberate pause before reaching for an app can interrupt the automatic habit loop. The pause, it turns out, is the intervention.
 
 This is what we're building at [Dear Wander](/). Not a lock. Not a timer. A 60-second breathing pause that gives your prefrontal cortex a chance to catch up with your thumb. [The science behind it](/blog/science-of-the-60-second-pause/) is compelling. and it doesn't require willpower.
 
@@ -122,7 +122,7 @@ While "smartphone addiction" isn't a formal clinical diagnosis in the DSM-5, the
 
 ### What age group is most affected by phone addiction?
 
-Gen Z (ages 12-27) and younger Millennials show the highest rates of problematic smartphone use, with **82% of Gen Z** self-reporting awareness of their own problematic phone habits. However, phone overuse spans all demographics. adults over 55 are the fastest-growing segment of social media users, and their screen time has increased 30% since 2023.
+Gen Z (ages 12-27) and younger Millennials show the highest rates of problematic smartphone use, and many young people self-report awareness of their own problematic phone habits. However, phone overuse spans all demographics. adults over 55 are the fastest-growing segment of social media users, and their screen time has increased 30% since 2023.
 
 [^pickups]: Reviews.org (2023). Cell phone usage statistics: Americans check their phones 144 times a day. [reviews.org/mobile/cell-phone-addiction](https://www.reviews.org/mobile/cell-phone-addiction/)
 

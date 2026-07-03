@@ -12,7 +12,7 @@ faq:
   - q: "La dipendenza da telefono è una vera dipendenza?"
     a: "Sebbene la 'dipendenza da smartphone' non sia una diagnosi clinica formale nel DSM-5, i modelli comportamentali condividono sovrapposizioni significative con le dipendenze comportamentali riconosciute, inclusi circuiti di ricompensa dopaminergici, sviluppo di tolleranza e sintomi di astinenza."
   - q: "Quale fascia d'età è più colpita dalla dipendenza da telefono?"
-    a: "La Gen Z (12-27 anni) e i millennial più giovani mostrano i tassi più alti di uso problematico dello smartphone, con l'82% della Gen Z che riconosce le proprie abitudini problematiche con il telefono."
+    a: "La Gen Z (12-27 anni) e i millennial più giovani mostrano i tassi più alti di uso problematico dello smartphone, e molti giovani riconoscono le proprie abitudini problematiche con il telefono."
 ---
 
 C'è un momento, forse l'hai sentito anche tu, in cui prendi il telefono senza volerlo. Nessuna notifica. Nessun motivo. Solo il gesto. Il tuo pollice si è mosso prima che tu decidessi.
@@ -54,7 +54,7 @@ Non sono correlazioni drammatiche, ma sono consistenti, e si accumulano nel temp
 
 ## La Gen Z sa di avere un problema
 
-L'**82% della Generazione Z** riconosce di avere una relazione problematica con il telefono. La consapevolezza c'è. Quello che manca è chiudere il divario tra sapere e fare.
+Molti della Generazione Z riconoscono di avere una relazione problematica con il telefono. La consapevolezza c'è. Quello che manca è chiudere il divario tra sapere e fare.
 
 Altri dati:
 
@@ -79,9 +79,9 @@ Non tutti i dati sono scoraggianti. Gli studi hanno identificato approcci specif
 
 **Interventi basati sulla frizione**, Uno studio del 2023 pubblicato su *PNAS* ha scoperto che una breve pausa sullo schermo prima delle app social (una breve attesa e un messaggio che chiede se vuoi davvero continuare) ha ridotto i tentativi di aprire le app del **57%** in sei settimane.[^pnas] L'intuizione chiave: non devi bloccare l'accesso. Devi solo creare un momento di scelta.
 
-**Design ambientale**, Caricare il telefono in un'altra stanza riduce lo scrolling prima di dormire del **47%**. Rimuovere le app dalla schermata principale aggiunge un passaggio in più che rallenta il gesto automatico.
+**Design ambientale**, Caricare il telefono in un'altra stanza riduce lo scrolling prima di dormire. Rimuovere le app dalla schermata principale aggiunge un passaggio in più che rallenta il gesto automatico.
 
-**Approcci basati sulla mindfulness**, Un trial controllato randomizzato del 2025 ha scoperto che brevi esercizi di consapevolezza prima dell'uso del telefono hanno ridotto il tempo schermo giornaliero in media di **42 minuti** in 8 settimane. La pausa, a quanto pare, è l'intervento.
+**Approcci basati sulla mindfulness**, Fare una breve pausa deliberata prima di aprire un'app può interrompere il ciclo automatico dell'abitudine. La pausa, a quanto pare, è l'intervento.
 
 Questo è ciò che stiamo costruendo con [Dear Wander](/it/). Non un blocco. Non un timer. Una pausa di respirazione di 60 secondi che dà alla corteccia prefrontale la possibilità di raggiungere il tuo pollice. [La scienza dietro](/blog/science-of-the-60-second-pause/) è convincente, e non richiede forza di volontà.
 

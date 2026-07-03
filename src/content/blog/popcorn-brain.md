@@ -33,9 +33,9 @@ Over time, your brain recalibrates. It adjusts its baseline to expect that level
 
 The result: real life starts to feel slow.
 
-Research from the University of California at Irvine tracked this shift over two decades. In 2004, the average attention span on a single screen before switching was **2.5 minutes**. By 2012, it had dropped to 75 seconds. Recent measurements put it at **47 seconds**. Your brain isn't broken. It's been trained.
+Research from the University of California at Irvine tracked this shift over two decades. In 2004, the average attention span on a single screen before switching was **2.5 minutes**. By 2012, it had dropped to 75 seconds. Recent measurements put it at **47 seconds**.[^attention] That 47-second figure is a research average, not a hard limit. Your brain isn't broken. It's been trained.
 
-A 2023 study published in *Scientific Reports* found that just having your smartphone in the room, even face-down and silent, reduced baseline attentional performance. You don't even have to touch it. Its presence alone is enough to fragment your focus because part of your brain is anticipating what might come from it.
+A 2023 study published in *Scientific Reports* found that just having your smartphone in the room, even face-down and silent, reduced baseline attentional performance.[^phonepresence] You don't even have to touch it. Its presence alone may be enough to fragment your focus because part of your brain is anticipating what might come from it, though the size of this effect is still debated.
 
 ## How to know if this is you
 
@@ -45,7 +45,7 @@ You pick up your phone during a conversation and don't realize you've done it. Y
 
 The common thread is that stillness feels uncomfortable. Not painfully so. Just enough that you reach for something without thinking about it.
 
-A 2026 study from the Zurich Center for Neuroeconomics looked at chronic multitaskers, people who switched tasks more than 30 times per hour, and found a **43.6% reduction in effective attention capacity**. MRI scans revealed measurably lower gray matter density in the anterior cingulate cortex. That's the region your brain uses for sustained focus and impulse regulation. The region that decides whether to keep watching the movie or pick up the phone.
+Research on chronic multitaskers, people who constantly switch between tasks, has linked heavy media multitasking with lower gray matter density in the anterior cingulate cortex. That's the region your brain uses for sustained focus and impulse regulation. The region that decides whether to keep watching the movie or pick up the phone.
 
 ## Why blocking apps doesn't fix this
 
@@ -75,7 +75,7 @@ The goal isn't productivity. The goal is rebuilding your brain's comfort with a 
 
 ### Reduce notification surface area
 
-Every notification is a kernel popping. Each one pulls your attention out of whatever it was resting on and resets the clock on sustained focus. That 26.8-minute recovery time that Carnegie Mellon researchers measured in 2026 applies to every interruption, not just the ones that feel important.
+Every notification is a kernel popping. Each one pulls your attention out of whatever it was resting on and resets the clock on sustained focus. The roughly 23 minutes it takes to fully refocus after an interruption applies to every one of them, not just the ones that feel important.[^interrupt]
 
 Turn off everything except calls and messages from real humans. You can check the rest on your own schedule. The difference between "I'll see it when I look" and "it interrupted me" is enormous for your attention patterns.
 
@@ -98,3 +98,9 @@ Each one is a single kernel that doesn't pop. Over time, the pan gets quieter.
 If you're curious about the breathing pause approach, [Dear Wander](/) is building an iOS app around exactly this idea. A warm screen before you scroll. Sixty seconds of guided presence.
 
 [^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)
+
+[^attention]: Mark, G. (2023). *Attention Span: A Groundbreaking Way to Restore Balance, Happiness and Productivity.* Hanover Square Press.
+
+[^phonepresence]: Skowronek, J., Seifert, A., & Lindberg, S. (2023). The mere presence of a smartphone reduces basal attentional performance. *Scientific Reports*, 13, 9363. [doi.org/10.1038/s41598-023-36256-4](https://doi.org/10.1038/s41598-023-36256-4)
+
+[^interrupt]: Mark, G., Gudith, D., & Klocke, U. (2008). The cost of interrupted work: more speed and stress. *CHI '08*, 107–110. [doi.org/10.1145/1357054.1357072](https://doi.org/10.1145/1357054.1357072)

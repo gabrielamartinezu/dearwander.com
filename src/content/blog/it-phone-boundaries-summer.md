@@ -10,7 +10,7 @@ faq:
   - q: "Perché i limiti rigidi con il telefono di solito falliscono?"
     a: "La restrizione rigida attiva la reattanza, una risposta psicologica ben documentata in cui sentirsi dire di no rende ciò che è proibito più desiderabile. Più stringi, più il tuo cervello vuole ribellarsi. I confini gentili evitano questo perché sembrano una scelta e non una punizione, ed è per questo che tendono a durare più a lungo."
   - q: "Caricare il telefono fuori dalla camera da letto aiuta davvero?"
-    a: "Sì. Una ricerca dell'Università della British Columbia ha rilevato che caricare il telefono fuori dalla camera da letto ha ridotto lo scroll prima di dormire del 47%. Funziona per via dell'attrito: quando il telefono non è a portata di mano, il piccolo sforzo di alzarti di solito basta a spezzare il ciclo dell'abitudine."
+    a: "Sì. Funziona per via dell'attrito: quando il telefono non è a portata di mano, il piccolo sforzo di alzarti di solito basta a spezzare il ciclo dell'abitudine."
   - q: "Come stabilisco confini con il telefono senza sentirmi privato di qualcosa?"
     a: "Inquadra ogni confine intorno a ciò che guadagni, non a ciò che lasci. Una cena senza telefono protegge la conversazione. Lasciare il telefono a casa in una breve passeggiata protegge la passeggiata. Quando il confine punta a un momento che vale la pena vivere, smette di sembrare una privazione e inizia a sembrare una scelta fatta di proposito."
 ---
@@ -79,7 +79,7 @@ Rendilo leggero. Rendilo opzionale. Lascia che qualcuno peschi il suo telefono p
 
 Questo è il confine con più impatto della lista, e non costa quasi alcuno sforzo. Sposta il caricatore fuori dalla camera da letto. Il piano della cucina, il corridoio, qualsiasi posto che non sia a portata di mano dal tuo cuscino.
 
-I ricercatori dell'Università della British Columbia hanno rilevato che caricare il telefono fuori dalla camera da letto ha ridotto lo scroll prima di dormire del 47%. Metà dello scroll, via, non per forza di volontà ma per distanza. Quando il telefono non è accanto a te, prenderlo significa scendere dal letto, e quel piccolo costo di solito basta a fermare l'impulso prima che inizi.
+Caricare il telefono fuori dalla camera da letto riduce lo scroll prima di dormire, non per forza di volontà ma per distanza. Quando il telefono non è accanto a te, prenderlo significa scendere dal letto, e quel piccolo costo di solito basta a fermare l'impulso prima che inizi.
 
 Se usi il telefono come sveglia, compra un orologio economico. Si ripaga da solo nella prima settimana di sonno migliore. Approfondiamo questo nell'articolo sullo [scroll vendicativo prima di dormire](/blog/revenge-bedtime-scrolling/), ma il succo è semplice: la distanza fa il lavoro.
 

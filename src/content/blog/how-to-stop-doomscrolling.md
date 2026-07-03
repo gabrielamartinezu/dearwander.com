@@ -12,7 +12,7 @@ faq:
   - q: "What's the best app to stop doomscrolling?"
     a: "Different apps take different approaches. ScreenZen adds friction with delays. One sec uses a breathing intervention. Opal blocks apps entirely. Dear Wander uses a 60-second guided breathing pause based on research showing this approach reduces usage by up to 57%."
   - q: "How long does it take to break the doomscrolling habit?"
-    a: "Research on habit change suggests a median of 66 days, though the range is wide (18-254 days). You'll likely notice reduced urges within the first 2-3 weeks."
+    a: "Research on habit change suggests a mean of about 66 days, though the range is wide (18-254 days) and based on a small study. You'll likely notice reduced urges within the first 2-3 weeks."
 ---
 
 You told yourself ten minutes. That was forty-five minutes ago. The content isn't even good anymore. it's just motion, a river of thumbnails and takes and clips that your thumb keeps pulling forward without your permission.
@@ -29,7 +29,7 @@ Here are twelve that work.
 
 ### 1. Charge your phone in another room
 
-This is the single most effective change in the research literature. A 2024 study from the University of British Columbia found that participants who charged their phones outside the bedroom reduced pre-sleep scrolling by **47%** and reported better sleep quality within two weeks.
+This is one of the most effective changes in the research literature. Charging your phone outside the bedroom removes the late-night cue entirely, and people often report better sleep within a couple of weeks.
 
 The reason it works: it eliminates the cue. If the phone isn't on your nightstand, the 11 PM reach finds nothing. The habit loop never starts.
 
@@ -55,7 +55,7 @@ Color is one of the primary mechanisms apps use to capture attention. Red notifi
 
 Grayscale removes this lever entirely. On iPhone: Settings > Accessibility > Display & Text Size > Color Filters > Grayscale. Some people use the Accessibility Shortcut to toggle it with a triple-click.
 
-Users report a **15-20% reduction** in daily phone use after switching to grayscale. The phone just becomes... less interesting.
+Switching to grayscale modestly reduces daily phone use, with studies finding reductions of roughly 20-40 minutes a day.[^grayscale] The phone just becomes... less interesting.
 
 ### 5. Disable all non-essential notifications
 
@@ -135,7 +135,7 @@ Doomscrolling exploits the same dopamine-driven reward mechanisms as slot machin
 
 ### Is doomscrolling actually bad for you?
 
-Yes, but the severity depends on duration and content. Research consistently links extended passive scrolling (consuming without interacting) to increased anxiety, depressed mood, and sleep disruption. A 2025 study in *Computers in Human Behavior* found that passive scrolling for more than 30 minutes in a single session was associated with a measurable decrease in mood, while active social media use (messaging, commenting, creating) showed no negative effect.
+Yes, but the severity depends on duration and content. Research consistently links extended passive scrolling (consuming without interacting) to increased anxiety, depressed mood, and sleep disruption. A 2025 survey in *Computers in Human Behavior* found that more passive scrolling was associated with higher anxiety, while active social media use (messaging, commenting, creating) showed no such association.[^chb] It's a correlation, not proof that scrolling causes anxiety.
 
 ### What's the best app to stop doomscrolling?
 
@@ -143,8 +143,14 @@ Different apps take different approaches. ScreenZen adds friction with delays. O
 
 ### How long does it take to break the doomscrolling habit?
 
-Research on habit change suggests a median of **66 days**, though the range is wide (18-254 days). You'll likely notice reduced urges within the first 2-3 weeks. The key is consistency. each time you successfully interrupt the scroll and do something else, the old habit weakens and the new pattern strengthens.
+Research on habit change suggests a mean of about **66 days**, though the range is wide (18-254 days) and comes from a small study.[^lally] You'll likely notice reduced urges within the first 2-3 weeks. The key is consistency. each time you successfully interrupt the scroll and do something else, the old habit weakens and the new pattern strengthens.
 
 [^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)
 
 [^braindrain]: Ward, A. F., Duke, K., Gneezy, A., & Bos, M. W. (2017). Brain drain: the mere presence of one's own smartphone reduces available cognitive capacity. *Journal of the Association for Consumer Research*, 2(2), 140–154. [doi.org/10.1086/691462](https://doi.org/10.1086/691462)
+
+[^grayscale]: Holte, A. J., & Ferraro, F. R. (2020). True colors: grayscale setting reduces screen time in college students. *The Social Science Journal*. [doi.org/10.1080/03623319.2020.1737461](https://doi.org/10.1080/03623319.2020.1737461) · Dekker, C. A., & Baumgartner, S. E. (2024). Is life brighter when your phone is not? *Mobile Media & Communication*.
+
+[^chb]: Choi, E. J., Christiaans, E., & Duerden, E. G. (2025). Screen time woes: social media posting, scrolling, externalizing behaviours, and anxiety in adolescents. *Computers in Human Behavior*, 170, 108384.
+
+[^lally]: Lally, P., van Jaarsveld, C. H. M., Potts, H. W. W., & Wardle, J. (2010). How are habits formed: modelling habit formation in the real world. *European Journal of Social Psychology*, 40(6), 998–1009. [doi.org/10.1002/ejsp.674](https://doi.org/10.1002/ejsp.674)

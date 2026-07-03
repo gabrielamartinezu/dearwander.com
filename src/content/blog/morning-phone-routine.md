@@ -1,6 +1,6 @@
 ---
 title: "Morning phone routine: what to do instead of reaching for your phone"
-description: "80% of people check their phone within 10 minutes of waking up. Here are better alternatives backed by neuroscience, and why that first hour matters more than you think."
+description: "Most people check their phone within about 15 minutes of waking up. Here are better alternatives backed by neuroscience, and why that first hour matters more than you think."
 date: 2026-05-05
 author: "Dear Wander"
 tags: ["morning routine", "digital wellness", "strategies", "phone addiction"]
@@ -10,16 +10,16 @@ faq:
   - q: "How long should I wait before looking at my phone in the morning?"
     a: "Most researchers recommend 30-60 minutes. But even small delays help. A study found that people who waited just 10 minutes before checking their phone reported feeling less rushed and more in control of their mornings. Start with what's realistic for you."
   - q: "What if I use my phone as an alarm clock?"
-    a: "Buy a standalone alarm clock and charge your phone in another room. This one change eliminates the bedtime scroll and the morning reach in a single move. Research from the University of British Columbia found that charging phones outside the bedroom reduced pre-sleep scrolling by 47%."
+    a: "Buy a standalone alarm clock and charge your phone in another room. This one change eliminates the bedtime scroll and the morning reach in a single move. Keeping the phone out of the bedroom removes it as the easy default, so pre-sleep scrolling tends to drop on its own."
   - q: "Does checking your phone in the morning raise cortisol?"
-    a: "Research suggests yes. One study found that people who checked their phones immediately upon waking showed 31% higher cortisol levels at 90 minutes post-wake compared to those who delayed, along with self-reported increases in anxiety."
+    a: "Research suggests morning phone use can spike stress hormones like cortisol, along with self-reported increases in anxiety, compared to delaying that first check."
 ---
 
 The alarm goes off. Your hand finds the phone before your eyes are fully open. You meant to check the time. But the time was three minutes ago, and since then you've seen two news headlines, a text you don't want to deal with, and a photo that made you feel vaguely behind on life.
 
 You haven't even stood up yet.
 
-Roughly **80% of people** check their phone within 10 minutes of waking. For many of us, it's the first conscious act of the day. Before water. Before a full breath. Before a single thought that belongs entirely to us.
+Most people check their phone within about **15 minutes** of waking.[^waking] For many of us, it's the first conscious act of the day. Before water. Before a full breath. Before a single thought that belongs entirely to us.
 
 This matters more than it seems.
 
@@ -31,7 +31,7 @@ This transition is gradual for a reason. Theta states are when your brain does i
 
 Picking up your phone interrupts this process with a firehose of external input. Notifications trigger dopamine. News triggers cortisol. Even a benign email shifts your brain into reactive mode, processing someone else's priorities before you've had a chance to register your own.
 
-One study found that people who checked their phones immediately after waking showed **31% higher cortisol** at 90 minutes post-wake compared to those who delayed. They also reported feeling more anxious and more rushed throughout the morning.
+Checking your phone the moment you wake can spike stress hormones like cortisol compared to delaying that first look. People who reach for the phone immediately also tend to report feeling more anxious and more rushed throughout the morning.
 
 You're setting the emotional thermostat for your entire day in those first minutes. The phone sets it to "reactive." The alternative is to set it yourself.
 
@@ -79,7 +79,7 @@ The deeper mechanism is what psychologists call "self-efficacy." Each small comp
 
 If you live with another person, a partner, a roommate, a kid, try talking to them before you talk to your phone. Ask a question. Say something you noticed. Even a few sentences of real human interaction before digital interaction changes the emotional texture of the morning.
 
-A 2024 study in the *Journal of Social and Personal Relationships* found that couples who delayed phone use in the morning reported higher relationship satisfaction than those who immediately checked their devices. The researchers attributed this to the signal it sends: you matter more than whatever the phone has to say.
+A small 2025 study in the *Journal of Social and Personal Relationships* found that partner phone use ("phubbing") was correlated with lower relationship satisfaction, an association the researchers linked to a sense of affection deprivation.[^phubbing] Turning to a partner before the phone sends the opposite signal: you matter more than whatever the feed has to say.
 
 ### 7. Use Dear Wander's First Light ritual
 
@@ -99,7 +99,7 @@ You can also use your phone's Focus mode or scheduled Do Not Disturb to automate
 
 None of this is dramatic in isolation. Drinking water instead of checking Instagram doesn't transform your life on a Tuesday. But compound it over weeks.
 
-Researchers at the University of Nottingham found that participants who followed a consistent phone-free morning routine for 21 days reported **23% lower perceived stress** and **better sustained attention** throughout the workday. The changes were self-reinforcing. Once you feel the difference, the phone feels less urgent.
+A consistent phone-free morning routine tends to be self-reinforcing. Once you feel the difference in how the day starts, less rushed, more your own, the phone feels less urgent.
 
 The [statistics on phone use](/blog/phone-addiction-statistics-2026/) are large and abstract. 144 checks a day.[^pickups] 4.5 hours of screen time. These numbers describe the current, not your choices. Every morning is a chance to step upstream.
 
@@ -114,3 +114,7 @@ Just one minute of quiet before the noise starts.
 [^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)
 
 [^pickups]: Reviews.org (2023). Cell phone usage statistics: Americans check their phones 144 times a day. [reviews.org/mobile/cell-phone-addiction](https://www.reviews.org/mobile/cell-phone-addiction/)
+
+[^phubbing]: Denes, A., Guest, C., Webber, K. T., Gorin, A. A., & Cornelius, T. (2025). Phone or affection? Assessing dyadic perceptions of partner phubbing, affection deprivation, and relationship satisfaction. *Journal of Social and Personal Relationships*. [doi.org/10.1177/02654075251364560](https://doi.org/10.1177/02654075251364560)
+
+[^waking]: IDC Research (2013). *Always Connected: How Smartphones and Social Keep Us Engaged* (survey commissioned by Facebook).

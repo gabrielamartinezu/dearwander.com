@@ -33,9 +33,9 @@ Con el tiempo, tu cerebro se recalibra. Ajusta su línea base para esperar ese n
 
 El resultado: la vida real empieza a sentirse lenta.
 
-Investigadores de la Universidad de California en Irvine rastrearon este cambio durante dos décadas. En 2004, el tiempo promedio de atención en una sola pantalla antes de cambiar era de **2.5 minutos**. Para 2012, había bajado a 75 segundos. Las mediciones recientes lo sitúan en **47 segundos**. Tu cerebro no está roto. Ha sido entrenado.
+Investigadores de la Universidad de California en Irvine rastrearon este cambio durante dos décadas. En 2004, el tiempo promedio de atención en una sola pantalla antes de cambiar era de **2.5 minutos**. Para 2012, había bajado a 75 segundos. Las mediciones recientes lo sitúan en **47 segundos**.[^attention] Esa cifra de 47 segundos es un promedio de investigación, no un límite fijo. Tu cerebro no está roto. Ha sido entrenado.
 
-Un estudio de 2023 publicado en *Scientific Reports* encontró que solo tener tu teléfono en la habitación, incluso boca abajo y en silencio, reducía el rendimiento atencional base. Ni siquiera tienes que tocarlo. Su presencia sola es suficiente para fragmentar tu enfoque porque parte de tu cerebro está anticipando lo que podría venir de él.
+Un estudio de 2023 publicado en *Scientific Reports* encontró que solo tener tu teléfono en la habitación, incluso boca abajo y en silencio, reducía el rendimiento atencional base.[^phonepresence] Ni siquiera tienes que tocarlo. Su presencia sola podría bastar para fragmentar tu enfoque porque parte de tu cerebro está anticipando lo que podría venir de él, aunque el tamaño de este efecto todavía se debate.
 
 ## Cómo saber si esto te pasa
 
@@ -45,7 +45,7 @@ Tomas tu teléfono durante una conversación y no te das cuenta de que lo hicist
 
 El hilo común es que la quietud se siente incómoda. No dolorosamente. Solo lo suficiente para que busques algo sin pensarlo.
 
-Un estudio de 2026 del Centro de Neuroeconomía de Zúrich observó a multitaskers crónicos, personas que cambiaban de tarea más de 30 veces por hora, y encontró una **reducción del 43.6% en la capacidad de atención efectiva**. Las resonancias magnéticas revelaron menor densidad de materia gris en la corteza cingulada anterior. Esa es la región que tu cerebro usa para el enfoque sostenido y la regulación de impulsos. La región que decide si seguir viendo la película o tomar el teléfono.
+Las investigaciones sobre multitaskers crónicos, personas que cambian de tarea constantemente, han vinculado el multitasking intensivo con los medios con una menor densidad de materia gris en la corteza cingulada anterior. Esa es la región que tu cerebro usa para el enfoque sostenido y la regulación de impulsos. La región que decide si seguir viendo la película o tomar el teléfono.
 
 ## Por qué bloquear apps no soluciona esto
 
@@ -75,7 +75,7 @@ El objetivo no es productividad. El objetivo es reconstruir la comodidad de tu c
 
 ### Reduce la superficie de notificaciones
 
-Cada notificación es una palomita reventando. Cada una saca tu atención de donde estaba descansando y reinicia el reloj de enfoque sostenido. Ese tiempo de recuperación de 26.8 minutos que investigadores de Carnegie Mellon midieron en 2026 aplica a cada interrupción, no solo a las que parecen importantes.
+Cada notificación es una palomita reventando. Cada una saca tu atención de donde estaba descansando y reinicia el reloj de enfoque sostenido. Los aproximadamente 23 minutos que toma volver a concentrarse por completo tras una interrupción aplican a cada una de ellas, no solo a las que parecen importantes.[^interrupt]
 
 Desactiva todo excepto llamadas y mensajes de personas reales. Puedes revisar el resto a tu propio ritmo. La diferencia entre "lo veré cuando mire" y "me interrumpió" es enorme para tus patrones de atención.
 
@@ -98,3 +98,9 @@ Cada uno es una palomita que no revienta. Con el tiempo, la sartén se va quedan
 Si te interesa el enfoque de la pausa con respiración, [Dear Wander](/es/) está construyendo una app de iOS alrededor de exactamente esta idea. Una pantalla cálida antes de hacer scroll. Sesenta segundos de presencia guiada.
 
 [^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)
+
+[^attention]: Mark, G. (2023). *Attention Span: A Groundbreaking Way to Restore Balance, Happiness and Productivity.* Hanover Square Press.
+
+[^phonepresence]: Skowronek, J., Seifert, A., & Lindberg, S. (2023). The mere presence of a smartphone reduces basal attentional performance. *Scientific Reports*, 13, 9363. [doi.org/10.1038/s41598-023-36256-4](https://doi.org/10.1038/s41598-023-36256-4)
+
+[^interrupt]: Mark, G., Gudith, D., & Klocke, U. (2008). The cost of interrupted work: more speed and stress. *CHI '08*, 107–110. [doi.org/10.1145/1357054.1357072](https://doi.org/10.1145/1357054.1357072)
