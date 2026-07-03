@@ -96,6 +96,7 @@ export const translations = {
     "footer.ctaBody": "Be the first to receive your letter. Join the waitlist and we'll write to you when we're ready.",
     "footer.privacy": "Privacy",
     "footer.terms": "Terms",
+    "footer.about": "About",
 
     // Lang switcher
     "lang.label": "Language",
@@ -199,6 +200,7 @@ export const translations = {
     "footer.ctaBody": "Sé la primera en recibir tu carta. Únete a la lista y te escribiremos cuando estemos listos.",
     "footer.privacy": "Privacidad",
     "footer.terms": "Términos",
+    "footer.about": "Quiénes somos",
 
     "lang.label": "Idioma",
 
@@ -301,6 +303,7 @@ export const translations = {
     "footer.ctaBody": "Sii la prima a ricevere la tua lettera. Iscriviti alla lista e ti scriveremo quando saremo pronti.",
     "footer.privacy": "Privacy",
     "footer.terms": "Termini",
+    "footer.about": "Chi siamo",
 
     "lang.label": "Lingua",
 

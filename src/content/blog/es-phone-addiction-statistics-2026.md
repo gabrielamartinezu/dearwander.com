@@ -6,7 +6,7 @@ author: "Dear Wander"
 tags: ["statistics", "phone addiction", "screen time", "research"]
 faq:
   - q: "¿Cuántas veces mira el teléfono una persona promedio al día?"
-    a: "La cifra más citada es 144 veces al día, según investigación de Asurion. Algunos estudios que miden miradas pasivas a la pantalla sitúan el número hasta en 186 veces diarias."
+    a: "La cifra más citada es 144 veces al día, según una encuesta de Reviews.org de 2023. Algunos estudios que miden miradas pasivas a la pantalla sitúan el número hasta en 186 veces diarias."
   - q: "¿Cuánto tiempo en pantalla es demasiado?"
     a: "La investigación sugiere que los impactos en la salud mental se vuelven significativos alrededor de las 5 horas de uso diario del smartphone. Sin embargo, la calidad del tiempo en pantalla importa tanto como la cantidad."
   - q: "¿Es la adicción al teléfono una adicción real?"
@@ -21,7 +21,7 @@ No estás solo. Y los datos son abrumadores. (¿Quieres saber dónde estás tú?
 
 ## Con qué frecuencia miramos nuestros teléfonos
 
-El estadounidense promedio mira su teléfono **144 veces al día**. Eso es una vez cada seis minutos y medio durante las horas de vigilia. Algunos estudios sitúan el número aún más alto, hasta 186 veces al día cuando se incluyen las miradas pasivas.
+El estadounidense promedio mira su teléfono **144 veces al día**, según una encuesta de Reviews.org de 2023.[^pickups] Eso es una vez cada seis minutos y medio durante las horas de vigilia. Algunos estudios sitúan el número aún más alto, hasta 186 veces al día cuando se incluyen las miradas pasivas.
 
 Para decirlo claramente: interactuamos con nuestros teléfonos más de lo que interactuamos con la mayoría de las personas en nuestras vidas.
 
@@ -71,7 +71,7 @@ El término "doomscrolling" se popularizó durante la pandemia, pero el comporta
 - El **67% de los usuarios de redes sociales** reporta seguir desplazándose más allá del contenido donde pretendía detenerse
 - La sesión promedio de TikTok es de **32 minutos**, frente a los 26 minutos en 2024
 - El **58% de las personas** mira su teléfono en los primeros 5 minutos al despertar
-- El **71% de las personas** usa su teléfono en la cama antes de dormir
+- Una buena parte de nosotros mira el teléfono en la cama antes de dormir
 
 El diseño de estas plataformas no es accidental. Los programas de recompensa variable, el mismo mecanismo detrás de las máquinas tragamonedas, nos mantienen deslizando para refrescar. El scroll infinito elimina los puntos naturales de parada. Los feeds algorítmicos aprenden exactamente qué contenido mantiene tus ojos pegados.
 
@@ -85,9 +85,9 @@ El mercado global de apps de bienestar, el segmento que intenta *resolver* el us
 
 No todos los datos son desalentadores. Los estudios han identificado enfoques específicos que reducen mediblemente el uso problemático del teléfono:
 
-**Intervenciones basadas en fricción**, Añadir una pequeña barrera antes del acceso a la app (incluso un retraso de 5 segundos) reduce el uso entre un **35-57%** según investigaciones de la Universidad de Heidelberg. La idea clave: no necesitas bloquear el acceso. Solo necesitas crear un momento de elección.
+**Intervenciones basadas en fricción**, Un estudio de 2023 publicado en *PNAS* encontró que una breve pausa en pantalla antes de las apps sociales (una espera corta y un aviso preguntándote si de verdad quieres continuar) redujo los intentos de abrir apps en un **57%** durante seis semanas.[^pnas] La idea clave: no necesitas bloquear el acceso. Solo necesitas crear un momento de elección.
 
-**Diseño ambiental**, Cargar tu teléfono en otra habitación reduce el scrolling antes de dormir en un **47%**. Eliminar apps de la pantalla principal reduce las aperturas casuales en un **30%**. Pequeños cambios espaciales crean grandes cambios de comportamiento.
+**Diseño ambiental**, Cargar tu teléfono en otra habitación reduce el scrolling antes de dormir en un **47%**. Eliminar apps de la pantalla principal añade un paso extra que frena el gesto automático. Pequeños cambios espaciales crean grandes cambios de comportamiento.
 
 **Enfoques basados en mindfulness**, Un ensayo controlado aleatorizado de 2025 encontró que ejercicios breves de atención plena antes del uso del teléfono redujeron el tiempo en pantalla diario en un promedio de **42 minutos** durante 8 semanas. La pausa, resulta, es la intervención.
 
@@ -100,3 +100,7 @@ Las estadísticas describen poblaciones, no personas. Tus hábitos con el teléf
 El número más útil no es el promedio global ni la tendencia generacional. Es el número de veces que hoy alcanzaste tu teléfono y deseaste, aunque fuera brevemente, no haberlo hecho.
 
 Si ese número es mayor que cero, estás en buena compañía. Y hay caminos más amables hacia adelante de lo que podrías pensar.
+
+[^pickups]: Reviews.org (2023). Cell phone usage statistics: Americans check their phones 144 times a day. [reviews.org/mobile/cell-phone-addiction](https://www.reviews.org/mobile/cell-phone-addiction/)
+
+[^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)

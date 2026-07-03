@@ -57,7 +57,7 @@ Lo que sí funciona es más amable, y más pequeño, de lo que imaginas. La idea
 
 Algunas cosas concretas, respaldadas por investigación:
 
-**Una respiración antes de abrir la app.** [Un estudio de la Universidad de Heidelberg](/blog/es-science-of-the-60-second-pause/) encontró que una breve pausa de respiración antes de abrir redes sociales redujo el uso en un **57%**. Nadie bloqueó nada. Solo tenían que respirar primero, y la mayoría de las veces, después de respirar, decidían soltar el teléfono.
+**Una pausa antes de abrir la app.** [Un estudio de 2023 publicado en *PNAS*](/blog/es-science-of-the-60-second-pause/) encontró que una breve pausa en pantalla antes de abrir redes sociales — una espera corta y un aviso que te pregunta si de verdad quieres continuar — redujo los intentos de abrir apps en un **57%** a lo largo de seis semanas.[^pnas] Nadie bloqueó nada. Solo había que esperar primero, y la mayoría de las veces, después de esa pausa, la gente decidía soltar el teléfono.
 
 **Saca el celular del cuarto en la noche.** Cargarlo fuera de la habitación reduce el scroll antes de dormir. Compra un despertador de verdad y deja que el teléfono duerma en otro lado.
 
@@ -74,3 +74,5 @@ La nomofobia se construyó con miles de repeticiones pequeñas. Tu teléfono ent
 No tienes que hacerlo todo hoy. Una respiración antes de abrir Instagram esta noche ya es un comienzo.
 
 Si te interesa ese enfoque de la pausa, [Dear Wander](/es/) es una app de iOS construida alrededor de esta idea. Una pantalla cálida antes de que se abran tus apps. Sesenta segundos para volver a ti.
+
+[^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)

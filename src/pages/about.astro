@@ -1,0 +1,127 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+
+const siteURL = "https://dearwander.com";
+
+const personSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Gabriela Martínez",
+  "jobTitle": "Founder & Engineer, Dear Wander",
+  "description":
+    "Computer engineer and founder of Dear Wander, a mindful screen time app for iOS. Writes about the science of attention, anxiety, and calm.",
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "Universidad Simón Bolívar",
+    "address": "Caracas, Venezuela",
+  },
+  "knowsAbout": [
+    "digital wellbeing",
+    "screen time",
+    "attention science",
+    "anxiety",
+    "mindful technology",
+  ],
+  "worksFor": { "@type": "Organization", "name": "Dear Wander", "url": siteURL },
+  "url": `${siteURL}/about`,
+};
+
+const aboutSchema = {
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "name": "About Dear Wander",
+  "url": `${siteURL}/about`,
+  "mainEntity": personSchema,
+};
+---
+
+<Layout
+  title="About — Dear Wander"
+  description="Dear Wander is built by Gabriela Martínez, a computer engineer from Caracas, out of her own experience with anxiety and a restless relationship with the phone. A gentler approach to screen time."
+>
+  <Header lightBg={true} />
+
+  <script type="application/ld+json" set:html={JSON.stringify(personSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(aboutSchema)} />
+
+  <main class="pt-32 pb-20 px-6 bg-golden-hour min-h-screen">
+    <article class="max-w-2xl mx-auto prose prose-earth">
+      <h1 class="font-wander text-4xl text-earth mb-6">About Dear Wander</h1>
+
+      <p class="text-lg text-taupe font-light mb-10">
+        Dear Wander is a small, deliberate thing built by one person who needed it first.
+      </p>
+
+      <div class="flex items-center gap-4 mb-10 not-prose">
+        <div
+          class="w-16 h-16 rounded-full bg-breath text-warm-white flex items-center justify-center font-serif font-semibold text-lg flex-shrink-0"
+        >
+          GM
+        </div>
+        <div>
+          <p class="font-serif font-semibold text-earth text-lg leading-tight">Gabriela Martínez</p>
+          <p class="text-sm text-taupe">Founder &amp; engineer · Computer engineer, Universidad Simón Bolívar (Caracas, Venezuela)</p>
+        </div>
+      </div>
+
+      <h2>Why this exists</h2>
+      <p>
+        I'm Gabriela. I trained as a computer engineer at the Universidad Simón Bolívar in Caracas,
+        and for a long time I built things that were clever without asking whether they were kind.
+      </p>
+      <p>
+        Dear Wander started somewhere more personal than a product roadmap. It came out of my own
+        years of managing anxiety, and of noticing how often the phone was both the reach for relief
+        and the thing that left me more frayed than before. The scroll was never really about the
+        content. It was about avoiding a feeling. And every app I tried to help me stop treated me
+        like a problem to be disciplined: red numbers, broken streaks, locked screens that made me
+        feel worse and scroll more.
+      </p>
+      <p>
+        I wanted to build the opposite. Something gentle. Something that assumes you're a capable
+        person having a hard moment, not a failure who needs to be punished into behaving. I care
+        especially about making that softness available to women, who so often carry the quiet weight
+        of anxiety and are handed tools built around shame.
+      </p>
+
+      <h2>The idea, in one line</h2>
+      <p>
+        A warm sixty-second breathing pause before the apps that pull at you. No lock, no timer, no
+        report card. Just a small gap between the reach and the tap, where the choice becomes yours
+        again. Most of the time, after a breath, you choose something else.
+      </p>
+
+      <h2>How I write these articles</h2>
+      <p>
+        I'm an engineer and a founder, not a doctor. What I can do is read the research carefully and
+        translate it into plain language you can actually use, with sources you can check yourself. When
+        I cite a study, a statistic, or a mechanism, I link to where it comes from. I use writing tools
+        to help me draft and structure, but every article is shaped, fact-checked, and edited by me, and
+        reflects what I've genuinely learned building this and living it.
+      </p>
+      <p>
+        If something here is ever wrong, I want to fix it. You can reach me at
+        <a href="mailto:hello@dearwander.com">hello@dearwander.com</a>.
+      </p>
+
+      <h2>A note on health</h2>
+      <p class="text-sm text-taupe">
+        Dear Wander and the writing on this site are for education and general wellbeing. They are not
+        medical advice, diagnosis, or treatment, and breathing practices are not a substitute for care
+        from a qualified professional. If you're struggling with anxiety, sleep, or compulsive phone use
+        in a way that affects your life, please talk to a doctor or a licensed therapist.
+      </p>
+
+      <hr class="my-10 border-breath/30" />
+
+      <p>
+        Dear Wander is coming to iOS. If any of this feels familiar, you're the person I'm building it for.
+        <a href="/">Join the waitlist</a> and I'll write to you when it's ready.
+      </p>
+    </article>
+  </main>
+
+  <Footer />
+</Layout>

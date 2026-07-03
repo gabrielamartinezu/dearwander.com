@@ -16,7 +16,7 @@ Not because you don't care about your screen time. you care deeply. You deleted 
 
 Most screen time apps operate on a simple principle: make the bad thing harder to do. Lock Instagram. Block TikTok. Show you a scary number. *"You've spent 4 hours and 37 minutes on social media today"*. and hope the guilt does the rest.
 
-The problem is that guilt is a terrible long-term motivator. Research from the University of Heidelberg shows that punitive interventions create a rebound effect: users who feel restricted actually increase their usage once the restriction is removed. The lock becomes something to defeat, not something to learn from.
+The problem is that guilt is a terrible long-term motivator. Punitive interventions can create a rebound effect: when people feel restricted, they often increase their usage once the restriction is removed. The lock becomes something to defeat, not something to learn from.
 
 ## What if the pause was worth having?
 
@@ -30,7 +30,7 @@ After the pause, you get your ten minutes. They're earned, not stolen. And that 
 
 ## The science behind the pause
 
-A 2025 randomized controlled trial published in *BMC Medicine* confirmed what mindfulness researchers have long suspected: brief interventions at the moment of impulse. right at the moment you reach for the phone. reduce app opens by over 50%.
+A 2023 study published in *PNAS* found what mindfulness researchers have long suspected: a brief pause at the moment of impulse — a short wait and a prompt asking whether you really want to continue, right at the moment you reach for the phone — cut app-opening attempts by 57% over six weeks.[^pnas]
 
 The key is that the intervention can't feel like friction. It has to feel like a choice. A moment you'd actually want to have.
 
@@ -45,3 +45,5 @@ Because if the pause is beautiful enough, you don't resent it. You look forward 
 ---
 
 *Dear Wander is coming soon to iOS. [Join the waitlist](/) to be the first to receive your letter.*
+
+[^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)

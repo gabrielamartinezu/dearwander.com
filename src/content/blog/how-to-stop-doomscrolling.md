@@ -39,13 +39,13 @@ Buy a cheap alarm clock. Put the charger in the kitchen. The first three nights 
 
 Designate a specific place in your home where your phone lives when you're not actively using it. A shelf, a drawer, a basket by the door. The goal is to make your phone something you go to intentionally, not something that's always within arm's reach.
 
-Research on environmental cues shows that simply having your phone visible. even face down, even turned off. reduces available cognitive capacity by roughly **10%**. Your brain is spending resources monitoring it, even when you think you're ignoring it.
+Some research suggests that simply having your phone visible. even face down, even turned off. reduces available cognitive capacity.[^braindrain] Your brain is spending resources monitoring it, even when you think you're ignoring it.
 
 ### 3. Remove social media from your home screen
 
 Move Instagram, TikTok, Twitter, and Reddit to a folder on your second or third screen. Or better yet, delete the apps entirely and access them through the mobile browser (the experience is intentionally worse, which is the point).
 
-Studies show that adding even one extra tap reduces casual app opens by **25-30%**. You'll still open them when you want to. But you'll stop opening them when you don't.
+Adding even one extra tap makes casual app opens meaningfully less automatic. You'll still open them when you want to. But you'll stop opening them when you don't.
 
 ## Phone settings
 
@@ -79,7 +79,7 @@ That last one, the honest one, is where the awareness lives. You might still pic
 
 ### 8. The 60-second breathing pause
 
-Insert a brief breathing exercise between the urge and the action. [Research shows](/blog/science-of-the-60-second-pause/) this simple intervention reduces social media usage by up to **57%**. The breath activates your prefrontal cortex, shifting you from reactive to responsive.
+Insert a brief breathing exercise between the urge and the action. A 2023 study in *PNAS* found that a brief pause before social apps — a short wait and a prompt asking whether to continue — cut app-opening attempts by 57% over six weeks.[^pnas] The breath activates your prefrontal cortex, shifting you from reactive to responsive.
 
 You can do this manually, or you can use an app that does it automatically. [Dear Wander](/) places a warm, guided breathing screen before your social media apps. sixty seconds of presence before you scroll. It's what we're building because the data convinced us it works.
 
@@ -144,3 +144,7 @@ Different apps take different approaches. ScreenZen adds friction with delays. O
 ### How long does it take to break the doomscrolling habit?
 
 Research on habit change suggests a median of **66 days**, though the range is wide (18-254 days). You'll likely notice reduced urges within the first 2-3 weeks. The key is consistency. each time you successfully interrupt the scroll and do something else, the old habit weakens and the new pattern strengthens.
+
+[^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)
+
+[^braindrain]: Ward, A. F., Duke, K., Gneezy, A., & Bos, M. W. (2017). Brain drain: the mere presence of one's own smartphone reduces available cognitive capacity. *Journal of the Association for Consumer Research*, 2(2), 140–154. [doi.org/10.1086/691462](https://doi.org/10.1086/691462)

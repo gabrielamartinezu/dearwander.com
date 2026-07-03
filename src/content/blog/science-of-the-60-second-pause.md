@@ -36,13 +36,15 @@ When a breathing exercise is inserted between the cue and the routine, something
 
 By the time the sixty seconds are over, you're a fundamentally different decision-maker than the person who picked up the phone.
 
-## The Heidelberg study: 57% reduction
+## The 57% finding
 
-Researchers at the University of Heidelberg studied this exact intervention in a widely cited 2023 paper. Participants who were shown a brief breathing exercise before accessing social media apps reduced their usage by an average of **57%**.
+The clearest evidence for this comes from a 2023 study published in *PNAS*, run by researchers at the Max Planck Institute and Heidelberg University.[^onesec] Over six weeks, 280 people had a brief pause placed before their chosen apps: a short wait, a gentle prompt asking whether they really wanted to continue, and the option to close the app instead. No block. No lock.
+
+Their app-opening attempts fell by an average of **57%**.
 
 Fifty-seven percent.
 
-The mechanism wasn't blocking. Nobody was prevented from using their apps. They just had to breathe first. And more than half the time, after breathing, they chose to put the phone down.
+The mechanism wasn't blocking. Nobody was prevented from using their apps. The pause worked in two ways: about a third of the time, people closed the app again once they were asked to pause, and over the weeks they simply reached for it less. Given a moment to decide, more than a third of the time they chose to put the phone down.
 
 This finding aligns with broader research on "implementation intentions". pre-planned responses to specific cues. When you have a defined behavior that occurs between the urge and the action, the urge loses most of its power.
 
@@ -87,3 +89,5 @@ Each design choice serves one goal: give your conscious mind a chance to show up
 ---
 
 *The 60-second pause is the core of Dear Wander. coming soon to iOS. If you want to be the first to experience it, [join the waitlist](/).*
+
+[^onesec]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)

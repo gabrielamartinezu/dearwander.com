@@ -85,7 +85,7 @@ Lo que sí sostiene el cambio es pequeño y casi aburrido.
 
 **Saca el celular del cuarto en la noche.** Compra un despertador de verdad. Tu sueño y tu primera hora de la mañana lo van a agradecer.
 
-**Mete una pausa antes de abrir.** Esto es lo más poderoso y lo menos obvio. Un estudio de la Universidad de Heidelberg encontró que [una breve pausa de respiración antes de entrar a redes redujo el uso en un 57%](/blog/es-science-of-the-60-second-pause/). Nadie bloqueó nada. Solo tenían que respirar primero, y muchas veces, después de respirar, soltaban el teléfono solos.
+**Mete una pausa antes de abrir.** Esto es lo más poderoso y lo menos obvio. Un estudio de 2023 publicado en *PNAS* encontró que [una breve pausa en pantalla antes de entrar a redes — una espera corta y un aviso que te pregunta si de verdad quieres continuar — redujo los intentos de abrir apps en un 57% a lo largo de seis semanas](/blog/es-science-of-the-60-second-pause/).[^pnas] Nadie bloqueó nada. Solo había que esperar primero, y muchas veces, después de esa pausa, la gente soltaba el teléfono sola.
 
 Si quieres ir más a fondo y darle estructura, una [desintoxicación digital bien pensada](/blog/es-desintoxicacion-digital/) puede ayudarte a resetear, siempre que la veas como un reinicio amable y no como un castigo.
 
@@ -100,3 +100,5 @@ Tu teléfono entrenó tu atención poco a poco, una notificación a la vez. Se r
 No tienes que cambiar tu relación con la tecnología esta semana. Pero la próxima vez que tu mano busque el celular sin razón, respira una vez antes de abrirlo. A veces esa sola respiración basta para que decidas tú.
 
 Si te llama ese enfoque de la pausa, [Dear Wander](/es/) es una app de iOS construida alrededor de esta idea. Una pantalla cálida antes de que se abran tus apps. Sesenta segundos para volver a ti.
+
+[^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)

@@ -39,13 +39,13 @@ Compra una sveglia economica. Metti il caricatore in cucina. Le prime tre notti 
 
 Designa un posto specifico in casa dove il tuo telefono vive quando non lo stai usando attivamente. Uno scaffale, un cassetto, un cestino vicino alla porta. L'obiettivo è rendere il telefono qualcosa a cui vai intenzionalmente, non qualcosa sempre a portata di mano.
 
-La ricerca sulle indicazioni ambientali mostra che semplicemente avere il telefono visibile, anche capovolto, anche spento, riduce la capacità cognitiva disponibile di circa il **10%**.
+Alcune ricerche suggeriscono che semplicemente avere il telefono visibile, anche capovolto, anche spento, riduce la capacità cognitiva disponibile.[^braindrain]
 
 ### 3. Rimuovi i social media dalla schermata principale
 
 Sposta Instagram, TikTok, Twitter e Reddit in una cartella nella seconda o terza schermata. O meglio ancora, elimina le app completamente e accedi tramite browser mobile.
 
-Gli studi mostrano che aggiungere anche un solo tocco extra riduce le aperture casuali delle app del **25-30%**.
+Aggiungere anche un solo tocco extra rende le aperture casuali delle app decisamente meno automatiche.
 
 ## Impostazioni del telefono
 
@@ -77,7 +77,7 @@ Quest'ultima, quella onesta, è il momento di consapevolezza che cambia tutto.
 
 ### 8. La pausa di respirazione di 60 secondi
 
-Inserisci un breve esercizio di respirazione tra l'impulso e l'azione. [La ricerca mostra](/blog/science-of-the-60-second-pause/) che questo semplice intervento riduce l'uso dei social media fino al **57%**. Il respiro attiva la corteccia prefrontale, spostándoti da reattivo a responsivo.
+Inserisci un breve esercizio di respirazione tra l'impulso e l'azione. Uno studio del 2023 pubblicato su *PNAS* ha rilevato che una breve pausa prima delle app social — una breve attesa e un messaggio che chiede se vuoi davvero continuare — ha ridotto i tentativi di apertura delle app del 57% nell'arco di sei settimane.[^pnas] Il respiro attiva la corteccia prefrontale, spostándoti da reattivo a responsivo.
 
 [Dear Wander](/it/) posiziona uno schermo caldo di respirazione guidata prima delle tue app social, sessanta secondi di presenza prima di scorrere.
 
@@ -116,3 +116,7 @@ Perché ecco la verità che le [statistiche rendono chiara](/blog/phone-addictio
 Il campo di gioco non è livellato. Ma con qualche cambiamento strategico, ambientale, comportamentale, tecnologico, puoi inclinarlo a tuo favore.
 
 Non perfettamente. Non da un giorno all'altro. Ma abbastanza.
+
+[^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)
+
+[^braindrain]: Ward, A. F., Duke, K., Gneezy, A., & Bos, M. W. (2017). Brain drain: the mere presence of one's own smartphone reduces available cognitive capacity. *Journal of the Association for Consumer Research*, 2(2), 140–154. [doi.org/10.1086/691462](https://doi.org/10.1086/691462)

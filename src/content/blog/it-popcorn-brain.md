@@ -63,7 +63,7 @@ Risolvere il popcorn brain ha meno a che fare con eliminare la stimolazione e pi
 
 Quando inserisci una breve pausa tra l'impulso e l'azione, qualcosa cambia neurologicamente. La tua corteccia prefrontale, la parte responsabile delle decisioni intenzionali, ha il tempo di attivarsi prima che il comportamento automatico si completi.
 
-Uno [studio ampiamente citato dell'Università di Heidelberg](/blog/science-of-the-60-second-pause/) ha scoperto che i partecipanti che completavano un breve esercizio di respirazione prima di aprire le app di social media riducevano il loro utilizzo del **57%**. Non perché le app fossero bloccate. Perché la pausa dava loro la possibilità di scegliere, e la maggior parte delle volte sceglievano di posare il telefono.
+Uno [studio del 2023 pubblicato su *PNAS*](/blog/science-of-the-60-second-pause/) ha scoperto che una breve pausa sullo schermo prima delle app social — una breve attesa e un messaggio che chiede se vuoi davvero continuare — ha ridotto i tentativi di aprire le app del **57%** in sei settimane.[^pnas] Non perché le app fossero bloccate. Perché la pausa dava loro la possibilità di scegliere, e la maggior parte delle volte sceglievano di posare il telefono.
 
 Questa è l'idea centrale di Dear Wander. Uno schermo di respirazione appare prima che le tue app si aprano. Sessanta secondi. Abbastanza tempo perché la corteccia prefrontale esprima la sua opinione su una decisione che il pollice ha già preso.
 
@@ -96,3 +96,5 @@ Ciò che funziona è la stessa cosa che ha creato il problema: la ripetizione, m
 Ciascuno è un singolo chicco che non scoppia. Col tempo, la padella si fa più silenziosa.
 
 Se ti incuriosisce l'approccio della pausa con respirazione, [Dear Wander](/it/) sta costruendo un'app iOS intorno a esattamente questa idea. Uno schermo caldo prima di scrollare. Sessanta secondi di presenza guidata.
+
+[^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)

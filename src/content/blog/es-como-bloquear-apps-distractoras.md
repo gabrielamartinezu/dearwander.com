@@ -8,11 +8,11 @@ faq:
   - q: "¿Cómo bloqueo una app para no poder abrirla?"
     a: "El iPhone no tiene un bloqueo con contraseña por app, pero puedes acercarte: pon un límite en Tiempo de Uso, mete la app en un modo de Concentración que la esconda, o quítala de la pantalla de inicio para que abrirla cueste un paso más. Cada opción añade un momento de fricción antes de que la app se abra."
   - q: "¿Cómo escondo apps en mi iPhone?"
-    a: "Mantén pulsada la app, toca 'Eliminar app' y luego 'Quitar de pantalla de inicio'. La app sigue instalada y buscable en la Biblioteca de apps, pero ya no está frente a ti. Solo esto reduce las aperturas entre un 25 y un 30 por ciento."
+    a: "Mantén pulsada la app, toca 'Eliminar app' y luego 'Quitar de pantalla de inicio'. La app sigue instalada y buscable en la Biblioteca de apps, pero ya no está frente a ti. Solo esto elimina el estímulo visual y añade un paso, lo que hace que las aperturas casuales sean bastante menos automáticas."
   - q: "¿Esconder o bloquear apps realmente reduce el uso?"
-    a: "Sí, de forma moderada. Quitar una app de la pantalla de inicio recorta las aperturas un cuarto porque elimina el estímulo visual y añade un paso. Pero los bloqueos duros suelen provocar que busques cómo saltártelos. Una pausa breve antes de abrir la app aguanta mejor que un muro que puedes ignorar."
+    a: "Sí, de forma moderada. Quitar una app de la pantalla de inicio recorta las aperturas porque elimina el estímulo visual y añade un paso. Pero los bloqueos duros suelen provocar que busques cómo saltártelos. Una pausa breve antes de abrir la app aguanta mejor que un muro que puedes ignorar."
   - q: "¿Qué es mejor, bloquear una app o poner una pausa antes?"
-    a: "Bloquear crea un adversario: en el momento en que te dicen que no puedes, lo quieres más, y casi todos los bloqueos tienen un botón de 'ignorar' de todos modos. Una pausa corta te deja libre para abrir la app pero despierta la parte del cerebro que decide. Un estudio encontró que una breve pausa de respiración antes de las apps redujo el uso un 57 por ciento sin bloquear nada."
+    a: "Bloquear crea un adversario: en el momento en que te dicen que no puedes, lo quieres más, y casi todos los bloqueos tienen un botón de 'ignorar' de todos modos. Una pausa corta te deja libre para abrir la app pero despierta la parte del cerebro que decide. Un estudio de 2023 en PNAS encontró que una breve pausa antes de las apps — una corta espera y un aviso preguntando si de verdad quieres continuar — redujo los intentos de abrir apps un 57 por ciento sin bloquear nada."
 ---
 
 Ya intentaste borrar Instagram. Aguantaste cuatro días, lo reinstalaste un martes por la noche y te dijiste que esta vez sería distinto.
@@ -27,7 +27,7 @@ El cambio más rápido, y más efectivo de lo que parece.
 
 Mantén pulsado el ícono, toca **Eliminar app** y luego **Quitar de pantalla de inicio**. La app sigue instalada. Tus sesiones, tus mensajes, tus borradores, todo sigue ahí. Simplemente deja de estar frente a tus ojos cada vez que desbloqueas el teléfono.
 
-Esto funciona porque casi ninguna apertura es una decisión. Están activadas por un estímulo. Ves el ícono, tu pulgar se mueve, y estás en el feed antes de darte cuenta de que lo querías. Quita el estímulo y quitas gran parte del gesto automático. La investigación sobre la ubicación en la pantalla de inicio sugiere que solo esto recorta las aperturas entre un 25 y un 30 por ciento.
+Esto funciona porque casi ninguna apertura es una decisión. Están activadas por un estímulo. Ves el ícono, tu pulgar se mueve, y estás en el feed antes de darte cuenta de que lo querías. Quita el estímulo y quitas gran parte del gesto automático. Sacar el ícono de tu primera pantalla añade un paso real, aunque pequeño, al gesto automático.
 
 Para volver a entrar, deslizas a la Biblioteca de apps o bajas y buscas el nombre. Ese paso extra es pequeño, pero pequeño es justo el punto. Convierte la apertura de gratis a un poco-costosa, y un poco-costosa suele bastar.
 
@@ -67,7 +67,7 @@ Los psicólogos lo llaman **reactancia**: el rechazo instintivo cuando tu libert
 
 Así que las herramientas más fuertes no son las que cierran la puerta de golpe. Son las que dejan la puerta abierta pero te piden que hagas una pausa en el umbral.
 
-Un estudio de la Universidad de Heidelberg encontró que poner un breve ejercicio de respiración antes de las apps sociales recortó el uso un **57 por ciento**, sin bloquear nada. A nadie se le detuvo. Solo tenían que respirar primero, y más de la mitad de las veces, después de respirar, eligieron soltar el teléfono. Funciona porque [una pausa corta despierta la parte del cerebro que decide](/blog/es-science-of-the-60-second-pause/) que el piloto automático había apagado.
+Un estudio de 2023 publicado en *PNAS* encontró que poner una breve pausa antes de las apps sociales — una corta espera y un aviso preguntando si de verdad quieres continuar — recortó los intentos de abrir apps un **57 por ciento** a lo largo de seis semanas, sin bloquear nada.[^pnas] A nadie se le detuvo. Solo tenían que hacer una pausa primero, y más de la mitad de las veces, después de esa pausa, eligieron soltar el teléfono. Funciona porque [una pausa corta despierta la parte del cerebro que decide](/blog/es-science-of-the-60-second-pause/) que el piloto automático había apagado.
 
 ## Qué hacer en realidad
 
@@ -84,3 +84,5 @@ No necesitas dejarte fuera de tu propio teléfono. Necesitas un pequeño espacio
 ---
 
 *Dear Wander pone una suave pausa de respiración de 60 segundos antes de las apps que tiran de ti, para que el momento antes del toque se vuelva una elección, no un reflejo. Sin bloqueos, sin culpa. [Únete a la lista de espera](/) para estar primero en iOS.*
+
+[^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)

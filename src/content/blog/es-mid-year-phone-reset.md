@@ -31,7 +31,7 @@ El móvil es el punto obvio para empezar, porque es por donde se te escapa la at
 
 ## Cómo son los números de verdad
 
-La persona media pasa cerca de cinco horas al día con el móvil y lo coge unas 144 veces. Eso es más o menos una vez cada diez minutos de vigilia. La mayoría de esas veces no son decisiones. Son reflejos.
+La persona media pasa cerca de cinco horas al día con el móvil y lo coge unas 144 veces.[^pickups] Eso es más o menos una vez cada diez minutos de vigilia. La mayoría de esas veces no son decisiones. Son reflejos.
 
 Tu atención se ha encogido a juego. Investigadores de la UC Irvine descubrieron que el tiempo medio que pasamos en una sola pantalla antes de cambiar cayó de unos dos minutos y medio en 2004 a 47 segundos hoy. Cuarenta y siete segundos. Esa es la concentración que recibe una pantalla típica antes de que algo la arrastre a otro sitio.
 
@@ -69,7 +69,7 @@ El móvil debería interrumpirte cuando una persona te necesita. El resto puede 
 
 Una atracción tan automática necesita algo en medio. No un muro. Un badén.
 
-Elige la app que más te atrapa y pon un pequeño obstáculo entre tú y el momento de abrirla. El más eficaz es una respiración. Investigadores de la Universidad de Heidelberg descubrieron que una breve pausa de respiración antes de abrir las redes sociales [redujo el uso de la app un 57%](/blog/science-of-the-60-second-pause/). La pausa no era larga. Bastaba para mover el cerebro del piloto automático a una elección real, y la mayoría de las veces la elección fue dejar el móvil.
+Elige la app que más te atrapa y pon un pequeño obstáculo entre tú y el momento de abrirla. El más eficaz es una breve pausa. Un estudio de 2023 publicado en *PNAS* descubrió que una breve espera en pantalla antes de las apps sociales —una pequeña demora y un aviso que te pregunta si de verdad quieres continuar— [redujo los intentos de abrir apps un 57% en seis semanas](/blog/science-of-the-60-second-pause/).[^pnas] La pausa no era larga. Bastaba para mover el cerebro del piloto automático a una elección real, y la mayoría de las veces la elección fue dejar el móvil.
 
 Puedes montar tu propia versión. Ponte una regla: tres respiraciones lentas antes de abrir la app. Pasa la pantalla a escala de grises para que los colores dejen de tirar de ti. El mecanismo es el mismo en cada caso. Insertas un instante de conciencia en un gesto que antes era invisible, y la conciencia suele bastar.
 
@@ -94,3 +94,7 @@ Mira tus números de Tiempo de uso otra vez en un mes. No para ponerte nota. Sol
 La segunda mitad del año es la parte que de verdad vives. El mid-year reset es solo una forma de estar ahí para ella, de levantar la vista más a menudo, presente en el verano en vez de pasándolo de largo con el dedo.
 
 Si quieres una versión más suave del paso cuatro, [Dear Wander](/es/) pone una pausa de respiración tranquila delante de tus apps más usadas. Unos segundos lentos antes del scroll, para que abrir vuelva a ser una elección. Una manera serena de empezar la segunda mitad de tu año.
+
+[^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)
+
+[^pickups]: Reviews.org (2023). Cell phone usage statistics: Americans check their phones 144 times a day. [reviews.org/mobile/cell-phone-addiction](https://www.reviews.org/mobile/cell-phone-addiction/)

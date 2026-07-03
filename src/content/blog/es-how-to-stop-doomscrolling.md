@@ -39,13 +39,13 @@ Compra un despertador barato. Pon el cargador en la cocina. Las primeras tres no
 
 Designa un lugar específico en tu casa donde viva tu teléfono cuando no lo estés usando activamente. Un estante, un cajón, una cesta junto a la puerta. El objetivo es hacer que tu teléfono sea algo a lo que vas intencionalmente, no algo que siempre está al alcance.
 
-La investigación sobre señales ambientales muestra que simplemente tener tu teléfono visible, incluso boca abajo, incluso apagado, reduce la capacidad cognitiva disponible en aproximadamente un **10%**.
+Algunas investigaciones sugieren que simplemente tener tu teléfono visible, incluso boca abajo, incluso apagado, reduce la capacidad cognitiva disponible.[^braindrain]
 
 ### 3. Elimina las redes sociales de tu pantalla principal
 
 Mueve Instagram, TikTok, Twitter y Reddit a una carpeta en tu segunda o tercera pantalla. O mejor aún, elimina las apps por completo y accede a ellas a través del navegador móvil (la experiencia es intencionalmente peor, que es el punto).
 
-Los estudios muestran que añadir incluso un toque extra reduce las aperturas casuales de apps en un **25-30%**.
+Añadir incluso un toque extra hace que las aperturas casuales de apps sean bastante menos automáticas.
 
 ## Configuración del teléfono
 
@@ -77,7 +77,7 @@ Esa última, la honesta, es el momento de conciencia que cambia todo.
 
 ### 8. La pausa de respiración de 60 segundos
 
-Inserta un breve ejercicio de respiración entre la urgencia y la acción. [La investigación muestra](/blog/science-of-the-60-second-pause/) que esta simple intervención reduce el uso de redes sociales hasta un **57%**. La respiración activa tu corteza prefrontal, cambiándote de reactivo a receptivo.
+Inserta un breve ejercicio de respiración entre la urgencia y la acción. Un estudio de 2023 publicado en *PNAS* encontró que una breve pausa antes de las apps sociales — una corta espera y un aviso preguntando si de verdad quieres continuar — redujo los intentos de abrir apps en un 57% a lo largo de seis semanas.[^pnas] La respiración activa tu corteza prefrontal, cambiándote de reactivo a receptivo.
 
 [Dear Wander](/es/) coloca una pantalla cálida de respiración guiada antes de tus apps de redes sociales, sesenta segundos de presencia antes de hacer scroll.
 
@@ -116,3 +116,7 @@ Porque aquí está la verdad que las [estadísticas dejan clara](/blog/phone-add
 El campo de juego no está nivelado. Pero con unos pocos cambios estratégicos, ambientales, conductuales, tecnológicos, puedes inclinarlo a tu favor.
 
 No perfectamente. No de la noche a la mañana. Pero suficiente.
+
+[^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)
+
+[^braindrain]: Ward, A. F., Duke, K., Gneezy, A., & Bos, M. W. (2017). Brain drain: the mere presence of one's own smartphone reduces available cognitive capacity. *Journal of the Association for Consumer Research*, 2(2), 140–154. [doi.org/10.1086/691462](https://doi.org/10.1086/691462)

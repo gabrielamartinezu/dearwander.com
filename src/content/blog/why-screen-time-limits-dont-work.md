@@ -28,7 +28,7 @@ No. Obviously not. Not in that moment. And the designers know this. The Ignore b
 
 Psychology has a name for what happens when someone tells you that you can't do something: **reactance**. It's the instinctive, emotional pushback against perceived threats to your freedom.
 
-Jack Brehm first described reactance theory in 1966, and it's been replicated relentlessly since. When a behavior is restricted, three things happen:
+Jack Brehm first described reactance theory in 1966, and it's been replicated relentlessly since.[^brehm] When a behavior is restricted, three things happen:
 
 1. **The restricted behavior becomes more attractive.** The forbidden fruit effect is real and measurable.
 2. **Motivation to perform the behavior increases.** You want to scroll *more* after being told you can't.
@@ -42,9 +42,9 @@ The limit was supposed to help you. Instead, it created an adversary, and the ad
 
 Many screen time apps compound the reactance problem with shame. They show you your usage in red. They display your "failures" as streaks. They compare you to averages designed to make you feel below average.
 
-The logic seems intuitive: if people see how much they're using their phones, they'll use them less. But research on shame-based health interventions tells a different story.
+The logic seems intuitive: if people see how much they're using their phones, they'll use them less. But research on shame in other health behaviors points the other way.
 
-A 2024 meta-analysis in *Health Psychology Review* found that shame-based interventions for habitual behaviors (eating, drinking, smoking, screen use) were not only ineffective but **counterproductive**. participants in shame conditions showed *increased* engagement with the problematic behavior compared to control groups.
+Studies of weight stigma, for example, find that making people feel ashamed of a behavior tends to *increase* it rather than curb it.[^stigma] Shame doesn't motivate change so much as send people looking for relief, often in the very behavior that caused it.
 
 The mechanism is simple: shame is an aversive emotion. When you feel shame, you seek comfort. And for many people, the most accessible comfort is the exact behavior that caused the shame.
 
@@ -56,7 +56,7 @@ The apps that show you your failures [shouldn't feel like a punishment](/blog/wh
 
 Underlying most screen time limits is an assumption: if you know your usage and set a boundary, your willpower will enforce it.
 
-This misunderstands willpower. Research by Roy Baumeister and others established that self-control is a **depletable resource**. It gets weaker throughout the day, after stress, after too many decisions. By the time you're doom-scrolling at 9 PM, your willpower reserves are at their lowest.
+This misunderstands willpower. Research by Roy Baumeister and others proposed that self-control is a **depletable resource** that gets weaker throughout the day, after stress, after too many decisions.[^egodepletion] By the time you're doom-scrolling at 9 PM, your willpower reserves are at their lowest.
 
 More recent research has refined this picture. Willpower doesn't run out like a battery. But the brain starts prioritizing rewards over restraint when cognitive resources are taxed. The scroll becomes harder to resist precisely when you most need to resist it.
 
@@ -68,7 +68,7 @@ If limits, shame, and willpower don't work, what does? The research points to th
 
 ### Friction, not restriction
 
-Instead of blocking access, add a small delay or step before access. Research from the University of Heidelberg found that a brief breathing exercise before app access reduced usage by **57%**. not by preventing use, but by creating a moment where you actually choose.
+Instead of blocking access, add a small delay or step before access. A 2023 study in *PNAS* found that a brief pause before social apps. a short wait and a prompt asking whether you really wanted to continue. cut app-opening attempts by **57%** over six weeks.[^pnas] Not by preventing use, but by creating a moment where you actually choose.
 
 This is the principle behind [The Pause in Dear Wander](/blog/science-of-the-60-second-pause/). A warm breathing screen appears before your social media apps. Sixty seconds. No lock. No timer counting down your remaining minutes. Just a moment to arrive in your own intention.
 
@@ -80,7 +80,7 @@ And most of the time, after breathing, you choose something else.
 
 The most effective behavior changes don't require any ongoing effort because they're built into your environment.
 
-- **Remove apps from the home screen.** One extra tap reduces opens by 25-30%.
+- **Remove apps from the home screen.** Having to search for an app adds friction to the automatic reach.
 - **Charge your phone in another room at night.** Eliminates the bedtime scroll entirely.
 - **Turn on grayscale.** Reduces the visual reward of colorful interfaces.
 - **Use Do Not Disturb by default.** Reverses the notification model from opt-out to opt-in.
@@ -115,3 +115,11 @@ The [data supports this](/blog/phone-addiction-statistics-2026/). And we think t
 ---
 
 *Dear Wander is coming soon to iOS. [Join the waitlist](/) and we'll write to you when we're ready.*
+
+[^stigma]: Puhl, R. M., & Heuer, C. A. (2010). Obesity stigma: important considerations for public health. *American Journal of Public Health*, 100(6), 1019–1028. [doi.org/10.2105/AJPH.2009.159491](https://doi.org/10.2105/AJPH.2009.159491)
+
+[^brehm]: Brehm, J. W. (1966). *A Theory of Psychological Reactance*. New York: Academic Press.
+
+[^egodepletion]: Baumeister, R. F., Bratslavsky, E., Muraven, M., & Tice, D. M. (1998). Ego depletion: is the active self a limited resource? *Journal of Personality and Social Psychology*, 74(5), 1252–1265. Note: a large 2016 preregistered replication (Hagger et al., *Perspectives on Psychological Science*) failed to reproduce the effect, so ego depletion is now contested.
+
+[^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)

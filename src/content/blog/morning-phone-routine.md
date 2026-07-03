@@ -85,7 +85,7 @@ A 2024 study in the *Journal of Social and Personal Relationships* found that co
 
 This is the feature we're building specifically for mornings. [First Light](/) is a brief guided breathing moment that greets you when you first reach for a social app. Warmer gradients, a slightly faster breath pattern than the evening version. It doesn't block you from your phone. It just asks: are you ready? Or would you like one more minute with yourself?
 
-The data behind this approach is solid. [A 60-second breathing pause](/blog/science-of-the-60-second-pause/) before app access reduces usage by up to 57%. In the morning, when your brain is still transitioning, even a brief interruption of the automatic reach has an outsized effect.
+The data behind this approach is solid. A 2023 study in *PNAS* found that [a brief on-screen pause before social apps](/blog/science-of-the-60-second-pause/) — a short wait and a prompt asking whether to continue — cut app-opening attempts by 57% over six weeks.[^pnas] In the morning, when your brain is still transitioning, even a brief interruption of the automatic reach has an outsized effect.
 
 ## What if you can't go phone-free?
 
@@ -101,7 +101,7 @@ None of this is dramatic in isolation. Drinking water instead of checking Instag
 
 Researchers at the University of Nottingham found that participants who followed a consistent phone-free morning routine for 21 days reported **23% lower perceived stress** and **better sustained attention** throughout the workday. The changes were self-reinforcing. Once you feel the difference, the phone feels less urgent.
 
-The [statistics on phone use](/blog/phone-addiction-statistics-2026/) are large and abstract. 144 checks a day. 4.5 hours of screen time. These numbers describe the current, not your choices. Every morning is a chance to step upstream.
+The [statistics on phone use](/blog/phone-addiction-statistics-2026/) are large and abstract. 144 checks a day.[^pickups] 4.5 hours of screen time. These numbers describe the current, not your choices. Every morning is a chance to step upstream.
 
 Not dramatically. Not with a 17-step routine or a manifesto taped to your mirror.
 
@@ -110,3 +110,7 @@ Just one minute of quiet before the noise starts.
 ---
 
 *Dear Wander's First Light ritual is designed for exactly this moment. Coming soon to iOS. [Join the waitlist](/) and we'll write to you when we're ready.*
+
+[^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)
+
+[^pickups]: Reviews.org (2023). Cell phone usage statistics: Americans check their phones 144 times a day. [reviews.org/mobile/cell-phone-addiction](https://www.reviews.org/mobile/cell-phone-addiction/)

@@ -75,7 +75,7 @@ Recorta tu tiempo en redes sociales a la mitad en vez de dejarlo en cero. Si est
 
 El gesto automático es el problema central. Abres apps sin decidirlo. Tu pulgar se mueve antes de que tu cerebro tenga oportunidad de opinar. Cualquier cosa que cree un espacio entre el impulso y la acción cambia la ecuación.
 
-Un [estudio de la Universidad de Heidelberg](/blog/science-of-the-60-second-pause/) encontró que un breve ejercicio de respiración antes de abrir redes sociales redujo el uso un **57%**. Las apps de nadie fueron bloqueadas. A nadie le quitaron el teléfono. La pausa le dio tiempo a la corteza prefrontal para ponerse al día, y la mayoría de las personas se dieron cuenta de que realmente no querían hacer scroll. Solo querían escapar de una sensación.
+Un [estudio de 2023 publicado en *PNAS*](/blog/science-of-the-60-second-pause/) encontró que una breve pausa en pantalla antes de las apps sociales — una espera corta y un aviso preguntándote si de verdad quieres continuar — redujo los intentos de abrir apps un **57%** a lo largo de seis semanas.[^pnas] Las apps de nadie fueron bloqueadas. A nadie le quitaron el teléfono. La pausa le dio tiempo a la corteza prefrontal para ponerse al día, y la mayoría de las personas se dieron cuenta de que realmente no querían hacer scroll. Solo querían escapar de una sensación.
 
 ### Micro-detox diario en vez de ayuno mensual
 
@@ -100,3 +100,5 @@ La mayoría de las veces, la pausa es suficiente. Respiras, el impulso pasa y de
 El dopamine detox acierta en una cosa: algo en tu [relación con el teléfono necesita cambiar](/blog/how-to-stop-doomscrolling/). El método solo necesita coincidir con lo que la ciencia realmente dice. Pequeño, constante, integrado en la vida diaria. No un ayuno dramático que termina en un atracón más fuerte.
 
 Si quieres probar el enfoque de la pausa de respiración, [Dear Wander](/es/) pone una entre tú y cada scroll inconsciente. Sesenta segundos. Sin bloqueos. Solo una respiración antes del ruido.
+
+[^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)

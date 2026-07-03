@@ -12,7 +12,7 @@ faq:
   - q: "How do I start noticing glimmers?"
     a: "Start by pausing once a day and asking yourself: when did my body feel most at ease today? It might be a moment of warmth from a mug, sunlight on your skin, a song that shifted your mood, or a few seconds of quiet before anyone else woke up. The more you practice noticing, the more glimmers you'll find. You're not creating new ones. You're training your attention to catch what was already there."
   - q: "Is polyvagal theory scientifically supported?"
-    a: "Yes. While some aspects of polyvagal theory are still debated in neuroscience, its clinical applications have growing support. A 2025 publication in Clinical Neuropsychiatry confirmed the framework's usefulness in therapeutic settings. The core concept that your nervous system constantly scans for safety or danger, called neuroception, is well established in research on the autonomic nervous system."
+    a: "It's partly supported and partly debated. Some aspects of polyvagal theory remain contested among neuroscientists. Its clinical usefulness is advocated by the theory's originator, Stephen Porges, though other researchers dispute parts of the framework. The core concept that your nervous system constantly scans for safety or danger, called neuroception, is well established in research on the autonomic nervous system."
 ---
 
 The coffee is still too hot to drink. You're holding the mug with both hands, standing near the window. Sunlight lands on the backs of your fingers. The house is quiet. Nobody needs anything from you yet.
@@ -37,7 +37,7 @@ This is where polyvagal theory enters. Developed by neuroscientist Stephen Porge
 
 Your nervous system doesn't wait for you to analyze a situation. It reads the room. Tone of voice, body language, lighting, temperature, sounds. If it detects threat, your body mobilizes: heart rate up, muscles tense, breath shallow. If it detects safety, the ventral vagal pathway activates. Heart rate steadies. Breath deepens. This is the same [vagus nerve you can reach directly through a slow exhale](/blog/vagus-nerve-breathing/), which is why breathing is one of the few conscious ways into this system. Your body opens toward connection.
 
-A 2025 publication in *Clinical Neuropsychiatry* confirmed that polyvagal theory's clinical applications hold up under scrutiny, particularly in understanding how people move between states of safety, mobilization, and shutdown. This isn't just theory. It maps onto what therapists see every day.
+Polyvagal theory's clinical usefulness is advocated by its originator, Stephen Porges, particularly for understanding how people move between states of safety, mobilization, and shutdown. It's worth noting that parts of the framework remain debated among researchers. Still, it maps onto what many therapists see every day.
 
 Glimmers are the safety side of this equation. They're not big events. They're not breakthroughs or peak experiences. They're small. Often so small you walk right past them.
 

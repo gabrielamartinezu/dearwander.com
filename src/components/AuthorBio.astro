@@ -1,18 +1,42 @@
 ---
+import type { Locale } from "../i18n/translations";
+const lang = (Astro.props.lang ?? "en") as Locale;
+
+const copy: Record<Locale, { role: string; desc: string; link: string }> = {
+  en: {
+    role: "Founder of Dear Wander · Computer engineer (USB, Caracas)",
+    desc: "Gabriela builds Dear Wander after her own years of managing anxiety and a restless relationship with the phone. She writes about the science of attention and calm in plain language, with sources you can check.",
+    link: "More about Gabriela",
+  },
+  es: {
+    role: "Fundadora de Dear Wander · Ingeniera en computación (USB, Caracas)",
+    desc: "Gabriela construye Dear Wander tras años manejando su propia ansiedad y una relación inquieta con el teléfono. Escribe sobre la ciencia de la atención y la calma en lenguaje claro, con fuentes que puedes verificar.",
+    link: "Más sobre Gabriela",
+  },
+  it: {
+    role: "Fondatrice di Dear Wander · Ingegnere informatico (USB, Caracas)",
+    desc: "Gabriela costruisce Dear Wander dopo anni passati a gestire la propria ansia e un rapporto inquieto con il telefono. Scrive sulla scienza dell'attenzione e della calma in un linguaggio semplice, con fonti verificabili.",
+    link: "Di più su Gabriela",
+  },
+};
+
+const c = copy[lang] ?? copy.en;
 ---
 
 <div class="author-bio">
-  <div class="author-avatar">DW</div>
+  <div class="author-avatar">GM</div>
   <div class="author-info">
-    <p class="author-name">Dear Wander</p>
-    <p class="author-desc">Building a mindful screen time app for iOS. Sixty seconds back to yourself.</p>
+    <p class="author-name">Gabriela Martínez</p>
+    <p class="author-role">{c.role}</p>
+    <p class="author-desc">{c.desc}</p>
+    <a class="author-link" href="/about">{c.link} &rarr;</a>
   </div>
 </div>
 
 <style>
   .author-bio {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 1rem;
     margin-top: 3rem;
     padding-top: 2rem;
@@ -37,7 +61,15 @@
     font-weight: 600;
     color: var(--color-earth);
     font-size: 0.95rem;
-    margin-bottom: 0.15rem;
+    margin-bottom: 0.1rem;
+  }
+  .author-role {
+    font-family: var(--font-sans);
+    font-weight: 400;
+    color: var(--color-earth);
+    opacity: 0.75;
+    font-size: 0.78rem;
+    margin-bottom: 0.4rem;
   }
   .author-desc {
     font-family: var(--font-sans);
@@ -45,5 +77,16 @@
     color: var(--color-taupe);
     font-size: 0.85rem;
     line-height: 1.5;
+    margin-bottom: 0.5rem;
+  }
+  .author-link {
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--color-breath);
+    text-decoration: none;
+  }
+  .author-link:hover {
+    color: var(--color-earth);
   }
 </style>

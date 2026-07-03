@@ -83,7 +83,7 @@ Ne abbiamo parlato in dettaglio nel nostro articolo su [dopamina e abitudini dig
 
 ### Fai una pausa prima di scrollare
 
-Uno [studio dell'Università di Heidelberg](/blog/science-of-the-60-second-pause/) ha scoperto che un breve esercizio di respirazione prima di aprire i social media riduceva l'uso del 57%. La pausa non era lunga. Sessanta secondi. Ma è bastata per spostare il cervello dal pilota automatico alla scelta consapevole.
+Uno [studio del 2023 pubblicato su *PNAS*](/blog/science-of-the-60-second-pause/) ha scoperto che una breve pausa sullo schermo prima delle app social — una breve attesa e un messaggio che chiede se vuoi davvero continuare — ha ridotto i tentativi di aprire le app del 57% in sei settimane.[^pnas] La pausa non era lunga. Ma è bastata per spostare il cervello dal pilota automatico alla scelta consapevole.
 
 La maggior parte delle volte, quando le persone facevano una pausa e poi decidevano se volevano davvero scrollare, posavano il telefono. L'impulso passava. Succede quasi sempre, quando gli dai sessanta secondi.
 
@@ -94,3 +94,5 @@ Thoreau vide qualcosa nel 1854 che non è cambiato. Quando scambiamo il coinvolg
 Il brain rot non è permanente. La tua attenzione non è rotta. È stata allenata verso la frammentazione, e può essere riallenata nella direzione opposta. Piano. Con pazienza. Attraverso il gesto piccolo e quotidiano di fare una cosa alla volta e lasciare che il silenzio resti.
 
 Se vuoi un modo gentile per iniziare, [Dear Wander](/it/) inserisce una pausa di respirazione prima delle tue app più usate. Sessanta secondi di calma prima che lo scroll cominci. Non è un blocco. Solo un momento per scegliere.
+
+[^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)

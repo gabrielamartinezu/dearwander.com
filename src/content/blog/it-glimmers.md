@@ -12,7 +12,7 @@ faq:
   - q: "Come inizio a notare i glimmers?"
     a: "Inizia facendo una pausa una volta al giorno e chiedendoti: quando il mio corpo si è sentito più a suo agio oggi? Potrebbe essere il calore di una tazza, la luce del sole sulla pelle, una canzone che ha cambiato il tuo umore, o qualche secondo di silenzio prima che qualcun altro si svegliasse. Più pratichi il notare, più glimmers troverai. Non ne stai creando di nuovi. Stai allenando la tua attenzione a cogliere ciò che c'era già."
   - q: "La teoria polivagale ha supporto scientifico?"
-    a: "Sì. Anche se alcuni aspetti della teoria polivagale sono ancora dibattuti in neuroscienza, le sue applicazioni cliniche hanno un supporto crescente. Una pubblicazione del 2025 su Clinical Neuropsychiatry ha confermato l'utilità del framework in contesti terapeutici. Il concetto centrale che il sistema nervoso scannerizza costantemente alla ricerca di sicurezza o pericolo, chiamato neurocezione, è ben consolidato nella ricerca sul sistema nervoso autonomo."
+    a: "In parte sì e in parte è dibattuto. Alcuni aspetti della teoria polivagale sono ancora discussi tra i neuroscienziati. La sua utilità clinica è sostenuta dall'ideatore della teoria, Stephen Porges, anche se altri ricercatori contestano parti del framework. Il concetto centrale che il sistema nervoso scannerizza costantemente alla ricerca di sicurezza o pericolo, chiamato neurocezione, è ben consolidato nella ricerca sul sistema nervoso autonomo."
 ---
 
 Il caffè è ancora troppo caldo per berlo. Lo tieni con entrambe le mani, in piedi vicino alla finestra. La luce del sole cade sul dorso delle dita. La casa è silenziosa. Nessuno ha bisogno di niente da te, ancora.
@@ -37,7 +37,7 @@ Qui entra la teoria polivagale. Sviluppata dal neuroscienziato Stephen Porges, l
 
 Il tuo sistema nervoso non aspetta che tu analizzi una situazione. Legge l'ambiente. Tono di voce, linguaggio del corpo, illuminazione, temperatura, suoni. Se rileva una minaccia, il corpo si mobilita: frequenza cardiaca su, muscoli tesi, respiro superficiale. Se rileva sicurezza, la via vagale ventrale si attiva. La frequenza cardiaca si stabilizza. Il respiro si approfondisce. Il corpo si apre verso la connessione.
 
-Una pubblicazione del 2025 su *Clinical Neuropsychiatry* ha confermato che le applicazioni cliniche della teoria polivagale reggono allo scrutinio, in particolare nel capire come le persone si muovono tra stati di sicurezza, mobilitazione e chiusura. Non è solo teoria. Riflette ciò che i terapeuti vedono ogni giorno.
+L'utilità clinica della teoria polivagale è sostenuta dal suo ideatore, Stephen Porges, in particolare per capire come le persone si muovono tra stati di sicurezza, mobilitazione e chiusura. Vale la pena notare che parti del framework restano dibattute tra i ricercatori. Ciononostante, riflette ciò che molti terapeuti vedono ogni giorno.
 
 I glimmers sono il lato della sicurezza di questa equazione. Non sono grandi eventi. Non sono rivelazioni o esperienze di picco. Sono piccoli. Spesso così piccoli che ci passi accanto senza vederli.
 

@@ -6,7 +6,7 @@ author: "Dear Wander"
 tags: ["statistics", "smartphone addiction", "phone addiction", "screen time", "gen z", "research"]
 faq:
   - q: "How many times does the average person check their phone per day?"
-    a: "The most widely cited figure is 144 times per day, based on research from Asurion. Some studies measuring passive screen glances put the number as high as 186 times daily."
+    a: "The most widely cited figure is 144 times per day, based on a 2023 Reviews.org survey. Some studies measuring passive screen glances put the number as high as 186 times daily."
   - q: "How much screen time is too much?"
     a: "Research suggests mental health impacts become significant at around 5 hours of daily smartphone use. However, the quality of screen time matters as much as the quantity."
   - q: "Is phone addiction a real addiction?"
@@ -21,7 +21,7 @@ You're not alone. And the data is staggering. (Curious where you land? Our [scre
 
 ## How often we check our phones
 
-The average American checks their phone **144 times a day**. That's once every six and a half minutes during waking hours. Some studies put the number closer to 186 when passive glances are included.
+The average American checks their phone **144 times a day**, according to a 2023 Reviews.org survey.[^pickups] That's once every six and a half minutes during waking hours. Some studies put the number closer to 186 when passive glances are included.
 
 We interact with our phones more than we interact with most people in our lives.
 
@@ -72,7 +72,7 @@ The term "doomscrolling" entered the mainstream during the pandemic, but the beh
 - **67% of social media users** report scrolling past content they intended to stop at
 - The average TikTok session is **32 minutes**, up from 26 minutes in 2024
 - **58% of people** check their phone within 5 minutes of waking up
-- **71% of people** use their phone in bed before sleep
+- A large share of us scroll in bed before sleep
 
 The design of these platforms isn't accidental. Variable reward schedules, the same mechanism behind slot machines, keep us pulling to refresh. Infinite scroll removes natural stopping points. Algorithmic feeds learn exactly which content keeps your eyes locked.
 
@@ -88,9 +88,9 @@ Meanwhile, the attention economy that creates the problem generates orders of ma
 
 Not all the data is discouraging. Studies have identified specific approaches that measurably reduce problematic phone use:
 
-**Friction-based interventions**. Adding a small barrier before app access (even a 5-second delay) reduces usage by **35-57%** according to research from the University of Heidelberg. The key insight: you don't need to block access. You just need to create a moment of choice.
+**Friction-based interventions**. A 2023 study in *PNAS* found that a brief on-screen pause before social apps — a short wait and a prompt asking whether you really want to continue — cut app-opening attempts by **57%** over six weeks.[^pnas] The key insight: you don't need to block access. You just need to create a moment of choice.
 
-**Environmental design**. Charging your phone in a different room reduces bedtime scrolling by **47%**. Removing apps from the home screen reduces casual opens by **30%**. Small spatial changes create large behavioral shifts.
+**Environmental design**. Charging your phone in a different room reduces bedtime scrolling. Removing apps from the home screen adds an extra step that slows the automatic reach. Small spatial changes create large behavioral shifts.
 
 **Mindfulness-based approaches**. A 2025 randomized controlled trial found that brief mindfulness exercises before phone use reduced daily screen time by an average of **42 minutes** over 8 weeks. The pause, it turns out, is the intervention.
 
@@ -110,7 +110,7 @@ If that number is more than zero, you're in good company. And there are gentler 
 
 ### How many times does the average person check their phone per day?
 
-The most widely cited figure is **144 times per day**, based on research from Asurion and corroborated by multiple screen time tracking studies. Some studies measuring passive screen glances put the number as high as 186 times daily. The exact number varies by age group and study methodology, but the consistency is clear: we check our phones far more often than we realize.
+The most widely cited figure is **144 times per day**, based on a 2023 Reviews.org survey and corroborated by multiple screen time tracking studies. Some studies measuring passive screen glances put the number as high as 186 times daily. The exact number varies by age group and study methodology, but the consistency is clear: we check our phones far more often than we realize.
 
 ### How much screen time is too much?
 
@@ -123,3 +123,7 @@ While "smartphone addiction" isn't a formal clinical diagnosis in the DSM-5, the
 ### What age group is most affected by phone addiction?
 
 Gen Z (ages 12-27) and younger Millennials show the highest rates of problematic smartphone use, with **82% of Gen Z** self-reporting awareness of their own problematic phone habits. However, phone overuse spans all demographics. adults over 55 are the fastest-growing segment of social media users, and their screen time has increased 30% since 2023.
+
+[^pickups]: Reviews.org (2023). Cell phone usage statistics: Americans check their phones 144 times a day. [reviews.org/mobile/cell-phone-addiction](https://www.reviews.org/mobile/cell-phone-addiction/)
+
+[^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)

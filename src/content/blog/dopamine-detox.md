@@ -75,7 +75,7 @@ Cut your social media time in half rather than dropping to zero. If you're at tw
 
 The automatic reach is the core problem. You open apps without deciding to. Your thumb moves before your brain has a chance to weigh in. Anything that creates a gap between the urge and the action changes the equation.
 
-A [study from the University of Heidelberg](/blog/science-of-the-60-second-pause/) found that a brief breathing exercise before opening social media reduced usage by **57%**. Nobody's apps were blocked. Nobody's phone was taken away. The pause gave the prefrontal cortex time to catch up, and most people realized they didn't actually want to scroll. They just wanted to escape a feeling.
+A [2023 study in *PNAS*](/blog/science-of-the-60-second-pause/) found that a brief on-screen pause before social apps — a short wait and a prompt asking whether you really want to continue — cut app-opening attempts by **57%** over six weeks.[^pnas] Nobody's apps were blocked. Nobody's phone was taken away. The pause gave the prefrontal cortex time to catch up, and most people realized they didn't actually want to scroll. They just wanted to escape a feeling.
 
 ### Micro-detox daily instead of fasting monthly
 
@@ -100,3 +100,5 @@ Most of the time, the pause is enough. You breathe, the urge passes, and you put
 The dopamine detox gets one thing right: something about your [relationship with your phone needs to change](/blog/how-to-stop-doomscrolling/). The method just needs to match what the science actually says. Small, consistent, built into daily life. Not a dramatic fast that ends in a harder binge.
 
 If you want to try the breathing pause approach, [Dear Wander](/) puts one between you and every mindless scroll. Sixty seconds. No locks. Just a breath before the noise.
+
+[^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)

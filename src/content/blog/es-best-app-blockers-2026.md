@@ -8,7 +8,7 @@ faq:
   - q: "¿Cuál es el mejor app blocker gratuito para iPhone en 2026?"
     a: "ScreenZen ofrece la experiencia gratuita más completa, con horarios personalizados, retrasos configurables y pantallas de respiración sin costo alguno. La mayoría de las otras opciones requieren suscripción para acceder a todas las funciones."
   - q: "¿One Sec realmente está respaldado por investigación científica?"
-    a: "Sí. One Sec cita un estudio revisado por pares que muestra que añadir una pausa de respiración antes de abrir apps reduce el uso de redes sociales hasta un 57%. Dear Wander se basa en la misma investigación de la Universidad de Heidelberg con una pausa guiada de 60 segundos."
+    a: "Sí. One Sec cita un estudio de 2023 revisado por pares, publicado en PNAS, que muestra que una breve pausa en pantalla antes de abrir apps redujo los intentos de abrir apps en un 57% a lo largo de seis semanas. Dear Wander se basa en la misma investigación con una pausa guiada de 60 segundos."
   - q: "¿Cuál es la diferencia entre un app blocker y una app basada en fricción?"
     a: "Un app blocker impide que abras ciertas apps por completo durante periodos definidos. Una app basada en fricción como One Sec o Dear Wander añade una pausa o retraso antes de abrir la app, dándote un momento para reconsiderar sin eliminar el acceso por completo."
   - q: "¿Dear Wander usa una VPN para bloquear apps?"
@@ -42,7 +42,7 @@ La contrapartida es el precio. A $100/año o $400 de por vida, Opal es la opció
 
 ## One Sec: la pausa respaldada por investigación
 
-One Sec fue pionero en el concepto de "pausa de respiración antes de abrir una app", y funciona. La app muestra una animación de respiración a pantalla completa cuando tocas una app seleccionada, dándote un momento para notar el impulso antes de actuar. Un estudio revisado por pares de la Universidad de Heidelberg encontró que este enfoque [redujo el uso de redes sociales hasta un 57%](/blog/science-of-the-60-second-pause/).
+One Sec fue pionero en el concepto de "pausa de respiración antes de abrir una app", y funciona. La app muestra una animación de respiración a pantalla completa cuando tocas una app seleccionada, dándote un momento para notar el impulso antes de actuar. Un estudio de 2023 publicado en *PNAS* encontró que una breve pausa en pantalla antes de las apps sociales — una espera corta y un aviso que te pregunta si de verdad quieres continuar — [redujo los intentos de abrir apps en un 57% a lo largo de seis semanas](/blog/science-of-the-60-second-pause/).[^pnas]
 
 Es importante señalar que One Sec no bloquea nada. Después del ejercicio de respiración, puedes abrir la app. La intervención es la consciencia misma. Para muchas personas, ese momento de fricción es suficiente para romper el patrón automático de tomar el teléfono y desplazarse.
 
@@ -76,7 +76,7 @@ La desventaja es que Freedom es un bloqueador puro. No hay pausa, no hay ejercic
 
 Declaración completa: nosotros creamos Dear Wander, así que toma esta sección con ese contexto.
 
-Dear Wander se basa en la misma investigación de Heidelberg que One Sec, pero lleva la pausa más allá. En lugar de una simple animación de respiración, recibes una experiencia guiada de 60 segundos. Una pantalla ámbar cálida. Indicaciones suaves de respiración. Una breve carta que reconoce lo que sientes sin juzgarte. El objetivo es hacer que la pausa misma se sienta como algo que vale la pena, no un obstáculo que superar.
+Dear Wander se basa en la misma investigación de *PNAS* que One Sec, pero lleva la pausa más allá. En lugar de una simple animación de respiración, recibes una experiencia guiada de 60 segundos. Una pantalla ámbar cálida. Indicaciones suaves de respiración. Una breve carta que reconoce lo que sientes sin juzgarte. El objetivo es hacer que la pausa misma se sienta como algo que vale la pena, no un obstáculo que superar.
 
 Lo que hace diferente a Dear Wander de otras apps basadas en fricción es lo que sucede por la noche. La app incluye [sesiones de imaginería guiada](/blog/guided-imagery-meditation/) diseñadas específicamente para el scrolling antes de dormir. En lugar de solo bloquear el desplazamiento, lo reemplaza con algo que realmente te ayuda a conciliar el sueño. Esto es importante porque [bloquear por sí solo no aborda la necesidad que el scrolling estaba satisfaciendo](/blog/why-screen-time-limits-dont-work/).
 
@@ -101,3 +101,5 @@ No existe un único mejor app blocker para todos. La respuesta honesta es que el
 ---
 
 *Dear Wander está actualmente en desarrollo. [Únete a la lista de espera](/es/) para obtener acceso anticipado cuando lancemos.*
+
+[^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)

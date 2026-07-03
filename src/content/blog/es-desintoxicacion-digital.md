@@ -33,9 +33,9 @@ Lo que funciona es bastante menos dramático. En vez de desaparecer, le devuelve
 
 Piénsalo así. No tienes que tirar el celular ni borrarte de todo. La meta es meter una pequeña pausa entre el impulso y la acción, ese medio segundo en el que tu pulgar se mueve solo. Ese espacio es donde vuelve tu decisión.
 
-Hay un estudio que lo deja muy claro. En la Universidad de Heidelberg, [una breve pausa de respiración antes de abrir redes sociales redujo el uso en un 57%](/blog/es-science-of-the-60-second-pause/). Nadie bloqueó nada. Nadie borró ninguna app. La gente solo tenía que respirar primero, y muchas veces, después de respirar, simplemente soltaba el teléfono.
+Hay un estudio que lo deja muy claro. Un estudio de 2023 publicado en *PNAS* encontró que [una breve pausa en pantalla antes de las apps sociales — una espera corta y un aviso preguntándote si de verdad quieres continuar — redujo los intentos de abrir apps un 57% a lo largo de seis semanas](/blog/es-science-of-the-60-second-pause/).[^pnas] Nadie bloqueó nada. Nadie borró ninguna app. La gente solo tenía que esperar un momento primero, y muchas veces, después de esa pausa, simplemente soltaba el teléfono.
 
-Cincuenta y siete por ciento, con solo respirar. Compáralo con el detox de fuerza bruta que duró un fin de semana.
+Cincuenta y siete por ciento, con solo una pausa. Compáralo con el detox de fuerza bruta que duró un fin de semana.
 
 ## Cómo hacer un detox digital, paso a paso
 
@@ -74,3 +74,5 @@ La verdad incómoda y a la vez liberadora es que la desintoxicación digital per
 No tienes que arreglar tu relación con el teléfono esta semana. Solo esta noche, antes de abrir la primera app, respira una vez.
 
 Si te late ese enfoque de la pausa, [Dear Wander](/es/) es una app de iOS construida justo alrededor de esta idea. Una pantalla cálida que aparece antes de que se abran tus apps. Sesenta segundos para volver a ti, sin bloqueos ni regaños.
+
+[^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)

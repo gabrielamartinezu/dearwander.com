@@ -75,7 +75,7 @@ Taglia il tuo tempo sui social a metà piuttosto che azzerarlo. Se sei a due ore
 
 Il gesto automatico è il problema centrale. Apri app senza deciderlo. Il tuo pollice si muove prima che il cervello abbia modo di intervenire. Qualsiasi cosa che crei uno spazio tra l'impulso e l'azione cambia l'equazione.
 
-Uno [studio dell'Università di Heidelberg](/blog/science-of-the-60-second-pause/) ha scoperto che un breve esercizio di respirazione prima di aprire i social media ha ridotto l'utilizzo del **57%**. Le app di nessuno sono state bloccate. A nessuno è stato tolto il telefono. La pausa ha dato alla corteccia prefrontale il tempo di mettersi al passo, e la maggior parte delle persone si è resa conto che non voleva davvero scrollare. Voleva solo sfuggire a una sensazione.
+Uno [studio del 2023 pubblicato su *PNAS*](/blog/science-of-the-60-second-pause/) ha scoperto che una breve pausa sullo schermo prima delle app social — una breve attesa e un messaggio che chiede se vuoi davvero continuare — ha ridotto i tentativi di apertura delle app del **57%** nell'arco di sei settimane.[^pnas] Le app di nessuno sono state bloccate. A nessuno è stato tolto il telefono. La pausa ha dato alla corteccia prefrontale il tempo di mettersi al passo, e la maggior parte delle persone si è resa conto che non voleva davvero scrollare. Voleva solo sfuggire a una sensazione.
 
 ### Micro-detox quotidiano invece di digiuno mensile
 
@@ -100,3 +100,5 @@ La maggior parte delle volte, la pausa è sufficiente. Respiri, l'impulso passa 
 Il dopamine detox coglie una cosa giusta: qualcosa nella tua [relazione con il telefono deve cambiare](/blog/how-to-stop-doomscrolling/). Il metodo deve solo corrispondere a ciò che la scienza dice davvero. Piccolo, costante, integrato nella vita quotidiana. Non un digiuno drammatico che finisce in un'abbuffata più intensa.
 
 Se vuoi provare l'approccio della pausa di respirazione, [Dear Wander](/it/) ne mette una tra te e ogni scroll inconsapevole. Sessanta secondi. Nessun blocco. Solo un respiro prima del rumore.
+
+[^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)

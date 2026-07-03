@@ -85,7 +85,7 @@ Un estudio de 2024 en el *Journal of Social and Personal Relationships* encontr�
 
 Esta es la función que estamos construyendo específicamente para las mañanas. [Primera Luz](/es/) es un breve momento de respiración guiada que te saluda cuando buscas una app social por primera vez. Gradientes más cálidos, un patrón de respiración ligeramente más rápido que la versión nocturna. No te bloquea el teléfono. Solo pregunta: ¿estás lista? ¿O te gustaría un minuto más contigo misma?
 
-Los datos detrás de este enfoque son sólidos. [Una pausa de respiración de 60 segundos](/blog/science-of-the-60-second-pause/) antes de acceder a una app reduce el uso hasta un 57%. Por la mañana, cuando tu cerebro aún está en transición, incluso una breve interrupción del gesto automático tiene un efecto desproporcionado.
+Los datos detrás de este enfoque son sólidos. Un estudio de 2023 publicado en *PNAS* descubrió que [una breve pausa en pantalla antes de las apps sociales](/blog/science-of-the-60-second-pause/) —una pequeña espera y un aviso que pregunta si quieres continuar— redujo los intentos de abrir apps un 57% en seis semanas.[^pnas] Por la mañana, cuando tu cerebro aún está en transición, incluso una breve interrupción del gesto automático tiene un efecto desproporcionado.
 
 ## ¿Y si no puedes estar sin teléfono?
 
@@ -101,7 +101,7 @@ Nada de esto es dramático de forma aislada. Beber agua en lugar de mirar Instag
 
 Investigadores de la Universidad de Nottingham encontraron que los participantes que siguieron una rutina matutina consistente sin teléfono durante 21 días reportaron un **23% menos de estrés percibido** y **mejor atención sostenida** durante la jornada laboral. Los cambios se reforzaban solos. Una vez que sientes la diferencia, el teléfono se siente menos urgente.
 
-Las [estadísticas de uso del teléfono](/blog/phone-addiction-statistics-2026/) son grandes y abstractas. 144 revisiones al día. 4.5 horas de tiempo en pantalla. Estos números describen la corriente, no tus elecciones. Cada mañana es una oportunidad de ir río arriba.
+Las [estadísticas de uso del teléfono](/blog/phone-addiction-statistics-2026/) son grandes y abstractas. 144 revisiones al día.[^pickups] 4.5 horas de tiempo en pantalla. Estos números describen la corriente, no tus elecciones. Cada mañana es una oportunidad de ir río arriba.
 
 No dramáticamente. No con una rutina de 17 pasos ni un manifiesto pegado en el espejo.
 
@@ -110,3 +110,7 @@ Solo un minuto de silencio antes de que empiece el ruido.
 ---
 
 *El ritual Primera Luz de Dear Wander está diseñado para exactamente este momento. Próximamente en iOS. [Únete a la lista de espera](/es/) y te escribiremos cuando estemos listos.*
+
+[^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)
+
+[^pickups]: Reviews.org (2023). Cell phone usage statistics: Americans check their phones 144 times a day. [reviews.org/mobile/cell-phone-addiction](https://www.reviews.org/mobile/cell-phone-addiction/)

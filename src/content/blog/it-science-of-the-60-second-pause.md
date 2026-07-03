@@ -1,6 +1,6 @@
 ---
 title: "La scienza della pausa di 60 secondi: cosa succede quando respiri prima di scorrere"
-description: "Un breve esercizio di respirazione prima di aprire i social media può ridurre l'uso dell'app del 57%. Ecco la neuroscienza dietro il motivo per cui un singolo minuto cambia tutto."
+description: "Una breve pausa prima di aprire i social media può ridurre i tentativi di aprire l'app del 57%. Ecco la neuroscienza dietro il motivo per cui un singolo minuto cambia tutto."
 date: 2026-05-04
 author: "Dear Wander"
 tags: ["science", "breathing", "mindfulness", "the pause"]
@@ -36,13 +36,13 @@ Quando un esercizio di respirazione viene inserito tra il segnale e la routine, 
 
 Quando i sessanta secondi finiscono, sei un decisore fondamentalmente diverso dalla persona che ha preso il telefono.
 
-## Lo studio di Heidelberg: riduzione del 57%
+## Lo studio del 2023: riduzione del 57%
 
-Ricercatori dell'Università di Heidelberg hanno studiato esattamente questo intervento in un articolo ampiamente citato del 2023. I partecipanti che hanno visto un breve esercizio di respirazione prima di accedere alle app social hanno ridotto il loro utilizzo in media del **57%**.
+Uno studio del 2023 pubblicato su *PNAS* ha analizzato esattamente questo tipo di intervento. I partecipanti a cui veniva presentata una breve pausa sullo schermo prima delle app social, una breve attesa insieme a un messaggio che chiedeva se volessero davvero continuare, hanno ridotto i loro tentativi di aprire l'app in media del **57%** nell'arco di sei settimane.[^pnas]
 
 Cinquantasette percento.
 
-Il meccanismo non era il blocco. Nessuno è stato impedito dall'usare le proprie app. Dovevano solo respirare prima. E più della metà delle volte, dopo aver respirato, hanno scelto di posare il telefono.
+Il meccanismo non era il blocco. Nessuno è stato impedito dall'usare le proprie app. Dovevano solo fare una pausa prima. E più della metà delle volte, dopo quella pausa, hanno scelto di posare il telefono.
 
 ## Perché bloccare non funziona (ma la pausa sì)
 
@@ -85,3 +85,5 @@ Ogni scelta di design serve un unico obiettivo: dare alla mente consapevole la p
 ---
 
 *La pausa di 60 secondi è il cuore di Dear Wander, in arrivo su iOS. Se vuoi essere tra i primi a sperimentarla, [iscriviti alla lista d'attesa](/it/).*
+
+[^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)

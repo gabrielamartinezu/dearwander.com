@@ -57,7 +57,7 @@ Las apps problemáticas son una lista corta. Para la mayoría, son cuatro o cinc
 
 Así es [como funciona una pausa de respiración](/blog/science-of-the-60-second-pause/). Tocas Instagram. En lugar del feed, aparece una pantalla cálida con respiración guiada. Sesenta segundos. Inhala, sostén, exhala. Para cuando termina, tu [corteza prefrontal alcanzó a tu pulgar](/blog/popcorn-brain/). La mayoría del tiempo te das cuenta de que en realidad no querías hacer scroll. Solo querías escapar de un sentimiento. La respiración se encargó de eso.
 
-La Universidad de Heidelberg encontró que este enfoque redujo el uso de apps en un **57%**. Las apps de nadie fueron bloqueadas. Nadie perdió sus mapas ni su banco. Solo tuvieron que respirar primero.
+Un estudio de 2023 publicado en *PNAS* encontró que este tipo de pausa — una espera corta y un aviso preguntándote si de verdad quieres continuar — redujo los intentos de abrir apps un **57%** a lo largo de seis semanas.[^pnas] Las apps de nadie fueron bloqueadas. Nadie perdió sus mapas ni su banco. Solo tuvieron que esperar un momento primero.
 
 ## Cómo construirlo tú mismo (ahora mismo)
 
@@ -94,3 +94,5 @@ El punto medio es un smartphone que se comporta como un dumbphone hasta que nece
 No necesitas hardware diferente. Necesitas una relación diferente con el hardware que ya tienes. Un dumbphone fuerza esa relación a través de la limitación. Una pausa de respiración la crea a través de la consciencia. Ambos caminos llevan al mismo lugar: un teléfono que solo recibe tu atención cuando decides dársela.
 
 Si las ganas de un dumbphone siguen volviendo, es tu cerebro pidiendo menos ruido. Puedes honrar ese pedido sin perder tus mapas. [Dear Wander](/es/) fue construido exactamente para esto: la calma de un dumbphone, la capacidad de un smartphone. Una respiración cálida antes del scroll.
+
+[^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)

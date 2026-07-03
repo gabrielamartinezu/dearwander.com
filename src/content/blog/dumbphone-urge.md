@@ -57,7 +57,7 @@ What if those four or five apps had a locked door in front of them? Not blocked.
 
 This is [how a breathing pause works](/blog/science-of-the-60-second-pause/). You tap Instagram. Instead of the feed, you get a warm screen with guided breathing. Sixty seconds. Inhale, hold, exhale. By the time it's done, your [prefrontal cortex has caught up to your thumb](/blog/popcorn-brain/). Most of the time, you realize you didn't actually want to scroll. You just wanted to escape a feeling. The breathing handled that instead.
 
-The University of Heidelberg found this approach reduced app usage by **57%**. Nobody's apps were blocked. Nobody lost their maps or banking. They just had to breathe first.
+A 2023 study in *PNAS* found this kind of pause — a short wait and a prompt asking whether you really want to continue — cut app-opening attempts by **57%** over six weeks.[^pnas] Nobody's apps were blocked. Nobody lost their maps or banking. They just had to pause first.
 
 ## How to build it yourself (right now)
 
@@ -94,3 +94,5 @@ The middle ground is a smartphone that behaves like a dumbphone until you need i
 You don't need different hardware. You need a different relationship with the hardware you have. A dumbphone forces that relationship through limitation. A breathing pause creates it through awareness. Both paths lead to the same place: a phone that only gets your attention when you decide to give it.
 
 If the dumbphone urge keeps coming back, that's your brain asking for less noise. You can honor that request without giving up your maps. [Dear Wander](/) was built for exactly this: the calm of a dumbphone, the capability of a smartphone. A warm breath before the scroll.
+
+[^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)

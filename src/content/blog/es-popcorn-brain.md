@@ -63,7 +63,7 @@ Arreglar el popcorn brain tiene menos que ver con eliminar la estimulación y m�
 
 Cuando insertas una breve pausa entre el impulso y la acción, algo cambia neurológicamente. Tu corteza prefrontal, la parte responsable de las decisiones intencionales, tiene tiempo de activarse antes de que el comportamiento automático se complete.
 
-Un [estudio ampliamente citado de la Universidad de Heidelberg](/blog/science-of-the-60-second-pause/) encontró que participantes que completaron un breve ejercicio de respiración antes de abrir apps de redes sociales redujeron su uso en un **57%**. No porque las apps estuvieran bloqueadas. Porque la pausa les dio la oportunidad de elegir, y la mayoría del tiempo eligieron dejar el teléfono.
+Un [estudio de 2023 publicado en *PNAS*](/blog/science-of-the-60-second-pause/) encontró que una breve pausa en pantalla antes de las apps sociales —una espera corta y un aviso que pregunta si de verdad quieres continuar— redujo los intentos de abrir apps en un **57%** en seis semanas.[^pnas] No porque las apps estuvieran bloqueadas. Porque la pausa les dio la oportunidad de elegir, y la mayoría del tiempo eligieron dejar el teléfono.
 
 Esta es la idea central de Dear Wander. Una pantalla de respiración aparece antes de que tus apps elegidas se abran. Sesenta segundos. Suficiente tiempo para que tu corteza prefrontal opine sobre una decisión que tu pulgar ya tomó.
 
@@ -96,3 +96,5 @@ Lo que funciona es lo mismo que creó el problema: repetición, pero en la otra 
 Cada uno es una palomita que no revienta. Con el tiempo, la sartén se va quedando en silencio.
 
 Si te interesa el enfoque de la pausa con respiración, [Dear Wander](/es/) está construyendo una app de iOS alrededor de exactamente esta idea. Una pantalla cálida antes de hacer scroll. Sesenta segundos de presencia guiada.
+
+[^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)

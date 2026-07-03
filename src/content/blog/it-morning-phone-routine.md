@@ -85,7 +85,7 @@ Uno studio del 2024 nel *Journal of Social and Personal Relationships* ha scoper
 
 Questa è la funzione che stiamo costruendo specificamente per le mattine. [Prima Luce](/it/) è un breve momento di respirazione guidata che ti accoglie quando cerchi un'app social per la prima volta. Gradienti più caldi, un pattern di respirazione leggermente più veloce della versione serale. Non ti blocca il telefono. Chiede solo: sei pronta? O vorresti un altro minuto con te stessa?
 
-I dati dietro questo approccio sono solidi. [Una pausa di respirazione di 60 secondi](/blog/science-of-the-60-second-pause/) prima dell'accesso all'app riduce l'uso fino al 57%. La mattina, quando il cervello è ancora in transizione, anche una breve interruzione del gesto automatico ha un effetto sproporzionato.
+I dati dietro questo approccio sono solidi. Uno studio del 2023 pubblicato su *PNAS* ha scoperto che [una breve pausa sullo schermo prima delle app social](/blog/science-of-the-60-second-pause/) — una piccola attesa e un messaggio che chiede se vuoi continuare — ha ridotto i tentativi di aprire le app del 57% in sei settimane.[^pnas] La mattina, quando il cervello è ancora in transizione, anche una breve interruzione del gesto automatico ha un effetto sproporzionato.
 
 ## E se non puoi stare senza telefono?
 
@@ -101,7 +101,7 @@ Niente di questo è drammatico preso singolarmente. Bere acqua invece di guardar
 
 Ricercatori dell'Università di Nottingham hanno scoperto che i partecipanti che seguivano una routine mattutina costante senza telefono per 21 giorni riferivano il **23% in meno di stress percepito** e **migliore attenzione sostenuta** durante la giornata lavorativa. I cambiamenti si auto-rinforzavano. Una volta che senti la differenza, il telefono sembra meno urgente.
 
-Le [statistiche sull'uso del telefono](/blog/phone-addiction-statistics-2026/) sono grandi e astratte. 144 controlli al giorno. 4,5 ore di tempo schermo. Questi numeri descrivono la corrente, non le tue scelte. Ogni mattina è un'opportunità di risalire la corrente.
+Le [statistiche sull'uso del telefono](/blog/phone-addiction-statistics-2026/) sono grandi e astratte. 144 controlli al giorno.[^pickups] 4,5 ore di tempo schermo. Questi numeri descrivono la corrente, non le tue scelte. Ogni mattina è un'opportunità di risalire la corrente.
 
 Non drammaticamente. Non con una routine di 17 passaggi né un manifesto attaccato allo specchio.
 
@@ -110,3 +110,7 @@ Solo un minuto di silenzio prima che il rumore inizi.
 ---
 
 *Il rituale Prima Luce di Dear Wander è progettato per esattamente questo momento. In arrivo su iOS. [Iscriviti alla lista d'attesa](/it/) e ti scriveremo quando saremo pronti.*
+
+[^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)
+
+[^pickups]: Reviews.org (2023). Cell phone usage statistics: Americans check their phones 144 times a day. [reviews.org/mobile/cell-phone-addiction](https://www.reviews.org/mobile/cell-phone-addiction/)

@@ -8,7 +8,7 @@ faq:
   - q: "What is the best free app blocker for iPhone in 2026?"
     a: "ScreenZen offers the most comprehensive free experience, with custom schedules, configurable delays, and breathing screens at no cost. Most other options require a subscription for full features."
   - q: "Is One Sec actually backed by research?"
-    a: "Yes. One Sec cites a peer-reviewed study showing that adding a breathing pause before opening apps reduces social media usage by up to 57%. Dear Wander builds on the same Heidelberg University research with a 60-second guided pause."
+    a: "Yes. One Sec cites a peer-reviewed 2023 study in PNAS showing that a brief on-screen pause before opening apps reduced app-opening attempts by 57% over six weeks. Dear Wander builds on the same research with a 60-second guided pause."
   - q: "What is the difference between an app blocker and a friction-based app?"
     a: "An app blocker prevents you from opening certain apps entirely during set periods. A friction-based app like One Sec or Dear Wander adds a pause or delay before opening the app, giving you a moment to reconsider without removing access completely."
   - q: "Does Dear Wander use a VPN to block apps?"
@@ -42,7 +42,7 @@ The tradeoff is price. At $100/year or $400 lifetime, Opal is the most expensive
 
 ## One Sec: the research-backed pause
 
-One Sec pioneered the "breathing pause before opening an app" concept, and it works. The app shows a full-screen breathing animation when you tap a selected app, giving you a moment to notice the impulse before acting on it. A peer-reviewed study from Heidelberg University found this approach [reduced social media usage by up to 57%](/blog/science-of-the-60-second-pause/).
+One Sec pioneered the "breathing pause before opening an app" concept, and it works. The app shows a full-screen breathing animation when you tap a selected app, giving you a moment to notice the impulse before acting on it. A 2023 study published in *PNAS* found that a brief on-screen pause before social apps — a short wait and a prompt asking whether you really want to continue — [cut app-opening attempts by 57% over six weeks](/blog/science-of-the-60-second-pause/).[^pnas]
 
 Importantly, One Sec doesn't block anything. After the breathing exercise, you can still open the app. The intervention is the awareness itself. For many people, that moment of friction is enough to break the automatic reach-and-scroll pattern.
 
@@ -76,7 +76,7 @@ The downside is that Freedom is a pure blocker. There's no pause, no breathing e
 
 Full disclosure: we make Dear Wander, so take this section with that context.
 
-Dear Wander builds on the same Heidelberg research as One Sec but takes the pause further. Instead of a simple breathing animation, you get a 60-second guided experience. A warm amber screen. Soft breathing cues. A short letter that acknowledges what you're feeling without judging it. The goal is to make the pause itself feel like something worth having, not a hurdle to overcome.
+Dear Wander builds on the same *PNAS* research as One Sec but takes the pause further. Instead of a simple breathing animation, you get a 60-second guided experience. A warm amber screen. Soft breathing cues. A short letter that acknowledges what you're feeling without judging it. The goal is to make the pause itself feel like something worth having, not a hurdle to overcome.
 
 What makes Dear Wander different from other friction-based apps is what happens at night. The app includes [guided imagery sessions](/blog/guided-imagery-meditation/) designed specifically for bedtime scrolling. Instead of just blocking the scroll, it replaces it with something that actually helps you fall asleep. This is important because [blocking alone doesn't address the need that scrolling was meeting](/blog/why-screen-time-limits-dont-work/).
 
@@ -122,3 +122,5 @@ There's no single best app blocker for everyone. The honest answer is that the b
 ---
 
 *Dear Wander is currently in development. [Join the waitlist](/) to get early access when we launch.*
+
+[^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)

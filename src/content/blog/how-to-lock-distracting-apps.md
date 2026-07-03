@@ -8,11 +8,11 @@ faq:
   - q: "How do I lock an app so I can't open it?"
     a: "iPhone doesn't have a true per-app password lock built in, but you can get close: set an App Limit in Screen Time, put the app in a Focus that hides it, or remove it from the Home Screen so it takes deliberate effort to find. Each one adds a moment of friction before the app opens."
   - q: "How do I hide apps on my iPhone?"
-    a: "Long-press the app, tap 'Remove App,' then 'Remove from Home Screen.' The app stays installed and searchable in the App Library but no longer sits in front of you. This alone reduces opens by roughly 25 to 30 percent."
+    a: "Long-press the app, tap 'Remove App,' then 'Remove from Home Screen.' The app stays installed and searchable in the App Library but no longer sits in front of you. This alone removes the visual cue and adds a step, which makes casual opens meaningfully less automatic."
   - q: "Does hiding or locking apps actually reduce usage?"
-    a: "Yes, modestly. Removing an app from the Home Screen cuts opens by about a quarter because it removes the visual cue and adds a step. But hard locks tend to trigger workarounds. A brief pause before the app opens tends to hold better than a block you can dismiss."
+    a: "Yes, modestly. Removing an app from the Home Screen cuts opens because it removes the visual cue and adds a step. But hard locks tend to trigger workarounds. A brief pause before the app opens tends to hold better than a block you can dismiss."
   - q: "What's better, blocking an app or adding a pause before it?"
-    a: "Blocking creates an adversary: the moment you're told you can't, you want to more, and most blocks have an 'ignore' button anyway. A short pause keeps you free to open the app but wakes up the part of your brain that decides. Research found a brief breathing pause before apps cut usage by 57 percent without blocking anything."
+    a: "Blocking creates an adversary: the moment you're told you can't, you want to more, and most blocks have an 'ignore' button anyway. A short pause keeps you free to open the app but wakes up the part of your brain that decides. A 2023 PNAS study found that a brief pause before apps — a short wait and a prompt asking whether to continue — cut app-opening attempts by 57 percent without blocking anything."
 ---
 
 You've tried deleting Instagram. You lasted four days, reinstalled it on a Tuesday night, and told yourself this time would be different.
@@ -27,7 +27,7 @@ The fastest change, and more effective than it sounds.
 
 Long-press the app icon, tap **Remove App**, then **Remove from Home Screen**. The app stays installed. Your logins, your DMs, your drafts, all still there. It just no longer sits in front of your eyes every time you unlock the phone.
 
-This works because most opens aren't decisions. They're cued. You see the icon, your thumb moves, you're in the feed before you registered wanting it. Remove the cue and you remove a big chunk of the automatic reach. Research on Home Screen placement suggests this alone cuts opens by roughly 25 to 30 percent.
+This works because most opens aren't decisions. They're cued. You see the icon, your thumb moves, you're in the feed before you registered wanting it. Remove the cue and you remove a big chunk of the automatic reach. Taking the icon off your first screen adds a real, if small, step to the automatic reach.
 
 To get back in, you swipe to the App Library or pull down and search the name. That extra step is small, but small is the point. It converts an open from free to slightly-effortful, and slightly-effortful is often enough.
 
@@ -67,7 +67,7 @@ Psychologists call it **reactance**: the instinctive pushback when your freedom 
 
 So the strongest tools aren't the ones that slam the door. They're the ones that keep the door open but ask you to pause at the threshold.
 
-A study from the University of Heidelberg found that placing a brief breathing exercise before social apps cut usage by **57 percent**, without blocking anything. Nobody was stopped. They just had to breathe first, and more than half the time, after breathing, they chose to put the phone down. That works because [a short pause wakes up the deciding part of your brain](/blog/science-of-the-60-second-pause/) that autopilot had switched off.
+A 2023 study in *PNAS* found that placing a brief pause before social apps — a short wait and a prompt asking whether you really want to continue — cut app-opening attempts by **57 percent** over six weeks, without blocking anything.[^pnas] Nobody was stopped. They just had to pause first, and more than half the time, after that pause, they chose to put the phone down. That works because [a short pause wakes up the deciding part of your brain](/blog/science-of-the-60-second-pause/) that autopilot had switched off.
 
 ## What to actually do
 
@@ -84,3 +84,5 @@ You don't need to lock yourself out of your own phone. You need a small gap wher
 ---
 
 *Dear Wander places a gentle 60-second breathing pause before the apps that pull at you, so the moment before the tap becomes a choice, not a reflex. No locks, no shame. [Join the waitlist](/) to be first on iOS.*
+
+[^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)

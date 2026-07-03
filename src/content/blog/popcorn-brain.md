@@ -63,7 +63,7 @@ Fixing popcorn brain is less about removing stimulation and more about building 
 
 When you insert a brief pause between the urge and the action, something shifts neurologically. Your prefrontal cortex, the part responsible for intentional decisions, has time to come online before the automatic behavior completes.
 
-A [widely cited study from the University of Heidelberg](/blog/science-of-the-60-second-pause/) found that participants who completed a brief breathing exercise before opening social media apps reduced their usage by **57%**. Not because the apps were blocked. Because the pause gave them a chance to choose, and most of the time, they chose to put the phone down.
+A [2023 study published in *PNAS*](/blog/science-of-the-60-second-pause/) found that a brief on-screen pause before social apps — a short wait and a prompt asking whether you really want to continue — cut app-opening attempts by **57%** over six weeks.[^pnas] Not because the apps were blocked. Because the pause gave people a chance to choose, and most of the time, they chose to put the phone down.
 
 This is the core idea behind Dear Wander. A breathing screen appears before your chosen apps open. Sixty seconds. Enough time for your prefrontal cortex to weigh in on a decision your thumb already made.
 
@@ -96,3 +96,5 @@ What works is the same thing that created the problem: repetition, but in the ot
 Each one is a single kernel that doesn't pop. Over time, the pan gets quieter.
 
 If you're curious about the breathing pause approach, [Dear Wander](/) is building an iOS app around exactly this idea. A warm screen before you scroll. Sixty seconds of guided presence.
+
+[^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)

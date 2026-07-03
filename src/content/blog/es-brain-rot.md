@@ -83,7 +83,7 @@ Lo cubrimos en detalle en nuestro artículo sobre [la dopamina y los hábitos di
 
 ### Haz una pausa antes de hacer scroll
 
-Un [estudio de la Universidad de Heidelberg](/blog/science-of-the-60-second-pause/) descubrió que un breve ejercicio de respiración antes de abrir redes sociales reducía el uso un 57%. La pausa no era larga. Sesenta segundos. Pero bastó para cambiar el cerebro del piloto automático a la elección consciente.
+Un [estudio de 2023 publicado en *PNAS*](/blog/science-of-the-60-second-pause/) descubrió que una breve pausa en pantalla antes de las apps sociales —una espera corta y un aviso que pregunta si de verdad quieres continuar— redujo los intentos de abrir apps un 57% en seis semanas.[^pnas] La pausa no era larga. Pero bastó para cambiar el cerebro del piloto automático a la elección consciente.
 
 La mayoría de las veces, cuando las personas hacían una pausa y luego decidían si realmente querían hacer scroll, dejaban el teléfono. El impulso pasaba. Suele pasar, cuando le das sesenta segundos.
 
@@ -94,3 +94,5 @@ Thoreau vio algo en 1854 que no ha cambiado. Cuando cambiamos la implicación co
 El brain rot no es permanente. Tu atención no está rota. Ha sido entrenada hacia la fragmentación, y puede entrenarse de vuelta. Despacio. Con paciencia. A través del acto pequeño y cotidiano de hacer una cosa a la vez y dejar que el silencio se quede.
 
 Si quieres una forma suave de empezar, [Dear Wander](/es/) pone una pausa de respiración antes de tus apps más usadas. Sesenta segundos de calma antes de que empiece el scroll. No es un bloqueador. Solo un momento para elegir.
+
+[^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)

@@ -17,6 +17,9 @@ export async function getStaticPaths() {
 const { post } = Astro.props;
 const { Content } = await render(post);
 
+// Detect language from the slug prefix (es-*, it-*) for localized chrome
+const postLang = post.id.startsWith("es-") ? "es" : post.id.startsWith("it-") ? "it" : "en";
+
 const siteURL = "https://dearwander.com";
 const postURL = `${siteURL}/blog/${post.id}/`;
 
@@ -76,7 +79,7 @@ const faqSchema = post.data.faq?.length ? {
       </div>
 
       <!-- Author -->
-      <AuthorBio />
+      <AuthorBio lang={postLang} />
 
       <!-- Related posts -->
       <RelatedPosts currentSlug={post.id} tags={post.data.tags} />
@@ -90,7 +93,7 @@ const faqSchema = post.data.faq?.length ? {
     </article>
   </main>
 
-  <Footer />
+  <Footer lang={postLang} />
 </Layout>
 
 <style>

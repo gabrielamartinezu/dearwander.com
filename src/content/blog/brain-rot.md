@@ -83,7 +83,7 @@ We covered this in depth in our piece on [dopamine and digital habits](/blog/dop
 
 ### Pause before you scroll
 
-A [study from the University of Heidelberg](/blog/science-of-the-60-second-pause/) found that a brief breathing exercise before opening social media reduced usage by 57%. The pause wasn't long. Sixty seconds. But it was enough to shift the brain from autopilot to intentional choice.
+A [2023 study published in *PNAS*](/blog/science-of-the-60-second-pause/) found that a brief on-screen pause before social apps — a short wait and a prompt asking whether you really want to continue — cut app-opening attempts by 57% over six weeks.[^pnas] The pause wasn't long. But it was enough to shift the brain from autopilot to intentional choice.
 
 Most of the time, when people paused and then decided whether they actually wanted to scroll, they put the phone down. The urge passed. It usually does, when you give it sixty seconds.
 
@@ -98,3 +98,5 @@ Thoreau saw something in 1854 that hasn't changed. When we trade complex engagem
 Brain rot isn't permanent. Your attention was trained toward fragmentation, and it can be trained back. One thing at a time. One quiet moment at a time.
 
 If you want a gentle way to start, [Dear Wander](/) puts a breathing pause before your most-used apps. Sixty seconds of calm before the scroll begins. A moment to choose.
+
+[^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)
