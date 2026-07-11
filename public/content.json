@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "dailyPrompts": [
     {
       "id": "dp_001",
@@ -160,7 +160,7 @@
     },
     {
       "id": "gs_004",
-      "title": "La Marea Quieta",
+      "title": "La Marea Serena",
       "durationSeconds": 180,
       "audioFileName": "quiet_tide_es",
       "audioURL": null,
