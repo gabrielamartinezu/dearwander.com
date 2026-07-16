@@ -22,12 +22,16 @@ const {
   articleModified,
 } = Astro.props;
 
-const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+// Every self-referencing URL must use the trailing-slash form, or /page and
+// /page/ each canonicalize to themselves and Google keeps them as two pages.
+const withSlash = (p: string) => (p.endsWith("/") ? p : `${p}/`);
+
+const canonicalURL = new URL(withSlash(Astro.url.pathname), Astro.site);
 const siteURL = Astro.site?.origin ?? "https://dearwander.com";
 
 // Build hreflang path: strip locale prefix to get the base path
 const pathname = Astro.url.pathname;
-const basePath = pathname.replace(/^\/(es|it)/, "") || "/";
+const basePath = withSlash(pathname.replace(/^\/(es|it)/, "") || "/");
 
 // Blog posts use prefix-in-slug pattern (es-slug, it-slug) not locale routing (/es/blog/slug)
 // Only output hreflang for pages that use locale-prefixed routes (homepage, main pages)

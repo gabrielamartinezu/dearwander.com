@@ -6,6 +6,9 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
   site: 'https://dearwander.com',
   output: 'static',
+  // Google was indexing /page and /page/ as separate URLs, splitting impressions
+  // and authority across both. Internal links already all use the trailing slash.
+  trailingSlash: 'always',
   integrations: [
     sitemap({
       i18n: {

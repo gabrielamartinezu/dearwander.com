@@ -92,6 +92,63 @@ Wins to build on:
 
 **Next checkpoint: re-pull GSC ~2026-07-16** (watch the why-screen-time-limits CTR and whether the summer/calculator pages climb).
 
+## ✅ Results — 2026-07-16 (the duplicate-URL discovery)
+Site totals: **2,407 impressions, 33 clicks** (1.37% CTR). Clicks up slightly (30 → 33); impressions *down* from ~2,700. Note the window is rolling 3 months, so month-over-month impression totals are muddy. Stop reading them as a trend line.
+
+### 🔴 Root cause found: Google indexed every post twice
+Every page appeared in GSC as **two separate URLs**, with and without the trailing slash:
+
+| URL | Impr | Clicks | Pos |
+|---|---|---|---|
+| `/blog/best-app-blockers-2026/` | 626 | 0 | 12.18 |
+| `/blog/best-app-blockers-2026` | 294 | 0 | 12.66 |
+| `/blog/phone-addiction-statistics-2026/` | 430 | 2 | 10.21 |
+| `/blog/phone-addiction-statistics-2026` | 169 | 5 | 9.43 |
+
+Cause: `Layout.astro` built the canonical from `Astro.url.pathname`, so **each URL canonicalized to itself** and consolidated nothing. `trailingSlash` was also unset in `astro.config.mjs` (Astro defaults to `'ignore'`), so both forms resolved. Every post was competing with itself and splitting its own authority.
+
+**Fixed 2026-07-16:** `trailingSlash: 'always'` in the config, and canonical + hreflang now forced to the trailing-slash form (internal links already used it, 17/17). Verified in the build: 82 pages, 82 sitemap URLs, zero without a trailing slash.
+
+This plausibly explains three checkpoints of frozen positions. **Give Google 4-6 weeks to consolidate before judging any other tactic.** Do not run new optimizations on top of this until it settles, or you won't know what caused what.
+
+### The three flagship bets: all still frozen
+- **App-blockers**: 742 → 837 → **920 impressions** (both URLs combined), still **0 clicks**, position ~12.2. Three pulls, zero clicks.
+- **"gen z phone addiction statistics"**: 10.22 on 07-02, **10.22 today**. Identical.
+- **"imaginación guiada"**: 54.5 on 07-02, **54.5 today**. Identical.
+
+⚠️ Those last two are measured on **9 and 2 impressions**. That is statistical noise, not signal. Stop optimizing for queries with single-digit impressions.
+
+### The 07-02 title fix did not work
+`why-screen-time-limits-dont-work`: **194 impressions, 1 click, position 8.78**. CTR 0.52% on page 1, unchanged after the retitle.
+
+**New hypothesis: AI Overviews are eating the English informational traffic.** Position 9 should earn 2-3% CTR, not 0.5%. The US delivers **921 impressions (38% of all) and 4 clicks (0.43%)**. "Smartphone addiction statistics" is exactly the query shape Google now answers inline. If this holds, the title was never the problem, and no CTR tweak will fix it.
+
+### ES/LatAm keeps outperforming, by a lot
+| Country | Clicks | Impr | CTR |
+|---|---|---|---|
+| Peru | 2 | 26 | **7.69%** |
+| Mexico | 3 | 58 | 5.17% |
+| Spain | 4 | 85 | 4.71% |
+| Italy | 5 | 163 | 3.07% |
+| **United States** | 4 | **921** | **0.43%** |
+
+Per impression, LatAm converts **10-18× better than the US**. `es-phone-addiction-statistics` is the most efficient page on the site: **6 clicks from 53 impressions (11.32% CTR)**.
+
+### Other movement
+- **Calculator climbed 21 → 9.86** (page 1 now), still 0 clicks. Pinterest pins pointing at it.
+- **dopamine-detox regressed**: 39 → 57.3.
+- **how-to-lock-distracting-apps**: 1 impression, position 49. Effectively not ranking yet.
+- Vagus-nerve cluster still stuck at 60-90.
+
+### Next queue (after 2026-07-16)
+1. **Wait.** Let the canonical consolidation land. Next pull is a measurement, not an intervention.
+2. **Verify consolidation** on the next pull: the duplicate URL pairs should collapse into one row each, with combined impressions.
+3. **Reallocate away from US informational content.** 921 impressions for 4 clicks is not a business while AI Overviews sit on top of those queries.
+4. **Feed Spanish harder.** It is the only place with proven conversion.
+5. **App-blockers: declare the content bet dead.** Three checkpoints, two content passes, zero clicks. If the canonical fix doesn't move it, it needs backlinks, not paragraphs.
+
+**Next checkpoint: re-pull GSC ~2026-08-27** (6 weeks, to give the canonical consolidation time to land).
+
 ## Don't chase
 - Vanity impressions from off-brand queries.
 - Clicks on pages stuck past position 20 — fix position first (links + relevance), then worry about CTR.
