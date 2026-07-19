@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 5,
   "dailyPrompts": [
     {
       "id": "dp_001",
@@ -122,10 +122,11 @@
     {
       "id": "gs_001",
       "title": "The Secret Garden",
-      "durationSeconds": 180,
+      "durationSeconds": 241,
       "audioFileName": "secret_garden_en",
-      "audioURL": null,
+      "audioURL": "https://pub-b33e2422a0014b48a002b05709a316b9.r2.dev/secret_garden_en.mp3",
       "theme": "morning",
+      "mood": "restless",
       "locale": "en",
       "gradientColors": [
         "4A7C59",
@@ -135,10 +136,11 @@
     {
       "id": "gs_002",
       "title": "El Jardín Secreto",
-      "durationSeconds": 180,
+      "durationSeconds": 251,
       "audioFileName": "secret_garden_es",
-      "audioURL": null,
+      "audioURL": "https://pub-b33e2422a0014b48a002b05709a316b9.r2.dev/secret_garden_es.mp3",
       "theme": "morning",
+      "mood": "restless",
       "locale": "es",
       "gradientColors": [
         "4A7C59",
@@ -148,10 +150,11 @@
     {
       "id": "gs_003",
       "title": "The Quiet Tide",
-      "durationSeconds": 180,
+      "durationSeconds": 201,
       "audioFileName": "quiet_tide_en",
-      "audioURL": null,
+      "audioURL": "https://pub-b33e2422a0014b48a002b05709a316b9.r2.dev/quiet_tide_en.mp3",
       "theme": "evening",
+      "mood": "anxious",
       "locale": "en",
       "gradientColors": [
         "2E236C",
@@ -161,14 +164,71 @@
     {
       "id": "gs_004",
       "title": "La Marea Serena",
-      "durationSeconds": 180,
+      "durationSeconds": 213,
       "audioFileName": "quiet_tide_es",
-      "audioURL": null,
+      "audioURL": "https://pub-b33e2422a0014b48a002b05709a316b9.r2.dev/quiet_tide_es.mp3",
       "theme": "evening",
+      "mood": "anxious",
       "locale": "es",
       "gradientColors": [
         "2E236C",
         "0A0E24"
+      ]
+    },
+    {
+      "id": "gs_005",
+      "title": "Warm Light",
+      "durationSeconds": 186,
+      "audioFileName": "warm_light_en",
+      "audioURL": "https://pub-b33e2422a0014b48a002b05709a316b9.r2.dev/warm_light_en.mp3",
+      "theme": "rest",
+      "mood": "depleted",
+      "locale": "en",
+      "gradientColors": [
+        "C88A3D",
+        "3A2418"
+      ]
+    },
+    {
+      "id": "gs_006",
+      "title": "Luz Cálida",
+      "durationSeconds": 215,
+      "audioFileName": "warm_light_es",
+      "audioURL": "https://pub-b33e2422a0014b48a002b05709a316b9.r2.dev/warm_light_es.mp3",
+      "theme": "rest",
+      "mood": "depleted",
+      "locale": "es",
+      "gradientColors": [
+        "C88A3D",
+        "3A2418"
+      ]
+    },
+    {
+      "id": "gs_007",
+      "title": "Open Sky",
+      "durationSeconds": 216,
+      "audioFileName": "open_sky_en",
+      "audioURL": "https://pub-b33e2422a0014b48a002b05709a316b9.r2.dev/open_sky_en.mp3",
+      "theme": "release",
+      "mood": "heavy",
+      "locale": "en",
+      "gradientColors": [
+        "D99A4E",
+        "3B4E78"
+      ]
+    },
+    {
+      "id": "gs_008",
+      "title": "Cielo Abierto",
+      "durationSeconds": 160,
+      "audioFileName": "open_sky_es",
+      "audioURL": "https://pub-b33e2422a0014b48a002b05709a316b9.r2.dev/open_sky_es.mp3",
+      "theme": "release",
+      "mood": "heavy",
+      "locale": "es",
+      "gradientColors": [
+        "D99A4E",
+        "3B4E78"
       ]
     }
   ],
