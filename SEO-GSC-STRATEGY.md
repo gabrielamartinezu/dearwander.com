@@ -28,8 +28,10 @@ Three moves:
 - Add a clear "Gen Z" subsection — "gen z phone addiction statistics" is a distinct query at position 10.
 
 ## Priority 3 — Lean into ES/IT (your conversion engine)
+> ⚠️ **Corrected 2026-07-16 — do not cite the "4-10×" claim below.** It conflated search CTR with conversion, and most of the gap was a position artifact (US ranked ~14.7, Italy ~7.5; of course the higher-ranked market clicks more). The whole thesis rested on ~13 clicks. ES is worth writing for because it aligns with the app and you're fluent, **not** because of a proven multiple. See the 2026-07-16 section.
+
 CTR by country: US 0.57% · Italy 2.52% · Spain 3.7% · Mexico 7.1% · **Peru 10%**.
-The translations convert 4-10× better than US traffic. This is a real edge.
+~~The translations convert 4-10× better than US traffic. This is a real edge.~~
 - Optimize the **Spanish guided-imagery** post for "imaginación guiada" (position 54) and "técnica de imaginería guiada" (position 81) — demand exists, ranking is weak.
 - Ensure ES/IT titles use the native search terms, not literal translations of the English.
 - Consider ES/IT-first topics for high-converting markets (LatAm, Italy), not just translations of EN posts.

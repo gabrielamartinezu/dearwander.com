@@ -13,7 +13,7 @@ Dear Wander is an iOS app for mindful screen time. It intercepts social media ap
 - Privacy: All data stays on device. No accounts required. No tracking.
 - Status: Coming soon (2026)
 - Website: https://dearwander.com
-- Contact: hello@dearwander.com
+- Contact: Instagram @dearwander.app (https://instagram.com/dearwander.app)
 
 ## How It Works
 
