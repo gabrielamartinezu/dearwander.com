@@ -158,3 +158,57 @@ body {
   font-family: var(--font-serif);
   font-weight: 600;
 }
+
+/* Prose typography for content pages (privacy, terms, about, glossary).
+   @tailwindcss/typography isn't installed, so the `prose` class does nothing
+   on its own; these rules give the spacing and heading styles. The blog has
+   its own scoped copy, which keeps precedence there. */
+.prose {
+  font-family: var(--font-sans);
+  color: var(--color-cocoa);
+  line-height: 1.8;
+  font-weight: 300;
+}
+.prose h2 {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  color: var(--color-earth);
+  font-size: 1.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+.prose h2:first-of-type {
+  margin-top: 1.5rem;
+}
+.prose h3 {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  color: var(--color-earth);
+  font-size: 1.25rem;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+.prose p {
+  margin-bottom: 1.25rem;
+}
+.prose strong {
+  font-weight: 600;
+  color: var(--color-earth);
+}
+.prose a {
+  color: var(--color-breath);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.4s;
+}
+.prose a:hover {
+  color: var(--color-earth);
+}
+.prose ul,
+.prose ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+.prose li {
+  margin-bottom: 0.5rem;
+}
