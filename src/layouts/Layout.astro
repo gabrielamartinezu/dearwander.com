@@ -170,5 +170,31 @@ const isTranslatedBlogPost = pathname.match(/^\/blog\/(es|it)-/);
 
       document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
     </script>
+
+    <script is:inline>
+      // First-touch attribution. Capture where the visitor came from on their
+      // FIRST page of the session and keep it, so a newsletter signup three
+      // clicks later still knows the original source (Instagram, Google, etc.).
+      (function () {
+        try {
+          if (sessionStorage.getItem("dw_attribution")) return;
+          var params = new URLSearchParams(window.location.search);
+          var ref = document.referrer;
+          try {
+            if (ref && new URL(ref).hostname === window.location.hostname) ref = "";
+          } catch (e) {}
+          sessionStorage.setItem(
+            "dw_attribution",
+            JSON.stringify({
+              utm_source: params.get("utm_source") || "",
+              utm_medium: params.get("utm_medium") || "",
+              utm_campaign: params.get("utm_campaign") || "",
+              referrer: ref || (params.get("utm_source") ? "" : "direct"),
+              landing_page: window.location.pathname,
+            })
+          );
+        } catch (e) {}
+      })();
+    </script>
   </body>
 </html>

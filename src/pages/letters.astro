@@ -36,6 +36,11 @@ import Footer from "../components/Footer.astro";
           name="tag"
           value="7-letters"
         />
+        <input type="hidden" name="metadata__utm_source" />
+        <input type="hidden" name="metadata__utm_medium" />
+        <input type="hidden" name="metadata__utm_campaign" />
+        <input type="hidden" name="metadata__referrer" />
+        <input type="hidden" name="metadata__landing_page" />
         <input
           type="email"
           name="email"
@@ -112,6 +117,11 @@ import Footer from "../components/Footer.astro";
           name="tag"
           value="7-letters"
         />
+        <input type="hidden" name="metadata__utm_source" />
+        <input type="hidden" name="metadata__utm_medium" />
+        <input type="hidden" name="metadata__utm_campaign" />
+        <input type="hidden" name="metadata__referrer" />
+        <input type="hidden" name="metadata__landing_page" />
         <input
           type="email"
           name="email"
@@ -134,4 +144,28 @@ import Footer from "../components/Footer.astro";
   </main>
 
   <Footer lang="en" />
+
+  <script is:inline>
+    // Fill hidden Buttondown metadata fields from the session's first-touch
+    // attribution (captured in Layout on the first page). Falls back to the
+    // current URL if storage is unavailable.
+    (function () {
+      var a = {};
+      try {
+        a = JSON.parse(sessionStorage.getItem("dw_attribution") || "{}");
+      } catch (e) {}
+      var params = new URLSearchParams(window.location.search);
+      var values = {
+        metadata__utm_source: a.utm_source || params.get("utm_source") || "",
+        metadata__utm_medium: a.utm_medium || params.get("utm_medium") || "",
+        metadata__utm_campaign: a.utm_campaign || params.get("utm_campaign") || "",
+        metadata__referrer: a.referrer || document.referrer || "direct",
+        metadata__landing_page: a.landing_page || window.location.pathname,
+      };
+      Object.keys(values).forEach(function (name) {
+        var fields = document.getElementsByName(name);
+        for (var i = 0; i < fields.length; i++) fields[i].value = values[name];
+      });
+    })();
+  </script>
 </Layout>
