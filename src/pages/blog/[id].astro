@@ -5,6 +5,7 @@ import Footer from "../../components/Footer.astro";
 import AuthorBio from "../../components/AuthorBio.astro";
 import RelatedPosts from "../../components/RelatedPosts.astro";
 import { getCollection, render } from "astro:content";
+import { useTranslations, getLocalePath } from "../../i18n/utils";
 
 export async function getStaticPaths() {
   const posts = await getCollection("blog");
@@ -86,12 +87,15 @@ const faqSchema = post.data.faq?.length ? {
       <AuthorBio lang={postLang} />
 
       <!-- Related posts -->
-      <RelatedPosts currentSlug={post.id} tags={post.data.tags} />
+      <RelatedPosts currentSlug={post.id} tags={post.data.tags} lang={postLang} />
 
-      <!-- Back -->
+      <!-- Back — to the index in this post's language, not always the English one -->
       <div class="mt-12 text-center fade-up fade-up-d3">
-        <a href="/blog" class="text-sm font-medium text-breath hover:text-earth transition-colors duration-500">
-          &larr; Back to Journal
+        <a
+          href={getLocalePath(postLang, "/blog/")}
+          class="text-sm font-medium text-ink hover:text-earth transition-colors duration-500"
+        >
+          &larr; {useTranslations(postLang)("blog.backToJournal")}
         </a>
       </div>
     </article>

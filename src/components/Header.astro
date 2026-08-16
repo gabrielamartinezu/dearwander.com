@@ -26,7 +26,7 @@ const initialClass = lightBg ? "header-light" : "header-hero";
            is called The Journal everywhere else (the /blog heading, the
            breadcrumb, the back link at the foot of each post), so that is the
            name that stays. -->
-      <a href="/blog/" class="text-sm font-medium header-link transition-colors duration-400 hidden sm:block">
+      <a href={getLocalePath(lang, "/blog/")} class="text-sm font-medium header-link transition-colors duration-400 hidden sm:block">
         {t("nav.journal")}
       </a>
 

@@ -1,18 +1,27 @@
 ---
 import { getCollection } from "astro:content";
+import { useTranslations } from "../i18n/utils";
+import type { Locale } from "../i18n/translations";
 
 interface Props {
   currentSlug: string;
   tags?: string[];
+  lang?: Locale;
 }
 
-const { currentSlug, tags = [] } = Astro.props;
+const { currentSlug, tags = [], lang = "en" } = Astro.props;
+const t = useTranslations(lang);
+const dateLocale = lang === "es" ? "es-ES" : lang === "it" ? "it-IT" : "en-US";
+
+const localeOf = (id: string): Locale =>
+  id.startsWith("es-") ? "es" : id.startsWith("it-") ? "it" : "en";
 
 const allPosts = await getCollection("blog");
 
-// Score posts by shared tags, exclude current
+// Score posts by shared tags, exclude current. Same language only — a Spanish
+// article was recommending English ones.
 const scored = allPosts
-  .filter((p) => p.id !== currentSlug && !p.data.draft)
+  .filter((p) => p.id !== currentSlug && !p.data.draft && localeOf(p.id) === lang)
   .map((p) => {
     const shared = (p.data.tags ?? []).filter((t: string) => tags.includes(t)).length;
     return { post: p, score: shared };
@@ -23,12 +32,12 @@ const scored = allPosts
 
 {scored.length > 0 && (
   <div class="related">
-    <p class="related-title">Keep reading</p>
+    <p class="related-title">{t("blog.keepReading")}</p>
     <div class="related-grid">
       {scored.map(({ post }) => (
         <a href={`/blog/${post.id}/`} class="glass related-card">
           <p class="related-date">
-            {post.data.date.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}
+            {post.data.date.toLocaleDateString(dateLocale, { year: "numeric", month: "long", day: "numeric" })}
           </p>
           <h3 class="related-heading">{post.data.title}</h3>
           <p class="related-excerpt">{post.data.description}</p>

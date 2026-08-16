@@ -2,11 +2,7 @@
 import Layout from "../../layouts/Layout.astro";
 import Header from "../../components/Header.astro";
 import Footer from "../../components/Footer.astro";
-import { getCollection } from "astro:content";
-
-const posts = (await getCollection("blog"))
-  .filter((post) => !post.data.draft)
-  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+import JournalIndex from "../../components/JournalIndex.astro";
 ---
 
 <Layout
@@ -14,47 +10,6 @@ const posts = (await getCollection("blog"))
   description="Letters on attention, presence, and the phones we carry. The Dear Wander blog."
 >
   <Header lightBg={true} />
-
-  <main class="bg-golden-hour min-h-screen pt-32 pb-20 px-6">
-    <div class="max-w-3xl mx-auto">
-      <div class="text-center mb-16 fade-up">
-        <h1 class="font-wander text-4xl sm:text-5xl text-earth mb-4">The Journal</h1>
-        <p class="text-taupe font-light text-lg">Letters on attention, presence, and the phones we carry.</p>
-      </div>
-
-      <div class="space-y-8">
-        {posts.map((post, i) => (
-          <article class="glass p-8 sm:p-10 fade-up group" style={`animation-delay: ${0.1 + i * 0.12}s;`}>
-            <time class="text-xs text-taupe/70 font-medium uppercase tracking-widest">
-              {post.data.date.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}
-            </time>
-            <h2 class="font-wander text-xl sm:text-2xl text-earth mt-3 mb-3 leading-snug">
-              <a href={`/blog/${post.id}`} class="hover:text-cocoa transition-colors duration-500">
-                {post.data.title}
-              </a>
-            </h2>
-            <p class="text-cocoa/80 font-light leading-relaxed mb-4">
-              {post.data.description}
-            </p>
-            <a
-              href={`/blog/${post.id}`}
-              class="text-sm font-medium text-breath hover:text-earth transition-colors duration-500"
-            >
-              Read &rarr;
-            </a>
-          </article>
-        ))}
-      </div>
-
-      {posts.length === 0 && (
-        <div class="text-center py-20">
-          <p class="font-dear text-2xl text-taupe" style="font-style: italic;">
-            The first letter is being written...
-          </p>
-        </div>
-      )}
-    </div>
-  </main>
-
+  <JournalIndex lang="en" />
   <Footer />
 </Layout>
