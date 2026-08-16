@@ -20,11 +20,14 @@ const initialClass = lightBg ? "header-light" : "header-hero";
       <a href={`${getLocalePath(lang)}#how-it-works`} class="text-sm font-medium header-link transition-colors duration-400 hidden sm:block">
         {t("nav.howItWorks")}
       </a>
-      <a href={`${getLocalePath(lang)}#journal`} class="text-sm font-medium header-link transition-colors duration-400 hidden sm:block">
-        {t("nav.journal")}
-      </a>
+      <!-- One entry, not two. "Journal" used to point at the homepage section
+           and "Blog" at the index — the same thing under two names, and from
+           a subpage the first one threw you back to the homepage. The section
+           is called The Journal everywhere else (the /blog heading, the
+           breadcrumb, the back link at the foot of each post), so that is the
+           name that stays. -->
       <a href="/blog/" class="text-sm font-medium header-link transition-colors duration-400 hidden sm:block">
-        Blog
+        {t("nav.journal")}
       </a>
 
       <!-- Language switcher -->
