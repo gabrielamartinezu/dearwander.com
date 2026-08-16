@@ -2,65 +2,81 @@
 import Layout from "../layouts/Layout.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+import DocumentShell from "../components/DocumentShell.astro";
+
+// Kept in step with the <h2> ids below, and with the custom EULA filed in
+// App Store Connect — the two documents have to stay the same document.
+const sections = [
+  { id: "short-version", title: "The short version" },
+  { id: "using-the-app", title: "Using the app" },
+  { id: "purchases", title: "Purchases and billing" },
+  { id: "wellness", title: "A note on wellness" },
+  { id: "your-content", title: "Your content" },
+  { id: "support", title: "Maintenance and support" },
+  { id: "as-is", title: "The app is provided “as is”" },
+  { id: "product-claims", title: "Product claims" },
+  { id: "intellectual-property", title: "Intellectual property" },
+  { id: "legal-compliance", title: "Legal compliance" },
+  { id: "third-party", title: "Third party beneficiary" },
+  { id: "changes", title: "Changes" },
+  { id: "contact", title: "Contact" },
+];
 ---
 
 <Layout title="Terms of Service — Dear Wander" description="Dear Wander's terms of service, including subscription, billing, and acceptable use terms.">
   <Header lightBg={true} />
-  <main class="pt-32 pb-20 px-6 bg-golden-hour min-h-screen">
-    <article class="max-w-2xl mx-auto prose prose-earth">
-      <h1 class="font-wander text-4xl text-earth mb-8">Terms of Service</h1>
-      <p class="text-sm text-taupe mb-8">Last updated: August 15, 2026</p>
 
-      <h2>The short version</h2>
-      <p>Dear Wander is a mindful screen time app for iOS. By downloading or using it, you agree to these terms. We've tried to keep them plain.</p>
-      <p>This agreement is between you and Andres Vidal, the developer of Dear Wander, and not with Apple. Apple is not responsible for the app or its content.</p>
+  <DocumentShell title="Terms of Service" updated="Last updated August 15, 2026" sections={sections}>
+    <h2 id="short-version">The short version</h2>
+    <p>Dear Wander is a mindful screen time app for iOS. By downloading or using it, you agree to these terms. We've tried to keep them plain.</p>
+    <p>This agreement is between you and Andres Vidal, the developer of Dear Wander, and not with Apple. Apple is not responsible for the app or its content.</p>
 
-      <h2>Using the app</h2>
-      <p>We grant you a personal, non-transferable, non-exclusive license to use Dear Wander on any Apple-branded device that you own or control, as permitted by the App Store Terms of Service. Please don't copy, resell, reverse-engineer, or misuse the app.</p>
+    <h2 id="using-the-app">Using the app</h2>
+    <p>We grant you a personal, non-transferable, non-exclusive license to use Dear Wander on any Apple-branded device that you own or control, as permitted by the App Store Terms of Service. Please don't copy, resell, reverse-engineer, or misuse the app.</p>
 
-      <h2>Purchases and billing</h2>
-      <p>Dear Wander offers a free tier and paid access to premium features. Premium is available as an auto-renewable subscription or as a one-time lifetime purchase. The price and billing period are shown at the time of purchase.</p>
-      <ul>
-        <li>Payment is charged to your Apple ID account at confirmation of purchase.</li>
-        <li>Subscriptions renew automatically unless you turn off auto-renew at least 24 hours before the end of the current period.</li>
-        <li>Your account is charged for renewal within 24 hours before the end of the current period.</li>
-        <li>You can manage or cancel a subscription anytime in your App Store account settings.</li>
-        <li>The lifetime option is a single payment for ongoing access. It does not auto-renew.</li>
-        <li>If a free trial is offered, any unused portion is forfeited when you purchase a subscription.</li>
-      </ul>
-      <p>Purchases are handled by Apple through the App Store. Refunds are subject to Apple's policies.</p>
+    <h2 id="purchases">Purchases and billing</h2>
+    <p>Dear Wander offers a free tier and paid access to premium features. Premium is available as an auto-renewable subscription or as a one-time lifetime purchase. The price and billing period are shown at the time of purchase.</p>
+    <ul>
+      <li>Payment is charged to your Apple ID account at confirmation of purchase.</li>
+      <li>Subscriptions renew automatically unless you turn off auto-renew at least 24 hours before the end of the current period.</li>
+      <li>Your account is charged for renewal within 24 hours before the end of the current period.</li>
+      <li>You can manage or cancel a subscription anytime in your App Store account settings.</li>
+      <li>The lifetime option is a single payment for ongoing access. It does not auto-renew.</li>
+      <li>If a free trial is offered, any unused portion is forfeited when you purchase a subscription.</li>
+    </ul>
+    <p>Purchases are handled by Apple through the App Store. Refunds are subject to Apple's policies.</p>
 
-      <h2>A note on wellness</h2>
-      <p>Dear Wander offers breathing exercises, grounding practices, and gentle prompts to support a calmer relationship with your phone. It is not medical, psychological, or therapeutic advice, and it is not a substitute for professional care. If you are dealing with anxiety, addiction, or any health concern, please talk to a qualified professional.</p>
+    <h2 id="wellness">A note on wellness</h2>
+    <p>Dear Wander offers breathing exercises, grounding practices, and gentle prompts to support a calmer relationship with your phone. It is not medical, psychological, or therapeutic advice, and it is not a substitute for professional care. If you are dealing with anxiety, addiction, or any health concern, please talk to a qualified professional.</p>
 
-      <h2>Your content</h2>
-      <p>Anything you write in the app, such as a daily intention, stays on your device. It belongs to you. See our <a href="/privacy">Privacy Policy</a> for how your data is handled.</p>
+    <h2 id="your-content">Your content</h2>
+    <p>Anything you write in the app, such as a daily intention, stays on your device. It belongs to you. See our <a href="/privacy">Privacy Policy</a> for how your data is handled.</p>
 
-      <h2>Maintenance and support</h2>
-      <p>We are solely responsible for providing maintenance and support for Dear Wander. Apple has no obligation to furnish any maintenance or support services.</p>
+    <h2 id="support">Maintenance and support</h2>
+    <p>We are solely responsible for providing maintenance and support for Dear Wander. Apple has no obligation to furnish any maintenance or support services.</p>
 
-      <h2>The app is provided "as is"</h2>
-      <p>We work hard to make Dear Wander reliable, but we can't promise it will be uninterrupted or error-free. To the fullest extent permitted by law, Dear Wander is provided without warranties, and we are not liable for any indirect or incidental damages arising from its use.</p>
-      <p>In the event of any failure of the app to conform to any applicable warranty, you may notify Apple, and Apple will refund the purchase price to you. To the maximum extent permitted by applicable law, Apple has no other warranty obligation whatsoever with respect to the app.</p>
+    <h2 id="as-is">The app is provided &ldquo;as is&rdquo;</h2>
+    <p>We work hard to make Dear Wander reliable, but we can't promise it will be uninterrupted or error-free. To the fullest extent permitted by law, Dear Wander is provided without warranties, and we are not liable for any indirect or incidental damages arising from its use.</p>
+    <p>In the event of any failure of the app to conform to any applicable warranty, you may notify Apple, and Apple will refund the purchase price to you. To the maximum extent permitted by applicable law, Apple has no other warranty obligation whatsoever with respect to the app.</p>
 
-      <h2>Product claims</h2>
-      <p>We, not Apple, are responsible for addressing any claims relating to Dear Wander, including product liability claims, any claim that the app fails to conform to a legal or regulatory requirement, and claims arising under consumer protection or similar legislation.</p>
+    <h2 id="product-claims">Product claims</h2>
+    <p>We, not Apple, are responsible for addressing any claims relating to Dear Wander, including product liability claims, any claim that the app fails to conform to a legal or regulatory requirement, and claims arising under consumer protection or similar legislation.</p>
 
-      <h2>Intellectual property</h2>
-      <p>If a third party claims that Dear Wander infringes their intellectual property rights, we, not Apple, will be solely responsible for the investigation, defense, settlement, and discharge of that claim.</p>
+    <h2 id="intellectual-property">Intellectual property</h2>
+    <p>If a third party claims that Dear Wander infringes their intellectual property rights, we, not Apple, will be solely responsible for the investigation, defense, settlement, and discharge of that claim.</p>
 
-      <h2>Legal compliance</h2>
-      <p>You represent that you are not located in a country subject to a U.S. Government embargo, or designated by the U.S. Government as a "terrorist supporting" country, and that you are not listed on any U.S. Government list of prohibited or restricted parties.</p>
+    <h2 id="legal-compliance">Legal compliance</h2>
+    <p>You represent that you are not located in a country subject to a U.S. Government embargo, or designated by the U.S. Government as a &ldquo;terrorist supporting&rdquo; country, and that you are not listed on any U.S. Government list of prohibited or restricted parties.</p>
 
-      <h2>Third party beneficiary</h2>
-      <p>Apple and Apple's subsidiaries are third-party beneficiaries of this agreement. Upon your acceptance of these terms, Apple will have the right, and is deemed to have accepted the right, to enforce this agreement against you as a third-party beneficiary.</p>
+    <h2 id="third-party">Third party beneficiary</h2>
+    <p>Apple and Apple's subsidiaries are third-party beneficiaries of this agreement. Upon your acceptance of these terms, Apple will have the right, and is deemed to have accepted the right, to enforce this agreement against you as a third-party beneficiary.</p>
 
-      <h2>Changes</h2>
-      <p>We may update these terms as the app evolves. If we make a significant change, we'll update the date above. Continued use of the app means you accept the updated terms.</p>
+    <h2 id="changes">Changes</h2>
+    <p>We may update these terms as the app evolves. If we make a significant change, we'll update the date above. Continued use of the app means you accept the updated terms.</p>
 
-      <h2>Contact</h2>
-      <p>Questions about these terms, or any claim relating to the app, can be sent to Andres Vidal at <a href="mailto:hello@dearwander.com">hello@dearwander.com</a>, or on Instagram at <a href="https://instagram.com/dearwander.app" target="_blank" rel="noopener">@dearwander.app</a>.</p>
-    </article>
-  </main>
+    <h2 id="contact">Contact</h2>
+    <p>Questions about these terms, or any claim relating to the app, can be sent to Andres Vidal at <a href="mailto:hello@dearwander.com">hello@dearwander.com</a>, or on Instagram at <a href="https://instagram.com/dearwander.app" target="_blank" rel="noopener">@dearwander.app</a>.</p>
+  </DocumentShell>
+
   <Footer />
 </Layout>

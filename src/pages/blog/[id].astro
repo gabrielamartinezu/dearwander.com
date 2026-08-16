@@ -52,7 +52,7 @@ const faqSchema = post.data.faq?.length ? {
   isArticle={true}
   articleDate={post.data.date.toISOString()}
 >
-  <Header />
+  <Header lightBg={true} />
 
   <!-- BreadcrumbList schema -->
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
@@ -61,21 +61,25 @@ const faqSchema = post.data.faq?.length ? {
   )}
 
   <main class="bg-golden-hour min-h-screen pt-32 pb-20 px-6">
-    <article class="max-w-2xl mx-auto">
+    <article class="max-w-[44rem] mx-auto">
       <!-- Header -->
       <div class="text-center mb-12 fade-up">
-        <time class="text-xs text-taupe/70 font-medium uppercase tracking-widest">
+        <time class="doc-eyebrow block">
           {post.data.date.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}
         </time>
-        <h1 class="font-wander text-3xl sm:text-4xl md:text-5xl text-earth mt-4 mb-4 leading-snug">
+        <h1 class="font-wander text-3xl sm:text-4xl md:text-5xl text-earth mt-5 mb-5 leading-[1.15]">
           {post.data.title}
         </h1>
-        <p class="text-lg text-taupe font-light">{post.data.description}</p>
+        <p class="font-dear text-xl sm:text-2xl text-taupe leading-snug max-w-lg mx-auto">
+          {post.data.description}
+        </p>
       </div>
 
       <!-- Content -->
-      <div class="prose fade-up fade-up-d2">
-        <Content />
+      <div class="paper px-7 py-10 sm:px-12 sm:py-14 fade-up fade-up-d2">
+        <div class="prose prose-article">
+          <Content />
+        </div>
       </div>
 
       <!-- Author -->
@@ -96,79 +100,6 @@ const faqSchema = post.data.faq?.length ? {
   <Footer lang={postLang} />
 </Layout>
 
-<style>
-  .prose {
-    font-family: var(--font-sans);
-    color: var(--color-cocoa);
-    line-height: 1.8;
-    font-weight: 300;
-  }
-  .prose :global(h2) {
-    font-family: var(--font-serif);
-    font-weight: 600;
-    color: var(--color-earth);
-    font-size: 1.5rem;
-    margin-top: 2.5rem;
-    margin-bottom: 1rem;
-  }
-  .prose :global(h3) {
-    font-family: var(--font-serif);
-    font-weight: 600;
-    color: var(--color-earth);
-    font-size: 1.25rem;
-    margin-top: 2rem;
-    margin-bottom: 0.75rem;
-  }
-  .prose :global(p) {
-    margin-bottom: 1.25rem;
-  }
-  .prose :global(em) {
-    font-family: var(--font-serif);
-    font-style: italic;
-    color: var(--color-earth);
-    opacity: 0.85;
-  }
-  .prose :global(strong) {
-    font-weight: 600;
-    color: var(--color-earth);
-  }
-  .prose :global(a) {
-    color: var(--color-breath);
-    text-decoration: underline;
-    text-underline-offset: 3px;
-    transition: color 0.4s;
-  }
-  .prose :global(a:hover) {
-    color: var(--color-earth);
-  }
-  .prose :global(blockquote) {
-    border-left: 3px solid var(--color-breath);
-    padding-left: 1.25rem;
-    margin: 1.5rem 0;
-    font-family: var(--font-serif);
-    font-style: italic;
-    color: var(--color-earth);
-    opacity: 0.8;
-  }
-  .prose :global(hr) {
-    border: none;
-    border-top: 1px solid rgba(244, 179, 125, 0.3);
-    margin: 2.5rem 0;
-  }
-  .prose :global(ul), .prose :global(ol) {
-    padding-left: 1.5rem;
-    margin-bottom: 1.25rem;
-    /* Preflight strips the markers; without these the padding reads as a
-       bare indent. Mirrors the same rule in global.css. */
-    list-style-position: outside;
-  }
-  .prose :global(ul) {
-    list-style-type: disc;
-  }
-  .prose :global(ol) {
-    list-style-type: decimal;
-  }
-  .prose :global(li) {
-    margin-bottom: 0.5rem;
-  }
-</style>
+<!-- Prose styling lives in global.css. This page used to carry a scoped copy,
+     which drifted out of sync with it — the list-marker bug had to be fixed in
+     both places before they were merged. Don't reintroduce one. -->

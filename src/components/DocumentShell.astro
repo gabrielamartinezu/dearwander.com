@@ -1,0 +1,89 @@
+---
+/**
+ * Reading shell for the legal documents (terms, privacy).
+ *
+ * These pages are long and uniform — thirteen sections of near-identical
+ * shape — so they get an index rather than asking the reader to scroll and
+ * hope. The index is passed in rather than parsed out of the slot: Astro
+ * renders the slot as opaque HTML here, and hand-listing the sections keeps
+ * the anchors explicit and checkable.
+ */
+interface Props {
+  title: string;
+  updated: string;
+  sections: { id: string; title: string }[];
+  contentsLabel?: string;
+}
+
+const { title, updated, sections, contentsLabel = "Contents" } = Astro.props;
+---
+
+<main class="bg-golden-hour min-h-screen pt-32 pb-24 px-6">
+  <div class="mx-auto max-w-[62rem] lg:grid lg:grid-cols-[13rem_minmax(0,1fr)] lg:gap-16">
+    <aside class="hidden lg:block">
+      <nav class="sticky top-32 doc-toc fade-up" aria-labelledby="doc-toc-label">
+        <p id="doc-toc-label" class="doc-eyebrow mb-4">{contentsLabel}</p>
+        <ol>
+          {sections.map((s) => (
+            <li>
+              <a href={`#${s.id}`} data-toc-link={s.id}>{s.title}</a>
+            </li>
+          ))}
+        </ol>
+      </nav>
+    </aside>
+
+    <article>
+      <header class="mb-10 fade-up">
+        <p class="doc-eyebrow mb-4">Dear Wander</p>
+        <h1 class="font-wander text-4xl sm:text-5xl text-earth leading-[1.1] mb-4">
+          {title}
+        </h1>
+        <p class="doc-meta">{updated}</p>
+      </header>
+
+      <div class="paper px-7 py-10 sm:px-12 sm:py-14 fade-up fade-up-d2">
+        <div class="prose prose-document">
+          <slot />
+        </div>
+      </div>
+    </article>
+  </div>
+</main>
+
+<script>
+  // Highlights the section currently under the header. rootMargin pins the
+  // trigger line just below the fixed nav, so the index changes when a
+  // heading reaches the top of the reading area rather than the viewport.
+  const links = document.querySelectorAll<HTMLAnchorElement>("[data-toc-link]");
+  if (links.length) {
+    const byId = new Map(
+      [...links].map((a) => [a.dataset.tocLink!, a])
+    );
+    const headings = [...byId.keys()]
+      .map((id) => document.getElementById(id))
+      .filter((el): el is HTMLElement => el !== null);
+
+    let current: HTMLAnchorElement | null = null;
+    const setCurrent = (id: string) => {
+      const next = byId.get(id) ?? null;
+      if (next === current) return;
+      current?.classList.remove("is-current");
+      next?.classList.add("is-current");
+      current = next;
+    };
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const visible = entries
+          .filter((e) => e.isIntersecting)
+          .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+        if (visible[0]) setCurrent(visible[0].target.id);
+      },
+      { rootMargin: "-8rem 0px -70% 0px", threshold: 0 }
+    );
+
+    headings.forEach((h) => observer.observe(h));
+    if (headings[0]) setCurrent(headings[0].id);
+  }
+</script>

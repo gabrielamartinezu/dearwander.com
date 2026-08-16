@@ -10,6 +10,9 @@
   --color-taupe: #7A5C42;
   --color-dusk: #5C4E7A;
   --color-warm-white: #FFF8F0;
+  /* Link ink. --color-breath is 1.7:1 on the golden background; this clears
+     4.5:1 over every band of it. */
+  --color-ink: #7C3A12;
 
   --font-serif: "Cormorant Garamond", "Georgia", serif;
   --font-sans: "Nunito", "Avenir", sans-serif;
@@ -159,55 +162,107 @@ body {
   font-weight: 600;
 }
 
-/* Prose typography for content pages (privacy, terms, about, glossary).
-   @tailwindcss/typography isn't installed, so the `prose` class does nothing
-   on its own; these rules give the spacing and heading styles. The blog has
-   its own scoped copy, which keeps precedence there. */
+/* ── Long-form reading ───────────────────────────────────────────────────
+   One prose system for every reading surface: terms, privacy, about,
+   glossary and the blog. @tailwindcss/typography isn't installed, so
+   `prose` is entirely these rules. The blog used to carry its own scoped
+   copy, which drifted out of sync — it now reads from here.
+
+   Body text is set in the serif, not the sans. Cormorant at 21px reads as
+   a printed page rather than a product screen, which is the whole voice of
+   "Dear Wander,". The sans is kept for chrome: eyebrows, meta, the index. */
 .prose {
-  font-family: var(--font-sans);
-  color: var(--color-cocoa);
-  line-height: 1.8;
-  font-weight: 300;
+  font-family: var(--font-serif);
+  font-size: 1.3125rem;
+  line-height: 1.68;
+  font-weight: 400;
+  color: var(--color-earth);
 }
+@media (max-width: 640px) {
+  .prose {
+    font-size: 1.1875rem;
+    line-height: 1.62;
+  }
+}
+
+.prose p {
+  margin-bottom: 1.05em;
+}
+
+/* Opening capital, sized to sit across the first two lines. Scoped to the
+   documents and the blog: those open on a full paragraph. On /about the
+   lede is a single line and the float collided with the author card. */
+.prose-document > p:first-of-type::first-letter,
+.prose-article > p:first-of-type::first-letter {
+  float: left;
+  font-size: 3.4em;
+  line-height: 0.78;
+  font-weight: 500;
+  color: var(--color-cocoa);
+  padding-right: 0.09em;
+  padding-top: 0.05em;
+}
+
 .prose h2 {
   font-family: var(--font-serif);
   font-weight: 600;
+  font-size: 2rem;
+  line-height: 1.18;
   color: var(--color-earth);
-  font-size: 1.5rem;
-  margin-top: 2.5rem;
-  margin-bottom: 1rem;
+  margin-top: 3.25rem;
+  margin-bottom: 1.4rem;
+  /* Clears the fixed header when jumped to from the index. */
+  scroll-margin-top: 8rem;
 }
-.prose h2:first-of-type {
-  margin-top: 1.5rem;
+.prose h2::after {
+  content: "";
+  display: block;
+  width: 3.5rem;
+  height: 1px;
+  margin-top: 0.85rem;
+  background: linear-gradient(to right, var(--color-breath), transparent);
+}
+.prose h2:first-child {
+  margin-top: 0;
 }
 .prose h3 {
   font-family: var(--font-serif);
   font-weight: 600;
+  font-size: 1.4rem;
   color: var(--color-earth);
-  font-size: 1.25rem;
-  margin-top: 2rem;
-  margin-bottom: 0.75rem;
+  margin-top: 2.25rem;
+  margin-bottom: 0.6rem;
+  scroll-margin-top: 8rem;
 }
-.prose p {
-  margin-bottom: 1.25rem;
-}
+
 .prose strong {
   font-weight: 600;
-  color: var(--color-earth);
 }
+.prose em {
+  font-style: italic;
+  color: var(--color-cocoa);
+}
+
+/* --color-breath fails contrast against the golden background (1.7:1), so
+   links are set in a deeper ink that clears 4.5:1 over every band of the
+   gradient. */
 .prose a {
-  color: var(--color-breath);
+  color: var(--color-ink);
   text-decoration: underline;
-  text-underline-offset: 3px;
-  transition: color 0.4s;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
+  text-decoration-color: rgba(124, 58, 18, 0.4);
+  transition: color 0.35s, text-decoration-color 0.35s;
 }
 .prose a:hover {
   color: var(--color-earth);
+  text-decoration-color: currentColor;
 }
+
 .prose ul,
 .prose ol {
-  padding-left: 1.5rem;
-  margin-bottom: 1.25rem;
+  padding-left: 1.35em;
+  margin-bottom: 1.05em;
   /* Tailwind's preflight strips list markers, so without these the padding
      above reads as an unexplained indent rather than a list. */
   list-style-position: outside;
@@ -219,5 +274,115 @@ body {
   list-style-type: decimal;
 }
 .prose li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4em;
+  padding-left: 0.2em;
+}
+.prose li::marker {
+  color: var(--color-breath);
+}
+
+.prose blockquote {
+  margin: 2rem 0;
+  padding-left: 1.5rem;
+  border-left: 1px solid rgba(244, 168, 90, 0.55);
+  font-style: italic;
+  font-size: 1.08em;
+  color: var(--color-cocoa);
+}
+
+/* A fleuron instead of a rule — the break between passages in a letter. */
+.prose hr {
+  border: none;
+  margin: 3rem 0;
+  text-align: center;
+}
+.prose hr::before {
+  content: "❦";
+  font-size: 1.15rem;
+  color: var(--color-breath);
+}
+
+/* Legal documents number their sections; essays don't. */
+.prose-document {
+  counter-reset: section;
+}
+.prose-document h2 {
+  counter-increment: section;
+}
+.prose-document h2::before {
+  /* The numeral alone read as a stray mark; the rule anchors it. */
+  content: "— " counter(section, upper-roman);
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  color: var(--color-ink);
+  opacity: 0.55;
+  margin-bottom: 0.7rem;
+}
+
+/* ── Reading surfaces ──────────────────────────────────────────────────── */
+
+/* A sheet of paper caught in the light. 2px radius, not the 20px of .glass —
+   paper has corners, cards don't. */
+.paper {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 248, 240, 0.72),
+    rgba(255, 248, 240, 0.48)
+  );
+  border: 1px solid rgba(255, 248, 240, 0.75);
+  border-radius: 2px;
+  box-shadow:
+    0 1px 2px rgba(60, 42, 30, 0.04),
+    0 14px 44px -14px rgba(60, 42, 30, 0.16);
+}
+
+/* Eyebrow / meta line, set in the sans against all that serif. */
+.doc-eyebrow {
+  font-family: var(--font-sans);
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--color-taupe);
+  opacity: 0.75;
+}
+.doc-meta {
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
+  font-weight: 400;
+  color: var(--color-taupe);
+}
+
+/* ── Document index ────────────────────────────────────────────────────── */
+.doc-toc {
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
+  line-height: 1.5;
+}
+.doc-toc ol {
+  list-style: none;
+  border-left: 1px solid rgba(244, 179, 125, 0.45);
+}
+.doc-toc li {
+  margin: 0;
+}
+.doc-toc a {
+  display: block;
+  padding: 0.4rem 0 0.4rem 1rem;
+  margin-left: -1px;
+  border-left: 1px solid transparent;
+  color: var(--color-taupe);
+  text-decoration: none;
+  transition: color 0.3s, border-color 0.3s;
+}
+.doc-toc a:hover {
+  color: var(--color-earth);
+}
+.doc-toc a.is-current {
+  color: var(--color-earth);
+  border-left-color: var(--color-breath);
+  font-weight: 600;
 }

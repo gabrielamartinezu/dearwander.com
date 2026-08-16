@@ -2,39 +2,49 @@
 import Layout from "../layouts/Layout.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+import DocumentShell from "../components/DocumentShell.astro";
+
+// Kept in step with the <h2> ids below.
+const sections = [
+  { id: "short-version", title: "The short version" },
+  { id: "on-device", title: "What stays on your device" },
+  { id: "screen-time", title: "Screen Time permissions" },
+  { id: "analytics", title: "Anonymous analytics" },
+  { id: "waitlist", title: "The waitlist" },
+  { id: "no-accounts", title: "No accounts" },
+  { id: "third-party", title: "Third-party services" },
+  { id: "contact", title: "Contact" },
+];
 ---
 
 <Layout title="Privacy Policy — Dear Wander" description="Dear Wander's privacy policy. The apps you choose, your sessions, and what you write stay on your device. No accounts, no ads, only anonymous usage analytics.">
   <Header lightBg={true} />
-  <main class="pt-32 pb-20 px-6 bg-golden-hour min-h-screen">
-    <article class="max-w-2xl mx-auto prose prose-earth">
-      <h1 class="font-wander text-4xl text-earth mb-8">Privacy Policy</h1>
-      <p class="text-sm text-taupe mb-8">Last updated: July 20, 2026</p>
 
-      <h2>The short version</h2>
-      <p>Dear Wander is built on a simple principle: your data is yours. We don't ask you to sign in, and we don't sell anything. The personal parts of your experience, the apps you choose, what you write, and your session history, never leave your phone. The one thing we do collect is anonymous usage data that helps us see whether the app is actually working. It carries no personal information and can't be traced back to you.</p>
+  <DocumentShell title="Privacy Policy" updated="Last updated July 20, 2026" sections={sections}>
+    <h2 id="short-version">The short version</h2>
+    <p>Dear Wander is built on a simple principle: your data is yours. We don't ask you to sign in, and we don't sell anything. The personal parts of your experience, the apps you choose, what you write, and your session history, never leave your phone. The one thing we do collect is anonymous usage data that helps us see whether the app is actually working. It carries no personal information and can't be traced back to you.</p>
 
-      <h2>What stays on your device</h2>
-      <p>Your app selections, breathing and grounding session history, morning intentions, and preferences are stored locally on your iPhone using Apple's on-device storage. This personal content never leaves your device and is not accessible to us or any third party.</p>
+    <h2 id="on-device">What stays on your device</h2>
+    <p>Your app selections, breathing and grounding session history, morning intentions, and preferences are stored locally on your iPhone using Apple's on-device storage. This personal content never leaves your device and is not accessible to us or any third party.</p>
 
-      <h2>Screen Time permissions</h2>
-      <p>Dear Wander uses Apple's FamilyControls API to provide the breathing pause before your chosen apps. This is a native Apple framework that operates entirely on your device. We never see which apps you select or how you use them.</p>
+    <h2 id="screen-time">Screen Time permissions</h2>
+    <p>Dear Wander uses Apple's FamilyControls API to provide the breathing pause before your chosen apps. This is a native Apple framework that operates entirely on your device. We never see which apps you select or how you use them.</p>
 
-      <h2>Anonymous analytics</h2>
-      <p>To understand how Dear Wander is working, how many people finish a breathing session, where the setup gets confusing, whether a feature is used at all, we use TelemetryDeck, a privacy-first analytics service. The events it records are anonymous and aggregate. They never include the apps you choose, what you write, or anything that could identify you, and they are never used for advertising or cross-app tracking. The website uses no cookies beyond what is strictly necessary for functionality.</p>
+    <h2 id="analytics">Anonymous analytics</h2>
+    <p>To understand how Dear Wander is working, how many people finish a breathing session, where the setup gets confusing, whether a feature is used at all, we use TelemetryDeck, a privacy-first analytics service. The events it records are anonymous and aggregate. They never include the apps you choose, what you write, or anything that could identify you, and they are never used for advertising or cross-app tracking. The website uses no cookies beyond what is strictly necessary for functionality.</p>
 
-      <h2>The waitlist</h2>
-      <p>If you join our waitlist, we collect your email address through Buttondown, our email service provider. We use it only to send you updates about Dear Wander, and you can unsubscribe at any time.</p>
+    <h2 id="waitlist">The waitlist</h2>
+    <p>If you join our waitlist, we collect your email address through Buttondown, our email service provider. We use it only to send you updates about Dear Wander, and you can unsubscribe at any time.</p>
 
-      <h2>No accounts</h2>
-      <p>Dear Wander does not require you to create an account. There is no login, no username, no profile. You download the app and use it. That's the whole relationship.</p>
+    <h2 id="no-accounts">No accounts</h2>
+    <p>Dear Wander does not require you to create an account. There is no login, no username, no profile. You download the app and use it. That's the whole relationship.</p>
 
-      <h2>Third-party services</h2>
-      <p>The app uses RevenueCat to manage subscriptions and TelemetryDeck for the anonymous analytics described above. RevenueCat processes your purchase through Apple's App Store and does not have access to your personal data beyond what Apple provides for transaction processing. TelemetryDeck receives only anonymous usage events and no personal information.</p>
+    <h2 id="third-party">Third-party services</h2>
+    <p>The app uses RevenueCat to manage subscriptions and TelemetryDeck for the anonymous analytics described above. RevenueCat processes your purchase through Apple's App Store and does not have access to your personal data beyond what Apple provides for transaction processing. TelemetryDeck receives only anonymous usage events and no personal information.</p>
 
-      <h2>Contact</h2>
-      <p>If you have questions about this privacy policy, reach out at <a href="mailto:hello@dearwander.com">hello@dearwander.com</a>, or on Instagram at <a href="https://instagram.com/dearwander.app" target="_blank" rel="noopener">@dearwander.app</a>.</p>
-    </article>
-  </main>
+    <h2 id="contact">Contact</h2>
+    <p>If you have questions about this privacy policy, reach out at <a href="mailto:hello@dearwander.com">hello@dearwander.com</a>, or on Instagram at <a href="https://instagram.com/dearwander.app" target="_blank" rel="noopener">@dearwander.app</a>.</p>
+  </DocumentShell>
+
   <Footer />
 </Layout>
