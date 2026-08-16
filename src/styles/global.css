@@ -208,6 +208,15 @@ body {
 .prose ol {
   padding-left: 1.5rem;
   margin-bottom: 1.25rem;
+  /* Tailwind's preflight strips list markers, so without these the padding
+     above reads as an unexplained indent rather than a list. */
+  list-style-position: outside;
+}
+.prose ul {
+  list-style-type: disc;
+}
+.prose ol {
+  list-style-type: decimal;
 }
 .prose li {
   margin-bottom: 0.5rem;
