@@ -168,20 +168,22 @@ body {
    `prose` is entirely these rules. The blog used to carry its own scoped
    copy, which drifted out of sync — it now reads from here.
 
-   Body text is set in the serif, not the sans. Cormorant at 21px reads as
-   a printed page rather than a product screen, which is the whole voice of
-   "Dear Wander,". The sans is kept for chrome: eyebrows, meta, the index. */
+   Body copy is the sans. Cormorant is a display garamond — high stroke
+   contrast, fine hairlines — and at reading size it goes spindly, so it is
+   kept for headings and the opening capital, where its contrast is an asset.
+   Weight is 400, not the old 300: that light weight over a warm ground was
+   what made the text look washed out. */
 .prose {
-  font-family: var(--font-serif);
-  font-size: 1.3125rem;
-  line-height: 1.68;
+  font-family: var(--font-sans);
+  font-size: 1.125rem;
+  line-height: 1.75;
   font-weight: 400;
-  color: var(--color-earth);
+  color: var(--color-cocoa);
 }
 @media (max-width: 640px) {
   .prose {
-    font-size: 1.1875rem;
-    line-height: 1.62;
+    font-size: 1.0625rem;
+    line-height: 1.7;
   }
 }
 
@@ -195,12 +197,15 @@ body {
 .prose-document > p:first-of-type::first-letter,
 .prose-article > p:first-of-type::first-letter {
   float: left;
-  font-size: 3.4em;
-  line-height: 0.78;
+  /* Serif initial against sans text — the one place Cormorant's contrast
+     works for us at size. */
+  font-family: var(--font-serif);
+  font-size: 3.6em;
+  line-height: 0.8;
   font-weight: 500;
-  color: var(--color-cocoa);
-  padding-right: 0.09em;
-  padding-top: 0.05em;
+  color: var(--color-earth);
+  padding-right: 0.07em;
+  padding-top: 0.04em;
 }
 
 .prose h2 {
@@ -285,9 +290,12 @@ body {
   margin: 2rem 0;
   padding-left: 1.5rem;
   border-left: 1px solid rgba(244, 168, 90, 0.55);
+  /* Set in the serif so a pulled quote reads as a different voice. */
+  font-family: var(--font-serif);
   font-style: italic;
-  font-size: 1.08em;
-  color: var(--color-cocoa);
+  font-size: 1.3em;
+  line-height: 1.5;
+  color: var(--color-earth);
 }
 
 /* A fleuron instead of a rule — the break between passages in a letter. */
