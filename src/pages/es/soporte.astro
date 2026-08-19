@@ -1,0 +1,51 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import DocumentShell from "../../components/DocumentShell.astro";
+
+const lang = "es";
+
+// En paralelo con los <h2> de abajo.
+const sections = [
+  { id: "contacto", title: "Escríbeme" },
+  { id: "pausa", title: "La pausa no aparece" },
+  { id: "permiso", title: "Permiso de Tiempo de Uso" },
+  { id: "notificaciones", title: "Notificaciones" },
+  { id: "premium", title: "Compras y restaurar" },
+  { id: "cancelar", title: "Cancelar la suscripción" },
+  { id: "datos", title: "Tus datos" },
+];
+---
+
+<Layout title="Soporte — Dear Wander" description="Ayuda con Dear Wander: la pausa de respiración, el permiso de Tiempo de Uso, notificaciones, compras y suscripciones. Escrito por la persona que hace la app.">
+  <Header lang={lang} lightBg={true} />
+
+  <DocumentShell title="Soporte" updated="Última actualización: 19 de agosto de 2026" sections={sections} contentsLabel="Contenido">
+    <h2 id="contacto">Escríbeme</h2>
+    <p>Dear Wander la hace una sola persona. Escribe a <a href="mailto:hello@dearwander.com">hello@dearwander.com</a> y te responde esa persona, normalmente en un par de días. Cuéntame qué dispositivo usas y qué estabas haciendo cuando falló, así nos ahorramos un correo de ida y vuelta.</p>
+
+    <h2 id="pausa">La pausa no aparece</h2>
+    <p>Casi siempre es una de tres cosas. Comprueba que la app que abres esté de verdad en tu lista, en Ajustes → Mis límites. Comprueba que estés dentro de tus horas activas, porque fuera de ellas Dear Wander se queda callada. Y comprueba que no tengas todavía un pase abierto de un respiro reciente: después de una pausa, tus apps se quedan abiertas un rato a propósito.</p>
+    <p>Si las tres están bien, quita la app de la lista y vuelve a añadirla. Eso la registra de nuevo en el Tiempo de Uso de Apple.</p>
+
+    <h2 id="permiso">Permiso de Tiempo de Uso</h2>
+    <p>Dear Wander necesita el permiso de Tiempo de Uso para poner la pausa. Sin él la app funciona, pero nunca va a interrumpir un scroll. Puedes darlo en Ajustes de iOS → Tiempo de uso, o borrar y reinstalar para que te lo pida otra vez.</p>
+    <p>Ese permiso es justo lo que permite que la pausa ocurra entera en tu teléfono. Las apps que eliges no se envían a ningún sitio y no hay ninguna cuenta que crear.</p>
+
+    <h2 id="notificaciones">Notificaciones</h2>
+    <p>El salto desde una app en pausa de vuelta a Dear Wander ocurre a través de una notificación. Si las tienes desactivadas, la pantalla de pausa puede aparecer pero no podrá llevarte a la sesión de respiración. Actívalas en Ajustes de iOS → Notificaciones → Dear Wander.</p>
+
+    <h2 id="premium">Compras y restaurar</h2>
+    <p>Dear Wander es gratis, con una pausa suave en una app. La versión premium abre apps ilimitadas y la biblioteca completa de sesiones guiadas, como suscripción mensual o anual, o como compra única de por vida.</p>
+    <p>¿Cambiaste de teléfono o reinstalaste? Abre Ajustes dentro de la app y toca Restaurar compras. Las compras van asociadas a tu cuenta de Apple, así que no hay nada que iniciar sesión.</p>
+
+    <h2 id="cancelar">Cancelar la suscripción</h2>
+    <p>Las suscripciones se renuevan hasta que las canceles. Para cancelar, abre Ajustes de iOS, toca tu nombre, luego Suscripciones y luego Dear Wander. Conservas el acceso hasta el final del periodo que ya pagaste. La compra de por vida no se renueva y no hay que cancelarla.</p>
+
+    <h2 id="datos">Tus datos</h2>
+    <p>Las apps que eliges, lo que escribes y tu historial de sesiones se quedan en tu teléfono. Si borras la app, se borran con ella. No hay nada en un servidor que pedirnos que quitemos. La <a href="/privacy/">política de privacidad</a> lo cuenta entero.</p>
+  </DocumentShell>
+
+  <Footer lang={lang} />
+</Layout>

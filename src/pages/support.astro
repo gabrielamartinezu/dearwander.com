@@ -1,0 +1,49 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import DocumentShell from "../components/DocumentShell.astro";
+
+// Kept in step with the <h2> ids below.
+const sections = [
+  { id: "contact", title: "Get in touch" },
+  { id: "pause", title: "The pause isn't appearing" },
+  { id: "permission", title: "Screen Time permission" },
+  { id: "notifications", title: "Notifications" },
+  { id: "premium", title: "Purchases and restoring" },
+  { id: "cancel", title: "Cancelling a subscription" },
+  { id: "data", title: "Your data" },
+];
+---
+
+<Layout title="Support — Dear Wander" description="Help with Dear Wander: the breathing pause, Screen Time permissions, notifications, purchases and subscriptions. Written by the person who makes the app.">
+  <Header lightBg={true} />
+
+  <DocumentShell title="Support" updated="Last updated August 19, 2026" sections={sections}>
+    <h2 id="contact">Get in touch</h2>
+    <p>Dear Wander is made by one person. Write to <a href="mailto:hello@dearwander.com">hello@dearwander.com</a> and you'll get a reply from that person, usually within a couple of days. Tell me what device you're on and what you were doing when it went wrong — it saves us both a round trip.</p>
+
+    <h2 id="pause">The pause isn't appearing</h2>
+    <p>Almost always one of three things. Check that the app you're opening is actually in your chosen list, under Settings → My Boundaries. Check that you're inside your active hours, since Dear Wander stays quiet outside them. And check that you don't still have a pass running from a recent breath — after a pause, your apps stay open for a while on purpose.</p>
+    <p>If all three look right, try removing the app from your list and adding it again. That re-registers it with Apple's Screen Time framework.</p>
+
+    <h2 id="permission">Screen Time permission</h2>
+    <p>Dear Wander needs Screen Time permission to place the pause. Without it the app runs, but nothing will ever interrupt a scroll. You can grant it in iOS Settings → Screen Time, or delete and reinstall to be asked again.</p>
+    <p>This permission is what lets the pause happen entirely on your phone. Your app choices are never sent anywhere, and there's no account to create.</p>
+
+    <h2 id="notifications">Notifications</h2>
+    <p>The handoff from a paused app back into Dear Wander happens through a notification. If notifications are off, the pause screen can still appear but it can't bring you into the breathing session. Turn them on in iOS Settings → Notifications → Dear Wander.</p>
+
+    <h2 id="premium">Purchases and restoring</h2>
+    <p>Dear Wander is free with a gentle pause on one app. Premium unlocks unlimited apps and the full library of guided sessions, as a monthly or yearly subscription, or as a one-time lifetime purchase.</p>
+    <p>Changed phones, or reinstalled? Open Settings inside the app and tap Restore Purchases. Purchases are tied to your Apple Account, so there's nothing to log into.</p>
+
+    <h2 id="cancel">Cancelling a subscription</h2>
+    <p>Subscriptions renew until you cancel. To cancel, open iOS Settings, tap your name, then Subscriptions, then Dear Wander. You keep access until the end of the period you've already paid for. A lifetime purchase doesn't renew and doesn't need cancelling.</p>
+
+    <h2 id="data">Your data</h2>
+    <p>The apps you choose, what you write, and your session history stay on your phone. Deleting the app deletes them with it. There's nothing on a server to ask us to remove. See the <a href="/privacy/">privacy policy</a> for the full picture.</p>
+  </DocumentShell>
+
+  <Footer />
+</Layout>
