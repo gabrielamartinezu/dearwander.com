@@ -1,0 +1,42 @@
+---
+/**
+ * dearwander.com/app  →  la ficha de la App Store.
+ *
+ * Un enlace corto que se puede decir en voz alta y poner en la bio de
+ * Instagram. Si cambia la tienda, o se añade Android, se cambia aquí y no en
+ * veinte sitios.
+ *
+ * La redirección va en el cliente a propósito: el sitio es estático, así que un
+ * `Astro.redirect` congelaría el parámetro de campaña en tiempo de compilación
+ * y todas las instalaciones se atribuirían al mismo canal.
+ *
+ *   /app                →  ct=web
+ *   /app?from=ig-bio    →  ct=ig-bio
+ *
+ * Esa etiqueta es lo que permite a App Store Connect decir de qué canal viene
+ * cada instalación. Sin ella no hay atribución posible: la analítica dentro de
+ * la app solo empieza a contar después de instalar.
+ */
+const APP_ID = "6759883721";
+const FALLBACK = `https://apps.apple.com/app/id${APP_ID}?ct=web&mt=8`;
+---
+
+<!-- noindex: es una puerta, no una página -->
+<meta name="robots" content="noindex" />
+<title>Dear Wander</title>
+<link rel="canonical" href={FALLBACK} />
+
+<script is:inline define:vars={{ APP_ID, FALLBACK }}>
+  const raw = new URLSearchParams(location.search).get("from") || "web";
+  const from = (raw.replace(/[^a-zA-Z0-9_-]/g, "").slice(0, 40)) || "web";
+  location.replace(`https://apps.apple.com/app/id${APP_ID}?ct=${from}&mt=8`);
+</script>
+
+<noscript>
+  <meta http-equiv="refresh" content={`0;url=${FALLBACK}`} />
+</noscript>
+
+<div style="font-family: system-ui; padding: 3rem; text-align: center; color: #5A3A31;">
+  <p>Abriendo la App Store…</p>
+  <p><a href={FALLBACK}>Dear Wander</a></p>
+</div>

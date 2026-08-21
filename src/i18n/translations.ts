@@ -3,7 +3,9 @@ export const translations = {
     // Header
     "nav.howItWorks": "How it works",
     "nav.journal": "Journal",
-    "nav.waitlist": "Join the waitlist",
+    "nav.waitlist": "Download",
+    "cta.download": "Download on the App Store",
+    "hero.free": "Free on iPhone. No account needed.",
 
     // Hero intro
     "hero.label": "Mindful Screen Time · iOS",
@@ -25,8 +27,8 @@ export const translations = {
 
     // Waitlist
     "waitlist.placeholder": "your@email.com",
-    "waitlist.button": "Join the waitlist",
-    "waitlist.fine": "No spam. Just a letter when we're ready.",
+    "waitlist.button": "Send me letters",
+    "waitlist.fine": "No spam. A letter now and then.",
 
     // Features — Problem
     "problem.title": "Your phone wasn't designed<br/>to let you go.",
@@ -95,7 +97,7 @@ export const translations = {
 
     // Footer
     "footer.cta": "Dear Wander, come back.",
-    "footer.ctaBody": "Be the first to receive your letter. Join the waitlist and we'll write to you when we're ready.",
+    "footer.ctaBody": "Dear Wander is on the App Store. And if you'd like a letter now and then, leave your email.",
     "footer.privacy": "Privacy",
     "footer.terms": "Terms",
     "footer.about": "About",
@@ -120,7 +122,9 @@ export const translations = {
   es: {
     "nav.howItWorks": "Cómo funciona",
     "nav.journal": "Diario",
-    "nav.waitlist": "Únete a la lista",
+    "nav.waitlist": "Descargar",
+    "cta.download": "Descargar en la App Store",
+    "hero.free": "Gratis en iPhone. Sin crear cuenta.",
 
     "hero.label": "Uso consciente del móvil · iOS",
     "hero.sub": "Sesenta segundos para volver a ti.",
@@ -138,8 +142,8 @@ export const translations = {
     "hero.home.body": "Cuando el tiempo se gasta, tu teléfono se queda en silencio. La respiración te espera la próxima vez que lo busques.",
 
     "waitlist.placeholder": "tu@email.com",
-    "waitlist.button": "Únete a la lista",
-    "waitlist.fine": "Sin spam. Solo una carta cuando estemos listos.",
+    "waitlist.button": "Mándame cartas",
+    "waitlist.fine": "Sin spam. Una carta de vez en cuando.",
 
     "problem.title": "Tu teléfono no fue diseñado<br/>para dejarte ir.",
     "problem.body": "Cinco horas al día. 144 desbloqueos. El gesto es automático, y tu pulgar se mueve antes de que lo decidas. No necesitas otro bloqueo. Necesitas que alguien te diga con suavidad:",
@@ -201,7 +205,7 @@ export const translations = {
     "blog.post3.excerpt": "Cómo construimos una intervención que se siente como un regalo. La filosofía de diseño de Dear Wander.",
 
     "footer.cta": "Dear Wander, vuelve.",
-    "footer.ctaBody": "Sé la primera en recibir tu carta. Únete a la lista y te escribiremos cuando estemos listos.",
+    "footer.ctaBody": "Dear Wander ya está en la App Store. Y si quieres una carta de vez en cuando, déjanos tu correo.",
     "footer.privacy": "Privacidad",
     "footer.terms": "Términos",
     "footer.about": "Quiénes somos",
@@ -225,7 +229,9 @@ export const translations = {
   it: {
     "nav.howItWorks": "Come funziona",
     "nav.journal": "Diario",
-    "nav.waitlist": "Iscriviti alla lista",
+    "nav.waitlist": "Scarica",
+    "cta.download": "Scarica sull'App Store",
+    "hero.free": "Gratis su iPhone. Senza account.",
 
     "hero.label": "Tempo schermo consapevole · iOS",
     "hero.sub": "Sessanta secondi per tornare a te.",
@@ -243,8 +249,8 @@ export const translations = {
     "hero.home.body": "Quando il tempo è speso, il telefono resta in silenzio. Il respiro ti aspetta la prossima volta che lo cerchi.",
 
     "waitlist.placeholder": "tua@email.com",
-    "waitlist.button": "Iscriviti alla lista",
-    "waitlist.fine": "Niente spam. Solo una lettera quando saremo pronti.",
+    "waitlist.button": "Mandami lettere",
+    "waitlist.fine": "Niente spam. Una lettera ogni tanto.",
 
     "problem.title": "Il tuo telefono non è stato progettato<br/>per lasciarti andare.",
     "problem.body": "Cinque ore al giorno. 144 sblocchi. Il gesto è automatico, e il pollice si muove prima che tu abbia deciso. Non hai bisogno di un altro blocco. Hai bisogno di qualcuno che dica gentilmente:",
@@ -306,7 +312,7 @@ export const translations = {
     "blog.post3.excerpt": "Come abbiamo costruito un intervento che sembra un regalo. La filosofia di design di Dear Wander.",
 
     "footer.cta": "Dear Wander, torna.",
-    "footer.ctaBody": "Sii la prima a ricevere la tua lettera. Iscriviti alla lista e ti scriveremo quando saremo pronti.",
+    "footer.ctaBody": "Dear Wander è sull'App Store. E se ti va una lettera ogni tanto, lasciaci la tua email.",
     "footer.privacy": "Privacy",
     "footer.terms": "Termini",
     "footer.about": "Chi siamo",
