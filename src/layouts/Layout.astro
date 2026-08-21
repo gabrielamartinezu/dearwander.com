@@ -155,6 +155,24 @@ const isTranslatedBlogPost = pathname.match(/^\/blog\/(es|it)-/);
   <body class="grain">
     <slot />
 
+    <script is:inline>
+      // Propaga la etiqueta de campaña a los enlaces de descarga.
+      //
+      // Si alguien entra por dearwander.com/?from=ig-bio y luego pulsa
+      // Descargar, sin esto la instalación se atribuiría a "web-hero" y
+      // perderíamos de dónde vino. Así el enlace de la bio puede apuntar a
+      // cualquier página del sitio sin renunciar a medir.
+      (function () {
+        const raw = new URLSearchParams(location.search).get("from");
+        if (!raw) return;
+        const from = raw.replace(/[^a-zA-Z0-9_-]/g, "").slice(0, 40);
+        if (!from) return;
+        document.querySelectorAll('a[href^="/app"]').forEach(function (a) {
+          a.setAttribute("href", "/app?from=" + from);
+        });
+      })();
+    </script>
+
     <script>
       // Scroll reveal observer
       const observer = new IntersectionObserver(
