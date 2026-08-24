@@ -1,0 +1,57 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import DocumentShell from "../components/DocumentShell.astro";
+
+const APP_URL = "https://apps.apple.com/app/id6759883721";
+
+// Kept in step with the <h2> ids below.
+const sections = [
+  { id: "short", title: "In one line" },
+  { id: "story", title: "Why it exists" },
+  { id: "different", title: "What's different" },
+  { id: "facts", title: "The facts" },
+  { id: "assets", title: "Images" },
+  { id: "contact", title: "Contact" },
+];
+---
+
+<Layout title="Press — Dear Wander" description="Press kit for Dear Wander: what the app is, why it was built, how it differs from screen time blockers, and images to download.">
+  <Header lightBg={true} />
+
+  <DocumentShell title="Press" updated="Last updated August 24, 2026" sections={sections}>
+    <h2 id="short">In one line</h2>
+    <p>Dear Wander puts a minute of guided breathing in front of the apps that pull at you, so the reach for the phone becomes a choice again. It is free on the <a href={APP_URL}>App Store</a>, in English and Spanish.</p>
+
+    <h2 id="story">Why it exists</h2>
+    <p>[MAKER NAME] spent years as an engineer at Couchsurfing, a product whose whole point was getting people to meet in real life. Then came the noticing: not being able to stay present with the people in front of her. Reaching for the phone before being properly awake.</p>
+    <p>The blockers on offer all worked like a bouncer. Something outside you decides you can't. And a bouncer mostly makes people want to argue: the App Store reviews of every blocker are full of users describing how they deleted the app rather than obey it.</p>
+    <p>Dear Wander does the opposite. It never says no.</p>
+
+    <h2 id="different">What's different</h2>
+    <p>Three things set it apart from the category:</p>
+    <p><strong>It asks how you feel first.</strong> Open an app you chose to protect and Dear Wander asks what you need right now — calm, focus, rest, courage — then pairs a minute of slow breathing with a mantra that matches. You can type your own instead, in the moment.</p>
+    <p><strong>It keeps no score.</strong> There are no streaks to break, no weekly report telling you how you did, no counter of how many times you opened Instagram. The category runs on shame metrics; this one runs on correspondence. The app is named like a letter because it is written like one.</p>
+    <p><strong>The premise is practice, not restraint.</strong> A slow exhale is the body's own route into the parasympathetic system. The bet Dear Wander makes is that people already know how to settle themselves, and that phones trained them out of it. Each pause is a repetition. Nothing is locked.</p>
+
+    <h2 id="facts">The facts</h2>
+    <p><strong>Platform:</strong> iOS, iPhone and iPad. Built natively on Apple's Screen Time framework (FamilyControls).</p>
+    <p><strong>Released:</strong> 18 August 2026.</p>
+    <p><strong>Languages:</strong> English and Spanish, both written rather than machine-translated, including the guided meditation audio.</p>
+    <p><strong>Price:</strong> free, with the breathing pause on one app forever. Premium adds unlimited apps, guided meditation and 5-4-3-2-1 grounding, as a monthly or annual subscription with a seven-day trial, or a one-time lifetime purchase.</p>
+    <p><strong>Privacy:</strong> no account, no login, no VPN. The apps you choose are held as opaque tokens by iOS and are never readable by the app or its maker. Analytics are anonymous and aggregate.</p>
+    <p><strong>Made by:</strong> one person, working alone.</p>
+
+    <h2 id="assets">Images</h2>
+    <p>Free to use in any coverage of Dear Wander, no permission needed.</p>
+    <p><a href="/press/dear-wander-press-assets.zip">Download everything (ZIP, 8.8 MB)</a> — app icon and three screenshots at full resolution.</p>
+    <p>Or individually: <a href="/press/dear-wander-icon.png">app icon</a> · <a href="/press/dear-wander-breathing.png">the breathing pause</a> · <a href="/press/dear-wander-home.png">home</a> · <a href="/press/dear-wander-grounding.png">5-4-3-2-1 grounding</a>.</p>
+
+    <h2 id="contact">Contact</h2>
+    <p>Questions, review copies, or anything else: <a href="mailto:hello@dearwander.com">hello@dearwander.com</a>. Replies come from the person who made the app, usually within a day.</p>
+    <p>Promo codes for the premium tier are available on request.</p>
+  </DocumentShell>
+
+  <Footer />
+</Layout>
