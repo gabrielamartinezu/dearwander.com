@@ -1,0 +1,23 @@
+---
+import { useTranslations } from "../i18n/utils";
+import type { Locale } from "../i18n/translations";
+import AppStoreButton from "./AppStoreButton.astro";
+
+interface Props { lang?: Locale; }
+const lang = (Astro.props.lang ?? "en") as Locale;
+const t = useTranslations(lang);
+---
+
+<!-- El final de la página no debe ser un callejón sin salida: quien llega
+     hasta aquí leyó todo y sigue sin un sitio donde pulsar. -->
+<section class="relative py-24 sm:py-32 px-6 bg-golden-deep text-warm-white overflow-hidden">
+  <div class="max-w-2xl mx-auto text-center reveal">
+    <h2 class="font-wander text-3xl sm:text-4xl text-warm-white mb-8 leading-snug">
+      {t("closing.title")}
+    </h2>
+    <div class="flex justify-center">
+      <AppStoreButton lang={lang} from="web-closing" size="lg" />
+    </div>
+    <p class="text-warm-white/45 font-light text-sm mt-5">{t("hero.free")}</p>
+  </div>
+</section>

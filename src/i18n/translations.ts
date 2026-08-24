@@ -5,9 +5,12 @@ export const translations = {
     "nav.journal": "Journal",
     "nav.waitlist": "Download",
     "cta.download": "Download on the App Store",
+    "closing.title": "Ready to reclaim your time?",
     "hero.free": "Free on iPhone. No account needed.",
 
     // Hero intro
+    "hero.h1": "A mindful pause for your nervous system.",
+    "hero.h2": "Break the doomscrolling loop. Sixty seconds back to yourself.",
     "hero.label": "Mindful Screen Time · iOS",
     "hero.sub": "Sixty seconds back to yourself.",
     "hero.scroll": "scroll to open",
@@ -124,8 +127,11 @@ export const translations = {
     "nav.journal": "Diario",
     "nav.waitlist": "Descargar",
     "cta.download": "Descargar en la App Store",
+    "closing.title": "¿Lista para recuperar tu tiempo?",
     "hero.free": "Gratis en iPhone. Sin crear cuenta.",
 
+    "hero.h1": "Una pausa consciente para tu sistema nervioso.",
+    "hero.h2": "Rompe el bucle del scroll. Sesenta segundos para volver a ti.",
     "hero.label": "Uso consciente del móvil · iOS",
     "hero.sub": "Sesenta segundos para volver a ti.",
     "hero.scroll": "desliza para abrir",
@@ -231,8 +237,11 @@ export const translations = {
     "nav.journal": "Diario",
     "nav.waitlist": "Scarica",
     "cta.download": "Scarica sull'App Store",
+    "closing.title": "Pronta a riprenderti il tuo tempo?",
     "hero.free": "Gratis su iPhone. Senza account.",
 
+    "hero.h1": "Una pausa consapevole per il tuo sistema nervoso.",
+    "hero.h2": "Rompi il ciclo dello scroll. Sessanta secondi per tornare a te.",
     "hero.label": "Tempo schermo consapevole · iOS",
     "hero.sub": "Sessanta secondi per tornare a te.",
     "hero.scroll": "scorri per aprire",
