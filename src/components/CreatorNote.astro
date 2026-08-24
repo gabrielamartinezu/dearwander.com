@@ -1,0 +1,40 @@
+---
+import { useTranslations } from "../i18n/utils";
+import type { Locale } from "../i18n/translations";
+
+interface Props { lang?: Locale; }
+const lang = (Astro.props.lang ?? "en") as Locale;
+const t = useTranslations(lang);
+
+// El único enlace de toda la página que saca al visitante fuera. Va aquí y no
+// arriba a propósito: quien llega hasta esta sección ya leyó lo demás, así que
+// perderlo cuesta menos que perderlo en el hero.
+const IG = "https://instagram.com/dearwander.app";
+---
+
+<section class="relative py-24 sm:py-32 px-6 bg-golden-hour overflow-hidden" id="maker">
+  <div class="max-w-2xl mx-auto text-center">
+    <blockquote class="reveal">
+      <p class="font-wander text-2xl sm:text-3xl text-earth leading-snug mb-6">
+        {t("maker.q")}
+      </p>
+      <p class="text-cocoa/80 font-light text-lg leading-relaxed">
+        {t("maker.a")}
+      </p>
+    </blockquote>
+
+    <p class="reveal font-wander text-lg text-earth/70 mt-8" style="transition-delay: 0.15s;">
+      {t("maker.name")}
+    </p>
+
+    <p class="reveal text-taupe text-sm font-light mt-10" style="transition-delay: 0.25s;">
+      {t("maker.bridge")}{" "}
+      <a
+        href={IG}
+        target="_blank"
+        rel="noopener"
+        class="text-earth font-medium underline decoration-amber/50 underline-offset-4 hover:decoration-amber transition-colors duration-400"
+      >@dearwander.app</a>
+    </p>
+  </div>
+</section>

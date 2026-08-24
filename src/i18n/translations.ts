@@ -5,7 +5,12 @@ export const translations = {
     "nav.journal": "Journal",
     "nav.waitlist": "Download",
     "cta.download": "Download on the App Store",
+    "letters.cta": "Send me letters",
     "closing.title": "Ready to reclaim your time?",
+    "maker.q": "Dear Wander started with a question: why does every app that promises to help you use your phone less feel like a punishment?",
+    "maker.a": "I tried the blockers and deleted every one of them. So I built the opposite. It never says no. It just asks you to breathe first.",
+    "maker.name": "Gabriela Martínez",
+    "maker.bridge": "Built by an indie developer. Follow along on Instagram:",
     "hero.free": "Free on iPhone. No account needed.",
 
     // Hero intro
@@ -127,7 +132,12 @@ export const translations = {
     "nav.journal": "Diario",
     "nav.waitlist": "Descargar",
     "cta.download": "Descargar en la App Store",
+    "letters.cta": "Mándame cartas",
     "closing.title": "¿Lista para recuperar tu tiempo?",
+    "maker.q": "Dear Wander empezó con una pregunta: ¿por qué toda app que promete ayudarte a usar menos el móvil se siente como un castigo?",
+    "maker.a": "Probé los bloqueadores y los borré todos. Así que hice lo contrario. Nunca te dice que no. Solo te pide que respires primero.",
+    "maker.name": "Gabriela Martínez",
+    "maker.bridge": "Hecha por una desarrolladora independiente. Sígueme en Instagram:",
     "hero.free": "Gratis en iPhone. Sin crear cuenta.",
 
     "hero.h1": "Una pausa consciente para tu sistema nervioso.",
@@ -237,7 +247,12 @@ export const translations = {
     "nav.journal": "Diario",
     "nav.waitlist": "Scarica",
     "cta.download": "Scarica sull'App Store",
+    "letters.cta": "Mandami lettere",
     "closing.title": "Pronta a riprenderti il tuo tempo?",
+    "maker.q": "Dear Wander è nata da una domanda: perché ogni app che promette di farti usare meno il telefono sembra una punizione?",
+    "maker.a": "Ho provato i bloccanti e li ho cancellati tutti. Così ho fatto l'opposto. Non dice mai di no. Chiede solo di respirare prima.",
+    "maker.name": "Gabriela Martínez",
+    "maker.bridge": "Fatta da una sviluppatrice indipendente. Seguimi su Instagram:",
     "hero.free": "Gratis su iPhone. Senza account.",
 
     "hero.h1": "Una pausa consapevole per il tuo sistema nervoso.",
