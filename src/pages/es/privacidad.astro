@@ -1,0 +1,52 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import DocumentShell from "../../components/DocumentShell.astro";
+
+const lang = "es";
+
+// En paralelo con los <h2> de abajo, y con la versión en inglés en /privacy/.
+const sections = [
+  { id: "resumen", title: "La versión corta" },
+  { id: "en-tu-telefono", title: "Lo que se queda en tu teléfono" },
+  { id: "tiempo-de-uso", title: "Permisos de Tiempo de Uso" },
+  { id: "analiticas", title: "Analíticas anónimas" },
+  { id: "lista", title: "La lista de espera" },
+  { id: "sin-cuentas", title: "Sin cuentas" },
+  { id: "terceros", title: "Servicios de terceros" },
+  { id: "contacto", title: "Contacto" },
+];
+---
+
+<Layout title="Política de privacidad — Dear Wander" description="Política de privacidad de Dear Wander. Las apps que eliges, tus sesiones y lo que escribes se quedan en tu teléfono. Sin cuentas, sin anuncios, solo analíticas anónimas de uso.">
+  <Header lang={lang} lightBg={true} />
+
+  <DocumentShell title="Política de privacidad" updated="Última actualización: 20 de julio de 2026" sections={sections} contentsLabel="Contenido">
+    <h2 id="resumen">La versión corta</h2>
+    <p>Dear Wander parte de un principio sencillo: tus datos son tuyos. No te pedimos que inicies sesión y no vendemos nada. Las partes personales de tu experiencia, las apps que eliges, lo que escribes y tu historial de sesiones, nunca salen de tu teléfono. Lo único que sí recogemos son datos de uso anónimos que nos dejan ver si la app funciona de verdad. No llevan información personal y no se pueden rastrear hasta ti.</p>
+
+    <h2 id="en-tu-telefono">Lo que se queda en tu teléfono</h2>
+    <p>Tu selección de apps, el historial de sesiones de respiración y de anclaje, tus intenciones de la mañana y tus preferencias se guardan localmente en tu iPhone, en el almacenamiento del propio dispositivo que ofrece Apple. Este contenido personal nunca sale de tu teléfono y no tenemos acceso a él, ni nosotros ni ningún tercero.</p>
+
+    <h2 id="tiempo-de-uso">Permisos de Tiempo de Uso</h2>
+    <p>Dear Wander usa la API FamilyControls de Apple para ofrecer la pausa de respiración antes de las apps que elijas. Es un framework nativo de Apple que funciona por completo dentro de tu dispositivo. Nunca vemos qué apps seleccionas ni cómo las usas.</p>
+
+    <h2 id="analiticas">Analíticas anónimas</h2>
+    <p>Para entender cómo va Dear Wander, cuánta gente termina una sesión de respiración, en qué punto se hace confusa la configuración, si una función se usa siquiera, utilizamos TelemetryDeck, un servicio de analíticas que pone la privacidad primero. Los eventos que registra son anónimos y agregados. Nunca incluyen las apps que eliges, lo que escribes ni nada que pueda identificarte, y nunca se usan para publicidad ni para seguimiento entre apps. La web no usa más cookies que las estrictamente necesarias para que funcione.</p>
+
+    <h2 id="lista">La lista de espera</h2>
+    <p>Si te apuntas a nuestra lista de espera, recogemos tu dirección de correo a través de Buttondown, nuestro proveedor de correo. La usamos solo para mandarte novedades sobre Dear Wander, y puedes darte de baja cuando quieras.</p>
+
+    <h2 id="sin-cuentas">Sin cuentas</h2>
+    <p>Dear Wander no te pide crear una cuenta. No hay inicio de sesión, ni nombre de usuario, ni perfil. Te descargas la app y la usas. Esa es toda la relación.</p>
+
+    <h2 id="terceros">Servicios de terceros</h2>
+    <p>La app usa RevenueCat para gestionar las suscripciones y TelemetryDeck para las analíticas anónimas que se describen arriba. RevenueCat procesa tu compra a través del App Store de Apple y no tiene acceso a tus datos personales más allá de lo que Apple facilita para procesar la transacción. TelemetryDeck solo recibe eventos de uso anónimos, sin información personal.</p>
+
+    <h2 id="contacto">Contacto</h2>
+    <p>Si tienes dudas sobre esta política de privacidad, escribe a <a href="mailto:hello@dearwander.com">hello@dearwander.com</a>, o por Instagram a <a href="https://instagram.com/dearwander.app" target="_blank" rel="noopener">@dearwander.app</a>.</p>
+  </DocumentShell>
+
+  <Footer lang={lang} />
+</Layout>

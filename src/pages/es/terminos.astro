@@ -1,0 +1,87 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import DocumentShell from "../../components/DocumentShell.astro";
+
+const lang = "es";
+
+// En paralelo con los <h2> de abajo, y con la versión en inglés en /terms/,
+// que es el EULA presentado en App Store Connect. Si las dos difieren, manda
+// la inglesa: por eso la nota al final.
+const sections = [
+  { id: "resumen", title: "La versión corta" },
+  { id: "uso", title: "Uso de la app" },
+  { id: "compras", title: "Compras y facturación" },
+  { id: "bienestar", title: "Una nota sobre bienestar" },
+  { id: "tu-contenido", title: "Tu contenido" },
+  { id: "soporte", title: "Mantenimiento y soporte" },
+  { id: "tal-cual", title: "La app se ofrece «tal cual»" },
+  { id: "reclamaciones", title: "Reclamaciones sobre el producto" },
+  { id: "propiedad-intelectual", title: "Propiedad intelectual" },
+  { id: "cumplimiento", title: "Cumplimiento legal" },
+  { id: "terceros", title: "Tercero beneficiario" },
+  { id: "cambios", title: "Cambios" },
+  { id: "contacto", title: "Contacto" },
+];
+---
+
+<Layout title="Términos de servicio — Dear Wander" description="Términos de servicio de Dear Wander, incluyendo suscripción, facturación y condiciones de uso.">
+  <Header lang={lang} lightBg={true} />
+
+  <DocumentShell title="Términos de servicio" updated="Última actualización: 15 de agosto de 2026" sections={sections} contentsLabel="Contenido">
+    <h2 id="resumen">La versión corta</h2>
+    <p>Dear Wander es una app de iOS para llevar mejor el tiempo en pantalla. Al descargarla o usarla, aceptas estos términos. Hemos intentado dejarlos en lenguaje llano.</p>
+    <p>Este acuerdo es entre tú y Andres Vidal, el desarrollador de Dear Wander, y no con Apple. Apple no es responsable de la app ni de su contenido.</p>
+
+    <h2 id="uso">Uso de la app</h2>
+    <p>Te concedemos una licencia personal, intransferible y no exclusiva para usar Dear Wander en cualquier dispositivo de marca Apple que poseas o controles, según permiten los Términos de servicio del App Store. Por favor, no copies, revendas, sometas a ingeniería inversa ni hagas un uso indebido de la app.</p>
+
+    <h2 id="compras">Compras y facturación</h2>
+    <p>Dear Wander ofrece un nivel gratuito y acceso de pago a las funciones premium. Premium está disponible como suscripción de renovación automática o como pago único de por vida. El precio y el periodo de facturación se muestran en el momento de la compra.</p>
+    <ul>
+      <li>El pago se carga a tu cuenta de Apple ID al confirmar la compra.</li>
+      <li>Las suscripciones se renuevan automáticamente salvo que desactives la renovación automática al menos 24 horas antes del final del periodo en curso.</li>
+      <li>El cargo de renovación se hace dentro de las 24 horas previas al final del periodo en curso.</li>
+      <li>Puedes gestionar o cancelar una suscripción cuando quieras desde los ajustes de tu cuenta del App Store.</li>
+      <li>La opción de por vida es un pago único por acceso continuado. No se renueva automáticamente.</li>
+      <li>Si se ofrece una prueba gratuita, la parte no utilizada se pierde al comprar una suscripción.</li>
+    </ul>
+    <p>Las compras las gestiona Apple a través del App Store. Los reembolsos están sujetos a las políticas de Apple.</p>
+
+    <h2 id="bienestar">Una nota sobre bienestar</h2>
+    <p>Dear Wander ofrece ejercicios de respiración, prácticas de anclaje y mensajes suaves para acompañar una relación más calmada con tu teléfono. No es asesoramiento médico, psicológico ni terapéutico, y no sustituye la atención profesional. Si estás lidiando con ansiedad, una adicción o cualquier problema de salud, habla con un profesional cualificado.</p>
+
+    <h2 id="tu-contenido">Tu contenido</h2>
+    <p>Todo lo que escribas en la app, como una intención del día, se queda en tu dispositivo. Es tuyo. Consulta nuestra <a href="/es/privacidad/">política de privacidad</a> para saber cómo se tratan tus datos.</p>
+
+    <h2 id="soporte">Mantenimiento y soporte</h2>
+    <p>Somos los únicos responsables de dar mantenimiento y soporte a Dear Wander. Apple no tiene obligación alguna de prestar servicios de mantenimiento ni de soporte.</p>
+
+    <h2 id="tal-cual">La app se ofrece &laquo;tal cual&raquo;</h2>
+    <p>Trabajamos para que Dear Wander sea fiable, pero no podemos prometer que funcione sin interrupciones ni errores. En la máxima medida que permita la ley, Dear Wander se ofrece sin garantías, y no somos responsables de daños indirectos o incidentales derivados de su uso.</p>
+    <p>En caso de que la app no cumpla alguna garantía aplicable, puedes notificarlo a Apple, y Apple te reembolsará el precio de compra. En la máxima medida que permita la ley aplicable, Apple no tiene ninguna otra obligación de garantía respecto a la app.</p>
+    <p>Nada de esto limita los derechos que te reconozca la normativa de consumo de tu país, que se aplican en todo caso.</p>
+
+    <h2 id="reclamaciones">Reclamaciones sobre el producto</h2>
+    <p>Nosotros, y no Apple, somos responsables de atender cualquier reclamación relativa a Dear Wander, incluidas las reclamaciones por responsabilidad del producto, cualquier reclamación por incumplimiento de un requisito legal o reglamentario, y las reclamaciones derivadas de la normativa de protección al consumidor o similar.</p>
+
+    <h2 id="propiedad-intelectual">Propiedad intelectual</h2>
+    <p>Si un tercero alega que Dear Wander infringe sus derechos de propiedad intelectual, nosotros, y no Apple, seremos los únicos responsables de la investigación, defensa, transacción y resolución de esa reclamación.</p>
+
+    <h2 id="cumplimiento">Cumplimiento legal</h2>
+    <p>Declaras que no te encuentras en un país sujeto a embargo por parte del Gobierno de los Estados Unidos, ni designado por dicho Gobierno como país &laquo;que apoya el terrorismo&raquo;, y que no figuras en ninguna lista del Gobierno de los Estados Unidos de partes prohibidas o restringidas.</p>
+
+    <h2 id="terceros">Tercero beneficiario</h2>
+    <p>Apple y sus filiales son terceros beneficiarios de este acuerdo. Al aceptar estos términos, Apple tendrá derecho, y se entiende que ha aceptado ese derecho, a hacer valer este acuerdo frente a ti como tercero beneficiario.</p>
+
+    <h2 id="cambios">Cambios</h2>
+    <p>Podemos actualizar estos términos según evolucione la app. Si hacemos un cambio importante, actualizaremos la fecha de arriba. Seguir usando la app significa que aceptas los términos actualizados.</p>
+
+    <h2 id="contacto">Contacto</h2>
+    <p>Las dudas sobre estos términos, o cualquier reclamación relativa a la app, se pueden enviar a Andres Vidal en <a href="mailto:hello@dearwander.com">hello@dearwander.com</a>, o por Instagram a <a href="https://instagram.com/dearwander.app" target="_blank" rel="noopener">@dearwander.app</a>.</p>
+    <p class="text-sm">Esta es una traducción de cortesía. En caso de discrepancia, prevalece la <a href="/terms/">versión en inglés</a>, que es la registrada en App Store Connect.</p>
+  </DocumentShell>
+
+  <Footer lang={lang} />
+</Layout>

@@ -1,6 +1,6 @@
 ---
-title: "Smartphone addiction statistics 2025-2026: the numbers behind the habit"
-description: "The latest smartphone addiction statistics for 2025-2026, including Gen Z screen time data, daily phone pickups, and what the numbers say about the habit."
+title: "Phone addiction statistics 2026: 144 checks a day"
+description: "How often we really check, how many hours that becomes, and what Gen Z say about their own habits. Current research, every figure cited, without the shame."
 date: 2026-05-04
 author: "Dear Wander"
 tags: ["statistics", "smartphone addiction", "phone addiction", "screen time", "gen z", "research"]
