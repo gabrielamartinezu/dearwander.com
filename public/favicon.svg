@@ -1,11 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!--
+    El arco de Dear Wander. Mismo dibujo que el icono de la app: contorno en
+    crema sobre el degradado de hora dorada, morado arriba y ambar abajo.
+
+    Las proporciones salen del icono de 1024: arco al 52% del ancho, alto al
+    68%, trazo al 11,9% del ancho del arco. A 16px eso son 0,63px de trazo,
+    asi que se sube a 1,9 para que el navegador no lo pierda al rasterizar.
+  -->
   <defs>
-    <radialGradient id="g" cx="50%" cy="45%" r="55%">
-      <stop offset="0%" stop-color="#FCEABB"/>
-      <stop offset="50%" stop-color="#F8C89A"/>
-      <stop offset="100%" stop-color="#F4B37D"/>
-    </radialGradient>
+    <linearGradient id="cielo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"  stop-color="#4B3F68"/>
+      <stop offset="60%" stop-color="#9A5F72"/>
+      <stop offset="100%" stop-color="#F0A55A"/>
+    </linearGradient>
   </defs>
-  <rect width="32" height="32" rx="7" fill="url(#g)"/>
-  <text x="16" y="23" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="600" fill="#3C2A1E" opacity="0.85">W</text>
+  <rect width="32" height="32" rx="7" fill="url(#cielo)"/>
+  <path d="M9.9 27.1 V13.2 a6.1 6.1 0 0 1 12.2 0 V27.1"
+        fill="none" stroke="#FFF6E4" stroke-width="1.9"
+        stroke-linecap="square"/>
 </svg>
