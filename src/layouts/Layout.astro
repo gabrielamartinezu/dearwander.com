@@ -20,6 +20,9 @@ const {
   isArticle = false,
   articleDate,
   articleModified,
+  // Solo las rutas de blog las pasan; el resto del sitio deduce sus versiones
+  // quitando el prefijo del idioma a la ruta.
+  alternates = [],
 } = Astro.props;
 
 // Every self-referencing URL must use the trailing-slash form, or /page and
@@ -46,7 +49,19 @@ const isTranslatedBlogPost = pathname.match(/^\/blog\/(es|it)-/);
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="canonical" href={canonicalURL} />
 
-    <!-- hreflang: alternate language versions (skip for individual blog posts) -->
+    <!-- Los posts traducidos traen sus alternativas calculadas en la ruta,
+         porque su patron de URL es /blog/es-slug y no /es/blog/slug. -->
+    {isBlogPost && alternates.length > 0 && (
+      <>
+        {alternates.map((a) => (
+          <link rel="alternate" hreflang={a.lang} href={`${siteURL}/blog/${a.id}/`} />
+        ))}
+        <link rel="alternate" hreflang="x-default"
+              href={`${siteURL}/blog/${(alternates.find((a) => a.lang === "en") ?? alternates[0]).id}/`} />
+      </>
+    )}
+
+    <!-- hreflang para el resto del sitio, que si usa rutas con prefijo -->
     {!isBlogPost && (
       <>
         <link rel="alternate" hreflang="en" href={`${siteURL}${basePath}`} />

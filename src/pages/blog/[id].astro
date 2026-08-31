@@ -9,13 +9,30 @@ import { useTranslations, getLocalePath } from "../../i18n/utils";
 
 export async function getStaticPaths() {
   const posts = await getCollection("blog");
-  return posts.map((post) => ({
-    params: { id: post.id },
-    props: { post },
-  }));
+  const ids = new Set(posts.map((p) => p.id));
+
+  // Las traducciones no viven en /es/blog/ sino en el mismo directorio con el
+  // slug prefijado (es-foo, it-foo). Por eso el layout no puede deducirlas
+  // quitando el prefijo de la ruta, como hace con el resto del sitio, y hay
+  // que calcularlas aqui.
+  //
+  // Solo se emiten las que EXISTEN: apuntar un hreflang a una URL que da 404
+  // es peor que no poner ninguno.
+  return posts.map((post) => {
+    const base = post.id.replace(/^(es|it)-/, "");
+    const alternates = [
+      ids.has(base) ? { lang: "en", id: base } : null,
+      ids.has(`es-${base}`) ? { lang: "es", id: `es-${base}` } : null,
+      ids.has(`it-${base}`) ? { lang: "it", id: `it-${base}` } : null,
+    ].filter(Boolean);
+    return {
+      params: { id: post.id },
+      props: { post, alternates: alternates.length > 1 ? alternates : [] },
+    };
+  });
 }
 
-const { post } = Astro.props;
+const { post, alternates } = Astro.props;
 const { Content } = await render(post);
 
 // Detect language from the slug prefix (es-*, it-*) for localized chrome
@@ -52,6 +69,7 @@ const faqSchema = post.data.faq?.length ? {
   description={post.data.description}
   isArticle={true}
   articleDate={post.data.date.toISOString()}
+  alternates={alternates}
 >
   <Header lightBg={true} />
 
