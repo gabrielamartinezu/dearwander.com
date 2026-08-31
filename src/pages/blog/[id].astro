@@ -4,6 +4,7 @@ import Header from "../../components/Header.astro";
 import Footer from "../../components/Footer.astro";
 import AuthorBio from "../../components/AuthorBio.astro";
 import RelatedPosts from "../../components/RelatedPosts.astro";
+import YouTubeLite from "../../components/YouTubeLite.astro";
 import { getCollection, render } from "astro:content";
 import { useTranslations, getLocalePath } from "../../i18n/utils";
 
@@ -33,6 +34,33 @@ export async function getStaticPaths() {
 }
 
 const { post, alternates } = Astro.props;
+
+// Qué meditación acompaña a cada post. Se declara aquí y no dentro del markdown
+// porque la colección solo carga .md, que no admite componentes, y porque así
+// la colocación es un dato editable de un vistazo en vez de marcado enterrado
+// en la prosa.
+//
+// Va incrustado y no enlazado a propósito: un enlace saca a la persona del
+// sitio, y el canal todavía no puede devolverla porque los enlaces en las
+// descripciones están bloqueados hasta que cumpla dos meses.
+const VIDEOS: Record<string, { id: string; titulo: string; duracion: string }> = {
+  "es-vagus-nerve-breathing": {
+    id: "Kqem8DyhgHQ",
+    titulo: "Meditación guiada para la ansiedad",
+    duracion: "11 min",
+  },
+  "es-guided-imagery-meditation": {
+    id: "KaR9K-uilFA",
+    titulo: "Meditación guiada para dormir, con lluvia",
+    duracion: "11 min",
+  },
+  "es-revenge-bedtime-scrolling": {
+    id: "KaR9K-uilFA",
+    titulo: "Meditación guiada para dormir, con lluvia",
+    duracion: "11 min",
+  },
+};
+const video = VIDEOS[post.id];
 const { Content } = await render(post);
 
 // Detect language from the slug prefix (es-*, it-*) for localized chrome
@@ -99,6 +127,13 @@ const faqSchema = post.data.faq?.length ? {
         <div class="prose prose-article">
           <Content />
         </div>
+
+        {video && (
+          <div class="mt-10 pt-8 border-t border-earth/10">
+            <p class="text-sm text-taupe mb-3">Para practicarlo:</p>
+            <YouTubeLite id={video.id} titulo={video.titulo} duracion={video.duracion} />
+          </div>
+        )}
       </div>
 
       <!-- Author -->

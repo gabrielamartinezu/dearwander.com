@@ -1,0 +1,88 @@
+---
+/**
+ * Vídeo de YouTube incrustado sin cargar YouTube hasta que se pulsa.
+ *
+ * El incrustado normal trae unos cuantos cientos de kilobytes de JavaScript y
+ * las cookies de Google en cuanto se pinta la página, la vea alguien o no. En
+ * un blog que vende privacidad eso es una contradicción, y además hunde la
+ * velocidad de carga, que sí cuenta para posicionar.
+ *
+ * Aquí solo se pinta la miniatura. El iframe se crea al pulsar, con autoplay,
+ * así que quien no lo ve no paga nada.
+ *
+ * Se prefiere incrustar antes que enlazar porque un enlace saca a la persona
+ * del sitio, y ahora mismo el canal todavía no puede devolverla: los enlaces
+ * en las descripciones están bloqueados hasta que cumpla dos meses.
+ */
+interface Props {
+  id: string;
+  titulo: string;
+  /** Segundos, solo para mostrar. */
+  duracion?: string;
+}
+const { id, titulo, duracion } = Astro.props;
+---
+
+<figure class="yt-lite" data-id={id}>
+  <button class="yt-btn" type="button" aria-label={`Reproducir: ${titulo}`}>
+    <img
+      src={`https://i.ytimg.com/vi/${id}/hqdefault.jpg`}
+      alt=""
+      loading="lazy"
+      width="480"
+      height="360"
+    />
+    <span class="yt-play" aria-hidden="true">
+      <svg viewBox="0 0 68 48" width="60" height="42">
+        <path d="M66.5 7.7a8.6 8.6 0 0 0-6-6C55.2 0 34 0 34 0S12.8 0 7.5 1.7a8.6 8.6 0 0 0-6 6A90 90 0 0 0 0 24a90 90 0 0 0 1.5 16.3 8.6 8.6 0 0 0 6 6C12.8 48 34 48 34 48s21.2 0 26.5-1.7a8.6 8.6 0 0 0 6-6A90 90 0 0 0 68 24a90 90 0 0 0-1.5-16.3z" fill="#3C2A1E" opacity="0.85"/>
+        <path d="M27 34l18-10-18-10z" fill="#FFF6E4"/>
+      </svg>
+    </span>
+  </button>
+  <figcaption>
+    {titulo}{duracion && <span class="yt-dur"> · {duracion}</span>}
+  </figcaption>
+</figure>
+
+<style>
+  .yt-lite { margin: 2rem 0; }
+  .yt-btn {
+    display: block; position: relative; width: 100%; padding: 0;
+    border: 0; background: none; cursor: pointer; line-height: 0;
+    border-radius: 14px; overflow: hidden;
+  }
+  .yt-btn img {
+    width: 100%; height: auto; display: block;
+    /* hqdefault viene con bandas negras arriba y abajo; se recortan. */
+    aspect-ratio: 16 / 9; object-fit: cover;
+    transition: filter 0.4s ease;
+  }
+  .yt-btn:hover img { filter: brightness(1.06); }
+  .yt-play {
+    position: absolute; inset: 0; display: flex;
+    align-items: center; justify-content: center;
+  }
+  .yt-lite :global(iframe) {
+    width: 100%; aspect-ratio: 16 / 9; border: 0; border-radius: 14px;
+  }
+  figcaption {
+    margin-top: 0.6rem; font-size: 0.9rem;
+    color: rgba(90, 58, 49, 0.75); line-height: 1.4;
+  }
+  .yt-dur { opacity: 0.6; }
+</style>
+
+<script>
+  document.querySelectorAll(".yt-lite").forEach((fig) => {
+    const btn = fig.querySelector(".yt-btn");
+    btn?.addEventListener("click", () => {
+      const id = (fig as HTMLElement).dataset.id;
+      const f = document.createElement("iframe");
+      // nocookie: no deja cookies de seguimiento hasta que se reproduce.
+      f.src = `https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0`;
+      f.allow = "accelerometer; autoplay; encrypted-media; picture-in-picture";
+      f.allowFullscreen = true;
+      btn.replaceWith(f);
+    });
+  });
+</script>

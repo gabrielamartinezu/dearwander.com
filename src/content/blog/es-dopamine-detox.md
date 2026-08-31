@@ -59,6 +59,8 @@ El dopamine detox extremo, sin teléfono, sin música, sin placer durante un dí
 
 Primero, trata el síntoma como la enfermedad. El problema no es la dopamina. El problema es un conjunto de hábitos compulsivos que tu cerebro ha construido alrededor de la estimulación digital. Dejarlo de golpe no desmonta esos hábitos. Solo los suprime temporalmente, como aguantar la respiración bajo el agua. En el momento en que sales a la superficie, jadeas.
 
+Lo que sí sostiene un cambio es entrenar la calma en vez de suprimir el impulso, y la vía más corta es [la respiración con la salida larga](/blog/es-vagus-nerve-breathing/).
+
 Segundo, la privación total desencadena lo que los psicólogos llaman [comportamiento de rebote](/blog/revenge-bedtime-scrolling/). Cuando restringes algo por completo, el deseo se intensifica. Esto está bien documentado en investigación sobre trastornos alimentarios y se aplica directamente a los hábitos digitales. Las personas que hacen ayunos extremos del teléfono suelen reportar un uso más intenso después. El atracón sigue al ayuno.
 
 El estudio de JAMA no pidió a nadie que dejara las redes sociales por completo. Los participantes redujeron de 2 horas a 30 minutos. Seguían haciendo scroll. Solo hacían menos, y con más intención. Esa reducción moderada produjo resultados más fuertes y sostenibles que el enfoque de todo o nada.

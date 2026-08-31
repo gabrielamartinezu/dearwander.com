@@ -77,6 +77,8 @@ Esa última, la honesta, es el momento de conciencia que cambia todo.
 
 ### 8. La pausa de respiración de 60 segundos
 
+No es un truco de fuerza de voluntad: hay un [mecanismo fisiológico detrás de la exhalación lenta](/blog/es-vagus-nerve-breathing/).
+
 Inserta un breve ejercicio de respiración entre la urgencia y la acción. Un estudio de 2023 publicado en *PNAS* encontró que una breve pausa antes de las apps sociales — una corta espera y un aviso preguntando si de verdad quieres continuar — redujo los intentos de abrir apps en un 57% a lo largo de seis semanas.[^pnas] La respiración activa tu corteza prefrontal, cambiándote de reactivo a receptivo.
 
 [Dear Wander](/es/) coloca una pantalla cálida de respiración guiada antes de tus apps de redes sociales, sesenta segundos de presencia antes de hacer scroll.

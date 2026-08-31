@@ -65,7 +65,7 @@ Piensa en la diferencia entre intentar dormirte en silencio total y dormirte con
 
 No necesitas una app ni entrenamiento especial para probar la visualización guiada. Aquí tienes una versión simple que puedes hacer en la cama:
 
-**Cierra los ojos.** Toma tres respiraciones lentas. Inhala por la nariz, exhala por la boca.
+**Cierra los ojos.** Toma tres respiraciones lentas. Inhala por la nariz, exhala por la boca. Que la salida dure más que la entrada: esa asimetría es la que activa el [nervio vago](/blog/es-vagus-nerve-breathing/) y baja la activación.
 
 **Elige un lugar.** Un sitio tranquilo donde hayas estado de verdad. Una playa, un jardín, una habitación silenciosa. Los recuerdos reales funcionan mejor que la fantasía porque tu cerebro ya tiene los datos sensoriales.
 

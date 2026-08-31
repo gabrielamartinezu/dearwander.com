@@ -71,7 +71,7 @@ Ninguno de estos pasos pide que renuncies a tu teléfono. Solo devuelven un poco
 
 La nomofobia se construyó con miles de repeticiones pequeñas. Tu teléfono entrenó tu atención poco a poco, durante años, una notificación a la vez. Se deshace igual: con repetición, pero en la otra dirección. Pequeños momentos de elegir la pausa en lugar del reflejo.
 
-No tienes que hacerlo todo hoy. Una respiración antes de abrir Instagram esta noche ya es un comienzo.
+No tienes que hacerlo todo hoy. Una respiración antes de abrir Instagram esta noche ya es un comienzo, sobre todo si [alargas la exhalación](/blog/es-vagus-nerve-breathing/).
 
 Si te interesa ese enfoque de la pausa, [Dear Wander](/es/) es una app de iOS construida alrededor de esta idea. Una pantalla cálida antes de que se abran tus apps. Sesenta segundos para volver a ti.
 
