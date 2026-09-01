@@ -48,3 +48,18 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      # IndexNow: avisa a Bing en cuanto se despliega, en vez de esperar a que
+      # pase el rastreador, que en un sitio nuevo y sin enlaces puede tardar
+      # semanas. Importa más de lo habitual aquí porque la búsqueda web de
+      # ChatGPT y Copilot se apoya en el índice de Bing: lo que Bing no ha
+      # rastreado, esos modelos no lo pueden citar.
+      - name: Ping IndexNow
+        run: |
+          urls=$(curl -s https://dearwander.com/sitemap-0.xml \
+                 | grep -oE '<loc>[^<]+' | sed 's/<loc>//' \
+                 | head -100 | sed 's/.*/"&"/' | paste -sd, -)
+          curl -sS -X POST https://api.indexnow.org/indexnow \
+            -H 'Content-Type: application/json' \
+            -d "{\"host\":\"dearwander.com\",\"key\":\"af662e02b4bd65bc9d2f96781de70405\",\"keyLocation\":\"https://dearwander.com/af662e02b4bd65bc9d2f96781de70405.txt\",\"urlList\":[$urls]}" \
+            -w '\n  respuesta: %{http_code}\n'
