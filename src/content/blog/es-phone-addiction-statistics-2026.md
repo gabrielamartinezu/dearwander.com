@@ -91,7 +91,7 @@ No todos los datos son desalentadores. Los estudios han identificado enfoques es
 
 **Enfoques basados en mindfulness**, Hacer una breve pausa deliberada antes de abrir una app puede interrumpir el bucle automático del hábito. La pausa, resulta, es la intervención.
 
-Esto es lo que estamos construyendo en [Dear Wander](/es/). No un bloqueo. No un temporizador. Una pausa de respiración de 60 segundos que le da a tu corteza prefrontal la oportunidad de alcanzar a tu pulgar. [La ciencia detrás](/blog/science-of-the-60-second-pause/) es convincente, y no requiere fuerza de voluntad.
+Esto es exactamente lo que hace [Dear Wander](/es/): una pausa de respiración de 60 segundos antes de las redes sociales que le da a tu corteza prefrontal la oportunidad de alcanzar a tu pulgar. No es un bloqueo. Es un momento de elección. [La ciencia detrás](/blog/es-science-of-the-60-second-pause/) es contundente, y no requiere fuerza de voluntad.
 
 ## El número que más importa
 

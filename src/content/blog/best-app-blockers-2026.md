@@ -30,7 +30,7 @@ This is an honest comparison. We make Dear Wander, so we're transparent about th
 | **ScreenZen** | Configurable delays and limits | Free | Budget-conscious customization |
 | **Clearspace** | Usage stats confrontation | ~$70/year | Data-motivated users |
 | **Freedom** | Cross-platform scheduled blocking | ~$40/year | Multi-device blocking |
-| **Dear Wander** | Guided breathing + guided imagery | Waitlist (launch 2026) | Gentler, mindful approach |
+| **Dear Wander** | Guided breathing + somatic imagery | Free trial / $34.99/yr | Gentle, mindful approach without locks |
 
 ## Opal: the hard blocker
 
@@ -115,12 +115,12 @@ Hiding helps as a first step, but it addresses the reach, not the reason. Most p
 
 **You need the same rules across every device:** Freedom. Cross-platform blocking with scheduled sessions keeps things consistent whether you're on your phone, laptop, or tablet.
 
-**You want a gentler, more mindful pause that replaces the scroll instead of just blocking it:** [Dear Wander](/). The 60-second guided pause and bedtime imagery sessions are designed for people who've tried punitive apps and found them unsustainable.
+**You want a gentler, more mindful pause that replaces the scroll instead of just blocking it:** [Dear Wander](/app?from=blog-blockers-en). The 60-second guided pause and bedtime imagery sessions are designed for people who've tried punitive apps and found them unsustainable.
 
 There's no single best app blocker for everyone. The honest answer is that the best one is the one you'll actually keep installed after the first week. Think about what has failed for you before, and choose the approach that addresses that specific failure.
 
 ---
 
-*Dear Wander is currently in development. [Join the waitlist](/) to get early access when we launch.*
+*Dear Wander is available on iOS (iPhone & iPad). [Download free on the App Store](/app?from=blog-blockers-en).*
 
 [^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)

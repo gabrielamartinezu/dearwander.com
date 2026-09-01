@@ -1,0 +1,81 @@
+---
+import type { Locale } from "../i18n/translations";
+import AppStoreButton from "./AppStoreButton.astro";
+
+interface Props {
+  lang?: Locale;
+}
+
+const lang = (Astro.props.lang ?? "en") as Locale;
+
+const copy: Record<Locale, { title: string; desc: string; note: string }> = {
+  en: {
+    title: "A gentler way to use your phone",
+    desc: "Dear Wander meets you with a calm 60-second breathing pause before distracting apps. Not a lock. A breath.",
+    note: "Available on iPhone & iPad · Free trial",
+  },
+  es: {
+    title: "Una forma más amable de usar tu teléfono",
+    desc: "Dear Wander te recibe con una pausa de respiración de 60 segundos antes de las apps que te distraen. No es un bloqueo. Es un respiro.",
+    note: "Disponible para iPhone e iPad · Prueba gratuita",
+  },
+  it: {
+    title: "Un modo più gentile di usare il telefono",
+    desc: "Dear Wander ti accoglie con una pausa di respiro di 60 secondi prima delle app che ti distraggono. Non è un blocco. È un respiro.",
+    note: "Disponibile per iPhone e iPad · Prova gratuita",
+  },
+};
+
+const c = copy[lang] ?? copy.en;
+---
+
+<div class="blog-cta-card">
+  <div class="blog-cta-content">
+    <h3 class="blog-cta-title">{c.title}</h3>
+    <p class="blog-cta-desc">{c.desc}</p>
+    <div class="blog-cta-action">
+      <AppStoreButton lang={lang} from={`blog-${lang}`} size="md" />
+    </div>
+    <p class="blog-cta-note">{c.note}</p>
+  </div>
+</div>
+
+<style>
+  .blog-cta-card {
+    margin-top: 3.5rem;
+    margin-bottom: 1.5rem;
+    padding: 2.5rem 1.75rem;
+    border-radius: 1.25rem;
+    background: linear-gradient(135deg, rgba(252, 234, 187, 0.45) 0%, rgba(248, 200, 154, 0.3) 100%);
+    border: 1px solid rgba(244, 179, 125, 0.45);
+    box-shadow: 0 4px 20px rgba(60, 42, 30, 0.04);
+    text-align: center;
+  }
+  .blog-cta-title {
+    font-family: var(--font-serif);
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: var(--color-earth);
+    margin-bottom: 0.75rem;
+    line-height: 1.25;
+  }
+  .blog-cta-desc {
+    font-family: var(--font-sans);
+    font-size: 1.05rem;
+    color: var(--color-taupe);
+    max-width: 32rem;
+    margin: 0 auto 1.5rem auto;
+    line-height: 1.5;
+  }
+  .blog-cta-action {
+    display: flex;
+    justify-content: center;
+  }
+  .blog-cta-note {
+    font-size: 0.8rem;
+    color: var(--color-taupe);
+    opacity: 0.8;
+    margin-top: 0.75rem;
+    margin-bottom: 0;
+  }
+</style>

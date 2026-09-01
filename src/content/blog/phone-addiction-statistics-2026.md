@@ -94,7 +94,7 @@ Not all the data is discouraging. Studies have identified specific approaches th
 
 **Mindfulness-based approaches**. Taking a brief, deliberate pause before reaching for an app can interrupt the automatic habit loop. The pause, it turns out, is the intervention.
 
-This is what we're building at [Dear Wander](/). Not a lock. Not a timer. A 60-second breathing pause that gives your prefrontal cortex a chance to catch up with your thumb. [The science behind it](/blog/science-of-the-60-second-pause/) is compelling. and it doesn't require willpower.
+This is exactly what [Dear Wander](/) does. Not a lock. Not a timer. A 60-second breathing pause that gives your prefrontal cortex a chance to catch up with your thumb. [The science behind it](/blog/science-of-the-60-second-pause/) is compelling, and it doesn't require willpower.
 
 ## The number that matters most
 

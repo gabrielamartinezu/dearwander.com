@@ -5,14 +5,14 @@ date: 2026-07-02
 author: "Dear Wander"
 tags: ["screen time", "how-to", "phone addiction", "strategies"]
 faq:
-  - q: "¿Cómo bloqueo una app para no poder abrirla?"
-    a: "El iPhone no tiene un bloqueo con contraseña por app, pero puedes acercarte: pon un límite en Tiempo de Uso, mete la app en un modo de Concentración que la esconda, o quítala de la pantalla de inicio para que abrirla cueste un paso más. Cada opción añade un momento de fricción antes de que la app se abra."
-  - q: "¿Cómo escondo apps en mi iPhone?"
-    a: "Mantén pulsada la app, toca 'Eliminar app' y luego 'Quitar de pantalla de inicio'. La app sigue instalada y buscable en la Biblioteca de apps, pero ya no está frente a ti. Solo esto elimina el estímulo visual y añade un paso, lo que hace que las aperturas casuales sean bastante menos automáticas."
-  - q: "¿Esconder o bloquear apps realmente reduce el uso?"
-    a: "Sí, de forma moderada. Quitar una app de la pantalla de inicio recorta las aperturas porque elimina el estímulo visual y añade un paso. Pero los bloqueos duros suelen provocar que busques cómo saltártelos. Una pausa breve antes de abrir la app aguanta mejor que un muro que puedes ignorar."
-  - q: "¿Qué es mejor, bloquear una app o poner una pausa antes?"
-    a: "Bloquear crea un adversario: en el momento en que te dicen que no puedes, lo quieres más, y casi todos los bloqueos tienen un botón de 'ignorar' de todos modos. Una pausa corta te deja libre para abrir la app pero despierta la parte del cerebro que decide. Un estudio de 2023 en PNAS encontró que una breve pausa antes de las apps — una corta espera y un aviso preguntando si de verdad quieres continuar — redujo los intentos de abrir apps un 57 por ciento sin bloquear nada."
+  - q: "¿Cómo evitar abrir apps en el celular en automático?"
+    a: "La forma más efectiva es romper el bucle del hábito mediante fricción: elimina los accesos directos de tu pantalla de inicio, silencia las notificaciones y añade una pausa deliberada antes de entrar. Un estudio de PNAS comprobó que una breve pausa respiratoria antes de abrir redes sociales reduce las aperturas en un 57%."
+  - q: "¿Se puede bloquear el acceso a ciertas apps en iPhone?"
+    a: "Sí. Puedes usar los Límites de apps en Tiempo de Uso con código, ocultar páginas de apps con modos de Concentración, o usar una app nativa como Dear Wander que intercepta la apertura con una pausa de respiración de 60 segundos."
+  - q: "¿Cuáles son las mejores apps para bloquear o esconder apps en iPhone en 2026?"
+    a: "Las herramientas nativas de iOS son Tiempo de Uso y Concentración. Como apps dedicadas, Dear Wander destaca por su enfoque amable y consciente sin castigos, mientras que herramientas como Opal o ScreenZen ofrecen bloqueos programados."
+  - q: "¿Qué es mejor: bloquear una app por completo o poner una pausa antes?"
+    a: "Bloquear por completo suele generar frustración y reactancia (haciendo que quieras abrirla más). Una pausa de 60 segundos te deja libre para entrar pero activa la corteza prefrontal, permitiéndote decidir conscientemente si de verdad quieres usarla."
 ---
 
 Ya intentaste borrar Instagram. Aguantaste cuatro días, lo reinstalaste un martes por la noche y te dijiste que esta vez sería distinto.
@@ -79,10 +79,10 @@ Apila las capas amables, salta las punitivas:
 - **Prueba un límite de Tiempo de Uso** si te ayuda, pero no cuentes con él si ya lo saltas.
 - **Añade una pausa, no solo un muro.** El objetivo no es hacer la app imposible. Es poner una respiración entre el impulso y el toque.
 
-No necesitas dejarte fuera de tu propio teléfono. Necesitas un pequeño espacio donde la decisión vuelva a ser tuya.
+No necesitas dejarte fuera de tu propio teléfono para frenar el scroll compulsivo. Solo necesitas un pequeño espacio consciente donde la decisión vuelva a ser tuya.
 
 ---
 
-*Dear Wander pone una suave pausa de respiración de 60 segundos antes de las apps que tiran de ti, para que el momento antes del toque se vuelva una elección, no un reflejo. Sin bloqueos, sin culpa. [Únete a la lista de espera](/) para estar primero en iOS.*
+*Dear Wander pone una suave pausa de respiración de 60 segundos antes de las apps que te distraen, para que el momento antes del toque se vuelva una elección y no un reflejo. Sin bloqueos, sin culpa. [Descarga Dear Wander en el App Store](/app?from=blog-es-como-bloquear).*
 
 [^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)

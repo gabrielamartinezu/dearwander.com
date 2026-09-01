@@ -30,7 +30,7 @@ Esta es una comparación honesta. Nosotros creamos Dear Wander, así que somos t
 | **ScreenZen** | Retrasos y límites configurables | Gratuito | Personalización sin costo |
 | **Clearspace** | Confrontación con datos de uso | ~$70/año | Usuarios motivados por datos |
 | **Freedom** | Bloqueo programado multiplataforma | ~$40/año | Bloqueo en múltiples dispositivos |
-| **Dear Wander** | Respiración guiada + imaginería guiada | Lista de espera (lanzamiento 2026) | Un enfoque más suave y consciente |
+| **Dear Wander** | Respiración guiada + imaginería somática | Prueba gratuita / $34.99/año | Un enfoque amable, sin culpa ni bloqueos |
 
 ## Opal: el bloqueador estricto
 
@@ -94,12 +94,12 @@ Dear Wander usa la API nativa FamilyControls de Apple. Sin VPN, sin consumo de b
 
 **Necesitas las mismas reglas en todos tus dispositivos:** Freedom. Bloqueo multiplataforma con sesiones programadas mantiene la consistencia ya sea en tu teléfono, laptop o tablet.
 
-**Quieres una pausa más suave y consciente que reemplace el scrolling en vez de solo bloquearlo:** [Dear Wander](/es/). La pausa guiada de 60 segundos y las sesiones de imaginería para la hora de dormir están diseñadas para personas que han probado apps punitivas y las encontraron insostenibles.
+**Quieres una pausa más suave y consciente que reemplace el scrolling en vez de solo bloquearlo:** [Dear Wander](/app?from=blog-blockers-es). La pausa guiada de 60 segundos y las sesiones de imaginería para la hora de dormir están diseñadas para personas que han probado apps punitivas y las encontraron insostenibles.
 
 No existe un único mejor app blocker para todos. La respuesta honesta es que el mejor es el que realmente mantendrás instalado después de la primera semana. Piensa en qué te ha fallado antes y elige el enfoque que aborde ese fallo específico.
 
 ---
 
-*Dear Wander está actualmente en desarrollo. [Únete a la lista de espera](/es/) para obtener acceso anticipado cuando lancemos.*
+*Dear Wander está disponible para iPhone e iPad. [Descárgalo gratis en el App Store](/app?from=blog-blockers-es).*
 
 [^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)

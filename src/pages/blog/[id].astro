@@ -5,6 +5,7 @@ import Footer from "../../components/Footer.astro";
 import AuthorBio from "../../components/AuthorBio.astro";
 import RelatedPosts from "../../components/RelatedPosts.astro";
 import YouTubeLite from "../../components/YouTubeLite.astro";
+import BlogCTA from "../../components/BlogCTA.astro";
 import { getCollection, render } from "astro:content";
 import { useTranslations, getLocalePath } from "../../i18n/utils";
 
@@ -46,18 +47,28 @@ const { post, alternates } = Astro.props;
 const VIDEOS: Record<string, { id: string; titulo: string; duracion: string }> = {
   "es-vagus-nerve-breathing": {
     id: "Kqem8DyhgHQ",
-    titulo: "Meditación guiada para la ansiedad",
-    duracion: "11 min",
+    titulo: "Meditación guiada para la ansiedad y sobrepensar",
+    duracion: "10 min",
   },
   "es-guided-imagery-meditation": {
     id: "KaR9K-uilFA",
-    titulo: "Meditación guiada para dormir, con lluvia",
+    titulo: "Meditación guiada para dormir profundamente, con lluvia",
     duracion: "11 min",
   },
   "es-revenge-bedtime-scrolling": {
     id: "KaR9K-uilFA",
-    titulo: "Meditación guiada para dormir, con lluvia",
+    titulo: "Meditación guiada para dormir profundamente, con lluvia",
     duracion: "11 min",
+  },
+  "es-adhd-doomscrolling": {
+    id: "Kqem8DyhgHQ",
+    titulo: "Meditación guiada para calmar la mente y dejar de sobrepensar",
+    duracion: "10 min",
+  },
+  "es-popcorn-brain": {
+    id: "Kqem8DyhgHQ",
+    titulo: "Meditación guiada para calmar la mente",
+    duracion: "10 min",
   },
 };
 const video = VIDEOS[post.id];
@@ -127,6 +138,8 @@ const faqSchema = post.data.faq?.length ? {
         <div class="prose prose-article">
           <Content />
         </div>
+
+        <BlogCTA lang={postLang} />
 
         {video && (
           <div class="mt-10 pt-8 border-t border-earth/10">

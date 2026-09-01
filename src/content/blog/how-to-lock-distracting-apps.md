@@ -5,14 +5,14 @@ date: 2026-07-02
 author: "Dear Wander"
 tags: ["screen time", "how-to", "phone addiction", "strategies"]
 faq:
-  - q: "How do I lock an app so I can't open it?"
-    a: "iPhone doesn't have a true per-app password lock built in, but you can get close: set an App Limit in Screen Time, put the app in a Focus that hides it, or remove it from the Home Screen so it takes deliberate effort to find. Each one adds a moment of friction before the app opens."
-  - q: "How do I hide apps on my iPhone?"
-    a: "Long-press the app, tap 'Remove App,' then 'Remove from Home Screen.' The app stays installed and searchable in the App Library but no longer sits in front of you. This alone removes the visual cue and adds a step, which makes casual opens meaningfully less automatic."
-  - q: "Does hiding or locking apps actually reduce usage?"
-    a: "Yes, modestly. Removing an app from the Home Screen cuts opens because it removes the visual cue and adds a step. But hard locks tend to trigger workarounds. A brief pause before the app opens tends to hold better than a block you can dismiss."
-  - q: "What's better, blocking an app or adding a pause before it?"
-    a: "Blocking creates an adversary: the moment you're told you can't, you want to more, and most blocks have an 'ignore' button anyway. A short pause keeps you free to open the app but wakes up the part of your brain that decides. A 2023 PNAS study found that a brief pause before apps — a short wait and a prompt asking whether to continue — cut app-opening attempts by 57 percent without blocking anything."
+  - q: "Can you lock yourself out of apps on iPhone?"
+    a: "Yes, though not with a single native password. You can set Screen Time App Limits with a passcode, use Focus Filters to hide app pages, or use a Screen Time API app like Dear Wander to add a 60-second breathing pause that breaks the reflex before the app opens."
+  - q: "How do I stop myself from opening an app automatically?"
+    a: "The most effective way is breaking the cue-action loop: remove the icon from your Home Screen, disable badges, and add a brief friction pause before opening. Research shows that inserting a brief pause before launching social apps reduces opening attempts by 57%."
+  - q: "What are the best apps to hide or lock apps on iPhone in 2026?"
+    a: "Built-in iOS tools include Screen Time and Focus modes. For dedicated apps, Dear Wander adds an on-device mindful pause without shame or locks, while tools like ScreenZen and Opal offer scheduled blocking via Apple's FamilyControls API."
+  - q: "Does hiding or locking apps actually reduce phone addiction?"
+    a: "Yes. Removing an app from your Home Screen cuts unconscious opens because it removes the visual cue. Adding a brief pause before the app launches gives your prefrontal cortex time to decide, which holds much better than a hard block you immediately tap through."
 ---
 
 You've tried deleting Instagram. You lasted four days, reinstalled it on a Tuesday night, and told yourself this time would be different.
@@ -79,10 +79,10 @@ Stack the gentle layers, skip the punitive ones:
 - **Try a Screen Time limit** if it helps, but don't count on it if you already tap through.
 - **Add a pause, not just a wall.** The goal isn't to make the app impossible. It's to put a breath between the reach and the tap.
 
-You don't need to lock yourself out of your own phone. You need a small gap where the choice becomes yours again.
+You don't need to permanently lock yourself out of your own phone to stop mindless scrolling. You just need a small, intentional gap where the choice becomes yours again.
 
 ---
 
-*Dear Wander places a gentle 60-second breathing pause before the apps that pull at you, so the moment before the tap becomes a choice, not a reflex. No locks, no shame. [Join the waitlist](/) to be first on iOS.*
+*Dear Wander places a gentle 60-second breathing pause before the apps that pull at you, so the moment before the tap becomes a conscious choice, not an automatic reflex. No locks, no shame. [Get Dear Wander on the App Store](/app?from=blog-lock-apps).*
 
 [^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)
