@@ -1,7 +1,7 @@
 ---
-title: "Best app blockers for iPhone 2026: 6 apps tested and honestly compared"
-description: "The best iPhone app blockers in 2026, honestly compared: Opal, One Sec, ScreenZen, Clearspace, Freedom and Dear Wander, plus how to block websites and hide distracting apps."
-date: 2026-05-16
+title: "Best app blockers 2026: 9 iPhone apps compared, with the numbers"
+description: "Nine iPhone app blockers compared with current App Store figures: Opal, Brick, Forest, ScreenZen, One Sec, Clearspace, Freedom, Jomo and Dear Wander. Ratings, review counts and last-update dates, all dated."
+date: 2026-09-01
 author: "Dear Wander"
 tags: ["app blocker", "screen time", "iPhone", "comparison", "digital wellness"]
 faq:
@@ -20,6 +20,42 @@ You've searched "best app blocker iPhone 2026" because something isn't working. 
 You're not alone. The app blocker market has grown rapidly because millions of people share this frustration. But these tools take very different approaches, and the right one depends on how you relate to your phone.
 
 This is an honest comparison. We make Dear Wander, so we're transparent about that. We also genuinely think some people are better served by other apps on this list.
+
+## The numbers, as of 1 September 2026
+
+Every comparison of these apps you will read describes them. Almost none of them
+tells you how large or how alive each one is, so here it is, pulled from Apple's
+own store listings on the date in the heading.
+
+| App | Rating | Ratings count | Last updated | On the store since |
+|---|---|---|---|---|
+| Opal | 4.7 | 86,997 | 31 Aug 2026 | Dec 2020 |
+| Brick | 4.9 | 52,177 | 31 Aug 2026 | Sep 2023 |
+| Forest | 4.8 | 49,146 | 26 Aug 2026 | May 2014 |
+| ScreenZen | 4.9 | 48,655 | 2 Jun 2026 | Jul 2021 |
+| One Sec | 4.8 | 23,449 | 30 Aug 2026 | Sep 2020 |
+| Clearspace | 4.7 | 8,812 | 19 Aug 2026 | Jul 2021 |
+| Freedom | 4.4 | 5,786 | 18 Aug 2026 | Oct 2018 |
+| Jomo | 4.8 | 2,346 | 27 Aug 2026 | Oct 2022 |
+| Mado | — | 0 | 6 Jul 2026 | Mar 2026 |
+| Dear Wander | — | 0 | 29 Aug 2026 | Aug 2026 |
+
+Two things worth reading off that table.
+
+**Nothing here is abandoned.** The median gap since the last update is five days.
+If you are worried about picking something that will stop working after the next
+iOS release, that is not the risk in this category.
+
+**Rating counts are not quality scores.** They measure how long an app has been
+collecting them. Opal has thirty-seven times more ratings than Jomo and is not
+thirty-seven times better; it launched two years earlier and spent money on
+being found. Read the count as a proxy for how entrenched something is, and the
+star average as the closest thing to a quality signal, and note that seven of
+these ten sit between 4.7 and 4.9, which means the average tells you very little.
+
+We include our own row with a zero in it. Dear Wander went on the store in
+August 2026 and has no ratings yet. Leaving that out would have made the table
+tidier and dishonest.
 
 ## Quick comparison
 
@@ -71,6 +107,52 @@ Freedom's unique strength is coverage. It works across Mac, Windows, iOS, Androi
 You create scheduled blocking sessions that sync across all your devices. Block social media from 9am to 5pm on your laptop, phone, and tablet simultaneously. The $40/year price is reasonable for what is essentially a multi-device solution.
 
 The downside is that Freedom is a pure blocker. There's no pause, no breathing exercise, no guided moment of awareness. It's a lock, and locks can feel punitive. But if your goal is simply "make these sites unavailable during work hours across every device I own," Freedom does that job reliably.
+
+## Brick: the one that isn't an app
+
+Brick is a physical magnet you stick somewhere in your house. You tap your phone
+against it to lock your chosen apps, and the only way to unlock them is to walk
+back and tap it again.
+
+That sounds silly until you notice it is the second most-rated product on this
+page. It solves the problem every software blocker has, which is that the thing
+enforcing the rule lives inside the device you are trying to get away from, and
+you are always three taps and a password from turning it off.
+
+**Choose it if** you have already installed and uninstalled three of these apps.
+The fact that it is inconvenient is the feature.
+
+**Skip it if** you need the block to work when you are away from home, or you do
+not want to pay for hardware.
+
+## Forest: the one that grows a tree
+
+The oldest thing on this list by nine years. You plant a virtual tree, and it
+dies if you leave the app. Forest also plants real trees through a partner
+organisation once you accumulate enough coins.
+
+It is a focus timer rather than a blocker, which is a real distinction: nothing
+is being enforced at the operating-system level, so you can simply leave. The
+tree is the enforcement.
+
+**Choose it if** guilt works on you and shame does not, and you want something
+gentle attached to sessions of deliberate work.
+
+**Skip it if** the problem is reflexive pickup rather than sitting down to focus.
+A timer you have to start cannot help with the opens you never decided to make.
+
+## Jomo: the accountable one
+
+Jomo adds group accountability, unlock challenges, and rules that gate one app
+behind another. It has the fewest ratings of the established apps here, which
+makes it the least entrenched and the most likely to be shaped by what its users
+ask for.
+
+**Choose it if** you want other people involved, and being watched helps you
+rather than making you hide.
+
+**Skip it if** you would rather nobody knew. This is the most social option here
+and that is not neutral.
 
 ## Dear Wander: the guided pause
 
