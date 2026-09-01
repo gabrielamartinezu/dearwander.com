@@ -1,4 +1,8 @@
 ---
+
+// Token del beacon de Cloudflare Web Analytics. Vacío = no se carga nada.
+// No es un secreto: acaba en el HTML de todas formas.
+const CF_BEACON = "";
 import "../styles/global.css";
 import { getLangFromUrl, getLocalePath } from "../i18n/utils";
 
@@ -167,6 +171,28 @@ const isTranslatedBlogPost = pathname.match(/^\/blog\/(es|it)-/);
         }] : [])
       ]
     })} />
+
+    <!--
+      Analítica de Cloudflare. Sin cookies, sin identificadores, sin datos
+      personales: por eso no hace falta banner de consentimiento, que en un sitio
+      que promete no rastrear sería una contradicción difícil de explicar.
+
+      Existe para poder responder una pregunta que hoy no se puede: de dónde
+      viene la gente. Search Console solo enseña Google y no dice nada de
+      referencias, así que si ChatGPT o Perplexity citan el blog, ahora mismo
+      no habría forma de saberlo.
+
+      PARA ACTIVARLA: crea el sitio en Cloudflare > Web Analytics (gratis, no hace
+      falta mover el DNS), copia el token del beacon y pégalo abajo. Mientras esté
+      vacío no se carga nada.
+    -->
+    {CF_BEACON && (
+      <script
+        defer
+        src="https://static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon={`{"token": "${CF_BEACON}"}`}
+      />
+    )}
   </head>
   <body class="grain">
     <slot />
