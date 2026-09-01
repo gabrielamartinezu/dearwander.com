@@ -93,6 +93,51 @@ A alguien de verdad, con sobre y sello. Es lento, se envía una sola vez y no ti
 
 Uno. No la casa. Un cajón se acaba, y acabarse es la propiedad que estamos buscando en todo esto.
 
+## Y por si el problema es la hoja en blanco
+
+Tres de esta lista —escribir, dibujar, pintar— tienen una trampa: te dices que
+vas a hacerlo, abres el cuaderno, y ahí está el vacío. Eso tarda menos en
+desanimarte que lo que tarda el pulgar en volver al teléfono.
+
+Así que aquí van consignas. Elige una sin pensarlo mucho, que elegir también
+cansa.
+
+### Para escribir en el cuaderno
+
+Ninguna pregunta «cómo estás». Esa es demasiado abierta y a las once de la noche
+lleva a dar vueltas más que a otra cosa. Todas éstas van ancladas a algo concreto
+del día que acaba de pasar.
+
+1. Algo que viste hoy y no le contaste a nadie.
+2. Qué hora del día fue tuya de verdad.
+3. Lo primero que hiciste hoy sin que nadie te lo pidiera.
+4. Una cosa que ibas a decir y no dijiste.
+5. Qué te costó más de lo que debería haberte costado.
+6. Algo que hizo otra persona hoy y te vino bien.
+7. Lo que harías mañana si nadie fuera a preguntarte por ello.
+
+### Para escritura creativa
+
+Estas no van sobre ti, que a veces es justo lo que hace falta.
+
+8. Escribe la última frase de una historia que no existe.
+9. Describe una habitación por lo que suena, no por lo que se ve.
+10. Dos personas esperan el mismo autobús. Una de las dos miente.
+11. Un objeto de tu casa cuenta cómo llegó hasta aquí.
+12. Alguien vuelve a un sitio después de diez años y solo ha cambiado una cosa.
+
+### Para pintar o dibujar
+
+13. El color exacto de la luz que hay ahora mismo en la habitación.
+14. Un objeto de tu casa sin levantar el lápiz del papel.
+15. Lo que había al otro lado de tu ventana hace una hora, de memoria.
+16. La misma taza tres veces, cada vez más rápido.
+17. Solo las sombras de algo, sin dibujar la cosa.
+
+Ninguna tiene que quedar bien. La número 14 sale mal siempre, y ése es el
+motivo de que funcione: cuando ya no puede quedar bien, deja de haber una razón
+para dejarlo.
+
 ## Lo que no va a funcionar, y por qué
 
 **Cambiar el scroll por otra pantalla.** Series, juegos y vídeos ocupan atención pero no manos, y la mano libre acaba encontrando el teléfono. Se ve en cuanta gente ve una serie scrolleando a la vez.
