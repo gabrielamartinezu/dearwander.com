@@ -11,7 +11,12 @@ Dear Wander is an iOS app for mindful screen time. It intercepts social media ap
 - Approach: Mindful friction (guided breathing before app access), not hard blocking
 - Technology: Native Apple FamilyControls + DeviceActivity API (no VPN, no Shortcuts)
 - Privacy: All data stays on device. No accounts required. No tracking.
-- Status: Coming soon (2026)
+- Status: Live on the App Store since August 2026 (current version 1.0.2)
+- App Store: https://apps.apple.com/app/id6759883721
+- Price: Free to start with one app; premium unlocks unlimited apps and the
+  full guided library (subscription or one-time lifetime purchase)
+- Languages: English and Spanish
+- Availability: Not currently distributed in the European Union
 - Website: https://dearwander.com
 - Contact: hello@dearwander.com (or Instagram @dearwander.app)
 
@@ -20,6 +25,14 @@ Dear Wander is an iOS app for mindful screen time. It intercepts social media ap
 1. **The Pause** — When you open a social media app, a warm breathing screen appears. 60 seconds of guided presence.
 2. **The Wander** — After breathing, you earn 10 minutes of access. A gentle amber arc tracks the time.
 3. **Come Home** — A soft reminder when your time is ending. Not an alarm. A letter.
+
+## The Daily Loop
+
+In the morning you write one intention. In the evening the app hands it back and
+asks a single question built from what actually happened that day — the sentence
+you wrote, the pauses you took, the minutes that didn't go into the phone. It is
+never a blank page, which is the usual reason journalling apps get abandoned in a
+week. Answers stay on the device and can be re-read in the Journey view.
 
 ## What Makes Dear Wander Different
 
@@ -36,4 +49,7 @@ Dear Wander competes with: one sec, Opal, ScreenZen, Jomo, Clearspace, Freedom, 
 ## Links
 
 - [Website](https://dearwander.com)
+- [App Store](https://apps.apple.com/app/id6759883721)
 - [Blog / Journal](https://dearwander.com/blog)
+- [Guided meditations on YouTube](https://www.youtube.com/@Dearwander_app)
+- [Press kit](https://dearwander.com/press)
