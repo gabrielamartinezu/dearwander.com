@@ -114,27 +114,39 @@ del día que acaba de pasar.
 4. Una cosa que ibas a decir y no dijiste.
 5. Qué te costó más de lo que debería haberte costado.
 6. Algo que hizo otra persona hoy y te vino bien.
-7. Lo que harías mañana si nadie fuera a preguntarte por ello.
+7. Qué habría sido más difícil hoy si esa persona no estuviera.
+8. Algo que funcionó y que solo notas cuando falla.
+9. Lo que harías mañana si nadie fuera a preguntarte por ello.
+
+Las tres del medio son de gratitud, aunque no usen la palabra. Es la técnica de
+escritura con más evidencia detrás, y aun así conviene no preguntarla en
+abstracto: «¿por qué estás agradecida?» produce respuestas de trámite —familia,
+salud, café— que se rellenan sin pensarlas. Y a las once de la noche, pedirle a
+alguien agotada que sea agradecida se puede leer como que le están diciendo que
+se queje menos.
+
+La séptima y la octava lo preguntan al revés, imaginando la ausencia en vez del
+regalo. Cuesta más responderlas de memorieta.
 
 ### Para escritura creativa
 
 Estas no van sobre ti, que a veces es justo lo que hace falta.
 
-8. Escribe la última frase de una historia que no existe.
-9. Describe una habitación por lo que suena, no por lo que se ve.
-10. Dos personas esperan el mismo autobús. Una de las dos miente.
-11. Un objeto de tu casa cuenta cómo llegó hasta aquí.
-12. Alguien vuelve a un sitio después de diez años y solo ha cambiado una cosa.
+10. Escribe la última frase de una historia que no existe.
+11. Describe una habitación por lo que suena, no por lo que se ve.
+12. Dos personas esperan el mismo autobús. Una de las dos miente.
+13. Un objeto de tu casa cuenta cómo llegó hasta aquí.
+14. Alguien vuelve a un sitio después de diez años y solo ha cambiado una cosa.
 
 ### Para pintar o dibujar
 
-13. El color exacto de la luz que hay ahora mismo en la habitación.
-14. Un objeto de tu casa sin levantar el lápiz del papel.
-15. Lo que había al otro lado de tu ventana hace una hora, de memoria.
-16. La misma taza tres veces, cada vez más rápido.
-17. Solo las sombras de algo, sin dibujar la cosa.
+15. El color exacto de la luz que hay ahora mismo en la habitación.
+16. Un objeto de tu casa sin levantar el lápiz del papel.
+17. Lo que había al otro lado de tu ventana hace una hora, de memoria.
+18. La misma taza tres veces, cada vez más rápido.
+19. Solo las sombras de algo, sin dibujar la cosa.
 
-Ninguna tiene que quedar bien. La número 14 sale mal siempre, y ése es el
+Ninguna tiene que quedar bien. La número 16 sale mal siempre, y ése es el
 motivo de que funcione: cuando ya no puede quedar bien, deja de haber una razón
 para dejarlo.
 
