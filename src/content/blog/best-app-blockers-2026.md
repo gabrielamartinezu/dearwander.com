@@ -66,7 +66,7 @@ tidier and dishonest.
 | **ScreenZen** | Configurable delays and limits | Free | Budget-conscious customization |
 | **Clearspace** | Usage stats confrontation | ~$70/year | Data-motivated users |
 | **Freedom** | Cross-platform scheduled blocking | ~$40/year | Multi-device blocking |
-| **Dear Wander** | Guided breathing + somatic imagery | Free trial / $34.99/yr | Gentle, mindful approach without locks |
+| **Dear Wander** | Guided breathing + somatic imagery | Free tier / $3.99 mo · $19.99 yr · $39.99 once | Gentle, mindful approach without locks |
 
 ## Opal: the hard blocker
 

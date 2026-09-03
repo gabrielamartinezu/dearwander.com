@@ -66,7 +66,7 @@ habría sido deshonesto.
 | **ScreenZen** | Retrasos y límites configurables | Gratuito | Personalización sin costo |
 | **Clearspace** | Confrontación con datos de uso | ~$70/año | Usuarios motivados por datos |
 | **Freedom** | Bloqueo programado multiplataforma | ~$40/año | Bloqueo en múltiples dispositivos |
-| **Dear Wander** | Respiración guiada + imaginería somática | Prueba gratuita / $34.99/año | Un enfoque amable, sin culpa ni bloqueos |
+| **Dear Wander** | Respiración guiada + imaginería somática | Plan gratuito / $3.99 mes · $19.99 año · $39.99 pago único | Un enfoque amable, sin culpa ni bloqueos |
 
 ## Opal: el bloqueador estricto
 

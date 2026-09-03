@@ -30,7 +30,7 @@ Questo è un confronto onesto. Noi realizziamo Dear Wander, quindi siamo traspar
 | **ScreenZen** | Ritardi e limiti configurabili | Gratuito | Personalizzazione a costo zero |
 | **Clearspace** | Confronto con i dati di utilizzo | ~$70/anno | Utenti motivati dai dati |
 | **Freedom** | Blocco programmato multipiattaforma | ~$40/anno | Blocco su più dispositivi |
-| **Dear Wander** | Respirazione guidata + immaginazione somatica | Prova gratuita / $34.99/anno | Un approccio dolce, senza colpa né blocchi |
+| **Dear Wander** | Respirazione guidata + immaginazione somatica | Piano gratuito / $3.99 mese · $19.99 anno · $39.99 una volta | Un approccio dolce, senza colpa né blocchi |
 
 ## Opal: il blocco rigido
 
