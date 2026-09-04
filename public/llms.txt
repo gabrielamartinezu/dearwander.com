@@ -6,7 +6,7 @@ Dear Wander is an iOS app for mindful screen time. It intercepts social media ap
 
 ## Key Facts
 
-- Platform: iOS 17+
+- Platform: iOS 18.0 or later, iPhone and iPad
 - Category: Screen Time / Digital Wellness / Mindfulness
 - Approach: Mindful friction (guided breathing before app access), not hard blocking
 - Technology: Native Apple FamilyControls + DeviceActivity API (no VPN, no Shortcuts)
