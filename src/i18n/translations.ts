@@ -123,8 +123,8 @@ export const translations = {
     "faq.a3": "Completely. Everything stays on your device. No accounts, no tracking, no analytics. We never see which apps you choose or how you use them.",
     "faq.q4": "Will it drain my battery?",
     "faq.a4": "No. Dear Wander is built on Apple's native Screen Time API. No VPN, no background workarounds, no battery drain.",
-    "faq.q5": "When does it launch and what does it cost?",
-    "faq.a5": "We're launching on iOS soon. Joining the waitlist is free, and waitlist members will be the first to know about pricing and early access.",
+    "faq.q5": "What does it cost?",
+    "faq.a5": "Dear Wander is on the App Store now. It is free with one app paused, and premium unlocks unlimited apps and the full guided library: $3.99 a month, $19.99 a year, or $39.99 once.",
   },
 
   es: {
@@ -238,8 +238,8 @@ export const translations = {
     "faq.a3": "Completamente. Todo se queda en tu dispositivo. Sin cuentas, sin rastreo, sin analíticas. Nunca vemos qué apps eliges ni cómo las usas.",
     "faq.q4": "¿Consume batería?",
     "faq.a4": "No. Dear Wander está construido sobre la API nativa de Tiempo en Pantalla de Apple. Sin VPN, sin trucos en segundo plano, sin gasto de batería.",
-    "faq.q5": "¿Cuándo se lanza y cuánto cuesta?",
-    "faq.a5": "Lanzaremos en iOS pronto. Unirte a la lista de espera es gratis, y quienes estén en la lista serán los primeros en saber sobre precios y acceso anticipado.",
+    "faq.q5": "¿Cuánto cuesta?",
+    "faq.a5": "Dear Wander ya está en la App Store. Es gratis con una app en pausa, y la versión premium abre apps ilimitadas y la biblioteca completa de sesiones guiadas: 3,99 $ al mes, 19,99 $ al año o 39,99 $ en un solo pago.",
   },
 
   it: {
@@ -353,8 +353,8 @@ export const translations = {
     "faq.a3": "Completamente. Tutto resta sul tuo dispositivo. Nessun account, nessun tracciamento, nessuna analisi. Non vediamo mai quali app scegli o come le usi.",
     "faq.q4": "Consuma batteria?",
     "faq.a4": "No. Dear Wander è costruito sull'API nativa Tempo di Utilizzo di Apple. Niente VPN, nessun trucco in background, nessun consumo di batteria.",
-    "faq.q5": "Quando esce e quanto costa?",
-    "faq.a5": "Lanceremo su iOS presto. Iscriversi alla lista d'attesa è gratis, e chi è in lista sarà il primo a sapere di prezzi e accesso anticipato.",
+    "faq.q5": "Quanto costa?",
+    "faq.a5": "Dear Wander è già sull'App Store. È gratis con una app in pausa, e la versione premium sblocca app illimitate e la libreria completa di sessioni guidate: 3,99 $ al mese, 19,99 $ all'anno o 39,99 $ una volta sola.",
   },
 } as const;
 

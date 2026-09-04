@@ -1,0 +1,127 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+
+const PDF = "/19-consignas-dear-wander.pdf";
+
+// Sin correo obligatorio. Con cero suscriptoras, la fricción cuesta más de lo
+// que rinde: una descarga que se comparte vale más que un correo que no llega.
+// El boletín se ofrece después, a quien ya se llevó algo.
+const faqs = [
+  { q: "¿Hay que dar el correo para descargarlo?", a: "No. El PDF se descarga directamente. Si luego quieres más, abajo puedes dejar el correo, pero es opcional." },
+  { q: "¿Se puede imprimir en casa?", a: "Sí, está pensado para eso. Fondo claro para no gastar tinta, A4 con márgenes amplios para que también salga bien en tamaño carta." },
+  { q: "¿Por qué ninguna consigna pregunta cómo estás?", a: "Porque es demasiado abierta. Una caja de texto en blanco con «¿cómo estás?» es el formato en el que escribir sobre la ansiedad se convierte en dar vueltas, y a las once de la noche eso pasa más que a otras horas. Todas éstas van ancladas a algo concreto que pasó hoy." },
+  { q: "¿Para qué sirven las de escritura creativa?", a: "Para las noches en que no te apetece escribir sobre ti. Escribir sigue ocupando las manos y la cabeza aunque lo que salga sea una historia inventada." },
+];
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqs.map((f) => ({
+    "@type": "Question",
+    "name": f.q,
+    "acceptedAnswer": { "@type": "Answer", "text": f.a },
+  })),
+};
+---
+
+<Layout
+  title="19 consignas para escribir cuando no sabes qué escribir | Descarga gratis"
+  description="Un PDF de una página con 19 consignas para el cuaderno, escritura creativa y dibujo. Sin registro, gratis, listo para imprimir."
+>
+  <Header />
+
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+
+  <main class="px-6 pt-28 pb-16">
+    <section class="max-w-2xl mx-auto text-center">
+      <h1 class="font-wander text-4xl sm:text-5xl text-earth leading-tight mb-5">
+        19 consignas para escribir
+      </h1>
+      <p class="text-lg text-cocoa/75 font-light mb-3">cuando no sabes qué escribir</p>
+      <p class="text-cocoa/70 font-light leading-relaxed mb-9">
+        Abres el cuaderno y ahí está el vacío. Eso desanima más rápido de lo que
+        tarda el pulgar en volver al teléfono. Aquí van diecinueve para elegir
+        una sin pensarlo mucho, que elegir también cansa.
+      </p>
+
+      <a href={PDF} download
+        class="inline-block px-9 py-4 rounded-2xl bg-earth text-warm-white font-semibold hover:bg-cocoa transition-all duration-500 shadow-lg shadow-earth/15">
+        Descargar el PDF
+      </a>
+      <p class="text-xs text-taupe/50 mt-3 font-light">
+        Una página · Sin registro · Listo para imprimir
+      </p>
+    </section>
+
+    <section class="max-w-2xl mx-auto mt-16">
+      <div class="glass rounded-3xl px-7 py-8">
+        <h2 class="font-wander text-xl text-earth mb-2">Qué lleva dentro</h2>
+        <p class="text-cocoa/70 font-light leading-relaxed mb-6">
+          Nueve para el cuaderno, cinco para escribir algo que no vaya sobre ti,
+          y cinco para dibujar o pintar.
+        </p>
+        <ul class="space-y-3 text-cocoa/80 font-light">
+          <li>«Algo que viste hoy y no le contaste a nadie.»</li>
+          <li>«Qué hora del día fue tuya de verdad.»</li>
+          <li>«Dos personas esperan el mismo autobús. Una de las dos miente.»</li>
+          <li>«Un objeto de tu casa sin levantar el lápiz del papel.»</li>
+        </ul>
+        <p class="text-sm text-taupe/70 font-light mt-6 leading-relaxed">
+          Ninguna es «¿cómo estás?». Esa pregunta es demasiado abierta y a las
+          once de la noche lleva a dar vueltas más que a otra cosa. Todas van
+          ancladas a algo concreto del día que acaba de pasar.
+        </p>
+      </div>
+    </section>
+
+    <section class="max-w-md mx-auto text-center mt-16">
+      <h2 class="font-wander text-2xl text-earth mb-3">¿Te aviso cuando haya más?</h2>
+      <p class="text-cocoa/70 font-light mb-7">
+        De vez en cuando mandamos otra hoja como ésta. Opcional, y el PDF de
+        arriba ya es tuyo.
+      </p>
+      <form
+        action="https://buttondown.com/api/emails/embed-subscribe/gabrielaale"
+        method="post"
+        target="popupwindow"
+        class="flex flex-col sm:flex-row items-center justify-center gap-3"
+      >
+        <input type="hidden" name="tag" value="imprimibles-es" />
+        <input type="hidden" name="tag" value="consignas" />
+        <input type="email" name="email" placeholder="tu@email.com" required
+          class="w-full sm:flex-1 px-5 py-3.5 rounded-2xl bg-warm-white/60 backdrop-blur-sm border border-amber/30 text-earth placeholder:text-taupe/60 focus:outline-none focus:border-breath focus:ring-2 focus:ring-breath/20 transition-all text-base" />
+        <button type="submit"
+          class="w-full sm:w-auto px-8 py-3.5 rounded-2xl bg-earth text-warm-white font-semibold text-base hover:bg-cocoa transition-all duration-500 shadow-lg shadow-earth/15 cursor-pointer">
+          Avísame
+        </button>
+      </form>
+      <p class="text-xs text-taupe/40 mt-3 font-light">Sin spam. Cuando haya algo, no antes.</p>
+    </section>
+
+    <section class="max-w-2xl mx-auto mt-16">
+      <div class="space-y-4">
+        {faqs.map((f) => (
+          <details class="glass rounded-2xl px-6 py-5 group">
+            <summary class="flex items-center justify-between cursor-pointer list-none font-wander text-lg text-earth">
+              <span>{f.q}</span>
+              <svg class="w-5 h-5 text-taupe shrink-0 ml-4 transition-transform duration-300 group-open:rotate-45" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" /></svg>
+            </summary>
+            <p class="text-cocoa/80 font-light leading-relaxed mt-4">{f.a}</p>
+          </details>
+        ))}
+      </div>
+    </section>
+
+    <section class="max-w-2xl mx-auto text-center mt-14">
+      <p class="text-cocoa/70 font-light">
+        Las consignas salen de
+        <a href="/blog/es-actividades-en-lugar-de-scrollear/" class="text-amber underline underline-offset-4 hover:text-earth transition-colors">15 cosas que hacer con las manos en vez de scrollear</a>,
+        donde están con el porqué de cada una.
+      </p>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>
