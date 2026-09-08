@@ -10,7 +10,7 @@ faq:
   - q: "Is there a completely free alternative to Opal for iPhone?"
     a: "ScreenZen is currently the most generous 100% free app blocker for iOS, offering customizable opening delays, daily launch limits, and scheduled blocking sessions without subscriptions. If you seek a calmer, more mindful daily reflection practice, Dear Wander provides a free tier to get started."
   - q: "What is the difference between One Sec and Dear Wander?"
-    a: "One Sec relies on Apple's Shortcuts app to trigger a quick breathing animation whenever an app opens. Dear Wander uses Apple's native Screen Time API (FamilyControls) without requiring cumbersome shortcuts or triggering system popups. It provides a 60-second guided somatic pause with Tibetan singing bowls, integrated into a full daily loop of morning intentions and evening reflective journaling."
+    a: "One Sec relies on Apple's Shortcuts app to trigger a quick breathing animation whenever an app opens. Dear Wander uses Apple's native Screen Time API (FamilyControls) without requiring cumbersome shortcuts or triggering system popups. It provides a 60-second guided somatic pause with an organic visual breathing orb and subtle haptic pulses, integrated into a full daily loop of morning intentions and evening reflective journaling."
   - q: "Why doesn't Dear Wander lock apps permanently?"
     a: "Behavioral science research (Marlatt's Urge Surfing, Gollwitzer's Implementation Intentions) proves that conscious self-regulation builds long-term sustainable habits, whereas rigid external prohibition triggers severe rebound effects. The 60-second pause restores prefrontal cortex control so you decide intentionally rather than compulsively."
 ---
@@ -73,7 +73,7 @@ When a gamified app flashes a broken streak or an ugly red warning because you t
   </p>
   <ul class="text-sm text-cocoa/80 space-y-2 mb-4 font-light">
     <li>• <strong>Morning Intention (Gollwitzer's Implementation Intentions):</strong> Set a clear 20-second conscious boundary before the day pulls your attention in every direction.</li>
-    <li>• <strong>Midday 60s Somatic Pause (Marlatt's Urge Surfing):</strong> When you reflexively grab your phone to open TikTok or Reddit, a warm amber screen gently chimes with a Tibetan singing bowl. A calm 60-second breathing rhythm stimulates your vagus nerve. After 60 seconds, you are genuinely free to proceed if you still choose to.</li>
+    <li>• <strong>Midday 60s Somatic Pause (Marlatt's Urge Surfing):</strong> When you reflexively grab your phone to open TikTok or Reddit, a warm amber screen gently illuminates with an organic breathing orb and subtle haptic pulses. A calm 60-second breathing rhythm stimulates your vagus nerve. After 60 seconds, you are genuinely free to proceed if you still choose to.</li>
     <li>• <strong>Evening Reflection & Sleep Imagery (Michie et al.):</strong> Instead of revenge bedtime scrolling under blue light, the app offers soothing guided audio imagery and a private night journal to put racing thoughts to rest.</li>
   </ul>
   <p class="text-xs text-taupe/70 font-light">

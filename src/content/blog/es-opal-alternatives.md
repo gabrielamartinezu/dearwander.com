@@ -10,7 +10,7 @@ faq:
   - q: "¿Existe alguna alternativa gratuita a Opal para iPhone?"
     a: "ScreenZen es la alternativa gratuita más completa para iOS, permitiendo configurar pausas, límites de aperturas y horarios sin costo. Si buscas un enfoque más pausado y centrado en la calma mental y la intención, Dear Wander ofrece una versión gratuita para empezar."
   - q: "¿Cuál es la diferencia entre One Sec y Dear Wander?"
-    a: "One Sec utiliza la app Atajos de Apple para disparar una animación rápida antes de abrir una app. Dear Wander utiliza la API nativa de Tiempo en Pantalla de Apple (sin atajos ni configuraciones complejas) y ofrece una pausa somática guiada de 60 segundos con sonido de campana tibetana, conectada a un bucle completo de intención matutina y diario reflexivo nocturno."
+    a: "One Sec utiliza la app Atajos de Apple para disparar una animación rápida antes de abrir una app. Dear Wander utiliza la API nativa de Tiempo en Pantalla de Apple (sin atajos ni configuraciones complejas) y ofrece una pausa somática guiada de 60 segundos con un orbe visual fluido y pulsos hápticos suaves, conectada a un bucle completo de intención matutina y diario reflexivo nocturno."
   - q: "¿Por qué Dear Wander no bloquea las apps de forma permanente?"
     a: "Porque la investigación en ciencias del comportamiento (Marlatt, Gollwitzer) demuestra que la autorregulación consciente crea hábitos sostenibles, mientras que la prohibición externa genera efecto rebote. La pausa de 60 segundos devuelve el control a tu corteza prefrontal para que decidas si realmente necesitas entrar o si era un acto reflejo."
 ---
@@ -73,7 +73,7 @@ Cuando fallas una racha en una app gamificada, sobreviene el llamado efecto *"wh
   </p>
   <ul class="text-sm text-cocoa/80 space-y-2 mb-4 font-light">
     <li>• <strong>Por la mañana (Intención de Implementación):</strong> Declaras en 20 segundos cómo deseas que transcurra tu atención hoy (Peter Gollwitzer, 1999).</li>
-    <li>• <strong>Durante el día (Pausa Somática de 60s):</strong> Cuando tomas el teléfono por reflejo para abrir Instagram o X, Dear Wander activa una pantalla color ámbar con una campana tibetana y un ejercicio de respiración que activa el nervio vago. Tras los 60 segundos, eres libre de entrar si lo decides conscientemente (*Urge Surfing*, Alan Marlatt).</li>
+    <li>• <strong>Durante el día (Pausa Somática de 60s):</strong> Cuando tomas el teléfono por reflejo para abrir Instagram o X, Dear Wander activa una pantalla color ámbar con un orbe fluido y vibraciones hápticas suaves que guían tu respiración diafragmática para estimular el nervio vago. Tras los 60 segundos, eres libre de entrar si lo decides conscientemente (*Urge Surfing*, Alan Marlatt).</li>
     <li>• <strong>Por la noche (Cierre Reflexivo):</strong> En lugar del scrolling de venganza en la cama, la app te ofrece meditaciones breves de imaginería guiada y un diario íntimo para descargar los pendientes del día.</li>
   </ul>
   <p class="text-xs text-taupe/70 font-light">
