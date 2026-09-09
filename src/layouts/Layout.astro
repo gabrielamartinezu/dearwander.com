@@ -117,6 +117,11 @@ const isTranslatedBlogPost = pathname.match(/^\/blog\/(es|it)-/);
     <meta name="theme-color" content="#F4B37D" />
     <meta name="msapplication-TileColor" content="#F4B37D" />
 
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
     <!-- Schema: Organization + WebSite (all pages) -->
@@ -129,6 +134,7 @@ const isTranslatedBlogPost = pathname.match(/^\/blog\/(es|it)-/);
           "name": "Dear Wander",
           "url": siteURL,
           "logo": `${siteURL}/icon.png`,
+          "image": `${siteURL}/og-image.jpg`,
           "sameAs": [
             "https://instagram.com/dearwander.app",
             "https://www.youtube.com/@Dearwander_app",
@@ -142,6 +148,7 @@ const isTranslatedBlogPost = pathname.match(/^\/blog\/(es|it)-/);
           "url": siteURL,
           "description": "Mindful screen time. Sixty seconds back to yourself.",
           "inLanguage": ["en", "es", "it"],
+          "image": `${siteURL}/og-image.jpg`,
           "publisher": { "@id": `${siteURL}/#organization` }
         },
         {
@@ -150,6 +157,8 @@ const isTranslatedBlogPost = pathname.match(/^\/blog\/(es|it)-/);
           "operatingSystem": "iOS",
           "applicationCategory": "HealthApplication",
           "description": "Mindful screen time app that intercepts your scroll with guided breathing before you open social media.",
+          "image": `${siteURL}/og-image.jpg`,
+          "screenshot": `${siteURL}/app/home.webp`,
           "offers": {
             "@type": "Offer",
             "availability": "https://schema.org/InStock",
