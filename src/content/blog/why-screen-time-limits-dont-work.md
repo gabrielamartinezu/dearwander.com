@@ -1,6 +1,6 @@
 ---
-title: "Why screen time limits don't work (and what finally does)"
-description: "You press 'Ignore Limit' without thinking, every time. The limits were never built to hold. The psychology behind why, and a gentler approach that sticks."
+title: "Why You Always Tap 'Ignore Limit' on iPhone (And What Actually Works)"
+description: "You set a screen time limit and press 'Ignore Limit' without thinking. Here is the neuroscience of why Apple limits fail and the single behavioral shift that stops the scroll."
 date: 2026-05-04
 author: "Dear Wander"
 tags: ["screen time", "psychology", "phone addiction", "strategies"]

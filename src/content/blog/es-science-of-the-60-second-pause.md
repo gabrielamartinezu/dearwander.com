@@ -1,6 +1,6 @@
 ---
-title: "La ciencia de la pausa de 60 segundos: qué pasa cuando respiras antes de hacer scroll"
-description: "Una breve pausa antes de abrir redes sociales puede reducir los intentos de abrir la app en un 57%. Aquí está la neurociencia detrás de por qué un solo minuto lo cambia todo."
+title: "La Pausa de 60 Segundos: Cómo Reducir el Scroll un 57%"
+description: "Una pausa guiada antes de abrir redes reduce las aperturas un 57% según la ciencia. Descubre la neurociencia de respirar antes de scrollear."
 date: 2026-05-04
 author: "Dear Wander"
 tags: ["science", "breathing", "mindfulness", "the pause"]

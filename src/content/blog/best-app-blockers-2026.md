@@ -1,6 +1,6 @@
 ---
-title: "Best app blockers 2026: 9 iPhone apps compared, with the numbers"
-description: "Nine iPhone app blockers compared with current App Store figures: Opal, Brick, Forest, ScreenZen, One Sec, Clearspace, Freedom, Jomo and Dear Wander. Ratings, review counts and last-update dates, all dated."
+title: "Best iPhone App Blockers in 2026: 9 Apps Tested (Free, Paid & No VPN)"
+description: "Looking for the best iPhone app blocker? We compared 9 top apps (Opal, One Sec, ScreenZen, Brick, Dear Wander) on pricing, strictness, and battery impact. Find what actually works."
 date: 2026-09-01
 author: "Dear Wander"
 tags: ["app blocker", "screen time", "iPhone", "comparison", "digital wellness"]

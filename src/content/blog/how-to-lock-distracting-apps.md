@@ -1,6 +1,6 @@
 ---
-title: "How to lock or hide the apps you can't stop opening"
-description: "Every way to hide, lock, or add friction to distracting apps on iPhone, from the Home Screen to Screen Time. What each one does, and why friction beats a hard block."
+title: "How to Lock Yourself Out of Apps on iPhone (Without Deleting Them)"
+description: "Want to stop opening apps on autopilot? Here is every way to lock yourself out, hide distracting apps, or add mindful friction on iPhone so you stay in control."
 date: 2026-07-02
 author: "Dear Wander"
 tags: ["screen time", "how-to", "phone addiction", "strategies"]

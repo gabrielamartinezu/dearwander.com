@@ -1,6 +1,6 @@
 ---
-title: "Cómo bloquear o esconder las apps que no puedes dejar de abrir"
-description: "Todas las formas de esconder, bloquear o poner fricción a las apps que te distraen en el iPhone, desde la pantalla de inicio hasta Tiempo de Uso. Qué hace cada una y por qué la fricción funciona mejor que un bloqueo."
+title: "Cómo Bloquear Apps en iPhone sin Desinstalarlas (Guía Rápida 2026)"
+description: "¿Quieres dejar de abrir apps por reflejo? Todas las formas de bloquear, esconder o poner fricción a tus redes en iPhone: desde Tiempo de Uso hasta atajos y pausas conscientes."
 date: 2026-07-02
 author: "Dear Wander"
 tags: ["screen time", "how-to", "phone addiction", "strategies"]

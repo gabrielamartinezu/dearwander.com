@@ -1,6 +1,6 @@
 ---
-title: "ADHD and doomscrolling: why your brain gets stuck and gentle ways to unstick it"
-description: "ADHD doomscrolling happens because of dopamine, hyperfocus, and app design. Learn why your brain gets stuck and gentle strategies that actually work."
+title: "ADHD Doomscrolling: Why Your Brain Gets Stuck (& How to Stop)"
+description: "Stuck in a late-night doomscroll? Here is the neuroscience of ADHD dopamine loops and 4 gentle ways to interrupt the scroll without fighting yourself."
 date: 2026-05-16
 author: "Dear Wander"
 tags: ["ADHD doomscrolling", "ADHD phone addiction", "ADHD screen time", "neurodivergent phone habits", "digital wellness", "dopamine"]

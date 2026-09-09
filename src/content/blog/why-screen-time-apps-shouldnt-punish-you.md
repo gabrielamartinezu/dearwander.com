@@ -1,6 +1,6 @@
 ---
-title: "Why your screen time app shouldn't feel like a punishment"
-description: "The difference between blocking and pausing, and why the apps that scold you don't work."
+title: "Why Punitive App Blockers Fail (And Why Shame Never Stops Screen Time)"
+description: "Tried app blockers only to delete them after a week? Here is why guilt-based screen time apps backfire, and how a non-punitive pause actually breaks the cycle."
 date: 2026-05-03
 author: "Dear Wander"
 tags: ["screen time", "mindfulness", "digital wellness"]

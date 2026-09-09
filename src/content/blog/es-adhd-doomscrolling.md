@@ -1,6 +1,6 @@
 ---
-title: "ADHD y doomscrolling: por qué tu cerebro se queda atrapado y formas suaves de liberarlo"
-description: "El ADHD doomscrolling ocurre por la dopamina, el hiperfoco y el diseño de apps. Descubre por qué tu cerebro se atasca y estrategias que sí funcionan."
+title: "TDAH y Doomscrolling: Por Qué Te Atrapas (y Cómo Salir)"
+description: "¿Atrapado en el scroll de madrugada? Descubre la relación entre TDAH (ADHD) y dopamina, y 4 formas amables de frenar sin pelear contra tu cerebro."
 date: 2026-05-16
 author: "Dear Wander"
 tags: ["ADHD doomscrolling", "ADHD phone addiction", "ADHD screen time", "neurodivergent phone habits", "bienestar digital", "dopamina"]
