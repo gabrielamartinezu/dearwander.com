@@ -310,6 +310,73 @@ body {
   color: var(--color-breath);
 }
 
+/* ── Markdown Tables ───────────────────────────────────────────────────
+   Styled for editorial readability: warm amber tint, clear boundaries,
+   comfortable cell padding, and horizontal scroll on small screens. */
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 2.5rem 0;
+  border-radius: 8px;
+  border: 1px solid rgba(124, 58, 18, 0.15);
+  background: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 4px 16px -4px rgba(60, 42, 30, 0.05);
+}
+
+.table-wrapper table,
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  color: var(--color-cocoa);
+}
+
+.prose table:not(.table-wrapper table) {
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 2.5rem 0;
+  border-radius: 8px;
+  border: 1px solid rgba(124, 58, 18, 0.15);
+  background: rgba(255, 255, 255, 0.45);
+}
+
+.prose th {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 0.01em;
+  color: var(--color-earth);
+  background: rgba(244, 168, 90, 0.22);
+  padding: 0.85rem 1.15rem;
+  border-bottom: 2px solid rgba(124, 58, 18, 0.16);
+  white-space: nowrap;
+}
+
+.prose td {
+  padding: 0.85rem 1.15rem;
+  border-bottom: 1px solid rgba(124, 58, 18, 0.08);
+  vertical-align: top;
+}
+
+.prose tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.prose tbody tr:nth-child(even) {
+  background: rgba(255, 248, 240, 0.6);
+}
+
+.prose tbody tr:hover {
+  background: rgba(248, 200, 154, 0.18);
+}
+
+.prose th[align="center"], .prose td[align="center"] { text-align: center; }
+.prose th[align="right"], .prose td[align="right"] { text-align: right; }
+
 /* Legal documents number their sections; essays don't. */
 .prose-document {
   counter-reset: section;

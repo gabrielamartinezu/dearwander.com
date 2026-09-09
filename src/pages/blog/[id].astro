@@ -142,10 +142,10 @@ const faqSchema = post.data.faq?.length ? {
     <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
   )}
 
-  <main class="bg-golden-hour min-h-screen pt-32 pb-20 px-6">
-    <article class="max-w-[44rem] mx-auto">
+  <main class="bg-golden-hour min-h-screen pt-32 pb-20 px-4 sm:px-6">
+    <article class="max-w-4xl lg:max-w-5xl mx-auto">
       <!-- Header -->
-      <div class="text-center mb-12 fade-up">
+      <div class="text-center mb-12 fade-up max-w-3xl mx-auto">
         <div class="inline-flex flex-wrap items-center justify-center gap-2 text-xs text-taupe/80 font-sans tracking-wide uppercase mb-4">
           <time class="font-semibold text-earth/80">{formattedDate}</time>
           <span class="text-amber">•</span>
@@ -160,7 +160,7 @@ const faqSchema = post.data.faq?.length ? {
           {post.data.title}
         </h1>
 
-        <p class="font-dear text-xl sm:text-2xl text-taupe leading-snug max-w-xl mx-auto mb-6">
+        <p class="font-dear text-xl sm:text-2xl text-taupe leading-snug max-w-2xl mx-auto mb-6">
           {post.data.description}
         </p>
 
@@ -180,7 +180,7 @@ const faqSchema = post.data.faq?.length ? {
       </div>
 
       <!-- Content -->
-      <div class="paper px-7 py-10 sm:px-12 sm:py-14 fade-up fade-up-d2">
+      <div class="paper px-6 py-9 sm:px-12 sm:py-14 md:px-16 md:py-16 fade-up fade-up-d2">
         {h2Headings.length >= 3 && (
           <details class="mb-10 p-5 sm:p-6 rounded-2xl bg-golden-start/20 border border-amber/25 group transition-all">
             <summary class="flex items-center justify-between cursor-pointer list-none text-xs font-semibold uppercase tracking-widest text-earth/80 hover:text-earth transition-colors">
@@ -260,6 +260,16 @@ const faqSchema = post.data.faq?.length ? {
           });
         });
       }
+
+      // Responsive wrapper for tables
+      document.querySelectorAll(".prose table").forEach(function (table) {
+        if (table.parentElement && !table.parentElement.classList.contains("table-wrapper")) {
+          const wrapper = document.createElement("div");
+          wrapper.className = "table-wrapper";
+          table.parentNode.insertBefore(wrapper, table);
+          wrapper.appendChild(table);
+        }
+      });
     })();
   </script>
 </Layout>
