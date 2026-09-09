@@ -72,10 +72,31 @@ const VIDEOS: Record<string, { id: string; titulo: string; duracion: string }> =
   },
 };
 const video = VIDEOS[post.id];
-const { Content } = await render(post);
+const { Content, headings } = await render(post);
 
 // Detect language from the slug prefix (es-*, it-*) for localized chrome
 const postLang = post.id.startsWith("es-") ? "es" : post.id.startsWith("it-") ? "it" : "en";
+
+const rawBody = post.body ?? "";
+const wordCount = rawBody.split(/\s+/).filter(Boolean).length;
+const readingMinutes = Math.max(1, Math.ceil(wordCount / 200));
+
+const dateLocale = postLang === "es" ? "es-ES" : postLang === "it" ? "it-IT" : "en-US";
+const formattedDate = post.data.date.toLocaleDateString(dateLocale, { year: "numeric", month: "long", day: "numeric" });
+
+const readTimeLabel = postLang === "es" 
+  ? `${readingMinutes} min de lectura` 
+  : postLang === "it" 
+  ? `${readingMinutes} min di lettura` 
+  : `${readingMinutes} min read`;
+
+const authorLabel = postLang === "es"
+  ? "Por Gabriela Martínez"
+  : postLang === "it"
+  ? "Di Gabriela Martínez"
+  : "By Gabriela Martínez";
+
+const h2Headings = headings.filter((h) => h.depth === 2);
 
 const siteURL = "https://dearwander.com";
 const postURL = `${siteURL}/blog/${post.id}/`;
@@ -110,6 +131,9 @@ const faqSchema = post.data.faq?.length ? {
   articleDate={post.data.date.toISOString()}
   alternates={alternates}
 >
+  <!-- Reading progress bar -->
+  <div id="reading-progress-bar" class="fixed top-0 left-0 h-1 bg-gradient-to-r from-amber via-breath to-earth z-[60] transition-all duration-75" style="width: 0%;"></div>
+
   <Header lightBg={true} />
 
   <!-- BreadcrumbList schema -->
@@ -122,19 +146,60 @@ const faqSchema = post.data.faq?.length ? {
     <article class="max-w-[44rem] mx-auto">
       <!-- Header -->
       <div class="text-center mb-12 fade-up">
-        <time class="doc-eyebrow block">
-          {post.data.date.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}
-        </time>
-        <h1 class="font-wander text-3xl sm:text-4xl md:text-5xl text-earth mt-5 mb-5 leading-[1.15]">
+        <div class="inline-flex flex-wrap items-center justify-center gap-2 text-xs text-taupe/80 font-sans tracking-wide uppercase mb-4">
+          <time class="font-semibold text-earth/80">{formattedDate}</time>
+          <span class="text-amber">•</span>
+          <span class="font-medium text-cocoa/75">{readTimeLabel}</span>
+          <span class="text-amber">•</span>
+          <a href="/about" class="text-taupe hover:text-earth underline underline-offset-2 transition-colors font-medium">
+            {authorLabel}
+          </a>
+        </div>
+
+        <h1 class="font-wander text-3xl sm:text-4xl md:text-5xl text-earth mt-2 mb-5 leading-[1.15]">
           {post.data.title}
         </h1>
-        <p class="font-dear text-xl sm:text-2xl text-taupe leading-snug max-w-lg mx-auto">
+
+        <p class="font-dear text-xl sm:text-2xl text-taupe leading-snug max-w-xl mx-auto mb-6">
           {post.data.description}
         </p>
+
+        <!-- Quick Share button -->
+        <div class="flex items-center justify-center gap-3">
+          <button
+            id="copyPostLinkBtn"
+            data-copied-text={postLang === "es" ? "✓ ¡Enlace copiado!" : postLang === "it" ? "✓ Link copiato!" : "✓ Link copied!"}
+            class="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full bg-warm-white/70 border border-amber/30 text-xs font-medium text-cocoa/80 hover:text-earth hover:border-breath hover:bg-warm-white transition-all cursor-pointer shadow-sm"
+          >
+            <svg class="w-3.5 h-3.5 text-taupe" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/>
+            </svg>
+            <span id="copyPostLinkText">{postLang === "es" ? "Copiar enlace" : postLang === "it" ? "Copia link" : "Copy link"}</span>
+          </button>
+        </div>
       </div>
 
       <!-- Content -->
       <div class="paper px-7 py-10 sm:px-12 sm:py-14 fade-up fade-up-d2">
+        {h2Headings.length >= 3 && (
+          <details class="mb-10 p-5 sm:p-6 rounded-2xl bg-golden-start/20 border border-amber/25 group transition-all">
+            <summary class="flex items-center justify-between cursor-pointer list-none text-xs font-semibold uppercase tracking-widest text-earth/80 hover:text-earth transition-colors">
+              <span class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-breath" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7"/></svg>
+                {postLang === "es" ? "En este artículo" : postLang === "it" ? "In questo articolo" : "In this article"} ({h2Headings.length})
+              </span>
+              <svg class="w-4 h-4 text-taupe transition-transform duration-300 group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </summary>
+            <ol class="mt-4 space-y-2.5 text-sm font-sans list-decimal list-inside pl-1 text-cocoa/85 border-t border-amber/15 pt-3">
+              {h2Headings.map((h) => (
+                <li class="hover:text-earth transition-colors">
+                  <a href={`#${h.slug}`} class="no-underline hover:underline text-cocoa hover:text-earth">{h.text}</a>
+                </li>
+              ))}
+            </ol>
+          </details>
+        )}
+
         <div class="prose prose-article">
           <Content />
         </div>
@@ -168,7 +233,37 @@ const faqSchema = post.data.faq?.length ? {
   </main>
 
   <Footer lang={postLang} />
+
+  <script is:inline>
+    (function () {
+      const bar = document.getElementById("reading-progress-bar");
+      function updateProgress() {
+        if (!bar) return;
+        const scrollY = window.scrollY || document.documentElement.scrollTop;
+        const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
+        const percent = scrollHeight > 0 ? Math.min(100, Math.max(0, (scrollY / scrollHeight) * 100)) : 0;
+        bar.style.width = percent + "%";
+      }
+      window.addEventListener("scroll", updateProgress, { passive: true });
+      updateProgress();
+
+      const copyBtn = document.getElementById("copyPostLinkBtn");
+      const copyText = document.getElementById("copyPostLinkText");
+      if (copyBtn && copyText) {
+        const originalText = copyText.textContent;
+        copyBtn.addEventListener("click", function () {
+          navigator.clipboard.writeText(window.location.href).then(function () {
+            copyText.textContent = copyBtn.dataset.copiedText || "✓ Copiado";
+            setTimeout(function () {
+              copyText.textContent = originalText;
+            }, 2000);
+          });
+        });
+      }
+    })();
+  </script>
 </Layout>
+
 
 <!-- Prose styling lives in global.css. This page used to carry a scoped copy,
      which drifted out of sync with it — the list-marker bug had to be fixed in

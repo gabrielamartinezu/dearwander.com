@@ -30,6 +30,12 @@ const dateLocale = lang === "es" ? "es-ES" : lang === "it" ? "it-IT" : "en-US";
 const fullDate = (d: Date) =>
   d.toLocaleDateString(dateLocale, { year: "numeric", month: "long", day: "numeric" });
 
+const getReadingTime = (p: typeof posts[0]) => {
+  const words = (p.body ?? "").split(/\s+/).filter(Boolean).length;
+  const mins = Math.max(1, Math.ceil(words / 200));
+  return lang === "es" ? `${mins} min` : lang === "it" ? `${mins} min` : `${mins} min read`;
+};
+
 const [featured, ...archive] = posts;
 
 // Group the archive by month so the list has a pulse instead of running flat
@@ -52,7 +58,11 @@ for (const post of archive) {
 
     {featured && (
       <a href={`/blog/${featured.id}/`} class="featured paper block px-7 py-10 sm:px-12 sm:py-12 mb-20 fade-up fade-up-d2">
-        <time class="doc-eyebrow">{fullDate(featured.data.date)}</time>
+        <div class="flex items-center gap-2 mb-3">
+          <time class="doc-eyebrow">{fullDate(featured.data.date)}</time>
+          <span class="text-xs text-amber">•</span>
+          <span class="doc-eyebrow text-cocoa/70">{getReadingTime(featured)}</span>
+        </div>
         <h2 class="featured-title font-wander text-2xl sm:text-[2rem] text-earth mt-4 mb-4 leading-[1.2]">
           {featured.data.title}
         </h2>
@@ -68,9 +78,14 @@ for (const post of archive) {
           {group.posts.map((post) => (
             <li>
               <a href={`/blog/${post.id}/`} class="entry">
-                <span class="entry-day">
-                  {post.data.date.toLocaleDateString(dateLocale, { day: "2-digit" })}
-                </span>
+                <div class="entry-meta flex flex-col items-start justify-start pt-0.5 shrink-0">
+                  <span class="entry-day">
+                    {post.data.date.toLocaleDateString(dateLocale, { day: "2-digit" })}
+                  </span>
+                  <span class="entry-read-time">
+                    {getReadingTime(post)}
+                  </span>
+                </div>
                 <span>
                   <span class="entry-title font-wander">{post.data.title}</span>
                   <span class="entry-excerpt">{post.data.description}</span>
@@ -125,12 +140,12 @@ for (const post of archive) {
 
   .entry {
     display: grid;
-    grid-template-columns: 3rem 1fr;
-    gap: 0.5rem;
+    grid-template-columns: 4rem 1fr;
+    gap: 0.75rem;
     align-items: baseline;
     padding: 1.4rem 0.75rem 1.4rem 0;
     text-decoration: none;
-    border-radius: 2px;
+    border-radius: 4px;
     transition: background-color 0.45s, padding-left 0.45s;
   }
   .entry:hover {
@@ -143,9 +158,17 @@ for (const post of archive) {
     font-size: 0.8125rem;
     font-weight: 600;
     letter-spacing: 0.06em;
-    /* Not --color-breath: this is a date, and amber on the golden ground is
-       1.7:1. Decorative marks can take that, information can't. */
     color: var(--color-taupe);
+  }
+
+  .entry-read-time {
+    font-family: var(--font-sans);
+    font-size: 0.6875rem;
+    font-weight: 500;
+    color: var(--color-taupe);
+    opacity: 0.65;
+    margin-top: 0.15rem;
+    white-space: nowrap;
   }
 
   .entry-title {
@@ -175,7 +198,7 @@ for (const post of archive) {
 
   @media (max-width: 640px) {
     .entry {
-      grid-template-columns: 2.25rem 1fr;
+      grid-template-columns: 3.25rem 1fr;
       padding: 1.15rem 0;
     }
     .entry-title {
