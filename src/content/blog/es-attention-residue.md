@@ -13,6 +13,26 @@ faq:
     a: "Los efectos del residuo de atención duran entre 15 y 23 minutos tras un cambio. Una investigación aparte de Gloria Mark, en la Universidad de California, halló que se tarda una media de unos 23 minutos en volver del todo a una tarea después de una interrupción."
   - q: "¿De verdad cuesta tanta concentración un vistazo rápido?"
     a: "Sí. El coste rara vez son los pocos segundos que pasas mirando. Es la concentración degradada que viene después, durante unos 20 minutos, mientras la corteza prefrontal reconfigura sus redes de vuelta a la tarea original."
+showCalculator: true
+sources:
+  - title: "Why Is It So Hard to Do My Work? The Challenge of Attention Residue When Switching Between Tasks"
+    author: "Sophie Leroy"
+    year: 2009
+    journal: "Organizational Behavior and Human Decision Processes, 109(2), 168-181"
+    doi: "10.1016/j.obhdp.2009.04.002"
+    note: "El estudio seminal que acuñó el término «residuo de atención»: cambiar entre tareas incompletas deja una carga cognitiva residual que deteriora el rendimiento cognitivo posterior."
+  - title: "The Cost of Interrupted Work: More Speed and More Stress"
+    author: "Gloria Mark, Daniela Gudith, & Ulrich Klocke"
+    year: 2008
+    journal: "ACM SIGCHI Conference on Human Factors in Computing Systems (CHI '08)"
+    doi: "10.1145/1357054.1357072"
+    note: "Demuestra que toma un promedio de 23 minutos y 15 segundos retomar el hilo y profundidad de una tarea tras una sola interrupción."
+  - title: "Brain Drain: The Mere Presence of One's Own Smartphone Reduces Available Cognitive Capacity"
+    author: "Adrian F. Ward, Kristen Duke, Ayelet Gneezy, & Maarten W. Bos"
+    year: 2017
+    journal: "Journal of the Association of Consumer Research, 2(2), 140-154"
+    doi: "10.1086/691462"
+    note: "La mera presencia física del teléfono inteligente en el campo visual agota la capacidad de memoria de trabajo y el control atencional."
 ---
 
 Llevas tres párrafos metido en algo que necesita todo tu cerebro. El móvil se ilumina. Un mensaje. Lo lees en cuatro segundos, respondes en ocho, dejas el móvil. De vuelta al trabajo.

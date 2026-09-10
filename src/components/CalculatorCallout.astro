@@ -1,0 +1,75 @@
+---
+import type { Locale } from "../i18n/translations";
+
+interface Props {
+  lang?: Locale;
+}
+
+const lang = (Astro.props.lang ?? "en") as Locale;
+
+const copy = {
+  es: {
+    tag: "Herramienta interactiva",
+    title: "¿Sabes cuántos años de tu vida despierta pasarás frente a la pantalla?",
+    desc: "A un promedio de 4 horas diarias, son más de 8 años completos de vida adulta consumidos en el móvil. Descubre tu cifra exacta y cuántos años recuperas con solo reducir una hora.",
+    cta: "Calcular mis años recuperados",
+    href: "/es/calculadora-tiempo-en-pantalla/",
+  },
+  en: {
+    tag: "Interactive Tool",
+    title: "Do you know how many waking years you'll spend on your phone?",
+    desc: "At an average of 4 hours a day, that's over 8 full years of your adult life. Discover your exact lifetime hours and how many years you reclaim by saving just 60 minutes.",
+    cta: "Calculate my reclaimed years",
+    href: "/screen-time-calculator/",
+  },
+  it: {
+    tag: "Strumento interattivo",
+    title: "Sai quanti anni di vita sveglia passerai davanti allo schermo?",
+    desc: "A una media di 4 ore al giorno, sono oltre 8 anni interi della tua vita adulta. Scopri la tua cifra esatta e quanti anni recuperi risparmiando solo un'ora.",
+    cta: "Calcola i miei anni recuperati",
+    href: "/screen-time-calculator/",
+  },
+};
+
+const c = copy[lang] ?? copy.en;
+---
+
+<aside class="calculator-callout my-10 p-6 sm:p-8 rounded-2xl relative overflow-hidden not-prose">
+  <div class="absolute -right-10 -bottom-10 w-44 h-44 bg-amber/15 rounded-full blur-2xl pointer-events-none" aria-hidden="true"></div>
+  <div class="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
+    <div class="max-w-xl">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-warm-white/80 border border-amber/30 text-[0.7rem] uppercase tracking-wider font-semibold text-earth/90 mb-3 shadow-xs">
+        <svg class="w-3.5 h-3.5 text-breath" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+        <span>{c.tag}</span>
+      </div>
+      <h3 class="font-wander text-xl sm:text-2xl text-earth leading-snug mb-2.5">
+        {c.title}
+      </h3>
+      <p class="font-sans text-sm sm:text-base text-cocoa/85 leading-relaxed">
+        {c.desc}
+      </p>
+    </div>
+
+    <div class="shrink-0">
+      <a
+        href={c.href}
+        class="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-breath text-earth font-semibold text-sm hover:bg-amber transition-all duration-300 shadow-md shadow-breath/20 hover:scale-[1.02] active:scale-[0.98] group"
+      >
+        <span>{c.cta}</span>
+        <svg class="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+        </svg>
+      </a>
+    </div>
+  </div>
+</aside>
+
+<style>
+  .calculator-callout {
+    background: linear-gradient(135deg, rgba(255, 248, 240, 0.95) 0%, rgba(248, 200, 154, 0.35) 100%);
+    border: 1px solid rgba(244, 179, 125, 0.5);
+    box-shadow: 0 4px 20px -4px rgba(60, 42, 30, 0.06);
+  }
+</style>

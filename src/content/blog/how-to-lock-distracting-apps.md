@@ -13,6 +13,7 @@ faq:
     a: "Built-in iOS tools include Screen Time and Focus modes. For dedicated apps, Dear Wander adds an on-device mindful pause without shame or locks, while tools like ScreenZen and Opal offer scheduled blocking via Apple's FamilyControls API."
   - q: "Does hiding or locking apps actually reduce phone addiction?"
     a: "Yes. Removing an app from your Home Screen cuts unconscious opens because it removes the visual cue. Adding a brief pause before the app launches gives your prefrontal cortex time to decide, which holds much better than a hard block you immediately tap through."
+showCalculator: true
 ---
 
 You've tried deleting Instagram. You lasted four days, reinstalled it on a Tuesday night, and told yourself this time would be different.

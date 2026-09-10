@@ -1,0 +1,120 @@
+---
+import type { Locale } from "../i18n/translations";
+
+export interface SourceItem {
+  title: string;
+  author: string;
+  journal?: string;
+  year?: number | string;
+  url?: string;
+  doi?: string;
+  note?: string;
+}
+
+interface Props {
+  sources?: SourceItem[];
+  lang?: Locale;
+}
+
+const { sources = [], lang = "en" } = Astro.props;
+
+if (!sources || sources.length === 0) {
+  return null;
+}
+
+const copy = {
+  es: {
+    heading: "Evidencia y fuentes científicas",
+    badge: "Revisión por pares & Medicina",
+    viewLink: "Ver publicación / DOI",
+  },
+  en: {
+    heading: "Scientific evidence & references",
+    badge: "Peer-reviewed & Clinical",
+    viewLink: "View paper / DOI",
+  },
+  it: {
+    heading: "Prove e fonti scientifiche",
+    badge: "Peer-reviewed & Clinico",
+    viewLink: "Vedi studio / DOI",
+  },
+};
+
+const c = copy[lang] ?? copy.en;
+---
+
+<details class="scientific-sources not-prose my-10 p-6 sm:p-7 rounded-2xl border transition-all duration-300 group">
+  <summary class="flex items-center justify-between cursor-pointer list-none select-none">
+    <div class="flex items-center gap-2.5">
+      <div class="w-8 h-8 rounded-full bg-amber/20 flex items-center justify-center text-breath shrink-0">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+        </svg>
+      </div>
+      <div>
+        <h4 class="font-wander text-base sm:text-lg text-earth leading-none">
+          {c.heading} <span class="text-xs font-sans text-taupe font-normal ml-1">({sources.length})</span>
+        </h4>
+        <span class="text-[0.6875rem] font-sans uppercase tracking-widest text-cocoa/65 block mt-1">
+          {c.badge}
+        </span>
+      </div>
+    </div>
+
+    <div class="flex items-center gap-2 text-taupe">
+      <span class="text-xs font-sans hidden sm:inline text-taupe/80 group-open:hidden">Desplegar</span>
+      <svg class="w-4 h-4 transition-transform duration-300 group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+      </svg>
+    </div>
+  </summary>
+
+  <ol class="mt-6 space-y-4 pt-5 border-t border-amber/15 list-none">
+    {sources.map((src, i) => (
+      <li class="p-4 rounded-xl bg-warm-white/70 border border-amber/20 hover:border-breath/50 transition-colors">
+        <div class="flex items-start justify-between gap-3">
+          <div class="flex-1">
+            <h5 class="font-wander text-sm sm:text-base text-earth mb-1 leading-snug">
+              {i + 1}. {src.title}
+            </h5>
+            <p class="font-sans text-xs text-cocoa/75 mb-2">
+              <span class="font-semibold text-earth/90">{src.author}</span>
+              {src.journal && <span> · <em>{src.journal}</em></span>}
+              {src.year && <span> ({src.year})</span>}
+            </p>
+            {src.note && (
+              <p class="font-sans text-xs text-taupe leading-relaxed italic bg-golden-start/25 px-3 py-1.5 rounded-lg border-l-2 border-breath mb-2">
+                “{src.note}”
+              </p>
+            )}
+          </div>
+          {(src.url || src.doi) && (
+            <a
+              href={src.url || (src.doi ? `https://doi.org/${src.doi}` : "#")}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-1 text-xs font-medium text-ink hover:text-earth underline underline-offset-2 shrink-0 pt-0.5"
+            >
+              <span>{c.viewLink}</span>
+              <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+            </a>
+          )}
+        </div>
+      </li>
+    ))}
+  </ol>
+</details>
+
+<style>
+  .scientific-sources {
+    background: rgba(255, 248, 240, 0.65);
+    border-color: rgba(244, 168, 90, 0.35);
+  }
+  .scientific-sources[open] {
+    background: rgba(255, 248, 240, 0.9);
+    border-color: rgba(244, 168, 90, 0.55);
+    box-shadow: 0 4px 16px -4px rgba(60, 42, 30, 0.05);
+  }
+</style>

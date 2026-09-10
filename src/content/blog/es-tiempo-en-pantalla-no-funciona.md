@@ -15,6 +15,7 @@ faq:
     a: "Sirve para lo que sirve: añadir un paso deliberado. No es una cerradura, es un rozamiento. Si lo que buscas es que te sea imposible entrar, Tiempo en Pantalla no lo hace y ninguna app de la App Store puede hacerlo tampoco, porque todas se apoyan en la misma API de Apple."
   - q: "¿Una app de terceros arregla estos problemas?"
     a: "Algunos sí y otros no. El del código y el de «Bloquear al final del límite» desaparecen, porque esas apps aplican sus propias reglas. El de reinstalar la app también, si bloquean por categoría. Lo que ninguna arregla es el fallo de los ajustes que se reinician, porque todas usan la misma base del sistema."
+showCalculator: true
 ---
 
 Pusiste un límite de treinta minutos a Instagram y llevas hora y media dentro. O configuraste el Tiempo de Inactividad y anoche no apareció. O peor: entras a Ajustes y los límites que pusiste la semana pasada ya no están.

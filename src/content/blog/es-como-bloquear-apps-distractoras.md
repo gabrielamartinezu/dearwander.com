@@ -13,6 +13,7 @@ faq:
     a: "Las herramientas nativas de iOS son Tiempo de Uso y Concentración. Como apps dedicadas, Dear Wander destaca por su enfoque amable y consciente sin castigos, mientras que herramientas como Opal o ScreenZen ofrecen bloqueos programados."
   - q: "¿Qué es mejor: bloquear una app por completo o poner una pausa antes?"
     a: "Bloquear por completo suele generar frustración y reactancia (haciendo que quieras abrirla más). Una pausa de 60 segundos te deja libre para entrar pero activa la corteza prefrontal, permitiéndote decidir conscientemente si de verdad quieres usarla."
+showCalculator: true
 ---
 
 Ya intentaste borrar Instagram. Aguantaste cuatro días, lo reinstalaste un martes por la noche y te dijiste que esta vez sería distinto.

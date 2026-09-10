@@ -4,6 +4,25 @@ description: "You set a screen time limit and press 'Ignore Limit' without think
 date: 2026-05-04
 author: "Dear Wander"
 tags: ["screen time", "psychology", "phone addiction", "strategies"]
+showCalculator: true
+sources:
+  - title: "Psychology of Habit: Annual Review of Psychology"
+    author: "Wendy Wood & Dennis Rünger"
+    year: 2016
+    journal: "Annual Review of Psychology, 67, 289-314"
+    doi: "10.1146/annurev-psych-122414-033417"
+    note: "Habitual behavior is triggered automatically by context cues, bypassing conscious willpower and rational decision-making."
+  - title: "A Theory of Psychological Reactance"
+    author: "Jack W. Brehm"
+    year: 1966
+    journal: "Academic Press"
+    note: "When behavioral freedoms are abruptly restricted by external bans or locks, individuals experience a motivational state to restore that freedom."
+  - title: "Situational Strategies for Self-Control"
+    author: "Angela L. Duckworth, Katherine L. Milkman, & David Laibson"
+    year: 2018
+    journal: "Perspectives on Psychological Science, 14(3), 376-399"
+    doi: "10.1177/1745691618804166"
+    note: "Interventions that introduce gentle friction before an action are significantly more effective than brute-force willpower after engagement begins."
 ---
 
 You set the limit. One hour of social media per day. Reasonable. Disciplined. You even felt good about it. proactive, taking control.

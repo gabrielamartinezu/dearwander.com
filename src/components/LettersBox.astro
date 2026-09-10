@@ -1,0 +1,122 @@
+---
+import type { Locale } from "../i18n/translations";
+
+interface Props {
+  lang?: Locale;
+}
+
+const lang = (Astro.props.lang ?? "en") as Locale;
+
+const copy = {
+  es: {
+    tag: "Dear Wander Letters",
+    title: "Cartas para vivir con más calma y menos ruido",
+    desc: "Cada dos semanas, una reflexión honesta sobre neurociencia de la atención, hábitos digitales y cómo recuperar tu tiempo sin castigarte.",
+    placeholder: "tu@email.com",
+    btn: "Mándame cartas",
+    sending: "Enviando...",
+    success: "¡Te has suscrito!",
+    note: "Sin algoritmos ni spam. Te puedes dar de baja en cualquier momento con un clic.",
+  },
+  en: {
+    tag: "Dear Wander Letters",
+    title: "Letters for a quieter mind and less noise",
+    desc: "Every two weeks, an honest reflection on the neuroscience of attention, gentle phone habits, and reclaiming your time without guilt.",
+    placeholder: "your@email.com",
+    btn: "Send me letters",
+    sending: "Sending...",
+    success: "You're in!",
+    note: "No algorithms, no spam. Unsubscribe anytime with a single click.",
+  },
+  it: {
+    tag: "Dear Wander Letters",
+    title: "Lettere per una mente più quieta e meno rumore",
+    desc: "Ogni due settimane, una riflessione onesta su neuroscienze dell'attenzione, abitudini digitali e come riprendersi il proprio tempo.",
+    placeholder: "tuo@email.com",
+    btn: "Mandami le lettere",
+    sending: "Invio in corso...",
+    success: "Sei dentro!",
+    note: "Niente algoritmi, niente spam. Cancellati quando vuoi con un clic.",
+  },
+};
+
+const c = copy[lang] ?? copy.en;
+---
+
+<section class="letters-box my-12 p-7 sm:p-10 rounded-2xl relative overflow-hidden not-prose">
+  <div class="relative z-10 max-w-xl mx-auto text-center">
+    <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-warm-white/70 border border-amber/30 text-[0.7rem] uppercase tracking-widest font-semibold text-earth/90 mb-3.5 shadow-xs">
+      <span class="text-breath">✉</span>
+      <span>{c.tag}</span>
+    </div>
+
+    <h3 class="font-wander text-2xl sm:text-3xl text-earth leading-snug mb-3">
+      {c.title}
+    </h3>
+
+    <p class="font-dear text-base sm:text-lg text-taupe leading-relaxed mb-7 max-w-lg mx-auto">
+      {c.desc}
+    </p>
+
+    <form class="flex flex-col sm:flex-row items-center justify-center gap-2.5 max-w-md mx-auto" id="letters-box-form">
+      <input
+        type="email"
+        name="email"
+        placeholder={c.placeholder}
+        required
+        class="w-full sm:flex-1 px-4 py-3 rounded-xl bg-warm-white/90 border border-amber/30 text-earth placeholder:text-cocoa/40 focus:outline-none focus:border-breath focus:ring-2 focus:ring-breath/20 text-sm transition-all"
+      />
+      <button
+        type="submit"
+        id="letters-box-btn"
+        data-sending={c.sending}
+        data-success={c.success}
+        class="w-full sm:w-auto px-6 py-3 rounded-xl bg-breath text-earth font-semibold text-sm hover:bg-amber transition-all duration-300 shadow-md shadow-breath/20 cursor-pointer whitespace-nowrap"
+      >
+        {c.btn}
+      </button>
+    </form>
+
+    <p class="text-xs text-cocoa/60 font-sans mt-4">
+      {c.note}
+    </p>
+  </div>
+</section>
+
+<style>
+  .letters-box {
+    background: linear-gradient(135deg, rgba(255, 248, 240, 0.9) 0%, rgba(252, 234, 187, 0.45) 100%);
+    border: 1px dashed rgba(244, 168, 90, 0.6);
+    box-shadow: 0 4px 24px -6px rgba(60, 42, 30, 0.05);
+  }
+</style>
+
+<script>
+  const lForm = document.getElementById("letters-box-form") as HTMLFormElement;
+  const lBtn = document.getElementById("letters-box-btn") as HTMLButtonElement;
+  if (lForm && lBtn) {
+    lForm.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const emailInput = lForm.querySelector('input[name="email"]') as HTMLInputElement;
+      const email = emailInput?.value;
+      if (!email) return;
+
+      const origText = lBtn.textContent;
+      lBtn.textContent = lBtn.dataset.sending || "Sending...";
+      lBtn.disabled = true;
+      lBtn.style.opacity = "0.7";
+
+      try {
+        await fetch("https://buttondown.com/api/emails/embed-subscribe/gabrielaale", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: new URLSearchParams({ email }),
+        });
+      } catch {}
+
+      lBtn.textContent = lBtn.dataset.success || "You're in!";
+      lBtn.style.opacity = "1";
+      if (emailInput) emailInput.value = "";
+    });
+  }
+</script>

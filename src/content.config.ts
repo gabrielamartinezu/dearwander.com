@@ -14,6 +14,16 @@ const blog = defineCollection({
       q: z.string(),
       a: z.string(),
     })).optional(),
+    sources: z.array(z.object({
+      title: z.string(),
+      author: z.string(),
+      year: z.union([z.number(), z.string()]).optional(),
+      journal: z.string().optional(),
+      doi: z.string().optional(),
+      url: z.string().optional(),
+      note: z.string().optional(),
+    })).optional(),
+    showCalculator: z.boolean().default(false),
   }),
 });
 

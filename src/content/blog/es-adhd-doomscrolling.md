@@ -13,6 +13,26 @@ faq:
     a: "La investigación muestra que una mayor frecuencia de uso de medios digitales aumenta el riesgo de desarrollar síntomas similares al ADHD en aproximadamente un 10% en dos años. Para quienes ya gestionan ADHD, el scrolling intenso puede amplificar las dificultades existentes con el enfoque, la regulación de impulsos y la percepción del tiempo."
   - q: "¿Cuáles son formas compatibles con el ADHD para reducir el doomscrolling?"
     a: "Las estrategias que funcionan con la arquitectura cerebral del ADHD incluyen: body doubling (hacer scroll cerca de alguien que realiza una tarea enfocada), temporizadores visuales en tu campo de visión, diseño ambiental como cargar el teléfono en otra habitación, y herramientas de fricción suave como pausas de respiración que interrumpen el scroll sin castigo."
+showCalculator: true
+sources:
+  - title: "Evaluating Dopamine Reward Pathway in ADHD: Clinical Implications"
+    author: "Nora D. Volkow, Gene-Jack Wang, Scott H. Kollins, et al."
+    year: 2009
+    journal: "JAMA, 302(10), 1084-1091"
+    doi: "10.1001/jama.2009.1308"
+    note: "Evidencia de menor densidad de receptores de dopamina en la vía de recompensa en cerebros con TDAH, explicando la búsqueda compulsiva de estimulación inmediata."
+  - title: "Association of Digital Media Use With Subsequent Symptoms of ADHD Among Adolescents"
+    author: "Chaelin K. Ra, Junhan Cho, Matthew D. Stone, et al."
+    year: 2018
+    journal: "JAMA, 320(3), 255-263"
+    doi: "10.1001/jama.2018.8931"
+    note: "El uso intensivo de plataformas digitales de recompensa instantánea incrementa el riesgo de desregulación atencional e impulsividad."
+  - title: "Behavioral Inhibition, Sustained Attention, and Executive Functions: Constructing a Unifying Theory of ADHD"
+    author: "Russell A. Barkley"
+    year: 1997
+    journal: "Psychological Bulletin, 121(1), 65-94"
+    doi: "10.1037/0033-2909.121.1.65"
+    note: "Explica la «ceguera temporal» (*time blindness*) y por qué los límites abstractos fallan si no hay un anclaje somático presente."
 ---
 
 Es la 1 de la madrugada. Te dijiste "cinco minutos más" hace una hora. Tu pulgar sigue moviéndose. Ya ni siquiera lees las publicaciones. Tus ojos están medio vidriosos, tu cuerpo está rígido, y una parte de ti sabe que deberías parar. Pero saber y hacer son cosas muy distintas cuando tu cerebro funciona con ADHD.

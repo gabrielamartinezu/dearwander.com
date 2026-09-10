@@ -13,6 +13,26 @@ faq:
     a: "Research shows that higher frequency of digital media use increases the risk of developing ADHD-like symptoms by about 10% within two years. For those already managing ADHD, heavy scrolling can amplify existing difficulties with focus, impulse regulation, and time perception."
   - q: "What are ADHD-friendly ways to reduce doomscrolling?"
     a: "Strategies that work with ADHD brain architecture include: body doubling (scrolling near someone doing a focused task), visual timers placed in your line of sight, environmental design like charging your phone in another room, and gentle friction tools like breathing pauses that interrupt the scroll without punishment."
+showCalculator: true
+sources:
+  - title: "Evaluating Dopamine Reward Pathway in ADHD: Clinical Implications"
+    author: "Nora D. Volkow, Gene-Jack Wang, Scott H. Kollins, et al."
+    year: 2009
+    journal: "JAMA, 302(10), 1084-1091"
+    doi: "10.1001/jama.2009.1308"
+    note: "Evidence of deficit in dopamine reward pathway in ADHD, driving the neurological search for rapid, low-friction stimulation."
+  - title: "Association of Digital Media Use With Subsequent Symptoms of ADHD Among Adolescents"
+    author: "Chaelin K. Ra, Junhan Cho, Matthew D. Stone, et al."
+    year: 2018
+    journal: "JAMA, 320(3), 255-263"
+    doi: "10.1001/jama.2018.8931"
+    note: "High-frequency digital media engagement is significantly associated with subsequent attention regulation difficulties."
+  - title: "Behavioral Inhibition, Sustained Attention, and Executive Functions: Constructing a Unifying Theory of ADHD"
+    author: "Russell A. Barkley"
+    year: 1997
+    journal: "Psychological Bulletin, 121(1), 65-94"
+    doi: "10.1037/0033-2909.121.1.65"
+    note: "Defines executive function deficits and temporal myopia in ADHD, explaining why rigid time barriers fail without somatic grounding."
 ---
 
 It's 1 a.m. You told yourself "five more minutes" an hour ago. Your thumb keeps moving. You're not even reading the posts anymore. Your eyes are half-glazed, your body is stiff, and some part of you knows you should stop. But knowing and doing are very different things when your brain runs on ADHD.

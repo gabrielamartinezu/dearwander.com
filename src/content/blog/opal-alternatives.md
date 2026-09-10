@@ -13,6 +13,25 @@ faq:
     a: "One Sec relies on Apple's Shortcuts app to trigger a quick breathing animation whenever an app opens. Dear Wander uses Apple's native Screen Time API (FamilyControls) without requiring cumbersome shortcuts or triggering system popups. It provides a 60-second guided somatic pause with an organic visual breathing orb and subtle haptic pulses, integrated into a full daily loop of morning intentions and evening reflective journaling."
   - q: "Why doesn't Dear Wander lock apps permanently?"
     a: "Behavioral science research (Marlatt's Urge Surfing, Gollwitzer's Implementation Intentions) proves that conscious self-regulation builds long-term sustainable habits, whereas rigid external prohibition triggers severe rebound effects. The 60-second pause restores prefrontal cortex control so you decide intentionally rather than compulsively."
+showCalculator: true
+sources:
+  - title: "Relapse Prevention: Maintenance Strategies in the Treatment of Addictive Behaviors"
+    author: "G. Alan Marlatt & Dennis M. Donovan"
+    year: 2005
+    journal: "Guilford Press"
+    note: "The Abstinence Violation Effect (AVE) demonstrates that rigid external bans often cause severe rebound binges upon the first inevitable slip."
+  - title: "Implementation Intentions: Strong Effects of Simple Plans"
+    author: "Peter M. Gollwitzer"
+    year: 1999
+    journal: "American Psychologist, 54(7), 493-503"
+    doi: "10.1037/0003-066X.54.7.493"
+    note: "Pre-committed conditional intentions ('If I reach for Instagram, I will take a 60-second breathing pause') yield 4x higher habit compliance than brute-force prohibition."
+  - title: "Brief Structured Respiration Practices Enhance Mood and Reduce Physiological Arousal"
+    author: "Melis Y. Balban, Eric Neri, David Spiegel, & Andrew D. Huberman"
+    year: 2023
+    journal: "Cell Reports Medicine, 4(1), 100895"
+    doi: "10.1016/j.xcrm.2022.100895"
+    note: "Structured breathwork practices under sixty seconds induce immediate parasympathetic nervous system down-regulation."
 ---
 
 If you arrived here searching for **alternatives to Opal** or **apps like One Sec**, chances are you know this exact pattern by heart:

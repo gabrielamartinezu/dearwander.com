@@ -13,6 +13,25 @@ faq:
     a: "One Sec utiliza la app Atajos de Apple para disparar una animación rápida antes de abrir una app. Dear Wander utiliza la API nativa de Tiempo en Pantalla de Apple (sin atajos ni configuraciones complejas) y ofrece una pausa somática guiada de 60 segundos con un orbe visual fluido y pulsos hápticos suaves, conectada a un bucle completo de intención matutina y diario reflexivo nocturno."
   - q: "¿Por qué Dear Wander no bloquea las apps de forma permanente?"
     a: "Porque la investigación en ciencias del comportamiento (Marlatt, Gollwitzer) demuestra que la autorregulación consciente crea hábitos sostenibles, mientras que la prohibición externa genera efecto rebote. La pausa de 60 segundos devuelve el control a tu corteza prefrontal para que decidas si realmente necesitas entrar o si era un acto reflejo."
+showCalculator: true
+sources:
+  - title: "Relapse Prevention: Maintenance Strategies in the Treatment of Addictive Behaviors"
+    author: "G. Alan Marlatt & Dennis M. Donovan"
+    year: 2005
+    journal: "Guilford Press"
+    note: "El efecto de violación de la abstinencia (AVE) demuestra que la prohibición rígida suele culminar en atracones o rebotes de consumo al menor desliz."
+  - title: "Implementation Intentions: Strong Effects of Simple Plans"
+    author: "Peter M. Gollwitzer"
+    year: 1999
+    journal: "American Psychologist, 54(7), 493-503"
+    doi: "10.1037/0003-066X.54.7.493"
+    note: "Los planes deliberados de intención («si ocurre X, haré una pausa de respiración antes de Y») multiplican por cuatro la adherencia a un hábito sostenible frente a la prohibición."
+  - title: "Brief Structured Respiration Practices Enhance Mood and Reduce Physiological Arousal"
+    author: "Melis Y. Balban, Eric Neri, David Spiegel, & Andrew D. Huberman"
+    year: 2023
+    journal: "Cell Reports Medicine, 4(1), 100895"
+    doi: "10.1016/j.xcrm.2022.100895"
+    note: "Una práctica de respiración breve de menos de un minuto induce una desaceleración cardíaca inmediata y disminuye la activación simpática."
 ---
 
 Si llegaste aquí buscando **alternativas a Opal** o **apps parecidas a One Sec**, es muy probable que conozcas esta secuencia de memoria:

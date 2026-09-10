@@ -6,6 +6,9 @@ import AuthorBio from "../../components/AuthorBio.astro";
 import RelatedPosts from "../../components/RelatedPosts.astro";
 import YouTubeLite from "../../components/YouTubeLite.astro";
 import BlogCTA from "../../components/BlogCTA.astro";
+import ScientificSources from "../../components/ScientificSources.astro";
+import LettersBox from "../../components/LettersBox.astro";
+import CalculatorCallout from "../../components/CalculatorCallout.astro";
 import { getCollection, render } from "astro:content";
 import { useTranslations, getLocalePath } from "../../i18n/utils";
 
@@ -204,6 +207,14 @@ const faqSchema = post.data.faq?.length ? {
           <Content />
         </div>
 
+        {post.data.showCalculator && (
+          <CalculatorCallout lang={postLang} />
+        )}
+
+        {post.data.sources && post.data.sources.length > 0 && (
+          <ScientificSources sources={post.data.sources} lang={postLang} />
+        )}
+
         <BlogCTA lang={postLang} />
 
         {video && (
@@ -213,6 +224,9 @@ const faqSchema = post.data.faq?.length ? {
           </div>
         )}
       </div>
+
+      <!-- Letters Box -->
+      <LettersBox lang={postLang} />
 
       <!-- Author -->
       <AuthorBio lang={postLang} />

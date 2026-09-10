@@ -13,6 +13,26 @@ faq:
     a: "Attention residue effects last roughly 15 to 23 minutes after a switch. Separate research from Gloria Mark at the University of California found it takes an average of about 23 minutes to fully return to a task after an interruption."
   - q: "Does a quick phone check really cost that much focus?"
     a: "Yes. The cost is rarely the few seconds you spend looking. It's the degraded focus that follows for the next 20 minutes or so while your prefrontal cortex reconfigures its networks back to the original task."
+showCalculator: true
+sources:
+  - title: "Why Is It So Hard to Do My Work? The Challenge of Attention Residue When Switching Between Tasks"
+    author: "Sophie Leroy"
+    year: 2009
+    journal: "Organizational Behavior and Human Decision Processes, 109(2), 168-181"
+    doi: "10.1016/j.obhdp.2009.04.002"
+    note: "The landmark study defining attention residue: switching between unfinished tasks leaves persistent cognitive residue that impairs subsequent executive functioning."
+  - title: "The Cost of Interrupted Work: More Speed and More Stress"
+    author: "Gloria Mark, Daniela Gudith, & Ulrich Klocke"
+    year: 2008
+    journal: "ACM SIGCHI Conference on Human Factors in Computing Systems (CHI '08)"
+    doi: "10.1145/1357054.1357072"
+    note: "Demonstrates that returning to the original interrupted work takes an average of 23 minutes and 15 seconds."
+  - title: "Brain Drain: The Mere Presence of One's Own Smartphone Reduces Available Cognitive Capacity"
+    author: "Adrian F. Ward, Kristen Duke, Ayelet Gneezy, & Maarten W. Bos"
+    year: 2017
+    journal: "Journal of the Association of Consumer Research, 2(2), 140-154"
+    doi: "10.1086/691462"
+    note: "Even when silent and face-down, a smartphone in physical proximity drains working memory capacity and attentional resources."
 ---
 
 You're three paragraphs into something that needs your whole brain. Your phone lights up. One text. You read it in four seconds, reply in eight, set the phone down. Back to work.
