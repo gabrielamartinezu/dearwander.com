@@ -1,6 +1,6 @@
 ---
-title: "Phone addiction statistics 2026: 144 checks a day"
-description: "How often we really check, how many hours that becomes, and what Gen Z say about their own habits. Current research, every figure cited, without the shame."
+title: "How Many Times a Day Do People Check Their Phone? 2026 Stats"
+description: "The average American checks their phone 144 times a day and spends over 4.5 hours on it. Every figure in this 2026 roundup is cited, with what Gen Z say about it."
 date: 2026-05-04
 author: "Dear Wander"
 tags: ["statistics", "smartphone addiction", "phone addiction", "screen time", "gen z", "research"]
@@ -19,7 +19,7 @@ There's a moment, maybe you've felt it, where you pick up your phone without mea
 
 You're not alone. And the data is staggering. (Curious where you land? Our [screen time calculator](/screen-time-calculator/) shows you, gently.)
 
-## How often we check our phones
+## How many times a day do people check their phones?
 
 The average American checks their phone **144 times a day**, according to a 2023 Reviews.org survey.[^pickups] That's once every six and a half minutes during waking hours. Some studies put the number closer to 186 when passive glances are included.
 

@@ -1,6 +1,6 @@
 ---
-title: "Bienestar digital: qué es y cómo empezar a cuidarlo"
-description: "El bienestar digital es usar la tecnología a propósito, para que apoye tu mente en lugar de fragmentarla. Aquí tienes qué es, por dónde empezar y qué cuidar primero."
+title: "Qué es el bienestar digital y cómo empezar a cuidarlo"
+description: "El bienestar digital es usar el teléfono y las apps a propósito, sabiendo para qué los abres. Qué significa, las cuatro áreas que más pesan y un primer paso fácil."
 date: 2026-06-18
 author: "Dear Wander"
 tags: ["bienestar digital", "salud digital", "uso consciente del celular", "desconexión digital", "atención"]
