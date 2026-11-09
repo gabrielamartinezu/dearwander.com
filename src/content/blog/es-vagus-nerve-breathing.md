@@ -92,4 +92,4 @@ La pausa es pequeña a propósito. Tu sistema nervioso no necesita mucho. Solo n
 
 ---
 
-*Dear Wander pone una suave pausa de respiración antes de las apps que tiran de ti, para que la calma llegue a tu cuerpo antes de que tu pulgar llegue al feed. [Únete a la lista de espera](/es/) para ser de los primeros en iOS.*
+*Dear Wander pone una suave pausa de respiración antes de las apps que tiran de ti, para que la calma llegue a tu cuerpo antes de que tu pulgar llegue al feed. Es gratis en iPhone y iPad: [descarga Dear Wander en el App Store](/app?from=blog-vagus-es).*

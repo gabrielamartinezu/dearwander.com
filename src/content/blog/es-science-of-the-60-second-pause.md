@@ -104,7 +104,7 @@ Y después, nos quitamos del camino.
 
 ---
 
-*La pausa de 60 segundos es el corazón de Dear Wander, próximamente en iOS. Si quieres ser la primera en experimentarla, [únete a la lista de espera](/es/).*
+*La pausa de 60 segundos es el corazón de Dear Wander. Puedes probarla gratis en iPhone y iPad: [descarga Dear Wander en el App Store](/app?from=blog-pause-es).*
 
 [^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)
 

@@ -133,7 +133,7 @@ The [data supports this](/blog/phone-addiction-statistics-2026/). And we think t
 
 ---
 
-*Dear Wander is coming soon to iOS. [Join the waitlist](/) and we'll write to you when we're ready.*
+*Dear Wander is free on iPhone and iPad. [Download it on the App Store](/app?from=blog-limits-en).*
 
 [^stigma]: Puhl, R. M., & Heuer, C. A. (2010). Obesity stigma: important considerations for public health. *American Journal of Public Health*, 100(6), 1019–1028. [doi.org/10.2105/AJPH.2009.159491](https://doi.org/10.2105/AJPH.2009.159491)
 

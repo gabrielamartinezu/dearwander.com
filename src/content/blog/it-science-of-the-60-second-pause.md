@@ -82,7 +82,7 @@ Ogni scelta di design serve un unico obiettivo: dare alla mente consapevole la p
 
 ---
 
-*La pausa di 60 secondi è il cuore di Dear Wander, in arrivo su iOS. Se vuoi essere tra i primi a sperimentarla, [iscriviti alla lista d'attesa](/it/).*
+*La pausa di 60 secondi è il cuore di Dear Wander. Puoi provarla gratis su iPhone e iPad: [scarica Dear Wander dall'App Store](/app?from=blog-pause-it).*
 
 [^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)
 

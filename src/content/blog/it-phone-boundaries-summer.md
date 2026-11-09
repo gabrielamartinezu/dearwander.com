@@ -95,4 +95,4 @@ Scegli quello che protegge il momento dell'estate che più ti dispiacerebbe perd
 
 Dear Wander è nato sulla stessa idea che sta dietro a ogni confine qui. Quando prendi un'app per abitudine, ti offre una pausa gentile invece di un muro rigido, un respiro invece di uno schermo bloccato. La stessa gentilezza che fa funzionare un cesto di telefoni, nella tua tasca, per i momenti che non avevi pianificato.
 
-Se proteggere la tua presenza quest'estate ti sembra qualcosa con cui vuoi aiuto, puoi [unirti alla lista d'attesa](/it/). Niente prediche. Solo un modo più gentile di stare dove sei.
+Se vuoi un aiuto per proteggere la tua presenza quest'estate, [Dear Wander è gratis sull'App Store](/app?from=blog-summer-it). Non ti farà la predica.

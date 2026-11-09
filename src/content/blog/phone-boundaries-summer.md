@@ -95,4 +95,4 @@ Choose the one that protects the summer moment you'd most regret missing. Maybe 
 
 Dear Wander was built on the same idea behind every boundary here. When you reach for an app out of habit, it offers a gentle pause instead of a hard wall, a breath instead of a blocked screen. The same gentleness that makes a phone basket work, in your pocket, for the moments you didn't plan for.
 
-If protecting your presence this summer sounds like something you want help with, you can [join the waitlist](/). No lectures. Just a softer way to be where you are.
+If you'd like help protecting your presence this summer, [Dear Wander is free on the App Store](/app?from=blog-summer-en). It won't lecture you.

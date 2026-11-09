@@ -92,4 +92,4 @@ The pause is small on purpose. Your nervous system doesn't need much. It just ne
 
 ---
 
-*Dear Wander puts a gentle breathing pause before the apps that pull at you, so the calm reaches your body before your thumb reaches the feed. [Join the waitlist](/) to be first on iOS.*
+*Dear Wander puts a gentle breathing pause before the apps that pull at you, so the calm reaches your body before your thumb reaches the feed. It's free on iPhone and iPad: [download Dear Wander on the App Store](/app?from=blog-vagus-en).*

@@ -87,4 +87,4 @@ That's really the whole idea behind [Dear Wander](/). We think the problem was n
 
 Study something. Anything. The feed will still be there. It's just that you'll have somewhere better to put your eyes.
 
-If you want a gentler relationship with your phone to make room for all this, [Dear Wander](/) places a soft pause before the apps that pull at you, so a scroll becomes a choice again. You can [join the waitlist here](/).
+If you want a gentler relationship with your phone to make room for all this, Dear Wander places a soft pause before the apps that pull at you, so a scroll becomes a choice again. It's free on iPhone and iPad: [download Dear Wander on the App Store](/app?from=blog-study-en).

@@ -106,7 +106,7 @@ Each design choice serves one goal: give your conscious mind a chance to show up
 
 ---
 
-*The 60-second pause is the core of Dear Wander. coming soon to iOS. If you want to be the first to experience it, [join the waitlist](/).*
+*The 60-second pause is the core of Dear Wander. You can try it free on iPhone and iPad: [download Dear Wander on the App Store](/app?from=blog-pause-en).*
 
 [^onesec]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)
 

@@ -109,7 +109,7 @@ Solo un minuto de silencio antes de que empiece el ruido.
 
 ---
 
-*El ritual Primera Luz de Dear Wander está diseñado para exactamente este momento. Próximamente en iOS. [Únete a la lista de espera](/es/) y te escribiremos cuando estemos listos.*
+*Dear Wander abre tu mañana con una página para la intención del día, antes de que ningún feed tenga oportunidad. Es gratis en iPhone y iPad: [descarga Dear Wander en el App Store](/app?from=blog-morning-es).*
 
 [^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)
 

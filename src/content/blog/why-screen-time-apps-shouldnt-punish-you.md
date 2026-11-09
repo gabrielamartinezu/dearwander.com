@@ -44,6 +44,6 @@ Because if the pause is beautiful enough, you don't resent it. You look forward 
 
 ---
 
-*Dear Wander is coming soon to iOS. [Join the waitlist](/) to be the first to receive your letter.*
+*Dear Wander is free on iPhone and iPad. [Download it on the App Store](/app?from=blog-punish-en).*
 
 [^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)

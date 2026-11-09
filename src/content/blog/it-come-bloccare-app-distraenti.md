@@ -83,6 +83,6 @@ Non hai bisogno di chiuderti fuori dal tuo stesso telefono. Hai bisogno di un pi
 
 ---
 
-*Dear Wander mette una gentile pausa di respirazione di 60 secondi prima delle app che ti tirano, così il momento prima del tocco diventa una scelta, non un riflesso. Niente blocchi, niente sensi di colpa. [Unisciti alla lista d'attesa](/) per essere tra i primi su iOS.*
+*Dear Wander mette una gentile pausa di respirazione di 60 secondi prima delle app che ti tirano, così il momento prima del tocco diventa una scelta, non un riflesso. Niente blocchi, niente sensi di colpa. È gratis su iPhone e iPad: [scarica Dear Wander dall'App Store](/app?from=blog-bloccare-it).*
 
 [^pnas]: Grüning, D. J., Riedel, F., & Lorenz-Spreen, P. (2023). Directing smartphone use through the self-nudge app one sec. *Proceedings of the National Academy of Sciences*, 120(8), e2213114120. [doi.org/10.1073/pnas.2213114120](https://www.pnas.org/doi/10.1073/pnas.2213114120)
