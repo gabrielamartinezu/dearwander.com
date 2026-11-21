@@ -83,6 +83,6 @@ Most of us fill those last minutes before sleep with our phones. It's not becaus
 
 Guided imagery offers the same thing: something for your mind to do. But instead of blue light and algorithmic content designed to keep you awake, you get a scene that's specifically built to bring you down. A walk through a meadow. A still lake. Rain on a tin roof.
 
-Dear Wander includes [guided imagery sessions](/blog/science-of-the-60-second-pause/) designed for exactly this moment. When you reach for your phone at night, the app offers a brief breathing pause followed by an option to listen instead of scroll. It's not about willpower. It's about having something better within reach.
+If the urge to reach for the phone wins before you get there, Dear Wander can help at that step. When you open one of the apps you chose, it shows a [60-second breathing pause](/blog/science-of-the-60-second-pause/) first, with a warm screen and a short letter. Sometimes that minute is enough to put the phone down and try the scene above instead.
 
 Your brain doesn't care whether the calm is real or imagined. It responds either way. You might as well use that.

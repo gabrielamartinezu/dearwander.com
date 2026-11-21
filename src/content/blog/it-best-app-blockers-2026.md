@@ -30,7 +30,7 @@ Questo è un confronto onesto. Noi realizziamo Dear Wander, quindi siamo traspar
 | **ScreenZen** | Ritardi e limiti configurabili | Gratuito | Personalizzazione a costo zero |
 | **Clearspace** | Confronto con i dati di utilizzo | ~$70/anno | Utenti motivati dai dati |
 | **Freedom** | Blocco programmato multipiattaforma | ~$40/anno | Blocco su più dispositivi |
-| **Dear Wander** | Respirazione guidata + immaginazione somatica | Piano gratuito / $3.99 mese · $19.99 anno · $39.99 una volta | Un approccio dolce, senza colpa né blocchi |
+| **Dear Wander** | Pausa di respirazione di 60 s + lettere | Piano gratuito / $3.99 mese · $19.99 anno · $39.99 una volta | Un approccio dolce, senza colpa né blocchi |
 
 ## Opal: il blocco rigido
 
@@ -78,7 +78,7 @@ Dichiarazione completa: noi realizziamo Dear Wander, quindi considera questa sez
 
 Dear Wander si basa sulla stessa ricerca di *PNAS* di One Sec, ma porta la pausa oltre. Invece di una semplice animazione di respirazione, ricevi un'esperienza guidata di 60 secondi. Uno schermo ambra caldo. Indicazioni morbide di respirazione. Una breve lettera che riconosce ciò che senti senza giudicarti. L'obiettivo è fare in modo che la pausa stessa sembri qualcosa che vale la pena, non un ostacolo da superare.
 
-Ciò che rende Dear Wander diverso dalle altre app basate sulla frizione è ciò che accade di notte. L'app include [sessioni di immaginazione guidata](/blog/guided-imagery-meditation/) progettate specificamente per lo scrolling prima di dormire. Invece di bloccare semplicemente lo scorrimento, lo sostituisce con qualcosa che ti aiuta davvero ad addormentarti. Questo è importante perché [il blocco da solo non affronta il bisogno che lo scrolling stava soddisfacendo](/blog/why-screen-time-limits-dont-work/).
+La pausa conta soprattutto di notte. Se a letto cerchi un feed, il minuto di respirazione arriva prima dello scroll e ti dà modo di accorgerti che sei stanco o stanca. Il blocco da solo [non affronta il bisogno che lo scrolling stava soddisfacendo](/blog/why-screen-time-limits-dont-work/), quindi la pausa è pensata per calmarti oltre che per rallentarti.
 
 Dear Wander utilizza l'API nativa FamilyControls di Apple. Nessuna VPN, nessun consumo di batteria, nessun dato instradato a server esterni. Il linguaggio di design è deliberatamente caldo: [lettere invece di lucchetti, inviti invece di avvertimenti](/blog/why-screen-time-apps-shouldnt-punish-you/). Non funzionerà per tutti. Se hai bisogno di un blocco rigido che non puoi aggirare, Opal è la scelta migliore. Dear Wander è per le persone che vogliono cambiare la propria relazione con il telefono attraverso la gentilezza piuttosto che la restrizione.
 
@@ -94,7 +94,7 @@ Dear Wander utilizza l'API nativa FamilyControls di Apple. Nessuna VPN, nessun c
 
 **Hai bisogno delle stesse regole su tutti i dispositivi:** Freedom. Blocco multipiattaforma con sessioni programmate mantiene la coerenza che tu sia sul telefono, laptop o tablet.
 
-**Vuoi una pausa più dolce e consapevole che sostituisca lo scrolling invece di bloccarlo:** [Dear Wander](/app?from=blog-blockers-it). La pausa guidata di 60 secondi e le sessioni di immaginazione per l'ora di dormire sono progettate per le persone che hanno provato app punitive e le hanno trovate insostenibili.
+**Vuoi una pausa più dolce e consapevole che sostituisca lo scrolling invece di bloccarlo:** [Dear Wander](/app?from=blog-blockers-it). La pausa guidata di 60 secondi è progettata per le persone che hanno provato app punitive e le hanno trovate insostenibili.
 
 Non esiste un unico miglior app blocker per tutti. La risposta onesta è che il migliore è quello che terrai effettivamente installato dopo la prima settimana. Pensa a cosa ti ha deluso in passato e scegli l'approccio che affronta quel fallimento specifico.
 

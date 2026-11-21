@@ -66,7 +66,7 @@ tidier and dishonest.
 | **ScreenZen** | Configurable delays and limits | Free | Budget-conscious customization |
 | **Clearspace** | Usage stats confrontation | ~$70/year | Data-motivated users |
 | **Freedom** | Cross-platform scheduled blocking | ~$40/year | Multi-device blocking |
-| **Dear Wander** | Guided breathing + somatic imagery | Free tier / $3.99 mo · $19.99 yr · $39.99 once | Gentle, mindful approach without locks |
+| **Dear Wander** | 60-second breathing pause + letters | Free tier / $3.99 mo · $19.99 yr · $39.99 once | Gentle, mindful approach without locks |
 
 ## Opal: the hard blocker
 
@@ -160,7 +160,7 @@ Full disclosure: we make Dear Wander, so take this section with that context.
 
 Dear Wander builds on the same *PNAS* research as One Sec but takes the pause further. Instead of a simple breathing animation, you get a 60-second guided experience. A warm amber screen. Soft breathing cues. A short letter that acknowledges what you're feeling without judging it. The goal is to make the pause itself feel like something worth having, not a hurdle to overcome.
 
-What makes Dear Wander different from other friction-based apps is what happens at night. The app includes [guided imagery sessions](/blog/guided-imagery-meditation/) designed specifically for bedtime scrolling. Instead of just blocking the scroll, it replaces it with something that actually helps you fall asleep. This is important because [blocking alone doesn't address the need that scrolling was meeting](/blog/why-screen-time-limits-dont-work/).
+The pause matters most at night. If you reach for a feed in bed, the minute of breathing comes before the scroll and gives you a chance to notice you're tired. Blocking on its own [doesn't address the need that scrolling was meeting](/blog/why-screen-time-limits-dont-work/), so the pause is built to calm you down as well as slow you down.
 
 Dear Wander uses Apple's native FamilyControls API. No VPN, no battery drain, no data routed through external servers. The design language is deliberately warm: [letters instead of locks, invitations instead of warnings](/blog/why-screen-time-apps-shouldnt-punish-you/). It won't work for everyone. If you need a hard block you cannot bypass, Opal is a better fit. Dear Wander is for people who want to change their relationship with their phone through gentleness rather than restriction.
 
@@ -197,7 +197,7 @@ Hiding helps as a first step, but it addresses the reach, not the reason. Most p
 
 **You need the same rules across every device:** Freedom. Cross-platform blocking with scheduled sessions keeps things consistent whether you're on your phone, laptop, or tablet.
 
-**You want a gentler, more mindful pause that replaces the scroll instead of just blocking it:** [Dear Wander](/app?from=blog-blockers-en). The 60-second guided pause and bedtime imagery sessions are designed for people who've tried punitive apps and found them unsustainable.
+**You want a gentler, more mindful pause that replaces the scroll instead of just blocking it:** [Dear Wander](/app?from=blog-blockers-en). The 60-second guided pause is designed for people who've tried punitive apps and found them unsustainable.
 
 There's no single best app blocker for everyone. The honest answer is that the best one is the one you'll actually keep installed after the first week. Think about what has failed for you before, and choose the approach that addresses that specific failure.
 

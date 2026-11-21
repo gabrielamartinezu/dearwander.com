@@ -77,8 +77,8 @@ Quel ponte non deve essere complicato. Può essere semplice come un respiro prim
 
 ## Come si inserisce Dear Wander
 
-La visualizzazione guidata per il sonno di Dear Wander è stata creata esattamente per questo momento. Il momento in cui sei stanco/a, hai posato il telefono (o stai per farlo), e hai bisogno di qualcosa di delicato che ti accompagni dalla veglia al riposo. Nessuna istruzione da seguire, nessun conteggio, nessuna pressione di "farlo bene." Solo una voce tranquilla e una scena che dà alla tua mente un posto dove andare che non è un feed.
+Dear Wander mette quel respiro davanti alle app che scegli. Quando ne apri una di sera, prima compare una [pausa di respirazione di 60 secondi](/blog/science-of-the-60-second-pause/), con uno schermo caldo e una breve lettera che non ti giudica per aver preso il telefono. Spesso quel minuto basta per accorgerti della stanchezza e posare il telefono.
 
-Se la pausa di 60 secondi ti aiuta a posare il telefono, la visualizzazione guidata ti dà qualcosa da fare con il silenzio che segue. Quella combinazione, una pausa e poi un atterraggio morbido, fa sì che la transizione dallo scrolling al sonno sembri meno come perdere qualcosa e più come scegliere qualcosa di meglio.
+Dopo, il silenzio è tuo. Una [breve pratica di visualizzazione guidata](/blog/guided-imagery-meditation/) è un modo per riempirlo, e puoi farla a letto senza nessuna app.
 
 Non devi combattere il telefono ogni sera. Devi solo darti qualcosa per cui valga la pena posarlo.

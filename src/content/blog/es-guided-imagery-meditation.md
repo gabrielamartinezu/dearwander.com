@@ -83,6 +83,6 @@ La mayoría llenamos esos últimos minutos antes de dormir con el teléfono. No 
 
 La visualización guiada ofrece lo mismo: algo en lo que ocupar tu mente. Pero en lugar de luz azul y contenido algorítmico diseñado para mantenerte despierto, obtienes una escena construida específicamente para llevarte hacia abajo. Un paseo por un prado. Un lago quieto. Lluvia sobre un techo de lámina.
 
-Dear Wander incluye [sesiones de visualización guiada](/blog/science-of-the-60-second-pause/) diseñadas para exactamente este momento. Cuando tomas tu teléfono por la noche, la app te ofrece una breve pausa de respiración seguida de la opción de escuchar en lugar de hacer scroll. No se trata de fuerza de voluntad. Se trata de tener algo mejor al alcance de la mano.
+Si las ganas de agarrar el teléfono ganan antes, Dear Wander puede ayudarte en ese paso. Cuando abres una de las apps que elegiste, primero te muestra una [pausa de respiración de 60 segundos](/blog/science-of-the-60-second-pause/), con una pantalla cálida y una carta breve. A veces ese minuto basta para dejar el teléfono y probar la escena de arriba.
 
 A tu cerebro le da igual si la calma es real o imaginada. Responde de la misma forma. Bien puedes usar eso a tu favor.

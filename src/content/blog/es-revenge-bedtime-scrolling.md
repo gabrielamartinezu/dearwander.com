@@ -77,8 +77,8 @@ Ese puente no tiene que ser complicado. Puede ser tan simple como una respiraci�
 
 ## Cómo encaja Dear Wander
 
-La visualización guiada para dormir de Dear Wander se creó exactamente para este momento. El momento en que estás cansado/a, has soltado el móvil (o estás a punto de hacerlo), y necesitas algo suave que te lleve de la vigilia al descanso. Sin instrucciones que seguir, sin contar, sin presión por "hacerlo bien." Solo una voz tranquila y una escena que le da a tu mente un lugar al que ir que no es un feed.
+Dear Wander pone esa respiración delante de las apps que eliges. Cuando abres una por la noche, primero aparece una [pausa de respiración de 60 segundos](/blog/science-of-the-60-second-pause/), con una pantalla cálida y una carta breve que no te juzga por haber buscado el móvil. Muchas veces ese minuto basta para notar el cansancio y dejarlo.
 
-Si la pausa de 60 segundos te ayuda a soltar el móvil, la visualización guiada te da algo que hacer con el silencio que viene después. Esa combinación, una pausa y luego un aterrizaje suave, hace que la transición del scrolleo al sueño se sienta menos como perder algo y más como elegir algo mejor.
+Después, el silencio es tuyo. Una [práctica breve de visualización guiada](/blog/guided-imagery-meditation/) es una forma de llenarlo, y puedes hacerla en la cama sin ninguna app.
 
 No tienes que luchar contra el móvil cada noche. Solo tienes que darte algo por lo que merezca la pena soltarlo.

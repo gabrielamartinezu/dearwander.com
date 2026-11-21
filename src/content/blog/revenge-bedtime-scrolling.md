@@ -77,8 +77,8 @@ That bridge doesn't have to be complicated. It can be as simple as one breath be
 
 ## How Dear Wander fits in
 
-Dear Wander's guided imagery for sleep was built for exactly this moment. The moment when you're tired, you've put the phone down (or you're about to), and you need something gentle to carry you from wakefulness to rest. No instructions to follow, no counting, no pressure to "do it right." Just a quiet voice and a scene that gives your mind somewhere to go that isn't a feed.
+Dear Wander puts that one breath in front of the apps you choose. When you open one at night, you get a [60-second breathing pause](/blog/science-of-the-60-second-pause/) first, with a warm screen and a short letter that doesn't judge you for reaching for the phone. Often that minute is enough to notice you're tired and put the phone down.
 
-If the 60-second pause gets you to put the phone down, guided imagery gives you something to do with the quiet that follows. That combination, a pause and then a soft landing, makes the transition from scrolling to sleeping feel less like losing something and more like choosing something better.
+After that, the quiet is yours. A [short guided imagery practice](/blog/guided-imagery-meditation/) is one way to fill it, and you can do it in bed without any app.
 
 You don't have to fight the phone every night. You just have to give yourself something worth putting it down for.
