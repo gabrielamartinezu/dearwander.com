@@ -93,7 +93,7 @@ When a gamified app flashes a broken streak or an ugly red warning because you t
   <ul class="text-sm text-cocoa/80 space-y-2 mb-4 font-light">
     <li>• <strong>Morning Intention (Gollwitzer's Implementation Intentions):</strong> Set a clear 20-second conscious boundary before the day pulls your attention in every direction.</li>
     <li>• <strong>Midday 60s Somatic Pause (Marlatt's Urge Surfing):</strong> When you reflexively grab your phone to open TikTok or Reddit, a warm amber screen gently illuminates with an organic breathing orb and subtle haptic pulses. A calm 60-second breathing rhythm stimulates your vagus nerve. After 60 seconds, you are genuinely free to proceed if you still choose to.</li>
-    <li>• <strong>Evening Reflection & Sleep Imagery (Michie et al.):</strong> Instead of revenge bedtime scrolling under blue light, the app offers soothing guided audio imagery and a private night journal to put racing thoughts to rest.</li>
+    <li>• <strong>Evening Reflection (Michie et al.):</strong> Instead of revenge bedtime scrolling under blue light, the app hands back the intention you wrote that morning and asks one question about how the day actually went, in a private night journal.</li>
   </ul>
   <p class="text-xs text-taupe/70 font-light">
     Built 100% on Apple's native Screen Time API: no complex Shortcuts automations, zero battery drain, and no data ever leaves your device.

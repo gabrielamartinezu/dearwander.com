@@ -2,7 +2,7 @@
 
 > Not a lock. A letter.
 
-Dear Wander is an iOS app for mindful screen time. It intercepts social media app launches with a 60-120 second guided mindfulness experience (box breathing, guided imagery) before granting a 10-minute timed pass. It does not hard-block — it earns you access through presence.
+Dear Wander is an iOS app for mindful screen time. It intercepts social media app launches with a short guided breathing pause before granting a 10-minute timed pass. It does not hard-block — it earns you access through presence.
 
 ## Key Facts
 
@@ -13,8 +13,8 @@ Dear Wander is an iOS app for mindful screen time. It intercepts social media ap
 - Privacy: All data stays on device. No accounts required. No tracking.
 - Status: Live on the App Store since August 2026 (current version 1.0.2)
 - App Store: https://apps.apple.com/app/id6759883721
-- Price: Free to start with one app; premium unlocks unlimited apps and the
-  full guided library (subscription or one-time lifetime purchase)
+- Price: Free to start with one app; Dear Wander+ unlocks unlimited apps and
+  5-4-3-2-1 grounding for a single payment of $5.99 (no subscription)
 - Languages: English and Spanish
 - Availability: Not currently distributed in the European Union
 - Website: https://dearwander.com
@@ -36,7 +36,7 @@ week. Answers stay on the device and can be re-read in the Journey view.
 
 ## What Makes Dear Wander Different
 
-- **Beauty as the product**: The intervention screen uses a "Golden Hour" glassmorphism aesthetic — warm amber gradients, frosted glass, guided imagery. It's designed to be something you look forward to, not something you endure.
+- **Beauty as the product**: The intervention screen uses a "Golden Hour" glassmorphism aesthetic — warm amber gradients, frosted glass, a breathing orb. It's designed to be something you look forward to, not something you endure.
 - **Epistolary brand voice**: The app writes gentle letters to your wandering mind. "Dear Wander, let's stay here a moment."
 - **Native iOS implementation**: Built on Apple's FamilyControls API. No VPN (unlike Opal), no Shortcuts dependency (unlike one sec). Blocks at the OS process level.
 - **Non-punitive**: No shame metrics, no "you failed" messages. Only warmth, presence, and correspondence.

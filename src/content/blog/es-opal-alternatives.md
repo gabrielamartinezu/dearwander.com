@@ -93,14 +93,14 @@ Cuando fallas una racha en una app gamificada, sobreviene el llamado efecto *"wh
   <ul class="text-sm text-cocoa/80 space-y-2 mb-4 font-light">
     <li>• <strong>Por la mañana (Intención de Implementación):</strong> Declaras en 20 segundos cómo deseas que transcurra tu atención hoy (Peter Gollwitzer, 1999).</li>
     <li>• <strong>Durante el día (Pausa Somática de 60s):</strong> Cuando tomas el teléfono por reflejo para abrir Instagram o X, Dear Wander activa una pantalla color ámbar con un orbe fluido y vibraciones hápticas suaves que guían tu respiración diafragmática para estimular el nervio vago. Tras los 60 segundos, eres libre de entrar si lo decides conscientemente (*Urge Surfing*, Alan Marlatt).</li>
-    <li>• <strong>Por la noche (Cierre Reflexivo):</strong> En lugar del scrolling de venganza en la cama, la app te ofrece meditaciones breves de imaginería guiada y un diario íntimo para descargar los pendientes del día.</li>
+    <li>• <strong>Por la noche (Cierre Reflexivo):</strong> En lugar del scrolling de venganza en la cama, la app te devuelve la intención que escribiste por la mañana y te hace una sola pregunta sobre cómo fue el día, en un diario íntimo para descargar los pendientes.</li>
   </ul>
   <p class="text-xs text-taupe/70 font-light">
     Funciona 100% nativo con la API de Apple: no necesitas instalar atajos, no gasta batería y no envía tus datos a ningún servidor externo.
   </p>
 </div>
 
-* **Lo mejor:** No genera reactancia ni frustración. El diseño es hermoso, editorial y cálido (tonos crema y tierra, tipografía literaria). Incluye meditaciones nocturnas para no dormirte con el teléfono en la mano.
+* **Lo mejor:** No genera reactancia ni frustración. El diseño es hermoso, editorial y cálido (tonos crema y tierra, tipografía literaria). Tiene un cierre por la noche para no dormirte con el teléfono en la mano.
 * **A considerar:** Si lo que buscas es una jaula de acero que no te permita abrir una app bajo ninguna circunstancia, Dear Wander no es para ti. Apuesta por tu discernimiento, no por tu encierro.
 * **Precio:** Puedes empezar gratis. Disponible en la App Store para iPhone e iPad.
 

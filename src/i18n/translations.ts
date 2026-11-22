@@ -124,7 +124,7 @@ export const translations = {
     "faq.q4": "Will it drain my battery?",
     "faq.a4": "No. Dear Wander is built on Apple's native Screen Time API. No VPN, no background workarounds, no battery drain.",
     "faq.q5": "What does it cost?",
-    "faq.a5": "Dear Wander is on the App Store now. It is free with one app paused, and Dear Wander+ unlocks unlimited apps and the full guided library for a single payment of $5.99. No subscription.",
+    "faq.a5": "Dear Wander is on the App Store now. It is free with one app paused, and Dear Wander+ unlocks unlimited apps and 5-4-3-2-1 grounding for a single payment of $5.99. No subscription.",
   },
 
   es: {
@@ -239,7 +239,7 @@ export const translations = {
     "faq.q4": "¿Consume batería?",
     "faq.a4": "No. Dear Wander está construido sobre la API nativa de Tiempo en Pantalla de Apple. Sin VPN, sin trucos en segundo plano, sin gasto de batería.",
     "faq.q5": "¿Cuánto cuesta?",
-    "faq.a5": "Dear Wander ya está en la App Store. Es gratis con una app en pausa, y Dear Wander+ abre apps ilimitadas y la biblioteca completa de sesiones guiadas con un solo pago de 5,99 $. Sin suscripción.",
+    "faq.a5": "Dear Wander ya está en la App Store. Es gratis con una app en pausa, y Dear Wander+ abre apps ilimitadas y el anclaje 5-4-3-2-1 con un solo pago de 5,99 $. Sin suscripción.",
   },
 
   it: {
@@ -354,7 +354,7 @@ export const translations = {
     "faq.q4": "Consuma batteria?",
     "faq.a4": "No. Dear Wander è costruito sull'API nativa Tempo di Utilizzo di Apple. Niente VPN, nessun trucco in background, nessun consumo di batteria.",
     "faq.q5": "Quanto costa?",
-    "faq.a5": "Dear Wander è già sull'App Store. È gratis con una app in pausa, e Dear Wander+ sblocca app illimitate e la libreria completa di sessioni guidate con un unico pagamento di 5,99 $. Nessun abbonamento.",
+    "faq.a5": "Dear Wander è già sull'App Store. È gratis con una app in pausa, e Dear Wander+ sblocca app illimitate e il grounding 5-4-3-2-1 con un unico pagamento di 5,99 $. Nessun abbonamento.",
   },
 } as const;
 
