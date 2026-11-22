@@ -5,6 +5,7 @@ import Footer from "../components/Footer.astro";
 import AppStoreButton from "../components/AppStoreButton.astro";
 
 const faqs = [
+  { q: "How do I check how long I've been on my phone today?", a: "On iPhone, open Settings, then Screen Time, then See All App & Website Activity, and choose Day. On Android, open Settings, then Digital Wellbeing & parental controls: the chart shows today's screen time and unlocks. For the calculator, your weekly average gives the most honest result." },
   { q: "How much screen time is too much?", a: "There's no single magic number. Researchers often point to keeping recreational social media under 30 to 60 minutes a day, but what matters more is whether the time feels chosen or automatic. The average person spends about 5 hours a day on their phone and picks it up around 144 times." },
   { q: "Is screen time actually bad for you?", a: "Screen time itself isn't the problem. Passive, compulsive scrolling is. Research links long passive scrolling sessions with increased anxiety and disrupted sleep, while intentional use (maps, messages, learning) is generally fine. The goal isn't zero. It's choosing." },
   { q: "How do I reduce my screen time without willpower?", a: "Willpower runs out. Small changes to your environment last longer: charge your phone outside the bedroom, turn off non-essential notifications, and add a brief pause before opening the apps that pull you in. A 60-second breathing pause before social media reduced usage by 57% in one University of Heidelberg study." },
@@ -39,8 +40,8 @@ const schemas = [
 ---
 
 <Layout
-  title="Screen Time Calculator: How Many Years of Your Life Do You Spend on Your Phone?"
-  description="Calculate how much of your life you spend on your phone (weeks, years, and waking life). See how much waking life you can reclaim without willpower."
+  title="Screen Time Calculator: How Many Years on Your Phone?"
+  description="Enter your daily screen time and see it in weeks and years of your life. Plus how to check your real screen time on iPhone and Android. Free, no sign-up."
 >
   <script type="application/ld+json" set:html={JSON.stringify(schemas)} />
 
@@ -58,6 +59,9 @@ const schemas = [
       </h1>
       <p class="text-lg text-cocoa/75 font-light leading-relaxed max-w-md mx-auto fade-up fade-up-d2">
         See where your phone time goes, gently. No shame reports or "you wasted" lectures. Just a clear perspective on your life and what you could reclaim.
+      </p>
+      <p class="text-sm text-taupe font-light mt-4 fade-up fade-up-d2">
+        Don't know your number? <a href="#check-your-screen-time" class="text-earth underline underline-offset-4">Here's how to check it</a>.
       </p>
     </section>
 
@@ -126,6 +130,33 @@ const schemas = [
         Copy my result to share
       </button>
       <p id="shareConfirm" class="text-xs text-breath font-medium mt-2 opacity-0 transition-opacity">Copied to clipboard. Paste anywhere.</p>
+    </section>
+
+    <!-- How to check (answers the "how long have I been on my phone" searches) -->
+    <section id="check-your-screen-time" class="max-w-2xl mx-auto pb-16 scroll-mt-28">
+      <h2 class="font-wander text-2xl text-earth text-center mb-3">How to check your screen time today</h2>
+      <p class="text-center text-cocoa/70 font-light leading-relaxed mb-8 max-w-lg mx-auto">Your phone is already counting. Here's where to find the number for the calculator.</p>
+      <div class="grid sm:grid-cols-2 gap-4">
+      <div class="glass rounded-2xl px-6 py-5">
+        <h3 class="font-wander text-lg text-earth mb-3">On iPhone</h3>
+        <ol class="text-cocoa/80 font-light leading-relaxed list-decimal list-inside space-y-1.5">
+          <li>Open <strong>Settings → Screen Time</strong>.</li>
+          <li>Tap <strong>See All App &amp; Website Activity</strong>.</li>
+          <li>Switch between <strong>Day</strong> and <strong>Week</strong>. Scroll down for pickups and notifications.</li>
+        </ol>
+        <p class="text-sm text-cocoa/60 font-light mt-3">If Screen Time is off, turn it on there. It starts counting from that moment.</p>
+      </div>
+      <div class="glass rounded-2xl px-6 py-5">
+        <h3 class="font-wander text-lg text-earth mb-3">On Android</h3>
+        <ol class="text-cocoa/80 font-light leading-relaxed list-decimal list-inside space-y-1.5">
+          <li>Open <strong>Settings → Digital Wellbeing &amp; parental controls</strong>.</li>
+          <li>The chart shows today's screen time, unlocks and notifications.</li>
+          <li>Tap the chart to see it app by app, or day by day.</li>
+        </ol>
+        <p class="text-sm text-cocoa/60 font-light mt-3">On Samsung phones it may just be called <strong>Digital Wellbeing</strong>.</p>
+      </div>
+      </div>
+      <p class="text-center text-sm text-cocoa/60 font-light mt-6">Use your weekly average in the calculator. Any single day can be unusual.</p>
     </section>
 
     <!-- Conversion Bridge to Dear Wander -->

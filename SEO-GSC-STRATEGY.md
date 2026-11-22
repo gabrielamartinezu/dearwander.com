@@ -154,3 +154,57 @@ Per impression, LatAm converts **10-18× better than the US**. `es-phone-addicti
 ## Don't chase
 - Vanity impressions from off-brand queries.
 - Clicks on pages stuck past position 20 — fix position first (links + relevance), then worry about CTR.
+
+## ✅ Results — 2026-11-22 (window 2026-08-21 → 2026-11-20)
+_Source: GSC export `~/Downloads/dearwander-7`, last 3 months, web search._
+
+Site totals: **2,250 impressions, 21 clicks** (0.93% CTR). Previous window: 2,407 / 33. Flat to slightly down, about **24 impressions a day, steady since September**. The ~15 posts published Sep–Nov did not move the total.
+
+### 🟢 The canonical fix worked
+Only one duplicate pair is left (`/blog/glimmers` without the slash, 3 impressions). Every other page now reports as a single URL. The 2026-07-16 consolidation has landed.
+
+### 🔴 The problem is mobile clicks, not position
+| Device | Impr | Pos | CTR |
+|---|---|---|---|
+| Mobile | 1,271 | **8.2** | **0.31%** |
+| Desktop | 949 | 17.5 | 1.79% |
+
+On page 1 on mobile and almost nobody clicks. This strengthens the July hypothesis (AI Overviews / answer boxes taking the click). Of 21 clicks, 17 came from desktop.
+
+### 🔴 The Spanish edge is gone (for now)
+CTR by language: ES **0.92%** (9/975) · EN 0.85% (10/1,176) · IT 1.0% (2/200). Mexico 0/191, Argentina 0/117, Peru 0/48. Most of the ES drag is one page: the ES calculator (309 impressions, 0 clicks). Without it, ES is 1.35%. Do not cite the "10-18× LatAm" number anymore.
+
+### Pages wasting the most impressions
+| Page | Impr | Pos | Clicks |
+|---|---|---|---|
+| `/es/calculadora-tiempo-en-pantalla/` | **309** | 7.9 | 0 |
+| `/blog/es-como-bloquear-apps-distractoras/` | 298 | 8.3 | 1 |
+| `/screen-time-calculator/` | 262 | 23.1 | 0 |
+| `/blog/best-app-blockers-2026/` | 195 | 11.1 | 0 (fourth checkpoint at zero) |
+| `/blog/how-to-lock-distracting-apps/` | 156 | 12.3 | 0 |
+
+Still earning clicks: `es-phone-addiction-statistics-2026` (6 clicks, pos 5.6), `science-of-the-60-second-pause` (3 / 164).
+
+### Query clusters
+- **"lock yourself out of apps (iphone)"**: ~30 impressions across variants at pos 7–11, 0 clicks. Title already matches; the answer is probably being given in the SERP.
+- **"how long have I been on my phone (today)"**: ~15 variants at pos 40–90, landing on the calculator. The intent is *checking* screen time, not calculating it.
+- **Brand misspellings**: "dailywander" (pos 68), "dear wonder" (18.5), "dearwanderer" (6), "dear monday". The homepage only got 52 impressions. Brand SERP is weak.
+- **"imaginación guiada" / "técnica de imaginería guiada"**: still the top queries by impressions (pos 35 / 54). **Do not chase**: the app no longer has meditation, so this traffic can't lead to the product.
+
+### Changes shipped 2026-11-22 (measure next pull)
+1. Technical (commits `c434deb`, `653fabc`): ES/IT posts now declare their real language (`lang`, `og:locale`, `inLanguage` were all "en"); hreflang only between real pairs (13 pages pointed to 404s); 127 ES/IT internal links moved to the same-language post; `translationOf` frontmatter joins translations with different slugs; Article author is now the Person, not the Organization; brand suffix only when the title fits in 60 chars; `/app/` out of the sitemap.
+2. Homepages EN/ES/IT: removed "Coming soon to iOS"; titles now say "app" and "iPhone".
+3. Pricing everywhere is **$5.99 one-time, no subscription**; meditation removed from app descriptions (`5483b2f`).
+4. Calculators EN/ES: shorter titles + new descriptions, a "How to check your screen time today" section (iPhone + Android), and a matching first FAQ.
+5. Lock-apps posts EN/ES/IT: a two-line **short answer** at the top, and the iOS 18 **Require Face ID** lock added (the posts wrongly said iPhone had no per-app lock). `updated: 2026-11-22`.
+
+### What to check next pull
+| Metric | Baseline (2026-11-22) | Target |
+|---|---|---|
+| `/es/calculadora-tiempo-en-pantalla/` | 309 impr, 0 clicks, pos 7.9 | first clicks |
+| `/screen-time-calculator/` | 262 impr, 0 clicks, pos 23 | toward page 1 for "how long have I been on my phone" |
+| Lock-apps posts (EN + ES) | 454 impr, 1 click | clicks at the same positions |
+| Mobile CTR | 0.31% at pos 8.2 | up |
+| ES CTR | 0.92% | back above EN |
+
+**Next checkpoint: re-pull GSC ~2027-01-08.** Same week: retitle the two `-2026` posts to 2027 (keep the URLs, GitHub Pages can't 301) and set `updated:`.

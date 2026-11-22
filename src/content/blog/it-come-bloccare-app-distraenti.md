@@ -2,12 +2,13 @@
 title: "Come bloccare o nascondere le app che non riesci a smettere di aprire"
 description: "Tutti i modi per nascondere, bloccare o mettere attrito alle app che ti distraggono su iPhone, dalla schermata Home a Tempo di utilizzo. Cosa fa ciascuno e perché l'attrito funziona meglio di un blocco."
 date: 2026-07-02
+updated: 2026-11-22
 translationOf: "how-to-lock-distracting-apps"
 author: "Dear Wander"
 tags: ["screen time", "how-to", "phone addiction", "strategies"]
 faq:
   - q: "Come blocco un'app per non riuscire ad aprirla?"
-    a: "iPhone non ha un vero blocco con password per singola app, ma puoi avvicinarti: imposta un limite in Tempo di utilizzo, metti l'app in una Concentrazione che la nasconde, oppure toglila dalla schermata Home così aprirla richiede uno sforzo in più. Ogni opzione aggiunge un momento di attrito prima che l'app si apra."
+    a: "Da iOS 18 puoi richiedere Face ID per una singola app, ma questo ferma gli altri più che te. Per bloccare te stesso puoi avvicinarti così: imposta un limite in Tempo di utilizzo, metti l'app in una Concentrazione che la nasconde, oppure toglila dalla schermata Home così aprirla richiede uno sforzo in più. Ogni opzione aggiunge un momento di attrito prima che l'app si apra."
   - q: "Come nascondo le app sul mio iPhone?"
     a: "Tieni premuta l'app, tocca 'Rimuovi app', poi 'Rimuovi dalla schermata Home'. L'app resta installata e ricercabile nella Libreria app, ma non è più davanti a te. Questo da solo elimina lo stimolo visivo e aggiunge un passaggio, il che rende le aperture casuali decisamente meno automatiche."
   - q: "Nascondere o bloccare le app riduce davvero l'uso?"
@@ -21,6 +22,8 @@ Hai già provato a cancellare Instagram. Hai resistito quattro giorni, l'hai rei
 Esiste una via di mezzo, più gentile, tra avere un'app sempre disponibile e cancellarla dal telefono: l'attrito. Puoi nasconderla, bloccarla o rallentarla quel tanto che basta perché aprirla diventi una scelta e non un riflesso.
 
 Ecco tutte le opzioni su iPhone, cosa fa davvero ciascuna e dove stanno i limiti onesti.
+
+**La risposta breve:** sì, quasi. Da iOS 18 puoi tenere premuta qualsiasi app e scegliere **Richiedi Face ID**, ma questo tiene fuori gli altri, non te. Per bloccare te stesso, vai su **Impostazioni → Tempo di utilizzo → Limiti app**, imposta un limite breve, attiva un codice di Tempo di utilizzo e accendi **Blocca al termine del limite**. Fai scegliere il codice a qualcun altro, o "Ignora limite" resterà a un tocco.
 
 ## Nascondi l'app dalla schermata Home
 
@@ -40,7 +43,7 @@ Tieni premuto uno spazio vuoto dello schermo, tocca la fila di puntini in basso 
 
 ## Blocca le app con Tempo di utilizzo
 
-iPhone non ha una password per singola app, ma Tempo di utilizzo ti porta quasi al punto.
+Da iOS 18 puoi mettere Face ID su una singola app (tienila premuta e scegli **Richiedi Face ID**), ma il tuo stesso volto la apre in un secondo, quindi tiene fuori gli altri più che te. Per bloccare te stesso, Tempo di utilizzo ti porta quasi al punto.
 
 Apri **Impostazioni → Tempo di utilizzo → Limiti app**, aggiungi un limite per l'app o per la sua intera categoria (Social, Intrattenimento) e impostalo su un valore breve. Quando raggiungi il limite, l'app diventa grigia e ti chiede se vuoi un altro minuto o ignorare il limite per oggi.
 

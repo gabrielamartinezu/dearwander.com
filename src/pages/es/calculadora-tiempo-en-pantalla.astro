@@ -5,6 +5,7 @@ import Footer from "../../components/Footer.astro";
 import AppStoreButton from "../../components/AppStoreButton.astro";
 
 const faqs = [
+  { q: "¿Cómo veo cuánto tiempo llevo hoy en el celular?", a: "En iPhone, abre Ajustes, luego Tiempo de Uso, luego Ver toda la actividad de apps y sitios web, y elige Día. En Android, abre Ajustes, luego Bienestar digital y controles parentales: el gráfico muestra el tiempo de pantalla de hoy y los desbloqueos. Para la calculadora, tu media semanal da el resultado más honesto." },
   { q: "¿Cuánto tiempo en pantalla es demasiado?", a: "No hay un número mágico. Los expertos suelen sugerir mantener las redes recreativas por debajo de 30 a 60 minutos al día, pero importa más si el tiempo se siente elegido o automático. La persona promedio pasa unas 5 horas al día en el celular y lo toma alrededor de 144 veces." },
   { q: "¿El tiempo en pantalla es malo?", a: "El tiempo en pantalla en sí no es el problema. El scroll pasivo y compulsivo sí. La investigación vincula las sesiones largas de scroll pasivo con más ansiedad y peor sueño, mientras que el uso intencional (mapas, mensajes, aprender) suele estar bien. La meta no es cero. Es elegir." },
   { q: "¿Cómo reduzco el tiempo en pantalla sin fuerza de voluntad?", a: "La fuerza de voluntad se agota. Los cambios pequeños en tu entorno duran más: carga el celular fuera de la habitación, apaga las notificaciones no esenciales y agrega una pausa antes de abrir las apps que te atrapan. Una pausa de respiración de 60 segundos antes de redes redujo el uso un 57% en un estudio de la Universidad de Heidelberg." },
@@ -39,8 +40,8 @@ const schemas = [
 ---
 
 <Layout
-  title="Calculadora de Tiempo en Pantalla: ¿Cuántos Años de tu Vida Pasas en el Celular?"
-  description="Calcula cuánto tiempo de tu vida pasas en el celular (semanas, años y vida entera) sin culpa. Mira exactamente cuántos años de vida despierta puedes recuperar."
+  title="Calculadora de tiempo en pantalla: tus años en el celular"
+  description="Pon tus horas diarias de pantalla y míralas en semanas y años de tu vida. Además, cómo ver tu tiempo real en iPhone y Android. Gratis y sin registro."
 >
   <script type="application/ld+json" set:html={JSON.stringify(schemas)} />
 
@@ -57,6 +58,9 @@ const schemas = [
       </h1>
       <p class="text-lg text-cocoa/75 font-light leading-relaxed max-w-md mx-auto fade-up fade-up-d2">
         Mira a dónde se va tu tiempo en el celular, con calma. Sin reportes que avergüenzan ni cuentas de "lo desperdiciaste". Solo una perspectiva clara de tu vida y lo que podrías recuperar.
+      </p>
+      <p class="text-sm text-taupe font-light mt-4 fade-up fade-up-d2">
+        ¿No sabes tu número? <a href="#como-ver-tu-tiempo" class="text-earth underline underline-offset-4">Así lo ves en tu teléfono</a>.
       </p>
     </section>
 
@@ -121,6 +125,33 @@ const schemas = [
         Copiar mi resultado para compartir
       </button>
       <p id="shareConfirm" class="text-xs text-breath font-medium mt-2 opacity-0 transition-opacity">Copiado al portapapeles. Pégalo donde quieras.</p>
+    </section>
+
+    <!-- Cómo ver el número (responde a "cuánto tiempo llevo en el celular") -->
+    <section id="como-ver-tu-tiempo" class="max-w-2xl mx-auto pb-16 scroll-mt-28">
+      <h2 class="font-wander text-2xl text-earth text-center mb-3">Cómo ver tu tiempo de pantalla de hoy</h2>
+      <p class="text-center text-cocoa/70 font-light leading-relaxed mb-8 max-w-lg mx-auto">Tu teléfono ya lo está contando. Aquí está dónde mirar el número para la calculadora.</p>
+      <div class="grid sm:grid-cols-2 gap-4">
+      <div class="glass rounded-2xl px-6 py-5">
+        <h3 class="font-wander text-lg text-earth mb-3">En iPhone</h3>
+        <ol class="text-cocoa/80 font-light leading-relaxed list-decimal list-inside space-y-1.5">
+          <li>Abre <strong>Ajustes → Tiempo de Uso</strong>.</li>
+          <li>Toca <strong>Ver toda la actividad de apps y sitios web</strong>.</li>
+          <li>Cambia entre <strong>Día</strong> y <strong>Semana</strong>. Más abajo verás cuántas veces lo tomaste y las notificaciones.</li>
+        </ol>
+        <p class="text-sm text-cocoa/60 font-light mt-3">Si Tiempo de Uso está desactivado, actívalo ahí. Empieza a contar desde ese momento.</p>
+      </div>
+      <div class="glass rounded-2xl px-6 py-5">
+        <h3 class="font-wander text-lg text-earth mb-3">En Android</h3>
+        <ol class="text-cocoa/80 font-light leading-relaxed list-decimal list-inside space-y-1.5">
+          <li>Abre <strong>Ajustes → Bienestar digital y controles parentales</strong>.</li>
+          <li>El gráfico muestra el tiempo de pantalla de hoy, los desbloqueos y las notificaciones.</li>
+          <li>Toca el gráfico para verlo app por app, o día por día.</li>
+        </ol>
+        <p class="text-sm text-cocoa/60 font-light mt-3">En los Samsung puede llamarse solo <strong>Bienestar digital</strong>.</p>
+      </div>
+      </div>
+      <p class="text-center text-sm text-cocoa/60 font-light mt-6">Usa tu media semanal en la calculadora. Un solo día puede ser raro.</p>
     </section>
 
     <!-- Puente de Conversión a Dear Wander -->

@@ -2,11 +2,12 @@
 title: "How to Lock Yourself Out of Apps on iPhone (Without Deleting Them)"
 description: "Want to stop opening apps on autopilot? Here is every way to lock yourself out, hide distracting apps, or add mindful friction on iPhone so you stay in control."
 date: 2026-07-02
+updated: 2026-11-22
 author: "Dear Wander"
 tags: ["screen time", "how-to", "phone addiction", "strategies"]
 faq:
   - q: "Can you lock yourself out of apps on iPhone?"
-    a: "Yes, though not with a single native password. You can set Screen Time App Limits with a passcode, use Focus Filters to hide app pages, or use a Screen Time API app like Dear Wander to add a 60-second breathing pause that breaks the reflex before the app opens."
+    a: "Yes. Since iOS 18 you can require Face ID for a single app, though that stops other people more than it stops you. To lock yourself out, set Screen Time App Limits with a passcode and Block at End of Limit, use Focus Filters to hide app pages, or use a Screen Time API app like Dear Wander to add a 60-second breathing pause that breaks the reflex before the app opens."
   - q: "How do I stop myself from opening an app automatically?"
     a: "The most effective way is breaking the cue-action loop: remove the icon from your Home Screen, disable badges, and add a brief friction pause before opening. Research shows that inserting a brief pause before launching social apps reduces opening attempts by 57%."
   - q: "What are the best apps to hide or lock apps on iPhone in 2026?"
@@ -21,6 +22,8 @@ You've tried deleting Instagram. You lasted four days, reinstalled it on a Tuesd
 There's a gentler middle ground between having an app fully available and nuking it off your phone: friction. You can hide it, lock it, or slow it down just enough that opening it becomes a choice instead of a reflex.
 
 Here's every option on iPhone, what each actually does, and where the honest limits are.
+
+**The short answer:** yes, mostly. Since iOS 18 you can long-press any app and choose **Require Face ID**, but that keeps other people out, not you. To lock *yourself* out, go to **Settings → Screen Time → App Limits**, set a short limit, turn on a Screen Time passcode and switch on **Block at End of Limit**. Let someone else choose the passcode, or "Ignore Limit" stays one tap away.
 
 ## Hide the app from your Home Screen
 
@@ -40,7 +43,7 @@ Long-press an empty area of the screen, tap the row of dots at the bottom, and u
 
 ## Lock apps behind Screen Time
 
-iPhone has no true per-app password, but Screen Time gets you most of the way there.
+Since iOS 18 you can put Face ID on a single app (long-press it, then **Require Face ID**), but your own face opens it in a second, so it keeps other people out rather than you. For locking yourself out, Screen Time gets you most of the way there.
 
 Open **Settings → Screen Time → App Limits**, add a limit for the app or its whole category (Social, Entertainment), and set it to something short. When you hit the limit, the app greys out and asks if you want one more minute or to ignore the limit for the day.
 

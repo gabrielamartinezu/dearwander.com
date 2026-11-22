@@ -2,6 +2,7 @@
 title: "Cómo Bloquear Apps en iPhone sin Desinstalarlas (Guía Rápida 2026)"
 description: "¿Quieres dejar de abrir apps por reflejo? Todas las formas de bloquear, esconder o poner fricción a tus redes en iPhone: desde Tiempo de Uso hasta atajos y pausas conscientes."
 date: 2026-07-02
+updated: 2026-11-22
 translationOf: "how-to-lock-distracting-apps"
 author: "Dear Wander"
 tags: ["screen time", "how-to", "phone addiction", "strategies"]
@@ -9,7 +10,7 @@ faq:
   - q: "¿Cómo evitar abrir apps en el celular en automático?"
     a: "La forma más efectiva es romper el bucle del hábito mediante fricción: elimina los accesos directos de tu pantalla de inicio, silencia las notificaciones y añade una pausa deliberada antes de entrar. Un estudio de PNAS comprobó que una breve pausa respiratoria antes de abrir redes sociales reduce las aperturas en un 57%."
   - q: "¿Se puede bloquear el acceso a ciertas apps en iPhone?"
-    a: "Sí. Puedes usar los Límites de apps en Tiempo de Uso con código, ocultar páginas de apps con modos de Concentración, o usar una app nativa como Dear Wander que intercepta la apertura con una pausa de respiración de 60 segundos."
+    a: "Sí. Desde iOS 18 puedes pedir Face ID para una app concreta, aunque eso frena más a los demás que a ti. Para bloquearte a ti, usa los Límites de apps en Tiempo de Uso con código y Bloquear al final del límite, ocultar páginas de apps con modos de Concentración, o usar una app nativa como Dear Wander que intercepta la apertura con una pausa de respiración de 60 segundos."
   - q: "¿Cuáles son las mejores apps para bloquear o esconder apps en iPhone en 2026?"
     a: "Las herramientas nativas de iOS son Tiempo de Uso y Concentración. Como apps dedicadas, Dear Wander destaca por su enfoque amable y consciente sin castigos, mientras que herramientas como Opal o ScreenZen ofrecen bloqueos programados."
   - q: "¿Qué es mejor: bloquear una app por completo o poner una pausa antes?"
@@ -22,6 +23,8 @@ Ya intentaste borrar Instagram. Aguantaste cuatro días, lo reinstalaste un mart
 Existe un punto medio, más amable, entre tener una app siempre disponible y borrarla del teléfono: la fricción. Puedes esconderla, bloquearla o frenarla lo justo para que abrirla sea una decisión y no un reflejo.
 
 Aquí están todas las opciones del iPhone, qué hace cada una y dónde están sus límites reales.
+
+**La respuesta corta:** sí, casi. Desde iOS 18 puedes mantener pulsada cualquier app y elegir **Requerir Face ID**, pero eso deja fuera a los demás, no a ti. Para bloquearte a ti, ve a **Ajustes → Tiempo de Uso → Límites de apps**, pon un límite corto, activa un código de Tiempo de Uso y enciende **Bloquear al final del límite**. Pide a otra persona que elija el código, o "Ignorar límite" seguirá a un toque.
 
 ## Esconde la app de la pantalla de inicio
 
@@ -41,7 +44,7 @@ Mantén pulsada una zona vacía, toca la fila de puntos de abajo y desmarca las 
 
 ## Bloquea apps con Tiempo de Uso
 
-El iPhone no tiene contraseña por app, pero Tiempo de Uso te acerca bastante.
+Desde iOS 18 puedes ponerle Face ID a una sola app (mantenla pulsada y elige **Requerir Face ID**), pero tu propia cara la abre en un segundo, así que deja fuera a los demás más que a ti. Para bloquearte a ti, Tiempo de Uso te acerca bastante.
 
 Abre **Ajustes → Tiempo de Uso → Límites de apps**, añade un límite para la app o para su categoría entera (Social, Entretenimiento) y ponlo corto. Cuando llegas al límite, la app se pone gris y te pregunta si quieres un minuto más o ignorar el límite por hoy.
 
