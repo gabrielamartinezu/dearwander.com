@@ -73,7 +73,7 @@ Ahora piensa en la frecuencia con que le pides que reinicie. La investigación d
 
 No es que no sepas concentrarte. Es que te piden empezar de nuevo antes de haber llegado.
 
-Este es el motor que hay debajo del [cerebro de palomitas](/blog/popcorn-brain/): no el cambio en sí, sino el residuo que deja cada cambio. Los granos siguen estallando porque la sartén nunca llega a enfriarse.
+Este es el motor que hay debajo del [cerebro de palomitas](/blog/es-popcorn-brain/): no el cambio en sí, sino el residuo que deja cada cambio. Los granos siguen estallando porque la sartén nunca llega a enfriarse.
 
 ## El vistazo que parece productivo es el más caro
 
@@ -93,7 +93,7 @@ Sacar el móvil de la habitación funciona, cuando es posible. La distancia comp
 
 Agrupar también ayuda. Elige los momentos en que vas a mirar, a propósito, y deja que las notificaciones se amontonen entre uno y otro. El número de mensajes sin leer que parece insoportable a las 10:14 es del todo olvidable cuando miras a las 11:00. Nunca ibas a perderte nada. Solo estabas respondiendo a un reflejo.
 
-El movimiento más difícil y más útil es notar el impulso antes de que se convierta en un toque. Ese medio segundo de conciencia es donde todo gira, el mismo hueco que hace el trabajo cuando [frenas un scroll antes de que empiece](/blog/how-to-stop-doomscrolling/).
+El movimiento más difícil y más útil es notar el impulso antes de que se convierta en un toque. Ese medio segundo de conciencia es donde todo gira, el mismo hueco que hace el trabajo cuando [frenas un scroll antes de que empiece](/blog/es-how-to-stop-doomscrolling/).
 
 ## Una pausa antes del cambio
 
@@ -101,7 +101,7 @@ La mayoría de las herramientas para esto intentan frenarte después de que abri
 
 Una pausa para respirar actúa antes, antes de que la app llegue a abrirse. Cuando una pantalla tranquila se interpone entre tu mano y el feed, interrumpe el cambio automático en sí. Durante unas respiraciones, nada se ha fracturado todavía. Tú decides si este vistazo merece los veinte minutos que va a costar, mientras aún tienes esos veinte minutos por proteger.
 
-A menudo descubrirás que no los merece, y dejas el móvil con la concentración intacta. Esa es la idea entera detrás de [la pausa de 60 segundos](/blog/science-of-the-60-second-pause/): no un muro, sino un compás de espacio donde tu corteza prefrontal puede opinar antes de que tu pulgar se comprometa.
+A menudo descubrirás que no los merece, y dejas el móvil con la concentración intacta. Esa es la idea entera detrás de [la pausa de 60 segundos](/blog/es-science-of-the-60-second-pause/): no un muro, sino un compás de espacio donde tu corteza prefrontal puede opinar antes de que tu pulgar se comprometa.
 
 [Dear Wander](/es/) es una app de iOS construida alrededor de ese único momento. Una pantalla cálida de respiración aparece antes de que se abran tus apps elegidas. El tiempo justo para preguntarte si de verdad quieres cambiar. Lo bastante breve para que nunca parezca un castigo.
 

@@ -63,7 +63,7 @@ Risolvere il popcorn brain ha meno a che fare con eliminare la stimolazione e pi
 
 Quando inserisci una breve pausa tra l'impulso e l'azione, qualcosa cambia neurologicamente. La tua corteccia prefrontale, la parte responsabile delle decisioni intenzionali, ha il tempo di attivarsi prima che il comportamento automatico si completi.
 
-Uno [studio del 2023 pubblicato su *PNAS*](/blog/science-of-the-60-second-pause/) ha scoperto che una breve pausa sullo schermo prima delle app social — una breve attesa e un messaggio che chiede se vuoi davvero continuare — ha ridotto i tentativi di aprire le app del **57%** in sei settimane.[^pnas] Non perché le app fossero bloccate. Perché la pausa dava loro la possibilità di scegliere, e la maggior parte delle volte sceglievano di posare il telefono.
+Uno [studio del 2023 pubblicato su *PNAS*](/blog/it-science-of-the-60-second-pause/) ha scoperto che una breve pausa sullo schermo prima delle app social — una breve attesa e un messaggio che chiede se vuoi davvero continuare — ha ridotto i tentativi di aprire le app del **57%** in sei settimane.[^pnas] Non perché le app fossero bloccate. Perché la pausa dava loro la possibilità di scegliere, e la maggior parte delle volte sceglievano di posare il telefono.
 
 Questa è l'idea centrale di Dear Wander. Uno schermo di respirazione appare prima che le tue app si aprano. Sessanta secondi. Abbastanza tempo perché la corteccia prefrontale esprima la sua opinione su una decisione che il pollice ha già preso.
 
@@ -81,7 +81,7 @@ Disattiva tutto tranne chiamate e messaggi da persone reali. Puoi controllare il
 
 ### Annoiati di proposito
 
-Sembra controintuitivo. Ma la noia è lo stato in cui si attiva la rete di default del cervello. Quella è la rete responsabile del [pensiero creativo, dell'autoriflessione e del riposo mentale](/blog/how-to-stop-doomscrolling/). Si accende solo quando gli stimoli esterni scendono sotto una certa soglia.
+Sembra controintuitivo. Ma la noia è lo stato in cui si attiva la rete di default del cervello. Quella è la rete responsabile del [pensiero creativo, dell'autoriflessione e del riposo mentale](/blog/it-how-to-stop-doomscrolling/). Si accende solo quando gli stimoli esterni scendono sotto una certa soglia.
 
 Se non ti permetti mai di annoiarti, quella rete non funziona mai. La noia non è un problema da risolvere. È uno stato cognitivo di cui il tuo cervello ha bisogno.
 

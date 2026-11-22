@@ -70,17 +70,17 @@ Qualche dettaglio piccolo ma importante:
 - Rendi l'espirazione un po' più lunga dell'inspirazione se vuoi un effetto più profondo
 - Non sforzarti per l'aria in cima. Comodo è meglio che massimo
 
-Se la mente vaga, va bene. Il nervo vago risponde alla respirazione, non alla tua concentrazione. Questo si abbina bene a [una breve pratica di immaginazione guidata](/blog/guided-imagery-meditation/) se vuoi qualcosa su cui appoggiare l'attenzione.
+Se la mente vaga, va bene. Il nervo vago risponde alla respirazione, non alla tua concentrazione. Questo si abbina bene a [una breve pratica di immaginazione guidata](/blog/it-guided-imagery-meditation/) se vuoi qualcosa su cui appoggiare l'attenzione.
 
 ## La versione quotidiana di tutto questo
 
 Quasi mai arriviamo al cuscino. Al sistema nervoso non importa. Prenderà un reset vagale dove riesce a trovarlo, anche nei tre secondi prima di aprire un'app.
 
-Quello spazio tra l'allungare la mano al telefono e toccare lo schermo è di solito puro pilota automatico, uno stato reattivo e un po' su di giri. Qualche respiro lento lì è un vero cambiamento fisiologico, non una bella idea. Lavori lo stesso freno di acetilcolina, solo che in piedi in cucina invece che in uno studio di yoga. La scienza dietro al perché [una pausa di 60 secondi cambia le tue decisioni](/blog/science-of-the-60-second-pause/) è in parte proprio questo meccanismo.
+Quello spazio tra l'allungare la mano al telefono e toccare lo schermo è di solito puro pilota automatico, uno stato reattivo e un po' su di giri. Qualche respiro lento lì è un vero cambiamento fisiologico, non una bella idea. Lavori lo stesso freno di acetilcolina, solo che in piedi in cucina invece che in uno studio di yoga. La scienza dietro al perché [una pausa di 60 secondi cambia le tue decisioni](/blog/it-science-of-the-60-second-pause/) è in parte proprio questo meccanismo.
 
-Rimette anche in prospettiva quei piccoli momenti di sollievo durante la giornata. Il respiro profondo prima di una riunione, il sospiro a un semaforo verde. Sono [glimmer](/blog/glimmers/), minuscoli segnali di sicurezza che il tuo corpo manda, e il tuo nervo vago è il cablaggio che ci sta sotto.
+Rimette anche in prospettiva quei piccoli momenti di sollievo durante la giornata. Il respiro profondo prima di una riunione, il sospiro a un semaforo verde. Sono [glimmer](/blog/it-glimmers/), minuscoli segnali di sicurezza che il tuo corpo manda, e il tuo nervo vago è il cablaggio che ci sta sotto.
 
-E spiega perché cercare calma attraverso il telefono finisce per ritorcersi contro. Un picco di dopamina dal feed non fa nulla per il tono vagale. Semmai ti spinge dalla parte opposta, che è parte del perché l'[idea del digiuno di dopamina manca il bersaglio](/blog/dopamine-detox/). Il tuo corpo non chiedeva novità. Chiedeva un'espirazione più lenta.
+E spiega perché cercare calma attraverso il telefono finisce per ritorcersi contro. Un picco di dopamina dal feed non fa nulla per il tono vagale. Semmai ti spinge dalla parte opposta, che è parte del perché l'[idea del digiuno di dopamina manca il bersaglio](/blog/it-dopamine-detox/). Il tuo corpo non chiedeva novità. Chiedeva un'espirazione più lenta.
 
 ## Cosa significa per Dear Wander
 

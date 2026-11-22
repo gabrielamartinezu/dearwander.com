@@ -71,7 +71,7 @@ When a gamified app flashes a broken streak or an ugly red warning because you t
 
 | App | Core Approach | Friction vs Lock | iOS Technology | Pricing | Best Suited For |
 |---|---|---|---|---|---|
-| **Dear Wander** | Closed Self-Regulation Loop (Intention + 60s Pause + Journal) | Guided 60s somatic breathing pause (non-punitive) | Native FamilyControls (no shortcuts needed) | Free tier / Accessible subscription | Anyone wanting sustainable calm, warmth, and genuine habit rewiring |
+| **Dear Wander** | Closed Self-Regulation Loop (Intention + 60s Pause + Journal) | Guided 60s somatic breathing pause (non-punitive) | Native FamilyControls (no shortcuts needed) | Free tier / $5.99 once, no subscription | Anyone wanting sustainable calm, warmth, and genuine habit rewiring |
 | **ScreenZen** | Strict usage counts & schedules | Configurable opening delays & timers | Native FamilyControls | 100% Free | People who want extensive technical control without paying a dime |
 | **One Sec** | Quick breathing micro-pause | 3–5s interactive breathing pause | Requires Apple Shortcuts automations | Freemium / ~$30/yr | Users wanting quick friction who don't mind shortcut setup |
 | **Brick** | Physical hardware isolation | Absolute lockdown removable only by tapping NFC tag | External NFC hardware | ~$50 USD (one-time hardware purchase) | Extreme distractibility where physical separation is mandatory |

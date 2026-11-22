@@ -45,7 +45,7 @@ Esto es lo que hace que la revenge bedtime scrolling sea tan difícil de interru
 
 Una vez que empiezas a scrollear, dos mecanismos te mantienen enganchado/a más tiempo del que pretendías.
 
-**El bucle de dopamina.** Las redes sociales están diseñadas con programas de recompensa variable. No sabes si el siguiente vídeo será aburrido o genial. Esa imprevisibilidad es lo que hace difícil parar. Tu cerebro sigue tirando de la palanca. "Uno más. Quizá el siguiente." Es el mismo [patrón de sobreestimulación](/blog/popcorn-brain/) que fragmenta la atención durante el día, ahora trabajando en contra de tu sueño.
+**El bucle de dopamina.** Las redes sociales están diseñadas con programas de recompensa variable. No sabes si el siguiente vídeo será aburrido o genial. Esa imprevisibilidad es lo que hace difícil parar. Tu cerebro sigue tirando de la palanca. "Uno más. Quizá el siguiente." Es el mismo [patrón de sobreestimulación](/blog/es-popcorn-brain/) que fragmenta la atención durante el día, ahora trabajando en contra de tu sueño.
 
 **La supresión por luz azul.** La luz de la pantalla en el rango de 450-490nm suprime la producción de melatonina. Tu cerebro recibe literalmente la señal de que aún no es hora de dormir. Así que el cansancio que sentías a las 22:30 se desvanece, reemplazado por un estado de alerta que no corresponde con lo agotado que está tu cuerpo realmente. Te quedas despierto/a más de lo que pretendías.
 
@@ -55,17 +55,17 @@ La combinación es demoledora. Necesitabas 20 minutos de tiempo personal. El mó
 
 No necesitas transformar tu vida esta noche. Necesitas un momento de espacio entre el impulso y el scroll.
 
-Una [pausa de respiración de 60 segundos](/blog/science-of-the-60-second-pause/) puede servir como esa interrupción. Cuando notes que estás buscando el móvil a la hora de dormir, o cuando te pilles en pleno scroll pensando "debería parar," esa es la ventana. Sesenta segundos de [respiración lenta y deliberada](/blog/es-vagus-nerve-breathing/) sacan a tu sistema nervioso del bucle de estimulación y lo llevan a un estado donde soltar el móvil se siente posible en vez de doloroso.
+Una [pausa de respiración de 60 segundos](/blog/es-science-of-the-60-second-pause/) puede servir como esa interrupción. Cuando notes que estás buscando el móvil a la hora de dormir, o cuando te pilles en pleno scroll pensando "debería parar," esa es la ventana. Sesenta segundos de [respiración lenta y deliberada](/blog/es-vagus-nerve-breathing/) sacan a tu sistema nervioso del bucle de estimulación y lo llevan a un estado donde soltar el móvil se siente posible en vez de doloroso.
 
 Esto funciona porque aborda el problema real. El scroll no va de contenido. Va de evitar la transición de "despierto/a y mío" a "dormido/a y se acabó." Una pausa de respiración te da una versión de ese momento personal sin la pantalla. Sigue siendo tuyo. Solo que no te cuesta horas de sueño.
 
 ## Cambios prácticos para probar
 
-**Pon el móvil en otra habitación.** Suena radical hasta que lo pruebas. La [investigación sobre la proximidad del móvil](/blog/how-to-stop-doomscrolling/) es clara: tenerlo al alcance hace que cogerlo sea automático. Moverlo a otra habitación elimina la decisión por completo. Usa un despertador normal. Tu yo de la mañana te lo agradecerá.
+**Pon el móvil en otra habitación.** Suena radical hasta que lo pruebas. La [investigación sobre la proximidad del móvil](/blog/es-how-to-stop-doomscrolling/) es clara: tenerlo al alcance hace que cogerlo sea automático. Moverlo a otra habitación elimina la decisión por completo. Usa un despertador normal. Tu yo de la mañana te lo agradecerá.
 
 **Fija una hora de "último scroll."** Elige una hora, digamos las 22:15, y que ese sea el corte. No porque scrollear sea malo, sino porque ponerte un límite hace que el scrolleo se sienta más intencional. El acceso ilimitado es lo que crea la deriva hasta la 1 de la madrugada.
 
-**Sustituye el scroll por algo igual de fácil.** El sustituto tiene que requerir el mismo nivel de esfuerzo. No vas a escribir un diario ni a meditar veinte minutos cuando estás agotado/a. Pero quizá puedas escuchar una sesión de [visualización guiada](/blog/guided-imagery-meditation/) de cinco minutos con los ojos cerrados. O hacer un escaneo corporal. O mirar al techo y dejar que tu mente divague unos minutos. El listón es "más fácil que coger el móvil," no "rutina impresionante de autocuidado."
+**Sustituye el scroll por algo igual de fácil.** El sustituto tiene que requerir el mismo nivel de esfuerzo. No vas a escribir un diario ni a meditar veinte minutos cuando estás agotado/a. Pero quizá puedas escuchar una sesión de [visualización guiada](/blog/es-guided-imagery-meditation/) de cinco minutos con los ojos cerrados. O hacer un escaneo corporal. O mirar al techo y dejar que tu mente divague unos minutos. El listón es "más fácil que coger el móvil," no "rutina impresionante de autocuidado."
 
 **Incorpora tiempo personal durante el día.** Este es el juego a largo plazo. Si la noche es el único momento que es tuyo, seguirás gastando sueño en él. Incluso quince minutos durante la comida o después del trabajo, haciendo algo solo porque quieres, reduce la presión que se acumula hasta la hora de dormir.
 
@@ -77,8 +77,8 @@ Ese puente no tiene que ser complicado. Puede ser tan simple como una respiraci�
 
 ## Cómo encaja Dear Wander
 
-Dear Wander pone esa respiración delante de las apps que eliges. Cuando abres una por la noche, primero aparece una [pausa de respiración de 60 segundos](/blog/science-of-the-60-second-pause/), con una pantalla cálida y una carta breve que no te juzga por haber buscado el móvil. Muchas veces ese minuto basta para notar el cansancio y dejarlo.
+Dear Wander pone esa respiración delante de las apps que eliges. Cuando abres una por la noche, primero aparece una [pausa de respiración de 60 segundos](/blog/es-science-of-the-60-second-pause/), con una pantalla cálida y una carta breve que no te juzga por haber buscado el móvil. Muchas veces ese minuto basta para notar el cansancio y dejarlo.
 
-Después, el silencio es tuyo. Una [práctica breve de visualización guiada](/blog/guided-imagery-meditation/) es una forma de llenarlo, y puedes hacerla en la cama sin ninguna app.
+Después, el silencio es tuyo. Una [práctica breve de visualización guiada](/blog/es-guided-imagery-meditation/) es una forma de llenarlo, y puedes hacerla en la cama sin ninguna app.
 
 No tienes que luchar contra el móvil cada noche. Solo tienes que darte algo por lo que merezca la pena soltarlo.

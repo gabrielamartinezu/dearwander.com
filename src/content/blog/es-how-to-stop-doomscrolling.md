@@ -113,7 +113,7 @@ La mayoría de los teléfonos tienen un modo de descanso que atenúa la pantalla
 
 No necesitas las doce. Elige dos o tres que se sientan manejables y pruébalas por una semana. El objetivo no es optimizar tus hábitos con el teléfono. El objetivo es crear suficiente fricción para que tu mente consciente tenga voto.
 
-Porque aquí está la verdad que las [estadísticas dejan clara](/blog/phone-addiction-statistics-2026/): no estás haciendo doomscrolling porque te falte disciplina. Estás haciendo doomscrolling porque las empresas mejor financiadas de la historia humana diseñaron sus productos para que lo hagas.
+Porque aquí está la verdad que las [estadísticas dejan clara](/blog/es-phone-addiction-statistics-2026/): no estás haciendo doomscrolling porque te falte disciplina. Estás haciendo doomscrolling porque las empresas mejor financiadas de la historia humana diseñaron sus productos para que lo hagas.
 
 El campo de juego no está nivelado. Pero con unos pocos cambios estratégicos, ambientales, conductuales, tecnológicos, puedes inclinarlo a tu favor.
 

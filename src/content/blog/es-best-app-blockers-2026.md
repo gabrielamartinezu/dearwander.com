@@ -66,7 +66,7 @@ habría sido deshonesto.
 | **ScreenZen** | Retrasos y límites configurables | Gratuito | Personalización sin costo |
 | **Clearspace** | Confrontación con datos de uso | ~$70/año | Usuarios motivados por datos |
 | **Freedom** | Bloqueo programado multiplataforma | ~$40/año | Bloqueo en múltiples dispositivos |
-| **Dear Wander** | Pausa de respiración de 60 s + cartas | Plan gratuito / $3.99 mes · $19.99 año · $39.99 pago único | Un enfoque amable, sin culpa ni bloqueos |
+| **Dear Wander** | Pausa de respiración de 60 s + cartas | Plan gratuito / $5.99 pago único, sin suscripción | Un enfoque amable, sin culpa ni bloqueos |
 
 ## Opal: el bloqueador estricto
 
@@ -78,7 +78,7 @@ La contrapartida es el precio. A $100/año o $400 de por vida, Opal es la opció
 
 ## One Sec: la pausa respaldada por investigación
 
-One Sec fue pionero en el concepto de "pausa de respiración antes de abrir una app", y funciona. La app muestra una animación de respiración a pantalla completa cuando tocas una app seleccionada, dándote un momento para notar el impulso antes de actuar. Un estudio de 2023 publicado en *PNAS* encontró que una breve pausa en pantalla antes de las apps sociales — una espera corta y un aviso que te pregunta si de verdad quieres continuar — [redujo los intentos de abrir apps en un 57% a lo largo de seis semanas](/blog/science-of-the-60-second-pause/).[^pnas]
+One Sec fue pionero en el concepto de "pausa de respiración antes de abrir una app", y funciona. La app muestra una animación de respiración a pantalla completa cuando tocas una app seleccionada, dándote un momento para notar el impulso antes de actuar. Un estudio de 2023 publicado en *PNAS* encontró que una breve pausa en pantalla antes de las apps sociales — una espera corta y un aviso que te pregunta si de verdad quieres continuar — [redujo los intentos de abrir apps en un 57% a lo largo de seis semanas](/blog/es-science-of-the-60-second-pause/).[^pnas]
 
 Es importante señalar que One Sec no bloquea nada. Después del ejercicio de respiración, puedes abrir la app. La intervención es la consciencia misma. Para muchas personas, ese momento de fricción es suficiente para romper el patrón automático de tomar el teléfono y desplazarse.
 

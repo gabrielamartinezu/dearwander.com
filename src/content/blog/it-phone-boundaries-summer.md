@@ -55,7 +55,7 @@ L'attrito è la funzione.
 
 L'ora dopo il risveglio e l'ora prima di dormire danno il tono a tutto ciò che c'è in mezzo. Prendere il telefono appena sveglio inonda un cervello a malapena desto con l'urgenza degli altri. La mattina diventa reattiva prima che tu abbia potuto scegliere come deve sentirsi.
 
-Una [mattina senza telefono](/blog/morning-phone-routine/) protegge quella finestra. Caffè, luce, silenzio, i tuoi pensieri, prima che il feed abbia un voto.
+Una [mattina senza telefono](/blog/it-morning-phone-routine/) protegge quella finestra. Caffè, luce, silenzio, i tuoi pensieri, prima che il feed abbia un voto.
 
 L'ultima ora conta ancora di più. Circa il 96% delle persone ammette la procrastinazione vendicativa prima di dormire, restare svegli a fare scroll per riprendersi il tempo che la giornata ha rubato. Costa circa 332 ore di sonno l'anno. Quasi due settimane, perse nel bagliore blu di mezzanotte. Se la prima e l'ultima ora ti sembrano troppo, parti dall'ultima. È dove si nasconde la maggior parte del sonno.
 
@@ -63,7 +63,7 @@ L'ultima ora conta ancora di più. Circa il 96% delle persone ammette la procras
 
 Il giro dell'isolato. Uscire per un caffè. Portare fuori il cane. Sono commissioni di cinque minuti che davvero non hanno bisogno di un telefono, e lasciarlo sul piano della cucina le trasforma in qualcos'altro.
 
-Una passeggiata senza telefono è una passeggiata in cui potresti notare delle cose. La jacaranda che è fiorita da un giorno all'altro. Un vicino che altrimenti saluteresti solo di sfuggita. Il silenzio particolare di una strada al calar della sera. Questi piccoli momenti di calma hanno un nome. Sono [glimmers](/blog/glimmers/), i micro-segnali di sicurezza che il tuo sistema nervoso coglie quando non è occupato a processare uno schermo.
+Una passeggiata senza telefono è una passeggiata in cui potresti notare delle cose. La jacaranda che è fiorita da un giorno all'altro. Un vicino che altrimenti saluteresti solo di sfuggita. Il silenzio particolare di una strada al calar della sera. Questi piccoli momenti di calma hanno un nome. Sono [glimmers](/blog/it-glimmers/), i micro-segnali di sicurezza che il tuo sistema nervoso coglie quando non è occupato a processare uno schermo.
 
 Non puoi cogliere ciò che è silenzioso mentre il rumore continua a correre. A volte il confine è solo lasciare il rumore a casa per dieci minuti.
 
@@ -81,7 +81,7 @@ Questo è il confine con più impatto della lista, e non costa quasi alcuno sfor
 
 Caricare il telefono fuori dalla camera da letto riduce lo scroll prima di dormire, non per forza di volontà ma per distanza. Quando il telefono non è accanto a te, prenderlo significa scendere dal letto, e quel piccolo costo di solito basta a fermare l'impulso prima che inizi.
 
-Se usi il telefono come sveglia, compra un orologio economico. Si ripaga da solo nella prima settimana di sonno migliore. Approfondiamo questo nell'articolo sullo [scroll vendicativo prima di dormire](/blog/revenge-bedtime-scrolling/), ma il succo è semplice: la distanza fa il lavoro.
+Se usi il telefono come sveglia, compra un orologio economico. Si ripaga da solo nella prima settimana di sonno migliore. Approfondiamo questo nell'articolo sullo [scroll vendicativo prima di dormire](/blog/it-revenge-bedtime-scrolling/), ma il succo è semplice: la distanza fa il lavoro.
 
 ## Scegline uno e lascia che basti
 

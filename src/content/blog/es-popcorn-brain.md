@@ -63,7 +63,7 @@ Arreglar el popcorn brain tiene menos que ver con eliminar la estimulación y m�
 
 Cuando insertas una breve pausa entre el impulso y la acción, algo cambia neurológicamente. Tu corteza prefrontal, la parte responsable de las decisiones intencionales, tiene tiempo de activarse antes de que el comportamiento automático se complete.
 
-Un [estudio de 2023 publicado en *PNAS*](/blog/science-of-the-60-second-pause/) encontró que una breve pausa en pantalla antes de las apps sociales —una espera corta y un aviso que pregunta si de verdad quieres continuar— redujo los intentos de abrir apps en un **57%** en seis semanas.[^pnas] No porque las apps estuvieran bloqueadas. Porque la pausa les dio la oportunidad de elegir, y la mayoría del tiempo eligieron dejar el teléfono.
+Un [estudio de 2023 publicado en *PNAS*](/blog/es-science-of-the-60-second-pause/) encontró que una breve pausa en pantalla antes de las apps sociales —una espera corta y un aviso que pregunta si de verdad quieres continuar— redujo los intentos de abrir apps en un **57%** en seis semanas.[^pnas] No porque las apps estuvieran bloqueadas. Porque la pausa les dio la oportunidad de elegir, y la mayoría del tiempo eligieron dejar el teléfono.
 
 Esta es la idea central de Dear Wander. Una pantalla de respiración aparece antes de que tus apps elegidas se abran. Sesenta segundos. Suficiente tiempo para que tu corteza prefrontal opine sobre una decisión que tu pulgar ya tomó.
 
@@ -81,7 +81,7 @@ Desactiva todo excepto llamadas y mensajes de personas reales. Puedes revisar el
 
 ### Abúrrete a propósito
 
-Suena contraintuitivo. Pero el aburrimiento es el estado en el que se activa la red de modo predeterminado de tu cerebro. Esa es la red responsable del [pensamiento creativo, la autorreflexión y el descanso mental](/blog/how-to-stop-doomscrolling/). Solo se enciende cuando la estimulación externa baja de cierto umbral.
+Suena contraintuitivo. Pero el aburrimiento es el estado en el que se activa la red de modo predeterminado de tu cerebro. Esa es la red responsable del [pensamiento creativo, la autorreflexión y el descanso mental](/blog/es-how-to-stop-doomscrolling/). Solo se enciende cuando la estimulación externa baja de cierto umbral.
 
 Si nunca te permites aburrirte, esa red nunca funciona. El aburrimiento no es un problema que resolver. Es un estado cognitivo que tu cerebro necesita.
 

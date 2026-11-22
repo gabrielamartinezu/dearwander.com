@@ -61,7 +61,7 @@ Primero, trata el síntoma como la enfermedad. El problema no es la dopamina. El
 
 Lo que sí sostiene un cambio es entrenar la calma en vez de suprimir el impulso, y la vía más corta es [la respiración con la salida larga](/blog/es-vagus-nerve-breathing/).
 
-Segundo, la privación total desencadena lo que los psicólogos llaman [comportamiento de rebote](/blog/revenge-bedtime-scrolling/). Cuando restringes algo por completo, el deseo se intensifica. Esto está bien documentado en investigación sobre trastornos alimentarios y se aplica directamente a los hábitos digitales. Las personas que hacen ayunos extremos del teléfono suelen reportar un uso más intenso después. El atracón sigue al ayuno.
+Segundo, la privación total desencadena lo que los psicólogos llaman [comportamiento de rebote](/blog/es-revenge-bedtime-scrolling/). Cuando restringes algo por completo, el deseo se intensifica. Esto está bien documentado en investigación sobre trastornos alimentarios y se aplica directamente a los hábitos digitales. Las personas que hacen ayunos extremos del teléfono suelen reportar un uso más intenso después. El atracón sigue al ayuno.
 
 El estudio de JAMA no pidió a nadie que dejara las redes sociales por completo. Los participantes redujeron de 2 horas a 30 minutos. Seguían haciendo scroll. Solo hacían menos, y con más intención. Esa reducción moderada produjo resultados más fuertes y sostenibles que el enfoque de todo o nada.
 
@@ -77,13 +77,13 @@ Recorta tu tiempo en redes sociales a la mitad en vez de dejarlo en cero. Si est
 
 El gesto automático es el problema central. Abres apps sin decidirlo. Tu pulgar se mueve antes de que tu cerebro tenga oportunidad de opinar. Cualquier cosa que cree un espacio entre el impulso y la acción cambia la ecuación.
 
-Un [estudio de 2023 publicado en *PNAS*](/blog/science-of-the-60-second-pause/) encontró que una breve pausa en pantalla antes de las apps sociales — una espera corta y un aviso preguntándote si de verdad quieres continuar — redujo los intentos de abrir apps un **57%** a lo largo de seis semanas.[^pnas] Las apps de nadie fueron bloqueadas. A nadie le quitaron el teléfono. La pausa le dio tiempo a la corteza prefrontal para ponerse al día, y la mayoría de las personas se dieron cuenta de que realmente no querían hacer scroll. Solo querían escapar de una sensación.
+Un [estudio de 2023 publicado en *PNAS*](/blog/es-science-of-the-60-second-pause/) encontró que una breve pausa en pantalla antes de las apps sociales — una espera corta y un aviso preguntándote si de verdad quieres continuar — redujo los intentos de abrir apps un **57%** a lo largo de seis semanas.[^pnas] Las apps de nadie fueron bloqueadas. A nadie le quitaron el teléfono. La pausa le dio tiempo a la corteza prefrontal para ponerse al día, y la mayoría de las personas se dieron cuenta de que realmente no querían hacer scroll. Solo querían escapar de una sensación.
 
 ### Micro-detox diario en vez de ayuno mensual
 
 En lugar de un día extremo de privación, incorpora pequeños momentos de baja estimulación en cada día. Come una comida sin tu teléfono. Camina a la esquina sin auriculares. Siéntate en el carro dos minutos antes de entrar. Déjate aburrir en una sala de espera.
 
-Estas micro-pausas hacen lo que el detox extremo dice hacer. Reconstruyen tu [tolerancia a la baja estimulación](/blog/popcorn-brain/) gradualmente, sin el rebote. Tu cerebro se ajusta incrementalmente en vez de oscilar entre el exceso y la carencia.
+Estas micro-pausas hacen lo que el detox extremo dice hacer. Reconstruyen tu [tolerancia a la baja estimulación](/blog/es-popcorn-brain/) gradualmente, sin el rebote. Tu cerebro se ajusta incrementalmente en vez de oscilar entre el exceso y la carencia.
 
 ### Reemplaza el comportamiento, no solo lo elimines
 
@@ -93,13 +93,13 @@ Una pausa de respiración funciona porque aborda la incomodidad directamente. Se
 
 ## La versión de 60 segundos
 
-Esta es la idea detrás de Dear Wander. No un detox dramático. No un bloqueador de apps. Una [pausa de respiración de 60 segundos](/blog/science-of-the-60-second-pause/) que aparece antes de que tus apps elegidas se abran. Cada vez que tocas Instagram o TikTok o lo que sea que te atrape, primero recibes una pantalla cálida con respiración guiada.
+Esta es la idea detrás de Dear Wander. No un detox dramático. No un bloqueador de apps. Una [pausa de respiración de 60 segundos](/blog/es-science-of-the-60-second-pause/) que aparece antes de que tus apps elegidas se abran. Cada vez que tocas Instagram o TikTok o lo que sea que te atrape, primero recibes una pantalla cálida con respiración guiada.
 
 Es un micro-detox antes de cada apertura de app. Diario. Automático. Sin fuerza de voluntad necesaria.
 
 La mayoría de las veces, la pausa es suficiente. Respiras, el impulso pasa y dejas el teléfono. Cuando sí abres la app, lo haces intencionalmente en vez de por reflejo. Con el tiempo, el patrón cambia. No porque agotaste un neurotransmisor, sino porque construiste un nuevo hábito delante del viejo.
 
-El dopamine detox acierta en una cosa: algo en tu [relación con el teléfono necesita cambiar](/blog/how-to-stop-doomscrolling/). El método solo necesita coincidir con lo que la ciencia realmente dice. Pequeño, constante, integrado en la vida diaria. No un ayuno dramático que termina en un atracón más fuerte.
+El dopamine detox acierta en una cosa: algo en tu [relación con el teléfono necesita cambiar](/blog/es-how-to-stop-doomscrolling/). El método solo necesita coincidir con lo que la ciencia realmente dice. Pequeño, constante, integrado en la vida diaria. No un ayuno dramático que termina en un atracón más fuerte.
 
 Si quieres probar el enfoque de la pausa de respiración, [Dear Wander](/es/) pone una entre tú y cada scroll inconsciente. Sesenta segundos. Sin bloqueos. Solo una respiración antes del ruido.
 

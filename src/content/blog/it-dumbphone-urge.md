@@ -55,7 +55,7 @@ Le app problematiche sono una lista corta. Per la maggior parte delle persone so
 
 E se quelle quattro o cinque app avessero una porta chiusa davanti? Non bloccate. Non cancellate. Solo un momento di frizione che rende conscio il gesto automatico.
 
-Ecco [come funziona una pausa di respirazione](/blog/science-of-the-60-second-pause/). Tocchi Instagram. Invece del feed, appare uno schermo caldo con respirazione guidata. Sessanta secondi. Inspira, trattieni, espira. Quando finisce, la tua [corteccia prefrontale ha raggiunto il tuo pollice](/blog/popcorn-brain/). La maggior parte delle volte ti rendi conto che non volevi davvero scrollare. Volevi solo sfuggire a un'emozione. La respirazione se n'è occupata.
+Ecco [come funziona una pausa di respirazione](/blog/it-science-of-the-60-second-pause/). Tocchi Instagram. Invece del feed, appare uno schermo caldo con respirazione guidata. Sessanta secondi. Inspira, trattieni, espira. Quando finisce, la tua [corteccia prefrontale ha raggiunto il tuo pollice](/blog/it-popcorn-brain/). La maggior parte delle volte ti rendi conto che non volevi davvero scrollare. Volevi solo sfuggire a un'emozione. La respirazione se n'è occupata.
 
 Uno studio del 2023 pubblicato su *PNAS* ha scoperto che questo tipo di pausa — una breve attesa e un messaggio che chiede se vuoi davvero continuare — ha ridotto i tentativi di apertura delle app del **57%** nell'arco di sei settimane.[^pnas] Le app di nessuno sono state bloccate. Nessuno ha perso le mappe o la banca. Hanno solo dovuto fermarsi un attimo prima.
 
@@ -69,7 +69,7 @@ Rimuovi tutte le app dalla schermata principale tranne gli strumenti che usi dav
 
 ### Disattiva quasi tutte le notifiche
 
-Vai in Impostazioni, scorri la lista delle notifiche, e disattiva tutto tranne chiamate e messaggi da persone reali. Niente badge delle app. Niente avvisi da notizie, shopping o social. Ogni notifica è [un chicco che scoppia nel tuo cervello](/blog/popcorn-brain/). Meno chicchi, più calma.
+Vai in Impostazioni, scorri la lista delle notifiche, e disattiva tutto tranne chiamate e messaggi da persone reali. Niente badge delle app. Niente avvisi da notizie, shopping o social. Ogni notifica è [un chicco che scoppia nel tuo cervello](/blog/it-popcorn-brain/). Meno chicchi, più calma.
 
 ### Usa la scala di grigi
 
@@ -77,7 +77,7 @@ Su iPhone: Impostazioni > Accessibilità > Schermo e dimensioni testo > Filtri c
 
 ### Stabilisci un posto fisico per il telefono
 
-Designa un posto in casa dove il telefono vive quando non lo stai usando attivamente. Uno scaffale. Un cassetto. Un cestino vicino alla porta. L'obiettivo è rendere il telefono qualcosa verso cui cammini intenzionalmente, non qualcosa sempre a portata di mano. Questo singolo cambiamento [riduce lo scroll prima di dormire](/blog/how-to-stop-doomscrolling/) togliendo del tutto il telefono dal comodino.
+Designa un posto in casa dove il telefono vive quando non lo stai usando attivamente. Uno scaffale. Un cassetto. Un cestino vicino alla porta. L'obiettivo è rendere il telefono qualcosa verso cui cammini intenzionalmente, non qualcosa sempre a portata di mano. Questo singolo cambiamento [riduce lo scroll prima di dormire](/blog/it-how-to-stop-doomscrolling/) togliendo del tutto il telefono dal comodino.
 
 ### Aggiungi una pausa di respirazione
 

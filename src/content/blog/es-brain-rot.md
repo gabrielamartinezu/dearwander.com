@@ -43,11 +43,11 @@ Brain rot no es un diagnóstico médico. Ningún doctor lo va a escribir en tu h
 
 Cuando pasas horas consumiendo contenido pasivo de bajo esfuerzo, ocurren tres cosas.
 
-**Tu atención se fragmenta.** Este es el efecto [popcorn brain](/blog/popcorn-brain/). Cada deslizamiento entrena a tu cerebro para esperar nueva estimulación en segundos. Con el tiempo, tu tolerancia para cualquier cosa lenta se desploma. Un párrafo se siente largo. Una conversación sin remate parece una pérdida de tiempo.
+**Tu atención se fragmenta.** Este es el efecto [popcorn brain](/blog/es-popcorn-brain/). Cada deslizamiento entrena a tu cerebro para esperar nueva estimulación en segundos. Con el tiempo, tu tolerancia para cualquier cosa lenta se desploma. Un párrafo se siente largo. Una conversación sin remate parece una pérdida de tiempo.
 
 **Tu codificación de memoria se debilita.** El cerebro consolida la información durante el descanso y la atención sostenida. El scroll constante no ofrece ninguno de los dos. El contenido pasa por tu corteza visual sin activar el procesamiento profundo que crea recuerdos duraderos. Por eso puedes hacer scroll durante una hora y no recordar nada. La información nunca pasó del muelle de carga.
 
-**Tu red neuronal por defecto se apaga.** Esta es la red responsable de la creatividad, la autorreflexión y el descanso mental. Se activa cuando la entrada externa cae por debajo de un umbral determinado. Soñar despierto. Mirar por la ventana. Esperar en una cola sin el teléfono. Cuando llenas cada hueco con contenido, esta red [nunca se enciende](/blog/how-to-stop-doomscrolling/). Pierdes la parte de tu mente que genera pensamientos originales, procesa emociones y conecta ideas de formas inesperadas.
+**Tu red neuronal por defecto se apaga.** Esta es la red responsable de la creatividad, la autorreflexión y el descanso mental. Se activa cuando la entrada externa cae por debajo de un umbral determinado. Soñar despierto. Mirar por la ventana. Esperar en una cola sin el teléfono. Cuando llenas cada hueco con contenido, esta red [nunca se enciende](/blog/es-how-to-stop-doomscrolling/). Pierdes la parte de tu mente que genera pensamientos originales, procesa emociones y conecta ideas de formas inesperadas.
 
 ## No es cuestión de inteligencia
 
@@ -57,7 +57,7 @@ Piénsalo así. Tu cerebro tiene una capacidad limitada para procesar informaci�
 
 El problema no es que hayas visto treinta segundos de alguien puntuando snacks de gasolinera. El problema es que viste trescientos de esos seguidos y tu cerebro trató cada uno como algo que valía la pena evaluar. El volumen es el problema. Cada pieza es pequeña. Juntas, llenan el recipiente.
 
-Esto conecta también con el [doomscrolling](/blog/how-to-stop-doomscrolling/). Consumo pasivo sin propósito. El scroll continúa no porque el contenido sea bueno, sino porque parar requiere una decisión, y tu corteza prefrontal está demasiado cansada para tomarla.
+Esto conecta también con el [doomscrolling](/blog/es-how-to-stop-doomscrolling/). Consumo pasivo sin propósito. El scroll continúa no porque el contenido sea bueno, sino porque parar requiere una decisión, y tu corteza prefrontal está demasiado cansada para tomarla.
 
 ## Qué funciona realmente
 
@@ -79,11 +79,11 @@ Las primeras veces resultan incómodas. Esa incomodidad es la brecha entre tu ni
 
 El aburrimiento tiene una función. Le señala a tu cerebro que pase del procesamiento externo al interno. Es cuando piensas tus propios pensamientos en lugar de reaccionar a los de otros.
 
-Lo cubrimos en detalle en nuestro artículo sobre [la dopamina y los hábitos digitales](/blog/dopamine-detox/). La versión corta: el aburrimiento no es un problema. Es un estado cognitivo que tu cerebro necesita, y la mayoría de nosotros no lo hemos experimentado en años.
+Lo cubrimos en detalle en nuestro artículo sobre [la dopamina y los hábitos digitales](/blog/es-dopamine-detox/). La versión corta: el aburrimiento no es un problema. Es un estado cognitivo que tu cerebro necesita, y la mayoría de nosotros no lo hemos experimentado en años.
 
 ### Haz una pausa antes de hacer scroll
 
-Un [estudio de 2023 publicado en *PNAS*](/blog/science-of-the-60-second-pause/) descubrió que una breve pausa en pantalla antes de las apps sociales —una espera corta y un aviso que pregunta si de verdad quieres continuar— redujo los intentos de abrir apps un 57% en seis semanas.[^pnas] La pausa no era larga. Pero bastó para cambiar el cerebro del piloto automático a la elección consciente.
+Un [estudio de 2023 publicado en *PNAS*](/blog/es-science-of-the-60-second-pause/) descubrió que una breve pausa en pantalla antes de las apps sociales —una espera corta y un aviso que pregunta si de verdad quieres continuar— redujo los intentos de abrir apps un 57% en seis semanas.[^pnas] La pausa no era larga. Pero bastó para cambiar el cerebro del piloto automático a la elección consciente.
 
 La mayoría de las veces, cuando las personas hacían una pausa y luego decidían si realmente querían hacer scroll, dejaban el teléfono. El impulso pasaba. Suele pasar, cuando le das sesenta segundos.
 

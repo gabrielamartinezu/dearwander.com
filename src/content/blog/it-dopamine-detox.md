@@ -59,7 +59,7 @@ Il dopamine detox estremo, niente telefono, niente musica, niente piacere per un
 
 Primo, tratta il sintomo come la malattia. Il problema non è la dopamina. Il problema è un insieme di abitudini compulsive che il tuo cervello ha costruito attorno alla stimolazione digitale. Smettere di colpo non smonta quelle abitudini. Le sopprime solo temporaneamente, come trattenere il respiro sott'acqua. Nel momento in cui torni in superficie, ansimi.
 
-Secondo, la privazione totale innesca quello che gli psicologi chiamano [comportamento di rimbalzo](/blog/revenge-bedtime-scrolling/). Quando restringi qualcosa completamente, il desiderio si intensifica. Questo è ben documentato nella ricerca sui disturbi alimentari e si applica direttamente alle abitudini digitali. Le persone che fanno digiuni estremi dal telefono spesso riportano un uso più intenso successivamente. L'abbuffata segue il digiuno.
+Secondo, la privazione totale innesca quello che gli psicologi chiamano [comportamento di rimbalzo](/blog/it-revenge-bedtime-scrolling/). Quando restringi qualcosa completamente, il desiderio si intensifica. Questo è ben documentato nella ricerca sui disturbi alimentari e si applica direttamente alle abitudini digitali. Le persone che fanno digiuni estremi dal telefono spesso riportano un uso più intenso successivamente. L'abbuffata segue il digiuno.
 
 Lo studio JAMA non ha chiesto a nessuno di abbandonare completamente i social media. I partecipanti hanno ridotto da 2 ore a 30 minuti. Continuavano a scrollare. Solo di meno, e con più intenzione. Quella riduzione moderata ha prodotto risultati più forti e sostenibili dell'approccio tutto o niente.
 
@@ -75,13 +75,13 @@ Taglia il tuo tempo sui social a metà piuttosto che azzerarlo. Se sei a due ore
 
 Il gesto automatico è il problema centrale. Apri app senza deciderlo. Il tuo pollice si muove prima che il cervello abbia modo di intervenire. Qualsiasi cosa che crei uno spazio tra l'impulso e l'azione cambia l'equazione.
 
-Uno [studio del 2023 pubblicato su *PNAS*](/blog/science-of-the-60-second-pause/) ha scoperto che una breve pausa sullo schermo prima delle app social — una breve attesa e un messaggio che chiede se vuoi davvero continuare — ha ridotto i tentativi di apertura delle app del **57%** nell'arco di sei settimane.[^pnas] Le app di nessuno sono state bloccate. A nessuno è stato tolto il telefono. La pausa ha dato alla corteccia prefrontale il tempo di mettersi al passo, e la maggior parte delle persone si è resa conto che non voleva davvero scrollare. Voleva solo sfuggire a una sensazione.
+Uno [studio del 2023 pubblicato su *PNAS*](/blog/it-science-of-the-60-second-pause/) ha scoperto che una breve pausa sullo schermo prima delle app social — una breve attesa e un messaggio che chiede se vuoi davvero continuare — ha ridotto i tentativi di apertura delle app del **57%** nell'arco di sei settimane.[^pnas] Le app di nessuno sono state bloccate. A nessuno è stato tolto il telefono. La pausa ha dato alla corteccia prefrontale il tempo di mettersi al passo, e la maggior parte delle persone si è resa conto che non voleva davvero scrollare. Voleva solo sfuggire a una sensazione.
 
 ### Micro-detox quotidiano invece di digiuno mensile
 
 Invece di un giorno estremo di privazione, inserisci piccoli momenti a bassa stimolazione in ogni giornata. Mangia un pasto senza il telefono. Cammina fino all'angolo senza auricolari. Siediti in macchina due minuti prima di entrare. Lasciati annoiare in una sala d'attesa.
 
-Queste micro-pause fanno quello che il detox estremo dice di fare. Ricostruiscono la tua [tolleranza alla bassa stimolazione](/blog/popcorn-brain/) gradualmente, senza il rimbalzo. Il cervello si adatta incrementalmente invece di oscillare tra eccesso e carenza.
+Queste micro-pause fanno quello che il detox estremo dice di fare. Ricostruiscono la tua [tolleranza alla bassa stimolazione](/blog/it-popcorn-brain/) gradualmente, senza il rimbalzo. Il cervello si adatta incrementalmente invece di oscillare tra eccesso e carenza.
 
 ### Sostituisci il comportamento, non solo eliminarlo
 
@@ -91,13 +91,13 @@ Una pausa di respirazione funziona perché affronta il disagio direttamente. Ses
 
 ## La versione da 60 secondi
 
-Questa è l'idea dietro Dear Wander. Non un detox drammatico. Non un blocca-app. Una [pausa di respirazione di 60 secondi](/blog/science-of-the-60-second-pause/) che appare prima che le tue app scelte si aprano. Ogni volta che tocchi Instagram o TikTok o qualunque sia la tua attrazione particolare, ricevi prima una schermata calda con respirazione guidata.
+Questa è l'idea dietro Dear Wander. Non un detox drammatico. Non un blocca-app. Una [pausa di respirazione di 60 secondi](/blog/it-science-of-the-60-second-pause/) che appare prima che le tue app scelte si aprano. Ogni volta che tocchi Instagram o TikTok o qualunque sia la tua attrazione particolare, ricevi prima una schermata calda con respirazione guidata.
 
 È un micro-detox prima di ogni singola apertura di app. Quotidiano. Automatico. Nessuna forza di volontà richiesta.
 
 La maggior parte delle volte, la pausa è sufficiente. Respiri, l'impulso passa e posi il telefono. Quando apri l'app, lo fai intenzionalmente invece che per riflesso. Col tempo, il pattern cambia. Non perché hai esaurito un neurotrasmettitore, ma perché hai costruito una nuova abitudine davanti a quella vecchia.
 
-Il dopamine detox coglie una cosa giusta: qualcosa nella tua [relazione con il telefono deve cambiare](/blog/how-to-stop-doomscrolling/). Il metodo deve solo corrispondere a ciò che la scienza dice davvero. Piccolo, costante, integrato nella vita quotidiana. Non un digiuno drammatico che finisce in un'abbuffata più intensa.
+Il dopamine detox coglie una cosa giusta: qualcosa nella tua [relazione con il telefono deve cambiare](/blog/it-how-to-stop-doomscrolling/). Il metodo deve solo corrispondere a ciò che la scienza dice davvero. Piccolo, costante, integrato nella vita quotidiana. Non un digiuno drammatico che finisce in un'abbuffata più intensa.
 
 Se vuoi provare l'approccio della pausa di respirazione, [Dear Wander](/it/) ne mette una tra te e ogni scroll inconsapevole. Sessanta secondi. Nessun blocco. Solo un respiro prima del rumore.
 

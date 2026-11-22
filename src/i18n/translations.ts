@@ -124,7 +124,7 @@ export const translations = {
     "faq.q4": "Will it drain my battery?",
     "faq.a4": "No. Dear Wander is built on Apple's native Screen Time API. No VPN, no background workarounds, no battery drain.",
     "faq.q5": "What does it cost?",
-    "faq.a5": "Dear Wander is on the App Store now. It is free with one app paused, and premium unlocks unlimited apps and the full guided library: $3.99 a month, $19.99 a year, or $39.99 once.",
+    "faq.a5": "Dear Wander is on the App Store now. It is free with one app paused, and Dear Wander+ unlocks unlimited apps and the full guided library for a single payment of $5.99. No subscription.",
   },
 
   es: {
@@ -239,7 +239,7 @@ export const translations = {
     "faq.q4": "¿Consume batería?",
     "faq.a4": "No. Dear Wander está construido sobre la API nativa de Tiempo en Pantalla de Apple. Sin VPN, sin trucos en segundo plano, sin gasto de batería.",
     "faq.q5": "¿Cuánto cuesta?",
-    "faq.a5": "Dear Wander ya está en la App Store. Es gratis con una app en pausa, y la versión premium abre apps ilimitadas y la biblioteca completa de sesiones guiadas: 3,99 $ al mes, 19,99 $ al año o 39,99 $ en un solo pago.",
+    "faq.a5": "Dear Wander ya está en la App Store. Es gratis con una app en pausa, y Dear Wander+ abre apps ilimitadas y la biblioteca completa de sesiones guiadas con un solo pago de 5,99 $. Sin suscripción.",
   },
 
   it: {
@@ -354,7 +354,7 @@ export const translations = {
     "faq.q4": "Consuma batteria?",
     "faq.a4": "No. Dear Wander è costruito sull'API nativa Tempo di Utilizzo di Apple. Niente VPN, nessun trucco in background, nessun consumo di batteria.",
     "faq.q5": "Quanto costa?",
-    "faq.a5": "Dear Wander è già sull'App Store. È gratis con una app in pausa, e la versione premium sblocca app illimitate e la libreria completa di sessioni guidate: 3,99 $ al mese, 19,99 $ all'anno o 39,99 $ una volta sola.",
+    "faq.a5": "Dear Wander è già sull'App Store. È gratis con una app in pausa, e Dear Wander+ sblocca app illimitate e la libreria completa di sessioni guidate con un unico pagamento di 5,99 $. Nessun abbonamento.",
   },
 } as const;
 

@@ -77,7 +77,7 @@ El enfoque basado en la vergüenza ("estás desperdiciando tu vida") tampoco fun
 
 El concepto es simple. En lugar de un muro entre tú y tu teléfono, introduces una pausa. Una respiración. Un momento donde tu cerebro consciente puede reincorporarse a la decisión.
 
-Esto es lo que hace una [pausa de respiración](/blog/science-of-the-60-second-pause/). Cuando buscas tu teléfono o cuando una sesión de scroll supera un umbral, aparece un ejercicio de respiración de 60 segundos. No te está bloqueando. No te está diciendo que estás mal por querer hacer scroll. Solo está creando un espacio entre el impulso y la acción.
+Esto es lo que hace una [pausa de respiración](/blog/es-science-of-the-60-second-pause/). Cuando buscas tu teléfono o cuando una sesión de scroll supera un umbral, aparece un ejercicio de respiración de 60 segundos. No te está bloqueando. No te está diciendo que estás mal por querer hacer scroll. Solo está creando un espacio entre el impulso y la acción.
 
 Para cerebros con ADHD, esto importa enormemente. El espacio es exactamente lo que falta. Las diferencias en el control de impulsos significan que el espacio entre "quiero hacer scroll" y "estoy haciendo scroll" está comprimido a casi cero. Una pausa suave expande ese espacio justo lo suficiente para que tu corteza prefrontal pueda opinar.
 
@@ -105,7 +105,7 @@ Algo que vale la pena notar: la comunidad ADHD comparte recursos con una pasión
 
 ## Construyendo un patrón diferente
 
-El [doomscrolling](/blog/how-to-stop-doomscrolling/) no es una identidad fija. Es un patrón. Los patrones pueden cambiar. Para cerebros con ADHD, ese cambio requiere herramientas diseñadas con tu neurología en mente, no en su contra.
+El [doomscrolling](/blog/es-how-to-stop-doomscrolling/) no es una identidad fija. Es un patrón. Los patrones pueden cambiar. Para cerebros con ADHD, ese cambio requiere herramientas diseñadas con tu neurología en mente, no en su contra.
 
 No necesitas otra app que te trate como si no se pudiera confiar en ti. Necesitas una que confíe en que tomarás buenas decisiones cuando se te dé el espacio para pensar. Una pausa. Una respiración. Una elección que realmente sea tuya.
 

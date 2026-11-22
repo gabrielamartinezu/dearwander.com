@@ -3,6 +3,10 @@ import { translations, type Locale, type TranslationKey } from "./translations";
 export function getLangFromUrl(url: URL): Locale {
   const [, lang] = url.pathname.split("/");
   if (lang in translations) return lang as Locale;
+  // Los posts traducidos viven en /blog/es-slug/ y /blog/it-slug/, sin prefijo
+  // de idioma en la ruta. Sin esto todos declaraban lang="en".
+  const post = url.pathname.match(/^\/blog\/(es|it)-/);
+  if (post) return post[1] as Locale;
   return "en";
 }
 

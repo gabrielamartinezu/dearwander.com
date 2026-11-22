@@ -55,13 +55,13 @@ Y luego está el teléfono.
 
 Tu teléfono está optimizado para la urgencia. Notificaciones, feeds algorítmicos, comparación, indignación, noticias de última hora. Cada uno es una microseñal que le dice a tu sistema nervioso que algo requiere tu atención ahora mismo. Incluso un scroll inofensivo por redes sociales puede activar una respuesta de estrés de baja intensidad. No porque el contenido sea peligroso, sino porque el ritmo y la imprevisibilidad imitan el patrón de la amenaza.
 
-Este es el mismo [ciclo de sobreestimulación](/blog/popcorn-brain/) que fragmenta tu atención durante el día. También desplaza los glimmers. Cuando tu sistema nervioso está ocupado procesando un flujo de señales de urgencia, no puede registrar las señales silenciosas de seguridad que ocurren a tu alrededor.
+Este es el mismo [ciclo de sobreestimulación](/blog/es-popcorn-brain/) que fragmenta tu atención durante el día. También desplaza los glimmers. Cuando tu sistema nervioso está ocupado procesando un flujo de señales de urgencia, no puede registrar las señales silenciosas de seguridad que ocurren a tu alrededor.
 
 La luz del sol sigue en tus manos. El café sigue tibio. Pero si estás mirando tu teléfono, tu sistema nervioso está en otro lugar completamente.
 
 Dejar el teléfono no garantiza que notes un glimmer. Pero crea el espacio donde notarlo se vuelve posible. No puedes captar lo silencioso mientras el ruido sigue corriendo.
 
-Esto es parte de por qué el [revenge bedtime scrolling](/blog/revenge-bedtime-scrolling/) se siente tan agotador. No solo estás perdiendo sueño. Estás cambiando una hora de glimmers potenciales, el silencio de la noche, la suavidad de tu cama, el sonido de la lluvia, por un flujo de señales que mantienen tu sistema nervioso en alerta.
+Esto es parte de por qué el [revenge bedtime scrolling](/blog/es-revenge-bedtime-scrolling/) se siente tan agotador. No solo estás perdiendo sueño. Estás cambiando una hora de glimmers potenciales, el silencio de la noche, la suavidad de tu cama, el sonido de la lluvia, por un flujo de señales que mantienen tu sistema nervioso en alerta.
 
 ## Cómo empezar a notar
 
@@ -79,11 +79,11 @@ No necesita ser más complicado que eso.
 
 ## Un glimmer por diseño
 
-Esto es parte de por qué Dear Wander existe. La [pausa de respiración de 60 segundos](/blog/science-of-the-60-second-pause/) que aparece antes de que tus apps se abran no es solo un retraso. Es un micromomento de seguridad diseñado. Inhalación lenta. Exhalación lenta. Tu sistema nervioso registra la desaceleración y responde. La frecuencia cardíaca baja. La vía vagal ventral se activa.
+Esto es parte de por qué Dear Wander existe. La [pausa de respiración de 60 segundos](/blog/es-science-of-the-60-second-pause/) que aparece antes de que tus apps se abran no es solo un retraso. Es un micromomento de seguridad diseñado. Inhalación lenta. Exhalación lenta. Tu sistema nervioso registra la desaceleración y responde. La frecuencia cardíaca baja. La vía vagal ventral se activa.
 
 Esa pausa es, por definición, un glimmer. Una señal breve que le dice a tu cuerpo: estás a salvo, puedes bajar el ritmo, nada te persigue.
 
-Y lo que sigue a la pausa también importa. Cuando la pantalla de respiración termina, muchas personas descubren que ya no necesitan la app. El scroll nunca fue por el contenido. Era para llenar un vacío. La pausa lo llena de otra manera, con unos segundos de presencia en lugar de un feed. Un [momento de visualización guiada](/blog/guided-imagery-meditation/) puede llevar esa sensación aún más lejos, dándole a tu mente un lugar cálido donde aterrizar.
+Y lo que sigue a la pausa también importa. Cuando la pantalla de respiración termina, muchas personas descubren que ya no necesitan la app. El scroll nunca fue por el contenido. Era para llenar un vacío. La pausa lo llena de otra manera, con unos segundos de presencia en lugar de un feed. Un [momento de visualización guiada](/blog/es-guided-imagery-meditation/) puede llevar esa sensación aún más lejos, dándole a tu mente un lugar cálido donde aterrizar.
 
 No necesitas captar cada glimmer. Solo necesitas captar algunos. Los suficientes para recordarle a tu sistema nervioso que la seguridad está disponible, no algún día, sino ahora mismo. En el calor de tus manos alrededor de una taza. En la luz por la ventana. En la respiración que acabas de tomar sin pensar en ella.
 

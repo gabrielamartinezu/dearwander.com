@@ -83,7 +83,7 @@ Non tutti i dati sono scoraggianti. Gli studi hanno identificato approcci specif
 
 **Approcci basati sulla mindfulness**, Fare una breve pausa deliberata prima di aprire un'app può interrompere il ciclo automatico dell'abitudine. La pausa, a quanto pare, è l'intervento.
 
-Questo è ciò che stiamo costruendo con [Dear Wander](/it/). Non un blocco. Non un timer. Una pausa di respirazione di 60 secondi che dà alla corteccia prefrontale la possibilità di raggiungere il tuo pollice. [La scienza dietro](/blog/science-of-the-60-second-pause/) è convincente, e non richiede forza di volontà.
+Questo è ciò che stiamo costruendo con [Dear Wander](/it/). Non un blocco. Non un timer. Una pausa di respirazione di 60 secondi che dà alla corteccia prefrontale la possibilità di raggiungere il tuo pollice. [La scienza dietro](/blog/it-science-of-the-60-second-pause/) è convincente, e non richiede forza di volontà.
 
 ## Il numero che conta di più
 

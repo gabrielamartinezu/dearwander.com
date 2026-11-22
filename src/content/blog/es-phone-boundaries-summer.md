@@ -55,7 +55,7 @@ La fricción es la función.
 
 La hora después de despertar y la hora antes de dormir marcan el tono de todo lo que hay en medio. Tomar el teléfono nada más despertar inunda un cerebro apenas despierto con la urgencia de otros. La mañana se vuelve reactiva antes de que hayas podido elegir cómo se siente.
 
-Una [mañana sin teléfono](/blog/morning-phone-routine/) protege esa ventana. Café, luz, silencio, tus propios pensamientos, antes de que el feed tenga voto.
+Una [mañana sin teléfono](/blog/es-morning-phone-routine/) protege esa ventana. Café, luz, silencio, tus propios pensamientos, antes de que el feed tenga voto.
 
 La última hora importa aún más. Alrededor del 96% de las personas admiten la procrastinación vengativa antes de dormir, quedarse despiertas haciendo scroll para recuperar el tiempo que el día les robó. Cuesta unas 332 horas de sueño al año. Eso es casi dos semanas, perdidas al brillo azul de la medianoche. Si la primera y la última hora te parecen demasiado, empieza por la última. Es donde se esconde la mayor parte del sueño.
 
@@ -63,7 +63,7 @@ La última hora importa aún más. Alrededor del 96% de las personas admiten la 
 
 La vuelta a la manzana. Salir por un café. Sacar al perro. Son recados de cinco minutos que de verdad no necesitan un teléfono, y dejarlo en la encimera los convierte en otra cosa.
 
-Un paseo sin teléfono es un paseo en el que podrías notar cosas. La jacarandá que floreció de un día para otro. Un vecino al que de otro modo solo saludarías de paso. El silencio particular de una calle al caer la tarde. Estos pequeños momentos de calma tienen un nombre. Son [glimmers](/blog/glimmers/), las microseñales de seguridad que tu sistema nervioso capta cuando no está ocupado procesando una pantalla.
+Un paseo sin teléfono es un paseo en el que podrías notar cosas. La jacarandá que floreció de un día para otro. Un vecino al que de otro modo solo saludarías de paso. El silencio particular de una calle al caer la tarde. Estos pequeños momentos de calma tienen un nombre. Son [glimmers](/blog/es-glimmers/), las microseñales de seguridad que tu sistema nervioso capta cuando no está ocupado procesando una pantalla.
 
 No puedes captar lo que es silencioso mientras el ruido sigue corriendo. A veces el límite es solo dejar el ruido en casa diez minutos.
 
@@ -81,7 +81,7 @@ Este es el límite con más impacto de la lista, y casi no cuesta esfuerzo. Muev
 
 Cargar el teléfono fuera del dormitorio reduce el scroll antes de dormir, no por fuerza de voluntad sino por distancia. Cuando el teléfono no está a tu lado, tomarlo significa salir de la cama, y ese pequeño coste suele bastar para frenar el impulso antes de que empiece.
 
-Si usas el teléfono como despertador, compra un reloj barato. Se paga solo en la primera semana de mejor sueño. Profundizamos en esto en el artículo sobre [el scroll vengativo antes de dormir](/blog/revenge-bedtime-scrolling/), pero el titular es simple: la distancia hace el trabajo.
+Si usas el teléfono como despertador, compra un reloj barato. Se paga solo en la primera semana de mejor sueño. Profundizamos en esto en el artículo sobre [el scroll vengativo antes de dormir](/blog/es-revenge-bedtime-scrolling/), pero el titular es simple: la distancia hace el trabajo.
 
 ## Elige uno y deja que baste
 

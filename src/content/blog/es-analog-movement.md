@@ -35,7 +35,7 @@ Nadie extraña rebobinar casetes. El renacer analógico no se trata realmente de
 
 **Fricción.** Un vinilo te hace elegir un álbum y escucharlo entero. Una cámara de carrete te hace esperar. La fricción obliga a la atención. El esfuerzo es el punto, porque el esfuerzo es lo que hace que una experiencia se sienta real.
 
-**Presencia.** Cuando no puedes capturar, editar y publicar un momento al instante, es más probable que de verdad lo vivas. El objeto analógico te mantiene en la habitación. Es lo mismo que perdemos cuando [buscamos el teléfono en cada momento de silencio](/blog/how-to-stop-doomscrolling/).
+**Presencia.** Cuando no puedes capturar, editar y publicar un momento al instante, es más probable que de verdad lo vivas. El objeto analógico te mantiene en la habitación. Es lo mismo que perdemos cuando [buscamos el teléfono en cada momento de silencio](/blog/es-how-to-stop-doomscrolling/).
 
 **Permanencia.** Una carta escrita a mano existe en un solo lugar. Una foto impresa descansa en una repisa. En un mundo donde todo es un feed interminable y desechable, algo físico que puedes sostener se siente como un ancla.
 
@@ -43,7 +43,7 @@ Fricción, presencia, permanencia. Nuestros teléfonos quitaron las tres en sile
 
 ## No tienes que tirar tu teléfono a un lago
 
-Aquí el movimiento analógico se complica. La mayoría de quienes lo romantizan siguen necesitando un smartphone para mapas, banco, trabajo y mantenerse en contacto. El retiro total, la [fantasía del dumbphone](/blog/dumbphone-urge/), es real pero difícil de sostener.
+Aquí el movimiento analógico se complica. La mayoría de quienes lo romantizan siguen necesitando un smartphone para mapas, banco, trabajo y mantenerse en contacto. El retiro total, la [fantasía del dumbphone](/blog/es-dumbphone-urge/), es real pero difícil de sostener.
 
 Así que la pregunta no es si volverse analógico o digital. Es si puedes conservar un alma analógica dentro de una vida digital.
 
@@ -53,9 +53,9 @@ Se ve así:
 
 - Comprar un despertador de verdad para que tu teléfono duerma en otra habitación
 - Escribir la única intención de la mañana en papel antes de abrir una sola app
-- Poner [una respiración entre tú y el scroll](/blog/science-of-the-60-second-pause/) en lugar de abrir Instagram por reflejo
+- Poner [una respiración entre tú y el scroll](/blog/es-science-of-the-60-second-pause/) en lugar de abrir Instagram por reflejo
 - Leer tres páginas de un libro impreso por la noche en vez de darle a tu cerebro más contenido antes de dormir
-- Notar los [pequeños glimmers](/blog/glimmers/) de un día común en lugar de documentarlos para una audiencia
+- Notar los [pequeños glimmers](/blog/es-glimmers/) de un día común en lugar de documentarlos para una audiencia
 
 Nada de esto exige dejar tu teléfono. Solo devuelve un poco de fricción analógica a las partes de la vida digital que no tenían ninguna.
 
@@ -63,7 +63,7 @@ Nada de esto exige dejar tu teléfono. Solo devuelve un poco de fricción analó
 
 Durante veinte años, la tecnología optimizó para eliminar la fricción. Un toque para comprar. Scroll infinito. Reproducción automática. Todo instantáneo, todo sin fricción.
 
-Y resulta que lo instantáneo agota. Cuando nada te pide nada, tu atención no tiene de dónde sostenerse, y [se fragmenta](/blog/popcorn-brain/). El movimiento analógico es una toma de conciencia colectiva de que algo de fricción nos hace bien. La pausa antes de la foto. El esfuerzo de la nota a mano. La espera a que la canción termine.
+Y resulta que lo instantáneo agota. Cuando nada te pide nada, tu atención no tiene de dónde sostenerse, y [se fragmenta](/blog/es-popcorn-brain/). El movimiento analógico es una toma de conciencia colectiva de que algo de fricción nos hace bien. La pausa antes de la foto. El esfuerzo de la nota a mano. La espera a que la canción termine.
 
 Por eso funciona una pausa de respiración antes de una app. Devuelve una pequeña pieza de fricción justo donde los diseñadores la quitaron, lo suficiente para que abrir la app sea una elección en vez de un reflejo.
 

@@ -71,7 +71,7 @@ Cuando fallas una racha en una app gamificada, sobreviene el llamado efecto *"wh
 
 | App | Enfoque principal | Fricción / Bloqueo | Configuración en iOS | Precio | Ideal para |
 |---|---|---|---|---|---|
-| **Dear Wander** | Bucle de autorregulación (Intención + Pausa 60s + Diario) | Pausa somática guiada de 60s (sin prohibición) | Nativo (FamilyControls, sin atajos) | Gratuita / Suscripción accesible | Quienes buscan calma, profundidad y un cambio de hábito sostenible |
+| **Dear Wander** | Bucle de autorregulación (Intención + Pausa 60s + Diario) | Pausa somática guiada de 60s (sin prohibición) | Nativo (FamilyControls, sin atajos) | Gratuita / $5.99 pago único, sin suscripción | Quienes buscan calma, profundidad y un cambio de hábito sostenible |
 | **ScreenZen** | Control numérico y horarios | Retraso configurable de apertura | Nativo (FamilyControls) | 100% Gratis | Quienes quieren máxima personalización técnica sin pagar nada |
 | **One Sec** | Pausa rápida de respiración | Ejercicio de 3–5 segundos | Requiere app Atajos (*Shortcuts*) | Freemium / Suscripción anual | Quienes quieren una interrupción breve y no les importa configurar atajos |
 | **Brick** | Bloqueo físico por hardware | Bloqueo total deshabilitable solo con el accesorio NFC | Hardware externo | ~$50 USD (pago único de hardware) | Quienes necesitan una separación física radical en casa o el trabajo |

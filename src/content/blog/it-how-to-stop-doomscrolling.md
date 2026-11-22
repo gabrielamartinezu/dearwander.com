@@ -111,7 +111,7 @@ La maggior parte dei telefoni ha una modalità riposo che attenua lo schermo, li
 
 Non ti servono tutte e dodici. Scegline due o tre che sembrano gestibili e provale per una settimana. L'obiettivo non è ottimizzare le tue abitudini con il telefono. L'obiettivo è creare abbastanza frizione perché la tua mente consapevole abbia un voto.
 
-Perché ecco la verità che le [statistiche rendono chiara](/blog/phone-addiction-statistics-2026/): non stai facendo doomscrolling perché ti manca la disciplina. Stai facendo doomscrolling perché le aziende più finanziate nella storia umana hanno progettato i loro prodotti per farti fare doomscrolling.
+Perché ecco la verità che le [statistiche rendono chiara](/blog/it-phone-addiction-statistics-2026/): non stai facendo doomscrolling perché ti manca la disciplina. Stai facendo doomscrolling perché le aziende più finanziate nella storia umana hanno progettato i loro prodotti per farti fare doomscrolling.
 
 Il campo di gioco non è livellato. Ma con qualche cambiamento strategico, ambientale, comportamentale, tecnologico, puoi inclinarlo a tuo favore.
 

@@ -70,17 +70,17 @@ Unos detalles pequeños que importan:
 - Haz la exhalación un poco más larga que la inhalación si quieres un efecto más profundo
 - No fuerces el aire al llegar arriba. Cómodo es mejor que máximo
 
-Si tu mente se dispersa, no pasa nada. El nervio vago responde a la respiración, no a tu concentración. Esto combina bien con [una práctica breve de imaginación guiada](/blog/guided-imagery-meditation/) si quieres algo donde apoyar la atención.
+Si tu mente se dispersa, no pasa nada. El nervio vago responde a la respiración, no a tu concentración. Esto combina bien con [una práctica breve de imaginación guiada](/blog/es-guided-imagery-meditation/) si quieres algo donde apoyar la atención.
 
 ## La versión cotidiana de esto
 
 Casi nunca llegamos al cojín. Al sistema nervioso le da igual. Tomará un reseteo vagal donde pueda conseguirlo, incluso en los tres segundos antes de abrir una app.
 
-Ese hueco entre alcanzar el teléfono y tocar la pantalla suele ser puro piloto automático, un estado reactivo y algo acelerado. Unas respiraciones lentas ahí son un cambio fisiológico real, no una idea bonita. Trabajas el mismo freno de acetilcolina, solo que de pie en una cocina en vez de en un estudio de yoga. La ciencia detrás de por qué [una pausa de 60 segundos cambia tus decisiones](/blog/science-of-the-60-second-pause/) es en parte este mismo mecanismo.
+Ese hueco entre alcanzar el teléfono y tocar la pantalla suele ser puro piloto automático, un estado reactivo y algo acelerado. Unas respiraciones lentas ahí son un cambio fisiológico real, no una idea bonita. Trabajas el mismo freno de acetilcolina, solo que de pie en una cocina en vez de en un estudio de yoga. La ciencia detrás de por qué [una pausa de 60 segundos cambia tus decisiones](/blog/es-science-of-the-60-second-pause/) es en parte este mismo mecanismo.
 
-También resignifica esos pequeños momentos de alivio a lo largo del día. La respiración honda antes de una reunión, el suspiro en un semáforo en verde. Son [glimmers](/blog/glimmers/), diminutas señales de seguridad que tu cuerpo emite, y tu nervio vago es el cableado que las sostiene.
+También resignifica esos pequeños momentos de alivio a lo largo del día. La respiración honda antes de una reunión, el suspiro en un semáforo en verde. Son [glimmers](/blog/es-glimmers/), diminutas señales de seguridad que tu cuerpo emite, y tu nervio vago es el cableado que las sostiene.
 
-Y explica por qué buscar calma a través del teléfono sale al revés. Un pico de dopamina del feed no hace nada por el tono vagal. Si acaso te empuja hacia el otro lado, que es parte de por qué la [idea del ayuno de dopamina no da en el clavo](/blog/dopamine-detox/). Tu cuerpo no pedía novedad. Pedía una exhalación más lenta.
+Y explica por qué buscar calma a través del teléfono sale al revés. Un pico de dopamina del feed no hace nada por el tono vagal. Si acaso te empuja hacia el otro lado, que es parte de por qué la [idea del ayuno de dopamina no da en el clavo](/blog/es-dopamine-detox/). Tu cuerpo no pedía novedad. Pedía una exhalación más lenta.
 
 ## Qué significa esto para Dear Wander
 

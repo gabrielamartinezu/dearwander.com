@@ -30,7 +30,7 @@ Questo è un confronto onesto. Noi realizziamo Dear Wander, quindi siamo traspar
 | **ScreenZen** | Ritardi e limiti configurabili | Gratuito | Personalizzazione a costo zero |
 | **Clearspace** | Confronto con i dati di utilizzo | ~$70/anno | Utenti motivati dai dati |
 | **Freedom** | Blocco programmato multipiattaforma | ~$40/anno | Blocco su più dispositivi |
-| **Dear Wander** | Pausa di respirazione di 60 s + lettere | Piano gratuito / $3.99 mese · $19.99 anno · $39.99 una volta | Un approccio dolce, senza colpa né blocchi |
+| **Dear Wander** | Pausa di respirazione di 60 s + lettere | Piano gratuito / $5.99 una volta, senza abbonamento | Un approccio dolce, senza colpa né blocchi |
 
 ## Opal: il blocco rigido
 
@@ -42,7 +42,7 @@ Il compromesso è il prezzo. A $100/anno o $400 a vita, Opal è l'opzione più c
 
 ## One Sec: la pausa supportata dalla ricerca
 
-One Sec è stato il pioniere del concetto "pausa di respirazione prima di aprire un'app", e funziona. L'app mostra un'animazione di respirazione a schermo intero quando tocchi un'app selezionata, dandoti un momento per notare l'impulso prima di agire. Uno studio del 2023 pubblicato su *PNAS* ha scoperto che una breve pausa sullo schermo prima delle app social — una breve attesa e un messaggio che ti chiede se vuoi davvero continuare — [ha ridotto i tentativi di apertura delle app del 57% nell'arco di sei settimane](/blog/science-of-the-60-second-pause/).[^pnas]
+One Sec è stato il pioniere del concetto "pausa di respirazione prima di aprire un'app", e funziona. L'app mostra un'animazione di respirazione a schermo intero quando tocchi un'app selezionata, dandoti un momento per notare l'impulso prima di agire. Uno studio del 2023 pubblicato su *PNAS* ha scoperto che una breve pausa sullo schermo prima delle app social — una breve attesa e un messaggio che ti chiede se vuoi davvero continuare — [ha ridotto i tentativi di apertura delle app del 57% nell'arco di sei settimane](/blog/it-science-of-the-60-second-pause/).[^pnas]
 
 È importante sottolineare che One Sec non blocca nulla. Dopo l'esercizio di respirazione, puoi ancora aprire l'app. L'intervento è la consapevolezza stessa. Per molte persone, quel momento di frizione è sufficiente a spezzare lo schema automatico di prendere il telefono e scorrere.
 

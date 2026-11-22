@@ -18,8 +18,8 @@ interface Props {
 const lang = getLangFromUrl(Astro.url);
 
 const {
-  title = "Dear Wander — Mindful Screen Time",
-  description = "Sixty seconds back to yourself. Dear Wander intercepts your scroll with a moment of beauty — guided breathing before you open social media. Coming soon to iOS.",
+  title = "Dear Wander: Mindful Screen Time App for iPhone",
+  description = "Sixty seconds back to yourself. Dear Wander meets your scroll with a moment of guided breathing before social media opens. Free on iPhone, no account.",
   ogImage = "/og-image.jpg",
   isArticle = false,
   articleDate,
@@ -36,14 +36,30 @@ const withSlash = (p: string) => (p.endsWith("/") ? p : `${p}/`);
 const canonicalURL = new URL(withSlash(Astro.url.pathname), Astro.site);
 const siteURL = Astro.site?.origin ?? "https://dearwander.com";
 
-// Build hreflang path: strip locale prefix to get the base path
 const pathname = Astro.url.pathname;
-const basePath = withSlash(pathname.replace(/^\/(es|it)/, "") || "/");
 
 // Blog posts use prefix-in-slug pattern (es-slug, it-slug) not locale routing (/es/blog/slug)
-// Only output hreflang for pages that use locale-prefixed routes (homepage, main pages)
 const isBlogPost = pathname.match(/^\/blog\/.+/);
-const isTranslatedBlogPost = pathname.match(/^\/blog\/(es|it)-/);
+
+// Páginas que de verdad son traducciones unas de otras. Antes se deducían
+// quitando o poniendo el prefijo del idioma, y eso generaba hreflang hacia
+// URLs que no existen (/es/about/, /calculadora-tiempo-en-pantalla/...).
+// Una página que no esté aquí no emite hreflang. Si se traduce una página
+// nueva, se añade su grupo.
+const PAGE_GROUPS: Partial<Record<"en" | "es" | "it", string>>[] = [
+  { en: "/", es: "/es/", it: "/it/" },
+  { en: "/blog/", es: "/es/blog/", it: "/it/blog/" },
+  { en: "/screen-time-calculator/", es: "/es/calculadora-tiempo-en-pantalla/" },
+  { en: "/privacy/", es: "/es/privacidad/" },
+  { en: "/support/", es: "/es/soporte/" },
+  { en: "/terms/", es: "/es/terminos/" },
+];
+const pageGroup = isBlogPost
+  ? undefined
+  : PAGE_GROUPS.find((g) => Object.values(g).includes(withSlash(pathname)));
+const pageAlternates = pageGroup
+  ? (Object.entries(pageGroup) as [string, string][])
+  : [];
 ---
 
 <!doctype html>
@@ -65,13 +81,14 @@ const isTranslatedBlogPost = pathname.match(/^\/blog\/(es|it)-/);
       </>
     )}
 
-    <!-- hreflang para el resto del sitio, que si usa rutas con prefijo -->
-    {!isBlogPost && (
+    <!-- hreflang para el resto del sitio: solo las parejas declaradas arriba -->
+    {pageGroup && pageAlternates.length > 1 && (
       <>
-        <link rel="alternate" hreflang="en" href={`${siteURL}${basePath}`} />
-        <link rel="alternate" hreflang="es" href={`${siteURL}/es${basePath}`} />
-        <link rel="alternate" hreflang="it" href={`${siteURL}/it${basePath}`} />
-        <link rel="alternate" hreflang="x-default" href={`${siteURL}${basePath}`} />
+        {pageAlternates.map(([l, p]) => (
+          <link rel="alternate" hreflang={l} href={`${siteURL}${p}`} />
+        ))}
+        <link rel="alternate" hreflang="x-default"
+              href={`${siteURL}${pageGroup.en ?? pageAlternates[0][1]}`} />
       </>
     )}
 

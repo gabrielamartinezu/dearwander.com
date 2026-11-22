@@ -83,6 +83,6 @@ La maggior parte di noi riempie quegli ultimi minuti prima di dormire con il tel
 
 La visualizzazione guidata offre la stessa cosa: qualcosa per occupare la mente. Ma invece di luce blu e contenuti algoritmici progettati per tenerti sveglio, ottieni una scena costruita specificamente per portarti verso il basso. Una passeggiata in un prato. Un lago immobile. Pioggia su un tetto di lamiera.
 
-Se la voglia di prendere il telefono vince prima, Dear Wander può aiutarti in quel momento. Quando apri una delle app che hai scelto, prima ti mostra una [pausa di respirazione di 60 secondi](/blog/science-of-the-60-second-pause/), con uno schermo caldo e una breve lettera. A volte quel minuto basta per posare il telefono e provare la scena descritta sopra.
+Se la voglia di prendere il telefono vince prima, Dear Wander può aiutarti in quel momento. Quando apri una delle app che hai scelto, prima ti mostra una [pausa di respirazione di 60 secondi](/blog/it-science-of-the-60-second-pause/), con uno schermo caldo e una breve lettera. A volte quel minuto basta per posare il telefono e provare la scena descritta sopra.
 
 Al tuo cervello non importa se la calma è reale o immaginata. Risponde allo stesso modo. Tanto vale usarlo a tuo vantaggio.

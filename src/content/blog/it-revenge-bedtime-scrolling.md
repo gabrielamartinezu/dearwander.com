@@ -45,7 +45,7 @@ Ecco cosa rende la revenge bedtime scrolling così difficile da interrompere. Il
 
 Una volta che inizi a scrollare, due meccanismi ti tengono incollato/a più a lungo di quanto volessi.
 
-**Il ciclo della dopamina.** I social media sono progettati con programmi di ricompensa variabile. Non sai se il prossimo video sarà noioso o esilarante. Quella imprevedibilità è ciò che rende difficile fermarsi. Il tuo cervello continua a tirare la leva. "Ancora uno. Forse il prossimo." È lo stesso [schema di sovrastimolazione](/blog/popcorn-brain/) che frammenta l'attenzione durante il giorno, ora attivo contro il tuo sonno.
+**Il ciclo della dopamina.** I social media sono progettati con programmi di ricompensa variabile. Non sai se il prossimo video sarà noioso o esilarante. Quella imprevedibilità è ciò che rende difficile fermarsi. Il tuo cervello continua a tirare la leva. "Ancora uno. Forse il prossimo." È lo stesso [schema di sovrastimolazione](/blog/it-popcorn-brain/) che frammenta l'attenzione durante il giorno, ora attivo contro il tuo sonno.
 
 **La soppressione da luce blu.** La luce dello schermo nella banda 450-490nm sopprime la produzione di melatonina. Il tuo cervello riceve letteralmente il segnale che non è ancora ora di dormire. Così la stanchezza che sentivi alle 22:30 svanisce, sostituita da uno stato di allerta che non corrisponde a quanto il tuo corpo sia realmente esausto. Resti sveglio/a ancora più a lungo del previsto.
 
@@ -55,17 +55,17 @@ La combinazione è devastante. Avevi bisogno di 20 minuti di tempo personale. Il
 
 Non devi stravolgere la tua vita stanotte. Hai bisogno di un momento di spazio tra l'impulso e lo scroll.
 
-Una [pausa di respirazione di 60 secondi](/blog/science-of-the-60-second-pause/) può servire come interruzione. Quando noti che stai cercando il telefono prima di dormire, o quando ti sorprendi a scrollare pensando "dovrei smettere," quella è la finestra. Sessanta secondi di respirazione lenta e intenzionale portano il tuo sistema nervoso fuori dal ciclo di stimolazione e in uno stato in cui posare il telefono diventa possibile invece che doloroso.
+Una [pausa di respirazione di 60 secondi](/blog/it-science-of-the-60-second-pause/) può servire come interruzione. Quando noti che stai cercando il telefono prima di dormire, o quando ti sorprendi a scrollare pensando "dovrei smettere," quella è la finestra. Sessanta secondi di respirazione lenta e intenzionale portano il tuo sistema nervoso fuori dal ciclo di stimolazione e in uno stato in cui posare il telefono diventa possibile invece che doloroso.
 
 Funziona perché affronta il problema reale. Lo scrolling non riguarda il contenuto. Riguarda l'evitare la transizione da "sveglio/a e mio" a "addormentato/a e finito." Una pausa di respirazione ti dà una versione di quel momento personale senza lo schermo. È ancora tuo. Solo che non ti costa ore di sonno.
 
 ## Cambiamenti pratici da provare
 
-**Metti il telefono in un'altra stanza.** Sembra estremo finché non lo provi. La [ricerca sulla prossimità del telefono](/blog/how-to-stop-doomscrolling/) è chiara: averlo a portata di mano rende automatico il gesto di prenderlo. Spostarlo in un'altra stanza elimina la decisione del tutto. Usa una sveglia tradizionale. Il te stesso della mattina ti ringrazierà.
+**Metti il telefono in un'altra stanza.** Sembra estremo finché non lo provi. La [ricerca sulla prossimità del telefono](/blog/it-how-to-stop-doomscrolling/) è chiara: averlo a portata di mano rende automatico il gesto di prenderlo. Spostarlo in un'altra stanza elimina la decisione del tutto. Usa una sveglia tradizionale. Il te stesso della mattina ti ringrazierà.
 
 **Fissa un orario di "ultimo scroll."** Scegli un orario, diciamo le 22:15, e fai di quello il limite. Non perché scrollare sia sbagliato, ma perché darti un confine rende lo scrolling più intenzionale. L'accesso illimitato è ciò che crea la deriva fino all'una di notte.
 
-**Sostituisci lo scroll con qualcosa di ugualmente facile.** Il sostituto deve richiedere lo stesso livello di sforzo. Non scriverai un diario e non mediterai per venti minuti quando sei esausto/a. Ma potresti ascoltare una sessione di [visualizzazione guidata](/blog/guided-imagery-meditation/) di cinque minuti a occhi chiusi. O fare un body scan. O fissare il soffitto e lasciare vagare la mente per qualche minuto. L'asticella è "più facile che prendere il telefono," non "routine impressionante di cura personale."
+**Sostituisci lo scroll con qualcosa di ugualmente facile.** Il sostituto deve richiedere lo stesso livello di sforzo. Non scriverai un diario e non mediterai per venti minuti quando sei esausto/a. Ma potresti ascoltare una sessione di [visualizzazione guidata](/blog/it-guided-imagery-meditation/) di cinque minuti a occhi chiusi. O fare un body scan. O fissare il soffitto e lasciare vagare la mente per qualche minuto. L'asticella è "più facile che prendere il telefono," non "routine impressionante di cura personale."
 
 **Inserisci tempo personale durante il giorno.** Questo è il gioco a lungo termine. Se la notte è l'unico momento che è tuo, continuerai a spendere sonno per averlo. Anche solo quindici minuti durante la pausa pranzo o dopo il lavoro, dedicati a qualcosa solo perché lo vuoi, riducono la pressione che si accumula fino all'ora di dormire.
 
@@ -77,8 +77,8 @@ Quel ponte non deve essere complicato. Può essere semplice come un respiro prim
 
 ## Come si inserisce Dear Wander
 
-Dear Wander mette quel respiro davanti alle app che scegli. Quando ne apri una di sera, prima compare una [pausa di respirazione di 60 secondi](/blog/science-of-the-60-second-pause/), con uno schermo caldo e una breve lettera che non ti giudica per aver preso il telefono. Spesso quel minuto basta per accorgerti della stanchezza e posare il telefono.
+Dear Wander mette quel respiro davanti alle app che scegli. Quando ne apri una di sera, prima compare una [pausa di respirazione di 60 secondi](/blog/it-science-of-the-60-second-pause/), con uno schermo caldo e una breve lettera che non ti giudica per aver preso il telefono. Spesso quel minuto basta per accorgerti della stanchezza e posare il telefono.
 
-Dopo, il silenzio è tuo. Una [breve pratica di visualizzazione guidata](/blog/guided-imagery-meditation/) è un modo per riempirlo, e puoi farla a letto senza nessuna app.
+Dopo, il silenzio è tuo. Una [breve pratica di visualizzazione guidata](/blog/it-guided-imagery-meditation/) è un modo per riempirlo, e puoi farla a letto senza nessuna app.
 
 Non devi combattere il telefono ogni sera. Devi solo darti qualcosa per cui valga la pena posarlo.

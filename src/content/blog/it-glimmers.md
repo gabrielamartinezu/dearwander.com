@@ -55,13 +55,13 @@ E poi c'è il telefono.
 
 Il tuo telefono è ottimizzato per l'urgenza. Notifiche, feed algoritmici, confronto, indignazione, notizie dell'ultima ora. Ciascuno è un micro-segnale che dice al tuo sistema nervoso che qualcosa richiede la tua attenzione adesso. Anche uno scroll innocuo sui social può attivare una risposta di stress a bassa intensità. Non perché il contenuto sia pericoloso, ma perché il ritmo e l'imprevedibilità imitano il pattern della minaccia.
 
-Questo è lo stesso [ciclo di sovrastimolazione](/blog/popcorn-brain/) che frammenta la tua attenzione durante il giorno. E allo stesso tempo allontana i glimmers. Quando il tuo sistema nervoso è impegnato a elaborare un flusso di segnali di urgenza, non riesce a registrare i segnali silenziosi di sicurezza che avvengono intorno a te.
+Questo è lo stesso [ciclo di sovrastimolazione](/blog/it-popcorn-brain/) che frammenta la tua attenzione durante il giorno. E allo stesso tempo allontana i glimmers. Quando il tuo sistema nervoso è impegnato a elaborare un flusso di segnali di urgenza, non riesce a registrare i segnali silenziosi di sicurezza che avvengono intorno a te.
 
 La luce del sole è ancora sulle tue mani. Il caffè è ancora caldo. Ma se stai guardando il telefono, il tuo sistema nervoso è da tutt'altra parte.
 
 Posare il telefono non garantisce che noterai un glimmer. Ma crea lo spazio in cui notare diventa possibile. Non puoi cogliere ciò che è silenzioso mentre il rumore sta ancora andando.
 
-Questo è parte del motivo per cui il [revenge bedtime scrolling](/blog/revenge-bedtime-scrolling/) è così estenuante. Non stai solo perdendo sonno. Stai scambiando un'ora di glimmers potenziali, il silenzio della notte, la morbidezza del letto, il suono della pioggia, con un flusso di segnali che tengono il sistema nervoso in allerta.
+Questo è parte del motivo per cui il [revenge bedtime scrolling](/blog/it-revenge-bedtime-scrolling/) è così estenuante. Non stai solo perdendo sonno. Stai scambiando un'ora di glimmers potenziali, il silenzio della notte, la morbidezza del letto, il suono della pioggia, con un flusso di segnali che tengono il sistema nervoso in allerta.
 
 ## Come iniziare a notare
 
@@ -79,11 +79,11 @@ Non deve essere più complicato di così.
 
 ## Un glimmer per design
 
-Questo è parte del motivo per cui Dear Wander esiste. La [pausa di respirazione di 60 secondi](/blog/science-of-the-60-second-pause/) che appare prima che le tue app si aprano non è solo un ritardo. È un micro-momento di sicurezza progettato. Inspirazione lenta. Espirazione lenta. Il tuo sistema nervoso registra la decelerazione e risponde. La frequenza cardiaca scende. La via vagale ventrale si attiva.
+Questo è parte del motivo per cui Dear Wander esiste. La [pausa di respirazione di 60 secondi](/blog/it-science-of-the-60-second-pause/) che appare prima che le tue app si aprano non è solo un ritardo. È un micro-momento di sicurezza progettato. Inspirazione lenta. Espirazione lenta. Il tuo sistema nervoso registra la decelerazione e risponde. La frequenza cardiaca scende. La via vagale ventrale si attiva.
 
 Quella pausa è, per definizione, un glimmer. Un breve segnale che dice al tuo corpo: sei al sicuro, puoi rallentare, niente ti sta inseguendo.
 
-E ciò che segue alla pausa conta anche. Quando la schermata di respirazione finisce, molte persone scoprono che non hanno più bisogno dell'app. Lo scroll non riguardava mai il contenuto. Serviva a riempire un vuoto. La pausa lo riempie in modo diverso, con qualche secondo di presenza al posto di un feed. Un [momento di visualizzazione guidata](/blog/guided-imagery-meditation/) può portare quella sensazione ancora più lontano, dando alla tua mente un posto caldo dove atterrare.
+E ciò che segue alla pausa conta anche. Quando la schermata di respirazione finisce, molte persone scoprono che non hanno più bisogno dell'app. Lo scroll non riguardava mai il contenuto. Serviva a riempire un vuoto. La pausa lo riempie in modo diverso, con qualche secondo di presenza al posto di un feed. Un [momento di visualizzazione guidata](/blog/it-guided-imagery-meditation/) può portare quella sensazione ancora più lontano, dando alla tua mente un posto caldo dove atterrare.
 
 Non devi cogliere ogni glimmer. Devi solo coglierne alcuni. Abbastanza da ricordare al tuo sistema nervoso che la sicurezza è disponibile, non un giorno, ma adesso. Nel calore delle tue mani intorno a una tazza. Nella luce dalla finestra. Nel respiro che hai appena fatto senza pensarci.
 

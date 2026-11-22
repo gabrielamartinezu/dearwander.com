@@ -51,15 +51,15 @@ Non un messaggio. Non un vocale. Una telefonata, dove due persone parlano insiem
 
 ## 8. Inizia un hobby analogico
 
-Una macchina a rullino. Un taccuino da disegno economico. Una usa e getta del negozio all'angolo. Tutto il [ritorno dell'analogico](/blog/analog-movement/) si muove per attrito e presenza, per il fare una cosa lenta con le mani e aspettare di vedere come viene. Compra 36 scatti. Falli contare. L'attesa è metà del piacere.
+Una macchina a rullino. Un taccuino da disegno economico. Una usa e getta del negozio all'angolo. Tutto il [ritorno dell'analogico](/blog/it-analog-movement/) si muove per attrito e presenza, per il fare una cosa lenta con le mani e aspettare di vedere come viene. Compra 36 scatti. Falli contare. L'attesa è metà del piacere.
 
 ## 9. Non fare nulla, apposta
 
-Sembra uno scherzo finché non provi. Sdraiati sull'erba e guarda le nuvole. Siediti in veranda mentre fa buio. Quando smetti di riempire ogni vuoto, si attiva la [rete in modalità predefinita](/blog/brain-rot/) del cervello, il sistema silenzioso dietro creatività, memoria e riflessione. Lo scroll tiene quel sistema spento. Un cervello annoiato è un cervello che finalmente può vagare.
+Sembra uno scherzo finché non provi. Sdraiati sull'erba e guarda le nuvole. Siediti in veranda mentre fa buio. Quando smetti di riempire ogni vuoto, si attiva la [rete in modalità predefinita](/blog/it-brain-rot/) del cervello, il sistema silenzioso dietro creatività, memoria e riflessione. Lo scroll tiene quel sistema spento. Un cervello annoiato è un cervello che finalmente può vagare.
 
 ## 10. Nota tre piccole cose
 
-Prima di dormire, nomina tre piccole cose belle della giornata. L'odore dell'erba appena tagliata. Il primo sorso freddo. Uno sconosciuto che ti ha lasciato passare per primo. Questi minuscoli lampi di calma hanno un nome, [glimmers](/blog/glimmers/), e più li cerchi più il tuo sistema nervoso impara a trovarli. L'estate ne è piena, se non guardi in basso.
+Prima di dormire, nomina tre piccole cose belle della giornata. L'odore dell'erba appena tagliata. Il primo sorso freddo. Uno sconosciuto che ti ha lasciato passare per primo. Questi minuscoli lampi di calma hanno un nome, [glimmers](/blog/it-glimmers/), e più li cerchi più il tuo sistema nervoso impara a trovarli. L'estate ne è piena, se non guardi in basso.
 
 ## Perché lo scroll vince di default
 
@@ -75,7 +75,7 @@ Quindi la soluzione non è la forza di volontà. È la distanza. Lascia il libro
 
 Ti servono ancora le mappe. Devi ancora organizzare la giornata al mare, dividere il conto e controllare il meteo. Staccarti del tutto per tre mesi non è l'obiettivo, e fingere che lo sia ti prepara solo ad arrenderti a luglio.
 
-L'obiettivo è più piccolo e più realistico. Poche fasce protette. La prima ora fuori prima di controllare qualsiasi cosa. I pasti con il telefono in un'altra stanza. Il tramonto guardato, non filmato. Se lo scroll estivo si è infilato in ogni vuoto, la nostra guida su [come smettere di doomscrollare](/blog/how-to-stop-doomscrolling/) percorre il resto.
+L'obiettivo è più piccolo e più realistico. Poche fasce protette. La prima ora fuori prima di controllare qualsiasi cosa. I pasti con il telefono in un'altra stanza. Il tramonto guardato, non filmato. Se lo scroll estivo si è infilato in ogni vuoto, la nostra guida su [come smettere di doomscrollare](/blog/it-how-to-stop-doomscrolling/) percorre il resto.
 
 L'estate è già in movimento. La luce va via un po' prima ogni settimana. Scegli una cosa da questa lista, lascia il telefono dove non arrivi e vai a stare fuori per la parte che ricorderai davvero.
 

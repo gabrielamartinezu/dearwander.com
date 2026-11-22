@@ -51,15 +51,15 @@ No un mensaje. No una nota de voz. Una llamada, donde dos personas hablan a la v
 
 ## 8. Empieza una afición analógica
 
-Una cámara de carrete. Un cuaderno de dibujo barato. Una desechable del quiosco. Todo el [renacer analógico](/blog/analog-movement/) se mueve por la fricción y la presencia, por hacer algo lento con las manos y esperar a ver cómo sale. Compra 36 disparos. Haz que cuenten. La espera es la mitad del placer.
+Una cámara de carrete. Un cuaderno de dibujo barato. Una desechable del quiosco. Todo el [renacer analógico](/blog/es-analog-movement/) se mueve por la fricción y la presencia, por hacer algo lento con las manos y esperar a ver cómo sale. Compra 36 disparos. Haz que cuenten. La espera es la mitad del placer.
 
 ## 9. No hagas nada, a propósito
 
-Suena a broma hasta que lo pruebas. Túmbate en la hierba y mira las nubes. Siéntate en el porche mientras oscurece. Cuando dejas de llenar cada hueco, se activa la [red neuronal por defecto](/blog/brain-rot/) de tu cerebro, el sistema silencioso detrás de la creatividad, la memoria y la reflexión. El scroll mantiene ese sistema apagado. Un cerebro aburrido es un cerebro que por fin puede divagar.
+Suena a broma hasta que lo pruebas. Túmbate en la hierba y mira las nubes. Siéntate en el porche mientras oscurece. Cuando dejas de llenar cada hueco, se activa la [red neuronal por defecto](/blog/es-brain-rot/) de tu cerebro, el sistema silencioso detrás de la creatividad, la memoria y la reflexión. El scroll mantiene ese sistema apagado. Un cerebro aburrido es un cerebro que por fin puede divagar.
 
 ## 10. Fíjate en tres cosas pequeñas
 
-Antes de dormir, nombra tres cosas buenas pequeñas del día. El olor a hierba recién cortada. El primer sorbo frío. Un desconocido que te dejó pasar primero. Estos destellos diminutos de calma tienen nombre, [glimmers](/blog/glimmers/), y cuanto más los buscas más aprende tu sistema nervioso a encontrarlos. El verano está lleno de ellos si no miras hacia abajo.
+Antes de dormir, nombra tres cosas buenas pequeñas del día. El olor a hierba recién cortada. El primer sorbo frío. Un desconocido que te dejó pasar primero. Estos destellos diminutos de calma tienen nombre, [glimmers](/blog/es-glimmers/), y cuanto más los buscas más aprende tu sistema nervioso a encontrarlos. El verano está lleno de ellos si no miras hacia abajo.
 
 ## Por qué el scroll gana por defecto
 
@@ -75,7 +75,7 @@ Así que la solución no es fuerza de voluntad. Es distancia. Deja el libro en l
 
 Sigues necesitando los mapas. Sigues teniendo que organizar el día de playa, dividir la cuenta y mirar el tiempo. Desconectarte del todo durante tres meses no es el objetivo, y fingir que lo es solo te prepara para rendirte en julio.
 
-El objetivo es más pequeño y más realista. Unas pocas franjas protegidas. La primera hora fuera antes de mirar nada. Las comidas con el móvil en otra habitación. La puesta de sol mirada, no grabada. Si el scroll de verano se ha colado en cada hueco, nuestra guía sobre [cómo dejar el doomscrolling](/blog/how-to-stop-doomscrolling/) recorre el resto.
+El objetivo es más pequeño y más realista. Unas pocas franjas protegidas. La primera hora fuera antes de mirar nada. Las comidas con el móvil en otra habitación. La puesta de sol mirada, no grabada. Si el scroll de verano se ha colado en cada hueco, nuestra guía sobre [cómo dejar el doomscrolling](/blog/es-how-to-stop-doomscrolling/) recorre el resto.
 
 El verano ya está en marcha. La luz se va un poco antes cada semana. Elige una cosa de esta lista, deja el móvil donde no llegues y sal a estar fuera para la parte que de verdad vas a recordar.
 

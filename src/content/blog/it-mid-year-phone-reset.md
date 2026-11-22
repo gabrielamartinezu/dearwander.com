@@ -35,7 +35,7 @@ La persona media passa quasi cinque ore al giorno sul telefono e lo prende in ma
 
 La tua attenzione si è ristretta di conseguenza. I ricercatori della UC Irvine hanno scoperto che il tempo medio che passiamo su una sola schermata prima di cambiare è sceso da circa due minuti e mezzo nel 2004 a 47 secondi oggi.[^attention] Quarantasette secondi. È una media di ricerca, non un limite rigido, ma cattura quanta poca concentrazione riceve una schermata tipica prima che qualcosa la trascini altrove.
 
-È questa la [frammentazione](/blog/popcorn-brain/) che senti quando non riesci a finire un articolo, o a guardare un film senza prendere in mano un secondo schermo. Non è un difetto di carattere. È una risposta allenata, e si può disallenare.
+È questa la [frammentazione](/blog/it-popcorn-brain/) che senti quando non riesci a finire un articolo, o a guardare un film senza prendere in mano un secondo schermo. Non è un difetto di carattere. È una risposta allenata, e si può disallenare.
 
 Ecco il reset. Cinque passi. Nessuno ti chiede di buttare il telefono in un lago.
 
@@ -45,7 +45,7 @@ Apri Impostazioni, vai su Tempo di utilizzo e guarda, semplicemente.
 
 Non prepararti come per salire su una bilancia. Qui non c'è un numero buono né uno cattivo, solo informazione. Leggi la tua media giornaliera. Leggi quante volte prendi il telefono. Trova le due o tre app che divorano più ore. Probabilmente sai già quali sono, ma vedere la cifra scritta nero su bianco ottiene qualcosa che una sensazione vaga non riesce mai a ottenere.
 
-La gente di solito immagina di passarci due ore e scopre che sono più vicine a sei. Quella differenza è proprio il punto. Non puoi resettare un'abitudine che non hai mai davvero misurato. Se vuoi il contesto più ampio, le nostre [statistiche sulle abitudini con il telefono 2026](/blog/phone-addiction-statistics-2026/) spiegano dove finisce la maggior parte delle persone.
+La gente di solito immagina di passarci due ore e scopre che sono più vicine a sei. Quella differenza è proprio il punto. Non puoi resettare un'abitudine che non hai mai davvero misurato. Se vuoi il contesto più ampio, le nostre [statistiche sulle abitudini con il telefono 2026](/blog/it-phone-addiction-statistics-2026/) spiegano dove finisce la maggior parte delle persone.
 
 Resta un secondo con il numero. Poi vai avanti. Senza giudizio, solo dati.
 
@@ -69,7 +69,7 @@ Il telefono dovrebbe interromperti quando una persona ha bisogno di te. Il resto
 
 Un'attrazione così automatica ha bisogno di qualcosa in mezzo. Non un muro. Un dosso.
 
-Scegli l'app che ti cattura di più e metti un piccolo ostacolo tra te e il momento di aprirla. Il più efficace è una breve pausa. Uno studio del 2023 pubblicato su *PNAS* ha scoperto che una breve attesa sullo schermo prima delle app social — un piccolo ritardo e un messaggio che chiede se vuoi davvero continuare — [ha ridotto i tentativi di aprire le app del 57% in sei settimane](/blog/science-of-the-60-second-pause/).[^pnas] La pausa non era lunga. Bastava a spostare il cervello dal pilota automatico a una scelta vera, e la maggior parte delle volte la scelta era posare il telefono.
+Scegli l'app che ti cattura di più e metti un piccolo ostacolo tra te e il momento di aprirla. Il più efficace è una breve pausa. Uno studio del 2023 pubblicato su *PNAS* ha scoperto che una breve attesa sullo schermo prima delle app social — un piccolo ritardo e un messaggio che chiede se vuoi davvero continuare — [ha ridotto i tentativi di aprire le app del 57% in sei settimane](/blog/it-science-of-the-60-second-pause/).[^pnas] La pausa non era lunga. Bastava a spostare il cervello dal pilota automatico a una scelta vera, e la maggior parte delle volte la scelta era posare il telefono.
 
 Puoi costruire la tua versione. Datti una regola: tre respiri lenti prima di aprire l'app. Passa lo schermo in scala di grigi così i colori smettono di tirarti.[^grayscale] Il meccanismo è lo stesso in ogni caso. Inserisci un istante di consapevolezza in un gesto che prima era invisibile, e la consapevolezza di solito basta.
 
@@ -81,7 +81,7 @@ Lo scroll riempie un vuoto, di solito uno piccolo e noioso: i dieci minuti prima
 
 Una passeggiata in cui il telefono resta in tasca. Un libro che leggi con il telefono in un'altra stanza. Un caffè che prendi guardando la strada invece di uno schermo. Scegline uno. Solo uno, per cominciare. L'obiettivo non è un'agenda piena di attività salutari. È un singolo momento affidabile della tua giornata che appartiene a te e non a un algoritmo.
 
-Se vuoi una mano a riempire di nuovo la calma, ecco qualche [libro che vale il cambio](/blog/books-phone-habits/).
+Se vuoi una mano a riempire di nuovo la calma, ecco qualche [libro che vale il cambio](/blog/it-books-phone-habits/).
 
 ## Come tenerlo per tutta l'estate
 

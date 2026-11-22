@@ -55,7 +55,7 @@ Las apps problemáticas son una lista corta. Para la mayoría, son cuatro o cinc
 
 ¿Qué pasaría si esas cuatro o cinco apps tuvieran una puerta con llave enfrente? No bloqueadas. No borradas. Solo un momento de fricción que vuelve consciente el gesto automático.
 
-Así es [como funciona una pausa de respiración](/blog/science-of-the-60-second-pause/). Tocas Instagram. En lugar del feed, aparece una pantalla cálida con respiración guiada. Sesenta segundos. Inhala, sostén, exhala. Para cuando termina, tu [corteza prefrontal alcanzó a tu pulgar](/blog/popcorn-brain/). La mayoría del tiempo te das cuenta de que en realidad no querías hacer scroll. Solo querías escapar de un sentimiento. La respiración se encargó de eso.
+Así es [como funciona una pausa de respiración](/blog/es-science-of-the-60-second-pause/). Tocas Instagram. En lugar del feed, aparece una pantalla cálida con respiración guiada. Sesenta segundos. Inhala, sostén, exhala. Para cuando termina, tu [corteza prefrontal alcanzó a tu pulgar](/blog/es-popcorn-brain/). La mayoría del tiempo te das cuenta de que en realidad no querías hacer scroll. Solo querías escapar de un sentimiento. La respiración se encargó de eso.
 
 Un estudio de 2023 publicado en *PNAS* encontró que este tipo de pausa — una espera corta y un aviso preguntándote si de verdad quieres continuar — redujo los intentos de abrir apps un **57%** a lo largo de seis semanas.[^pnas] Las apps de nadie fueron bloqueadas. Nadie perdió sus mapas ni su banco. Solo tuvieron que esperar un momento primero.
 
@@ -69,7 +69,7 @@ Quita todas las apps de tu pantalla principal excepto las herramientas que realm
 
 ### Apaga casi todas las notificaciones
 
-Ve a Configuración, recorre tu lista de notificaciones, y desactiva todo excepto llamadas y mensajes de humanos reales. Sin insignias de apps. Sin alertas de noticias, compras o redes sociales. Cada notificación es [una palomita reventando en tu cerebro](/blog/popcorn-brain/). Menos palomitas, más calma.
+Ve a Configuración, recorre tu lista de notificaciones, y desactiva todo excepto llamadas y mensajes de humanos reales. Sin insignias de apps. Sin alertas de noticias, compras o redes sociales. Cada notificación es [una palomita reventando en tu cerebro](/blog/es-popcorn-brain/). Menos palomitas, más calma.
 
 ### Usa escala de grises
 
@@ -77,7 +77,7 @@ En iPhone: Configuración > Accesibilidad > Pantalla y tamaño de texto > Filtro
 
 ### Establece un lugar físico para el teléfono
 
-Designa un lugar en tu casa donde viva tu teléfono cuando no lo estás usando activamente. Un estante. Un cajón. Una canasta junto a la puerta. El objetivo es hacer de tu teléfono algo a lo que caminas intencionalmente, no algo siempre al alcance de la mano. Este solo cambio [reduce el scroll antes de dormir](/blog/how-to-stop-doomscrolling/) al quitar el teléfono de tu mesita de noche por completo.
+Designa un lugar en tu casa donde viva tu teléfono cuando no lo estás usando activamente. Un estante. Un cajón. Una canasta junto a la puerta. El objetivo es hacer de tu teléfono algo a lo que caminas intencionalmente, no algo siempre al alcance de la mano. Este solo cambio [reduce el scroll antes de dormir](/blog/es-how-to-stop-doomscrolling/) al quitar el teléfono de tu mesita de noche por completo.
 
 ### Agrega una pausa de respiración
 

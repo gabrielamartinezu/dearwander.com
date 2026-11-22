@@ -35,7 +35,7 @@ La persona media pasa cerca de cinco horas al día con el móvil y lo coge unas 
 
 Tu atención se ha encogido a juego. Investigadores de la UC Irvine descubrieron que el tiempo medio que pasamos en una sola pantalla antes de cambiar cayó de unos dos minutos y medio en 2004 a 47 segundos hoy.[^attention] Cuarenta y siete segundos. Es un promedio de investigación, no un límite rígido, pero refleja lo poca concentración que recibe una pantalla típica antes de que algo la arrastre a otro sitio.
 
-Esta es la [fragmentación](/blog/popcorn-brain/) que sientes cuando no logras terminar un artículo, o sentarte a ver una película sin coger una segunda pantalla. No es un defecto de carácter. Es una respuesta entrenada, y puede desentrenarse.
+Esta es la [fragmentación](/blog/es-popcorn-brain/) que sientes cuando no logras terminar un artículo, o sentarte a ver una película sin coger una segunda pantalla. No es un defecto de carácter. Es una respuesta entrenada, y puede desentrenarse.
 
 Aquí está el reset. Cinco pasos. Ninguno te pide tirar el móvil a un lago.
 
@@ -45,7 +45,7 @@ Abre Ajustes, ve a Tiempo de uso y simplemente mira.
 
 No te prepares como para subirte a una báscula. Aquí no hay un número bueno ni uno malo, solo información. Lee tu media diaria. Lee cuántas veces coges el móvil. Encuentra las dos o tres apps que se comen más horas. Seguramente ya sabes cuáles son, pero ver la cifra escrita en negro sobre blanco logra algo que una sensación vaga nunca consigue.
 
-La gente suele suponer que pasa dos horas y descubre que son más bien seis. Esa diferencia es justo el punto. No puedes reiniciar un hábito que nunca has medido de verdad. Si quieres el contexto más amplio, nuestras [estadísticas de hábitos con el móvil 2026](/blog/phone-addiction-statistics-2026/) explican dónde acaba la mayoría.
+La gente suele suponer que pasa dos horas y descubre que son más bien seis. Esa diferencia es justo el punto. No puedes reiniciar un hábito que nunca has medido de verdad. Si quieres el contexto más amplio, nuestras [estadísticas de hábitos con el móvil 2026](/blog/es-phone-addiction-statistics-2026/) explican dónde acaba la mayoría.
 
 Quédate un segundo con el número. Luego sigue. Sin juicios, solo datos.
 
@@ -69,7 +69,7 @@ El móvil debería interrumpirte cuando una persona te necesita. El resto puede 
 
 Una atracción tan automática necesita algo en medio. No un muro. Un badén.
 
-Elige la app que más te atrapa y pon un pequeño obstáculo entre tú y el momento de abrirla. El más eficaz es una breve pausa. Un estudio de 2023 publicado en *PNAS* descubrió que una breve espera en pantalla antes de las apps sociales —una pequeña demora y un aviso que te pregunta si de verdad quieres continuar— [redujo los intentos de abrir apps un 57% en seis semanas](/blog/science-of-the-60-second-pause/).[^pnas] La pausa no era larga. Bastaba para mover el cerebro del piloto automático a una elección real, y la mayoría de las veces la elección fue dejar el móvil.
+Elige la app que más te atrapa y pon un pequeño obstáculo entre tú y el momento de abrirla. El más eficaz es una breve pausa. Un estudio de 2023 publicado en *PNAS* descubrió que una breve espera en pantalla antes de las apps sociales —una pequeña demora y un aviso que te pregunta si de verdad quieres continuar— [redujo los intentos de abrir apps un 57% en seis semanas](/blog/es-science-of-the-60-second-pause/).[^pnas] La pausa no era larga. Bastaba para mover el cerebro del piloto automático a una elección real, y la mayoría de las veces la elección fue dejar el móvil.
 
 Puedes montar tu propia versión. Ponte una regla: tres respiraciones lentas antes de abrir la app. Pasa la pantalla a escala de grises para que los colores dejen de tirar de ti.[^grayscale] El mecanismo es el mismo en cada caso. Insertas un instante de conciencia en un gesto que antes era invisible, y la conciencia suele bastar.
 
@@ -81,7 +81,7 @@ El scroll llena un hueco, normalmente uno pequeño y aburrido: los diez minutos 
 
 Un paseo donde el móvil se queda en el bolsillo. Un libro que lees con el móvil en otra habitación. Un café que te tomas mirando la calle en vez de una pantalla. Elige uno. Solo uno, para empezar. La meta no es una agenda repleta de actividades sanas. Es un único momento fiable de tu día que te pertenece a ti y no a un algoritmo.
 
-Si quieres ayuda para volver a llenar la calma, aquí van algunos [libros que valen el cambio](/blog/books-phone-habits/).
+Si quieres ayuda para volver a llenar la calma, aquí van algunos [libros que valen el cambio](/blog/es-books-phone-habits/).
 
 ## Cómo sostenerlo durante el verano
 

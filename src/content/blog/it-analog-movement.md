@@ -35,7 +35,7 @@ Nessuno rimpiange di riavvolgere le cassette. Il ritorno dell'analogico non rigu
 
 **Attrito.** Un vinile ti fa scegliere un album e ascoltarlo tutto. Una macchina a pellicola ti fa aspettare. L'attrito obbliga all'attenzione. Lo sforzo è il punto, perché lo sforzo è ciò che rende reale un'esperienza.
 
-**Presenza.** Quando non puoi catturare, modificare e pubblicare un momento all'istante, è più probabile che tu lo viva davvero. L'oggetto analogico ti tiene nella stanza. È la stessa cosa che perdiamo quando [cerchiamo il telefono in ogni momento di silenzio](/blog/how-to-stop-doomscrolling/).
+**Presenza.** Quando non puoi catturare, modificare e pubblicare un momento all'istante, è più probabile che tu lo viva davvero. L'oggetto analogico ti tiene nella stanza. È la stessa cosa che perdiamo quando [cerchiamo il telefono in ogni momento di silenzio](/blog/it-how-to-stop-doomscrolling/).
 
 **Permanenza.** Una lettera scritta a mano esiste in un solo posto. Una foto stampata sta su una mensola. In un mondo dove tutto è un feed infinito e usa e getta, qualcosa di fisico che puoi tenere in mano sembra un'ancora.
 
@@ -43,7 +43,7 @@ Attrito, presenza, permanenza. I nostri telefoni le hanno tolte tutte e tre in s
 
 ## Non devi buttare il telefono in un lago
 
-Qui il movimento analogico si complica. La maggior parte di chi lo romanticizza ha ancora bisogno di uno smartphone per mappe, banca, lavoro e per restare in contatto. Il ritiro totale, la [fantasia del dumbphone](/blog/dumbphone-urge/), è reale ma difficile da sostenere.
+Qui il movimento analogico si complica. La maggior parte di chi lo romanticizza ha ancora bisogno di uno smartphone per mappe, banca, lavoro e per restare in contatto. Il ritiro totale, la [fantasia del dumbphone](/blog/it-dumbphone-urge/), è reale ma difficile da sostenere.
 
 Quindi la domanda non è se diventare analogici o digitali. È se riesci a conservare un'anima analogica dentro una vita digitale.
 
@@ -53,9 +53,9 @@ Si vede così:
 
 - Comprare una vera sveglia così il telefono dorme in un'altra stanza
 - Scrivere su carta l'unica intenzione del mattino prima di aprire una sola app
-- Mettere [un respiro tra te e lo scroll](/blog/science-of-the-60-second-pause/) invece di aprire Instagram per riflesso
+- Mettere [un respiro tra te e lo scroll](/blog/it-science-of-the-60-second-pause/) invece di aprire Instagram per riflesso
 - Leggere tre pagine di un libro stampato la sera invece di dare al cervello altro contenuto prima di dormire
-- Notare i [piccoli glimmer](/blog/glimmers/) di una giornata comune invece di documentarli per un pubblico
+- Notare i [piccoli glimmer](/blog/it-glimmers/) di una giornata comune invece di documentarli per un pubblico
 
 Niente di tutto questo richiede di rinunciare al telefono. Restituisce solo un po' di attrito analogico alle parti della vita digitale che non ne avevano.
 
@@ -63,7 +63,7 @@ Niente di tutto questo richiede di rinunciare al telefono. Restituisce solo un p
 
 Per vent'anni la tecnologia ha ottimizzato per eliminare l'attrito. Un tocco per comprare. Scroll infinito. Riproduzione automatica. Tutto istantaneo, tutto senza attrito.
 
-E si scopre che il senza-attrito sfinisce. Quando niente ti chiede niente, la tua attenzione non ha a cosa aggrapparsi, e [si frammenta](/blog/popcorn-brain/). Il movimento analogico è una presa di coscienza collettiva che un po' di attrito ci fa bene. La pausa prima della foto. Lo sforzo della nota a mano. L'attesa che la canzone finisca.
+E si scopre che il senza-attrito sfinisce. Quando niente ti chiede niente, la tua attenzione non ha a cosa aggrapparsi, e [si frammenta](/blog/it-popcorn-brain/). Il movimento analogico è una presa di coscienza collettiva che un po' di attrito ci fa bene. La pausa prima della foto. Lo sforzo della nota a mano. L'attesa che la canzone finisca.
 
 Per questo funziona una pausa di respirazione prima di un'app. Restituisce un piccolo pezzo di attrito proprio dove i designer l'hanno tolto, quanto basta perché aprire l'app diventi una scelta invece di un riflesso.
 

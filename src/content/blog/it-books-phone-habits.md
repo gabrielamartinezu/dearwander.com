@@ -19,23 +19,23 @@ Non mi ero prefissata di leggere dieci libri su telefoni e attenzione. Ho inizia
 
 ## 1. Stolen Focus di Johann Hari
 
-Questo è il libro che nomina il problema con chiarezza. Hari identifica dodici cause della crisi dell'attenzione, dal design tecnologico alla dieta, al sonno, al crollo della lettura prolungata. Quello che mi ha colpita di più: l'idea che la tua attenzione non si è rotta da sola. Te l'hanno sottratta, pezzo dopo pezzo, sistemi progettati per frammentarla. Se hai mai sentito che il tuo cervello non riesce più a stare fermo, questo libro spiega perché. È lo stesso ciclo di cui abbiamo scritto nel nostro articolo sul [popcorn brain](/blog/popcorn-brain/).
+Questo è il libro che nomina il problema con chiarezza. Hari identifica dodici cause della crisi dell'attenzione, dal design tecnologico alla dieta, al sonno, al crollo della lettura prolungata. Quello che mi ha colpita di più: l'idea che la tua attenzione non si è rotta da sola. Te l'hanno sottratta, pezzo dopo pezzo, sistemi progettati per frammentarla. Se hai mai sentito che il tuo cervello non riesce più a stare fermo, questo libro spiega perché. È lo stesso ciclo di cui abbiamo scritto nel nostro articolo sul [popcorn brain](/blog/it-popcorn-brain/).
 
 ## 2. How to Break Up With Your Phone di Catherine Price
 
-Se *Stolen Focus* è la diagnosi, questo è il piano di trattamento. Price ti dà un programma di 30 giorni per cambiare le tue abitudini con il telefono, e il tono è gentile. Niente sensi di colpa. Niente lezioni sulla forza di volontà. Solo piccoli passi pratici che si accumulano. Ho iniziato con la sua idea del "letto per il telefono" (caricarlo fuori dalla camera da letto), e quel singolo cambiamento ha risolto mesi di [scrolling di vendetta prima di dormire](/blog/revenge-bedtime-scrolling/).
+Se *Stolen Focus* è la diagnosi, questo è il piano di trattamento. Price ti dà un programma di 30 giorni per cambiare le tue abitudini con il telefono, e il tono è gentile. Niente sensi di colpa. Niente lezioni sulla forza di volontà. Solo piccoli passi pratici che si accumulano. Ho iniziato con la sua idea del "letto per il telefono" (caricarlo fuori dalla camera da letto), e quel singolo cambiamento ha risolto mesi di [scrolling di vendetta prima di dormire](/blog/it-revenge-bedtime-scrolling/).
 
 ## 3. Digital Minimalism di Cal Newport
 
-Newport sostiene che il problema non è la tua mancanza di disciplina. È che non hai mai scelto come volevi usare la tecnologia. Ti sei semplicemente adattata a qualsiasi cosa fosse impostata di default. Questo libro è la filosofia dietro l'[impulso del dumbphone](/blog/dumbphone-urge/) che così tante persone sentono in questo momento. Non hai davvero bisogno di un dumbphone. Hai bisogno di un insieme chiaro di decisioni su a cosa serve il tuo telefono.
+Newport sostiene che il problema non è la tua mancanza di disciplina. È che non hai mai scelto come volevi usare la tecnologia. Ti sei semplicemente adattata a qualsiasi cosa fosse impostata di default. Questo libro è la filosofia dietro l'[impulso del dumbphone](/blog/it-dumbphone-urge/) che così tante persone sentono in questo momento. Non hai davvero bisogno di un dumbphone. Hai bisogno di un insieme chiaro di decisioni su a cosa serve il tuo telefono.
 
 ## 4. Irresistible di Adam Alter
 
-Alter è uno psicologo comportamentale, e questo libro mostra esattamente come le app, i giochi e le piattaforme social sono progettati per creare dipendenza. Ricompense variabili, scroll infinito, circoli di approvazione sociale. Una volta che vedi i meccanismi, è più difficile dare la colpa a te stessa per aver perso un'ora. Non hai fallito tu. Il sistema ha funzionato come previsto. Capire questo è ciò che rende qualcosa come una [pausa di 60 secondi](/blog/science-of-the-60-second-pause/) così efficace. Anche una piccola interruzione spezza il circolo automatico.
+Alter è uno psicologo comportamentale, e questo libro mostra esattamente come le app, i giochi e le piattaforme social sono progettati per creare dipendenza. Ricompense variabili, scroll infinito, circoli di approvazione sociale. Una volta che vedi i meccanismi, è più difficile dare la colpa a te stessa per aver perso un'ora. Non hai fallito tu. Il sistema ha funzionato come previsto. Capire questo è ciò che rende qualcosa come una [pausa di 60 secondi](/blog/it-science-of-the-60-second-pause/) così efficace. Anche una piccola interruzione spezza il circolo automatico.
 
 ## 5. The Things You Can See Only When You Slow Down di Haemin Sunim
 
-Un monaco buddista zen che scrive in capitoli brevi e tranquilli sull'attenzione ai momenti ordinari. Questo libro non menziona telefoni o schermi. Non ne ha bisogno. Ogni pagina è un argomento a favore del tipo di presenza che lo scrolling rende impossibile. L'ho tenuto sul comodino per mesi e leggevo un capitolo prima di dormire invece di aprire il telefono. Alcune sere bastava a cambiare tutto. Se hai provato la [meditazione con immaginazione guidata](/blog/guided-imagery-meditation/), questo libro vive nello stesso spazio.
+Un monaco buddista zen che scrive in capitoli brevi e tranquilli sull'attenzione ai momenti ordinari. Questo libro non menziona telefoni o schermi. Non ne ha bisogno. Ogni pagina è un argomento a favore del tipo di presenza che lo scrolling rende impossibile. L'ho tenuto sul comodino per mesi e leggevo un capitolo prima di dormire invece di aprire il telefono. Alcune sere bastava a cambiare tutto. Se hai provato la [meditazione con immaginazione guidata](/blog/it-guided-imagery-meditation/), questo libro vive nello stesso spazio.
 
 ## 6. Romanticize Your Life: 365 Simple Ways di Harper Celebrate
 
@@ -43,7 +43,7 @@ Un'idea al giorno. Accendi una candela per cena di martedì. Fai una strada dive
 
 ## 7. Do Nothing di Celeste Headlee
 
-Headlee rintraccia l'ossessione moderna per la produttività fino a secoli fa e sostiene in modo convincente che la tua compulsione a fare sempre qualcosa è culturale, non naturale. Il telefono si inserisce perfettamente. Fare scroll sembra produttivo perché sembra input, come se stessi imparando o restando informata. Ma è solo movimento senza significato. Questo libro mi ha dato il permesso di smettere di riempire ogni vuoto, che si è rivelato il primo passo di un [detox dalla dopamina](/blog/dopamine-detox/) accidentale.
+Headlee rintraccia l'ossessione moderna per la produttività fino a secoli fa e sostiene in modo convincente che la tua compulsione a fare sempre qualcosa è culturale, non naturale. Il telefono si inserisce perfettamente. Fare scroll sembra produttivo perché sembra input, come se stessi imparando o restando informata. Ma è solo movimento senza significato. Questo libro mi ha dato il permesso di smettere di riempire ogni vuoto, che si è rivelato il primo passo di un [detox dalla dopamina](/blog/it-dopamine-detox/) accidentale.
 
 ## 8. Wintering di Katherine May
 
@@ -51,7 +51,7 @@ Questo non è un libro sui telefoni. È un libro sul riposo. Sulle stagioni dell
 
 ## 9. The Polyvagal Theory in Therapy di Deb Dana
 
-Da qui viene il concetto dei [glimmers](/blog/glimmers/). Dana spiega come il tuo sistema nervoso scannerizza costantemente cercando segnali di sicurezza o minaccia, e come piccoli momenti sensoriali possono portarti da uno stato di stress alla calma. È un libro clinico, scritto per terapeuti, ma ha cambiato il modo in cui capisco perché posare il telefono a volte sembra così difficile. Il telefono fornisce un tipo di stimolazione che il tuo sistema nervoso interpreta come coinvolgimento. I glimmers offrono qualcosa di più silenzioso e più reale.
+Da qui viene il concetto dei [glimmers](/blog/it-glimmers/). Dana spiega come il tuo sistema nervoso scannerizza costantemente cercando segnali di sicurezza o minaccia, e come piccoli momenti sensoriali possono portarti da uno stato di stress alla calma. È un libro clinico, scritto per terapeuti, ma ha cambiato il modo in cui capisco perché posare il telefono a volte sembra così difficile. Il telefono fornisce un tipo di stimolazione che il tuo sistema nervoso interpreta come coinvolgimento. I glimmers offrono qualcosa di più silenzioso e più reale.
 
 ## 10. Slow Living di Helena Woods
 
