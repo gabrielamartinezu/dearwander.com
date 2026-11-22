@@ -2,6 +2,7 @@
 title: "Cómo Bloquear Apps en iPhone sin Desinstalarlas (Guía Rápida 2026)"
 description: "¿Quieres dejar de abrir apps por reflejo? Todas las formas de bloquear, esconder o poner fricción a tus redes en iPhone: desde Tiempo de Uso hasta atajos y pausas conscientes."
 date: 2026-07-02
+translationOf: "how-to-lock-distracting-apps"
 author: "Dear Wander"
 tags: ["screen time", "how-to", "phone addiction", "strategies"]
 faq:

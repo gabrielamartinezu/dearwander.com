@@ -11,6 +11,8 @@ export default defineConfig({
   trailingSlash: 'always',
   integrations: [
     sitemap({
+      // /app/ es solo una redirección a la App Store, con noindex.
+      filter: (page) => !page.endsWith('/app/'),
       i18n: {
         defaultLocale: 'en',
         locales: { en: 'en', es: 'es', it: 'it' },

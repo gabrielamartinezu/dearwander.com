@@ -8,6 +8,7 @@ const siteURL = "https://dearwander.com";
 const personSchema = {
   "@context": "https://schema.org",
   "@type": "Person",
+  "@id": `${siteURL}/about/#gabriela`,
   "name": "Gabriela Martínez",
   "jobTitle": "Founder & Engineer, Dear Wander",
   "description":
@@ -24,15 +25,15 @@ const personSchema = {
     "anxiety",
     "mindful technology",
   ],
-  "worksFor": { "@type": "Organization", "name": "Dear Wander", "url": siteURL },
-  "url": `${siteURL}/about`,
+  "worksFor": { "@type": "Organization", "@id": `${siteURL}/#organization`, "name": "Dear Wander", "url": siteURL },
+  "url": `${siteURL}/about/`,
 };
 
 const aboutSchema = {
   "@context": "https://schema.org",
   "@type": "AboutPage",
   "name": "About Dear Wander",
-  "url": `${siteURL}/about`,
+  "url": `${siteURL}/about/`,
   "mainEntity": personSchema,
 };
 ---

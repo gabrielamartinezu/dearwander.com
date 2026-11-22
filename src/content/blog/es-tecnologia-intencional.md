@@ -2,6 +2,7 @@
 title: "Tecnología intencional: cómo quedarte con el móvil y soltar el piloto automático"
 description: "Usar la tecnología de forma intencional es decidir para qué coges el móvil antes de cogerlo. Qué dice la ciencia y pequeñas formas de practicarlo."
 date: 2026-10-04
+translationOf: "intentional-technology-use"
 author: "Dear Wander"
 tags: ["tecnología intencional", "bienestar digital", "tiempo en pantalla", "hábitos", "uso consciente del móvil", "ciencia"]
 faq:

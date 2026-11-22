@@ -2,6 +2,7 @@
 title: "Qué hacer en lugar de scrollear: 15 actividades que ocupan las manos"
 description: "El scroll ocupa las manos, y casi todos los consejos dejan las manos libres. Quince actividades que compiten por el mismo hueco, ordenadas por cuánto cuesta empezar."
 date: 2026-09-02
+translationOf: "things-to-do-with-your-hands-instead-of-scrolling"
 author: "Dear Wander"
 tags: ["dejar de scrollear", "actividades", "manualidades", "doomscrolling", "bienestar digital"]
 faq:

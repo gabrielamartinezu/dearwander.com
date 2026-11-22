@@ -2,6 +2,7 @@
 title: "Come bloccare o nascondere le app che non riesci a smettere di aprire"
 description: "Tutti i modi per nascondere, bloccare o mettere attrito alle app che ti distraggono su iPhone, dalla schermata Home a Tempo di utilizzo. Cosa fa ciascuno e perché l'attrito funziona meglio di un blocco."
 date: 2026-07-02
+translationOf: "how-to-lock-distracting-apps"
 author: "Dear Wander"
 tags: ["screen time", "how-to", "phone addiction", "strategies"]
 faq:

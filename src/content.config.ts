@@ -7,6 +7,13 @@ const blog = defineCollection({
     title: z.string(),
     description: z.string(),
     date: z.coerce.date(),
+    // Fecha de la última revisión de verdad (datos, secciones), no de una errata.
+    // Sale como dateModified en el schema del artículo.
+    updated: z.coerce.date().optional(),
+    // Slug del post inglés del que este es traducción, cuando los slugs no
+    // coinciden (es-como-bloquear-apps-distractoras -> how-to-lock-distracting-apps).
+    // Si coinciden tras quitar el prefijo es-/it-, no hace falta.
+    translationOf: z.string().optional(),
     author: z.string().default("Dear Wander"),
     tags: z.array(z.string()).default([]),
     draft: z.boolean().default(false),

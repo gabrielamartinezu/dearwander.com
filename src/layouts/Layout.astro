@@ -188,7 +188,12 @@ const pageAlternates = pageGroup
           "@type": "Article",
           "headline": title,
           "description": description,
-          "author": { "@id": `${siteURL}/#organization` },
+          "author": {
+            "@type": "Person",
+            "@id": `${siteURL}/about/#gabriela`,
+            "name": "Gabriela Martínez",
+            "url": `${siteURL}/about/`
+          },
           "publisher": { "@id": `${siteURL}/#organization` },
           "datePublished": articleDate,
           "dateModified": articleModified ?? articleDate,

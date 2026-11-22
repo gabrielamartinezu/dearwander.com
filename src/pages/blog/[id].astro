@@ -23,13 +23,24 @@ export async function getStaticPaths() {
   //
   // Solo se emiten las que EXISTEN: apuntar un hreflang a una URL que da 404
   // es peor que no poner ninguno.
+  //
+  // Cada post pertenece a un grupo: el slug inglés que declara en
+  // `translationOf`, o si no su propio slug sin el prefijo de idioma.
+  const langOf = (id: string) =>
+    id.startsWith("es-") ? "es" : id.startsWith("it-") ? "it" : "en";
+  const groupOf = (p: (typeof posts)[number]) =>
+    p.data.translationOf ?? p.id.replace(/^(es|it)-/, "");
+  for (const p of posts) {
+    if (p.data.translationOf && !ids.has(p.data.translationOf)) {
+      throw new Error(`${p.id}: translationOf "${p.data.translationOf}" no existe`);
+    }
+  }
   return posts.map((post) => {
-    const base = post.id.replace(/^(es|it)-/, "");
-    const alternates = [
-      ids.has(base) ? { lang: "en", id: base } : null,
-      ids.has(`es-${base}`) ? { lang: "es", id: `es-${base}` } : null,
-      ids.has(`it-${base}`) ? { lang: "it", id: `it-${base}` } : null,
-    ].filter(Boolean);
+    const group = groupOf(post);
+    const alternates = posts
+      .filter((p) => !p.data.draft && groupOf(p) === group)
+      .map((p) => ({ lang: langOf(p.id), id: p.id }))
+      .sort((a, b) => ["en", "es", "it"].indexOf(a.lang) - ["en", "es", "it"].indexOf(b.lang));
     return {
       params: { id: post.id },
       props: { post, alternates: alternates.length > 1 ? alternates : [] },
@@ -99,6 +110,13 @@ const authorLabel = postLang === "es"
   ? "Di Gabriela Martínez"
   : "By Gabriela Martínez";
 
+// La marca solo cabe si el título sigue dentro de lo que muestra un buscador
+// (~60 caracteres). En los largos se quedaba cortada y empujaba fuera las
+// palabras que la gente busca.
+const pageTitle = post.data.title.length + " — Dear Wander".length <= 60
+  ? `${post.data.title} — Dear Wander`
+  : post.data.title;
+
 const h2Headings = headings.filter((h) => h.depth === 2);
 
 const siteURL = "https://dearwander.com";
@@ -128,10 +146,11 @@ const faqSchema = post.data.faq?.length ? {
 ---
 
 <Layout
-  title={`${post.data.title} — Dear Wander`}
+  title={pageTitle}
   description={post.data.description}
   isArticle={true}
   articleDate={post.data.date.toISOString()}
+  articleModified={post.data.updated?.toISOString()}
   alternates={alternates}
 >
   <!-- Reading progress bar -->
@@ -154,7 +173,7 @@ const faqSchema = post.data.faq?.length ? {
           <span class="text-amber">•</span>
           <span class="font-medium text-cocoa/75">{readTimeLabel}</span>
           <span class="text-amber">•</span>
-          <a href="/about" class="text-taupe hover:text-earth underline underline-offset-2 transition-colors font-medium">
+          <a href="/about/" class="text-taupe hover:text-earth underline underline-offset-2 transition-colors font-medium">
             {authorLabel}
           </a>
         </div>
