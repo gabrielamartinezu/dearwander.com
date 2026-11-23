@@ -16,30 +16,169 @@
  * Esa etiqueta es lo que permite a App Store Connect decir de qué canal viene
  * cada instalación. Sin ella no hay atribución posible: la analítica dentro de
  * la app solo empieza a contar después de instalar.
+ *
+ * Unión Europea: la app aún no se distribuye allí (falta la verificación de
+ * comerciante de la DSA en la cuenta). Mandar a esa gente a la App Store era
+ * mandarla a una página de "no disponible". Si la zona horaria del navegador
+ * es de un país de la UE, en vez de redirigir se queda aquí y pide el correo.
+ * No hay cookies ni geolocalización: solo la zona horaria, que el navegador
+ * da a cualquier página. CUANDO LA APP LLEGUE A LA UE, vaciar EU_TZ.
  */
 const APP_ID = "6759883721";
 // Provider token de la cuenta. Sin `pt`, App Store Connect ignora el `ct` y las
 // campañas no aparecen en Analytics. No es secreto: va en todo enlace público.
 const PT = "424528";
 const FALLBACK = `https://apps.apple.com/app/apple-store/id${APP_ID}?pt=${PT}&ct=web&mt=8`;
+
+// Zonas horarias de los 27 países de la UE (sin Reino Unido, Suiza ni Noruega,
+// donde la app sí está).
+const EU_TZ = [
+  "Europe/Madrid", "Africa/Ceuta", "Atlantic/Canary",
+  "Europe/Lisbon", "Atlantic/Madeira", "Atlantic/Azores",
+  "Europe/Rome", "Europe/Paris", "Europe/Berlin", "Europe/Busingen",
+  "Europe/Amsterdam", "Europe/Brussels", "Europe/Luxembourg",
+  "Europe/Vienna", "Europe/Dublin", "Europe/Copenhagen", "Europe/Stockholm",
+  "Europe/Helsinki", "Europe/Mariehamn", "Europe/Tallinn", "Europe/Riga",
+  "Europe/Vilnius", "Europe/Warsaw", "Europe/Prague", "Europe/Bratislava",
+  "Europe/Budapest", "Europe/Ljubljana", "Europe/Zagreb", "Europe/Bucharest",
+  "Europe/Sofia", "Europe/Athens", "Asia/Nicosia", "Asia/Famagusta",
+  "Europe/Nicosia", "Europe/Malta",
+];
+
+const COPY = {
+  en: {
+    title: "Dear Wander isn't in your country's App Store yet",
+    body: "We're working on bringing it to the European Union. Leave your email and we'll let you know the day it arrives.",
+    note: "You'll also get our occasional letters. Unsubscribe anytime.",
+    placeholder: "your@email.com",
+    button: "Let me know",
+    sending: "Sending…",
+    done: "Thank you. We'll write when it's here.",
+    back: "Read the journal meanwhile",
+    backHref: "/blog/",
+  },
+  es: {
+    title: "Dear Wander todavía no está en la App Store de tu país",
+    body: "Estamos trabajando para traerla a la Unión Europea. Déjanos tu correo y te avisamos el día que llegue.",
+    note: "También recibirás nuestras cartas de vez en cuando. Puedes darte de baja cuando quieras.",
+    placeholder: "tu@correo.com",
+    button: "Avísame",
+    sending: "Enviando…",
+    done: "Gracias. Te escribimos cuando llegue.",
+    back: "Mientras tanto, lee el diario",
+    backHref: "/es/blog/",
+  },
+  it: {
+    title: "Dear Wander non è ancora sull'App Store del tuo paese",
+    body: "Stiamo lavorando per portarla nell'Unione Europea. Lasciaci la tua email e ti avvisiamo il giorno in cui arriva.",
+    note: "Riceverai anche le nostre lettere di tanto in tanto. Puoi annullare l'iscrizione quando vuoi.",
+    placeholder: "tua@email.com",
+    button: "Avvisami",
+    sending: "Invio…",
+    done: "Grazie. Ti scriviamo quando arriva.",
+    back: "Nel frattempo, leggi il diario",
+    backHref: "/it/blog/",
+  },
+};
 ---
 
-<!-- noindex: es una puerta, no una página -->
-<meta name="robots" content="noindex" />
-<title>Dear Wander</title>
-<link rel="canonical" href={FALLBACK} />
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- noindex: es una puerta, no una página -->
+  <meta name="robots" content="noindex" />
+  <title>Dear Wander</title>
+  <link rel="canonical" href={FALLBACK} />
 
-<script is:inline define:vars={{ APP_ID, PT, FALLBACK }}>
-  const raw = new URLSearchParams(location.search).get("from") || "web";
-  const from = (raw.replace(/[^a-zA-Z0-9_-]/g, "").slice(0, 40)) || "web";
-  location.replace(`https://apps.apple.com/app/apple-store/id${APP_ID}?pt=${PT}&ct=${from}&mt=8`);
-</script>
+  <script is:inline define:vars={{ APP_ID, PT, EU_TZ }}>
+    const raw = new URLSearchParams(location.search).get("from") || "web";
+    const from = (raw.replace(/[^a-zA-Z0-9_-]/g, "").slice(0, 40)) || "web";
+    let tz = "";
+    try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ""; } catch (e) {}
+    if (EU_TZ.indexOf(tz) !== -1) {
+      document.documentElement.classList.add("eu");
+      window.__dwFrom = from;
+    } else {
+      location.replace(`https://apps.apple.com/app/apple-store/id${APP_ID}?pt=${PT}&ct=${from}&mt=8`);
+    }
+  </script>
 
-<noscript>
-  <meta http-equiv="refresh" content={`0;url=${FALLBACK}`} />
-</noscript>
+  <noscript>
+    <meta http-equiv="refresh" content={`0;url=${FALLBACK}`} />
+  </noscript>
 
-<div style="font-family: system-ui; padding: 3rem; text-align: center; color: #5A3A31;">
-  <p>Abriendo la App Store…</p>
-  <p><a href={FALLBACK}>Dear Wander</a></p>
-</div>
+  <style is:global>
+    *, *::before, *::after { box-sizing: border-box; }
+    body { margin: 0; font-family: system-ui, -apple-system, sans-serif; color: #5A3A31; background: #F8F1E7; }
+    .redirect { padding: 3rem 1rem; text-align: center; }
+    .eu-notice { display: none; }
+    html.eu .redirect { display: none; }
+    html.eu .eu-notice { display: block; }
+    .eu-notice { max-width: 30rem; margin: 0 auto; padding: 4rem 1.25rem; text-align: center; }
+    .eu-notice [data-lang] { display: none; }
+    .eu-notice [data-lang].on { display: block; }
+    .mark { font-family: Georgia, serif; font-size: 1.1rem; letter-spacing: 0.02em; opacity: 0.7; margin-bottom: 2.5rem; }
+    h1 { font-family: Georgia, serif; font-weight: 400; font-size: 1.75rem; line-height: 1.25; margin: 0 0 1rem; }
+    p { line-height: 1.6; margin: 0 0 1.5rem; }
+    form { display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center; margin-bottom: 0.75rem; }
+    input { flex: 1 1 14rem; min-width: 0; padding: 0.8rem 1rem; border: 1px solid rgba(90,58,49,0.25); border-radius: 999px; font: inherit; background: #fff; color: inherit; }
+    button { padding: 0.8rem 1.4rem; border: 0; border-radius: 999px; background: #5A3A31; color: #F8F1E7; font: inherit; cursor: pointer; }
+    button:disabled { opacity: 0.6; }
+    .note { font-size: 0.8rem; opacity: 0.65; margin-bottom: 2.5rem; }
+    .back { color: inherit; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <div class="redirect">
+    <p>Abriendo la App Store…</p>
+    <p><a href={FALLBACK}>Dear Wander</a></p>
+  </div>
+
+  <main class="eu-notice">
+    <div class="mark">Dear Wander</div>
+    {Object.entries(COPY).map(([lang, c]) => (
+      <section data-lang={lang} lang={lang}>
+        <h1>{c.title}</h1>
+        <p>{c.body}</p>
+        <form class="eu-form" data-sending={c.sending} data-done={c.done}>
+          <input type="email" name="email" required placeholder={c.placeholder} aria-label={c.placeholder} />
+          <button type="submit">{c.button}</button>
+        </form>
+        <p class="note">{c.note}</p>
+        <a class="back" href={c.backHref}>{c.back}</a>
+      </section>
+    ))}
+  </main>
+
+  <script is:inline>
+    (function () {
+      if (!document.documentElement.classList.contains("eu")) return;
+      var nav = (navigator.language || "en").slice(0, 2).toLowerCase();
+      var lang = nav === "es" || nav === "it" ? nav : "en";
+      document.documentElement.lang = lang;
+      var section = document.querySelector('.eu-notice [data-lang="' + lang + '"]');
+      section.classList.add("on");
+      var form = section.querySelector("form");
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        var input = form.querySelector('input[name="email"]');
+        var btn = form.querySelector("button");
+        if (!input.value) return;
+        btn.disabled = true;
+        btn.textContent = form.dataset.sending;
+        // Misma lista que el footer. La etiqueta separa a quienes esperan la
+        // app en la UE, para poder escribirles solo a ellos el día que llegue.
+        fetch("https://buttondown.com/api/emails/embed-subscribe/gabrielaale", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: new URLSearchParams({ email: input.value, tag: "eu-waitlist", metadata__from: window.__dwFrom || "web" }),
+        }).catch(function () {}).finally(function () {
+          form.outerHTML = '<p>' + form.dataset.done + '</p>';
+        });
+      });
+    })();
+  </script>
+</body>
+</html>
