@@ -18,7 +18,10 @@
  * la app solo empieza a contar después de instalar.
  */
 const APP_ID = "6759883721";
-const FALLBACK = `https://apps.apple.com/app/id${APP_ID}?ct=web&mt=8`;
+// Provider token de la cuenta. Sin `pt`, App Store Connect ignora el `ct` y las
+// campañas no aparecen en Analytics. No es secreto: va en todo enlace público.
+const PT = "424528";
+const FALLBACK = `https://apps.apple.com/app/apple-store/id${APP_ID}?pt=${PT}&ct=web&mt=8`;
 ---
 
 <!-- noindex: es una puerta, no una página -->
@@ -26,10 +29,10 @@ const FALLBACK = `https://apps.apple.com/app/id${APP_ID}?ct=web&mt=8`;
 <title>Dear Wander</title>
 <link rel="canonical" href={FALLBACK} />
 
-<script is:inline define:vars={{ APP_ID, FALLBACK }}>
+<script is:inline define:vars={{ APP_ID, PT, FALLBACK }}>
   const raw = new URLSearchParams(location.search).get("from") || "web";
   const from = (raw.replace(/[^a-zA-Z0-9_-]/g, "").slice(0, 40)) || "web";
-  location.replace(`https://apps.apple.com/app/id${APP_ID}?ct=${from}&mt=8`);
+  location.replace(`https://apps.apple.com/app/apple-store/id${APP_ID}?pt=${PT}&ct=${from}&mt=8`);
 </script>
 
 <noscript>
