@@ -6,6 +6,7 @@ import AuthorBio from "../../components/AuthorBio.astro";
 import RelatedPosts from "../../components/RelatedPosts.astro";
 import YouTubeLite from "../../components/YouTubeLite.astro";
 import BlogCTA from "../../components/BlogCTA.astro";
+import AppStoreButton from "../../components/AppStoreButton.astro";
 import ScientificSources from "../../components/ScientificSources.astro";
 import LettersBox from "../../components/LettersBox.astro";
 import CalculatorCallout from "../../components/CalculatorCallout.astro";
@@ -186,8 +187,10 @@ const faqSchema = post.data.faq?.length ? {
           {post.data.description}
         </p>
 
-        <!-- Quick Share button -->
-        <div class="flex items-center justify-center gap-3">
+        <!-- Descargar arriba, para quien llega a leer y ya quiere la app; "blog-top" separa
+             estas instalaciones de las de la tarjeta del final ("blog") en App Store Connect. -->
+        <div class="flex flex-wrap items-center justify-center gap-3">
+          <AppStoreButton lang={postLang} from={`blog-top-${postLang}`} size="md" />
           <button
             id="copyPostLinkBtn"
             data-copied-text={postLang === "es" ? "✓ ¡Enlace copiado!" : postLang === "it" ? "✓ Link copiato!" : "✓ Link copied!"}
